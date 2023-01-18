@@ -1,0 +1,53 @@
+3/28/2022 23:49:14 PM	import project java - Google Search	https://www.google.com/search?q=import+project+java&rlz=1C1VDKB_enUS959US959&oq=import+project+java&aqs=chrome..69i57j0i22i30l9.3984j0j7&sourceid=chrome&ie=UTF-8
+3/29/2022 00:00:32 AM	import package java from another project - Google Search	https://www.google.com/search?q=import+package+java+from+another+project&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBuX_ut8rf5TPKM0zxJsBkWXwFro3w%3A1648525752045&ei=uIFCYvioAumD_QbavYr4Bg&oq=import+project+java+from+another+&gs_lcp=Cgdnd3Mtd2l6EAMYADIGCAAQFhAeMgUIABCGAzIFCAAQhgMyBQgAEIYDMgUIABCGAzoHCAAQRxCwA0oECEEYAEoECEYYAFCq2ShYkeQoYMv8KGgCcAF4AYAB4gGIAd8LkgEFNy42LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz
+3/29/2022 00:00:33 AM	Can we call another project java class from our project in eclipse - Stack Overflow	https://stackoverflow.com/questions/21255265/can-we-call-another-project-java-class-from-our-project-in-eclipse
+3/29/2022 00:04:43 AM	import package java from another project - Google Search	https://www.google.com/search?q=import+package+java+from+another+project&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBuX_ut8rf5TPKM0zxJsBkWXwFro3w%3A1648525752045&ei=uIFCYvioAumD_QbavYr4Bg&oq=import+project+java+from+another+&gs_lcp=Cgdnd3Mtd2l6EAMYADIGCAAQFhAeMgUIABCGAzIFCAAQhgMyBQgAEIYDMgUIABCGAzoHCAAQRxCwA0oECEEYAEoECEYYAFCq2ShYkeQoYMv8KGgCcAF4AYAB4gGIAd8LkgEFNy42LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz
+3/29/2022 00:04:40 AM	import classes from another project java Code Example	https://www.codegrepper.com/code-examples/java/import+classes+from+another+project+java
+3/29/2022 00:04:47 AM	Importing an existing Java Package/Class into another Project. NetBeans 8.1 IDE [Solved] (Beginning Java forum at Coderanch)	https://coderanch.com/t/670578/java/Importing-existing-Java-Package-Class
+3/29/2022 00:08:03 AM	java autocomplete isn't working - Google Search	https://www.google.com/search?q=java+autocomplete+isn%27t+working&rlz=1C1VDKB_enUS959US959&oq=java+autocomplete+isn&aqs=chrome.1.69i57j33i160.3813j0j7&sourceid=chrome&ie=UTF-8
+3/29/2022 00:08:04 AM	java - Eclipse autocomplete not working - Stack Overflow	https://stackoverflow.com/questions/21746294/eclipse-autocomplete-not-working
+3/29/2022 00:11:27 AM	java autocomplete for method names - Google Search	https://www.google.com/search?q=java+autocomplete+for+method+names&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBuY6IXeEZwkk9R0yIZYcsZrDIQl7Q%3A1648526882171&ei=IoZCYqyUCq3I_Qa3kaWAAQ&ved=0ahUKEwisrduZuer2AhUtZN8KHbdICRAQ4dUDCA4&uact=5&oq=java+autocomplete+for+method+names&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeOgcIABBHELADOgYIABAWEB46CAgAEBYQChAeSgQIQRgASgQIRhgAUMwFWLcXYJUYaAFwAXgAgAHkAYgBiAySAQYxMy4xLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz
+3/29/2022 00:11:28 AM	java - how to autocomplete method name - Stack Overflow	https://stackoverflow.com/questions/5140423/how-to-autocomplete-method-name
+3/29/2022 00:11:50 AM	auto-completion of java method names for global symbols in repl buffer not working · Issue #2528 · clojure-emacs/cider · GitHub	https://github.com/clojure-emacs/cider/issues/2528
+3/29/2022 00:15:04 AM	Eclipse tutorials	https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/autocomplete.shtml
+3/29/2022 00:16:04 AM	Autocomplete for Java Command Line Applications	https://picocli.info/autocomplete.html
+3/29/2022 00:16:24 AM	java - Eclipse not giving me variable name suggestions - Stack Overflow	https://stackoverflow.com/questions/12925781/eclipse-not-giving-me-variable-name-suggestions
+3/29/2022 00:16:20 AM	java autocomplete local variable - Google Search	https://www.google.com/search?q=java+autocomplete+local+variable&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBs36mnP8Q23ZYfShe96MyfDQjCXNA%3A1648527085300&ei=7YZCYuz7Ee2GggfymZrIBQ&ved=0ahUKEwispsn6uer2AhVtg-AKHfKMBlkQ4dUDCA4&uact=5&oq=java+autocomplete+local+variable&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeOgQIIxAnOgQIABBDOgUIABCRAjoICC4QsQMQgwE6CwguEIAEELEDEIMBOgcIABCxAxBDOggILhCABBCxAzoNCAAQgAQQhwIQsQMQFDoKCAAQsQMQgwEQQzoLCC4QgAQQxwEQrwE6CAgAEIAEELEDOgUIABCABDoKCAAQgAQQhwIQFDoGCAAQFhAeOgUIIRCgAToFCCEQqwJKBAhBGABKBAhGGABQAFi5M2DnOGgAcAB4AYABjAKIAeAXkgEGMjcuNC4xmAEAoAEBwAEB&sclient=gws-wiz
+3/29/2022 00:16:29 AM	(1) [help]How do I get Eclipse to auto-complete variable names? : learnprogramming	https://www.reddit.com/r/learnprogramming/comments/3l61gw/helphow_do_i_get_eclipse_to_autocomplete_variable/
+3/29/2022 00:17:24 AM	static vs non static java - Google Search	https://www.google.com/search?q=static+vs+non+static+java&rlz=1C1VDKB_enUS959US959&oq=static+vs&aqs=chrome.0.0i20i263i512j69i57j0i433i512j0i512l7.3661j0j4&sourceid=chrome&ie=UTF-8
+3/29/2022 00:17:27 AM	Difference between static and non-static method in Java - GeeksforGeeks	https://www.geeksforgeeks.org/difference-between-static-and-non-static-method-in-java/
+3/29/2022 00:18:34 AM	abstract java - Google Search	https://www.google.com/search?q=abstract+java&rlz=1C1VDKB_enUS959US959&oq=abstract+java&aqs=chrome..69i57j0i20i263i512j0i512l8.1924j0j7&sourceid=chrome&ie=UTF-8
+3/29/2022 00:18:36 AM	Abstract Methods and Classes (The Java™ Tutorials > Learning the Java Language > Interfaces and Inheritance)	https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+3/29/2022 00:25:42 AM	comp524 "github" - Google Search	https://www.google.com/search?q=comp524+%22github%22&rlz=1C1VDKB_enUS959US959&oq=comp524+%22github%22&aqs=chrome..69i57j33i160l3.5220j0j7&sourceid=chrome&ie=UTF-8
+3/29/2022 00:25:45 AM	GitHub - ArmaanSethi/Comp524: Programming Language Concepts: Concepts of high-level programming and their realization in specific languages. Data types, scope, control structures, procedural abstraction, classes, concurrency. Run-time implementation.	https://github.com/ArmaanSethi/Comp524
+3/29/2022 00:25:47 AM	GitHub - shayandolikhani/COMP-524-a4: Social distancing application in Lisp	https://github.com/shayandolikhani/COMP-524-a4
+3/29/2022 00:25:48 AM	comp524-s19 · GitHub	https://github.com/comp524-s19?language=haskell
+3/29/2022 00:25:58 AM	GitHub - dx404/COMP-524: UNC COMP 524 Programming Language Concepts	https://github.com/dx404/COMP-524
+3/29/2022 00:26:02 AM	GitHub - IndigoApple/Comp524-Assignment2	https://github.com/IndigoApple/Comp524-Assignment2
+3/29/2022 00:26:04 AM	GitHub - devenjahnke/COMP-524: UNC - Fall 2020 - COMP 524	https://github.com/DevenDoes/COMP-524
+3/29/2022 00:26:06 AM	GitHub - ArmaanSethi/unc-homework: Backup of homework related code	https://github.com/ArmaanSethi/unc-homework
+3/29/2022 00:26:47 AM	GitHub - shayandolikhani/COMP-524-a4: Social distancing application in Lisp	https://github.com/shayandolikhani/COMP-524-a4
+3/29/2022 00:28:04 AM	GitHub - dx404/COMP-524: UNC COMP 524 Programming Language Concepts	https://github.com/dx404/COMP-524
+3/29/2022 00:27:34 AM	shayandolikhani (Shayan Dolikhani) · GitHub	https://github.com/shayandolikhani
+3/29/2022 00:27:35 AM	shayandolikhani (Shayan Dolikhani) / Repositories · GitHub	https://github.com/shayandolikhani?tab=repositories
+3/29/2022 00:27:01 AM	GitHub - shayandolikhani/COMP-524-a3: Social distancing application in SML	https://github.com/shayandolikhani/COMP-524-a3
+3/29/2022 00:27:31 AM	GitHub - shayandolikhani/COMP-524-a2: Social distancing application in Prolog	https://github.com/shayandolikhani/COMP-524-a2
+3/29/2022 00:27:43 AM	GitHub - shayandolikhani/COMP-524-a1: Social Distancing application in Java	https://github.com/shayandolikhani/COMP-524-a1
+3/29/2022 00:27:43 AM	COMP-524-a1/Part2MVC at master · shayandolikhani/COMP-524-a1 · GitHub	https://github.com/shayandolikhani/COMP-524-a1/tree/master/Part2MVC
+3/29/2022 00:27:49 AM	COMP-524-a1/ViewFactory.java at master · shayandolikhani/COMP-524-a1 · GitHub	https://github.com/shayandolikhani/COMP-524-a1/blob/master/Part2MVC/ViewFactory.java
+3/29/2022 00:28:04 AM	COMP-524/Assignment2_Zhao_Duo at master · dx404/COMP-524 · GitHub	https://github.com/dx404/COMP-524/tree/master/Assignment2_Zhao_Duo
+3/29/2022 00:28:17 AM	GitHub - ArmaanSethi/Comp524 at 953368988808913730088172958fd6e9aebc5796	https://github.com/ArmaanSethi/Comp524/tree/953368988808913730088172958fd6e9aebc5796
+3/29/2022 00:28:22 AM	comp524 "github" - Google Search	https://www.google.com/search?q=comp524+%22github%22&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBteKJsVix5E-pLdp8u5C_itAmLznw:1648527940607&ei=RIpCYqzhJKKrwbkPzbeskAo&start=10&sa=N&ved=2ahUKEwisk7WSver2AhWiVTABHc0bC6IQ8tMDegQIARA4&biw=1285&bih=530&dpr=1
+3/29/2022 00:28:53 AM	GitHub - benknoble/smlnj-parser-style: An SML parser and style-checker built on the SML-NJ compiler	https://github.com/benknoble/smlnj-parser-style
+3/29/2022 00:28:33 AM	GitHub - comp524-s19/assignment-0-rjalavancha: assignment-0-rjalavancha created by GitHub Classroom	https://github.com/comp524-s19/assignment-0-rjalavancha
+3/29/2022 00:29:04 AM	cnell7 (Christian Nell) · GitHub	https://github.com/cnell7
+3/29/2022 00:29:17 AM	Yasaleh · GitHub	https://github.com/Yasaleh
+3/29/2022 00:28:41 AM		https://www.cs.unc.edu/~dewan/524/current/index.html
+3/29/2022 00:28:54 AM	smlnj-parser-style/524-f20-a3 at main · benknoble/smlnj-parser-style · GitHub	https://github.com/benknoble/smlnj-parser-style/tree/main/524-f20-a3
+3/29/2022 00:29:05 AM	cnell7 (Christian Nell) / Repositories · GitHub	https://github.com/cnell7?tab=repositories
+3/29/2022 00:29:18 AM	Yasaleh / Repositories · GitHub	https://github.com/Yasaleh?tab=repositories
+3/29/2022 00:29:20 AM	GitHub - Yasaleh/Comp524: Programming Language Concepts: Concepts of high-level programming and their realization in specific languages. Data types, scope, control structures, procedural abstraction, classes, concurrency. Run-time implementation.	https://github.com/Yasaleh/Comp524
+3/29/2022 01:03:03 AM	java int vs integer - Google Search	https://www.google.com/search?q=java+int+vs+interger&rlz=1C1VDKB_enUS959US959&oq=java+int+vs+interger&aqs=chrome..69i57j0i10l5j0i22i30l4.2517j0j7&sourceid=chrome&ie=UTF-8
+3/29/2022 01:03:21 AM	class - What is the difference between Integer and int in Java? - Stack Overflow	https://stackoverflow.com/questions/8660691/what-is-the-difference-between-integer-and-int-in-java
+3/30/2022 02:01:03 AM	4/1 VTech Collab Notes - Google Docs	https://docs.google.com/document/d/1bCXWDX8C53Ym44aQa2OT6IDRHl6zrDJQ8tubC4dwHfA/edit
+3/30/2022 01:58:22 AM	4/1 VTech Collab Notes - Google Docs	https://docs.google.com/document/u/6/d/1bCXWDX8C53Ym44aQa2OT6IDRHl6zrDJQ8tubC4dwHfA/edit

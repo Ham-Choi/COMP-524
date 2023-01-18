@@ -1,0 +1,4 @@
+8/28/2021 00:12:34 AM	Slide 1	http://www.cs.unc.edu/~dewan/comp401/current/Lectures/Eclipse.pdf
+8/28/2021 00:15:03 AM	Oracle Login - Single Sign On	https://login.oracle.com/mysso/signon.jsp
+8/28/2021 00:14:48 AM	Java SE Development Kit 11- - Downloads	https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+8/28/2021 00:15:03 AM		https://download.oracle.com/otn/java/jdk/11.0.12%2B8/f411702ca7704a54a79ead0c2e0942a3/jdk-11.0.12_windows-x64_bin.exe

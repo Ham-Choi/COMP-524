@@ -1,0 +1,6 @@
+5/5/2022 05:23:51 AM	java make parameter a function - Google Search	https://www.google.com/search?q=java+make+parameter+a+function&rlz=1C1VDKB_enUS959US959&oq=java+make+parameter+a+function&aqs=chrome..69i57j0i22i30.7661j0j7&sourceid=chrome&ie=UTF-8
+5/5/2022 05:22:27 AM	How to pass a function as a parameter in Java? - Stack Overflow	https://stackoverflow.com/questions/4685563/how-to-pass-a-function-as-a-parameter-in-java
+5/5/2022 05:23:31 AM	Pass a Function as a Parameter in Java | Delft Stack	https://www.delftstack.com/howto/java/how-to-pass-a-function-as-a-parameter-in-java/
+5/5/2022 05:23:59 AM	Java Method Parameters	https://www.w3schools.com/java/java_methods_param.asp
+5/5/2022 05:41:57 AM	A Guide to Checkstyle.docx - Google Docs	https://docs.google.com/document/d/17SQfQ_bVNvBPIfv9GiOdNHttH3h18JuG/edit
+5/5/2022 05:42:15 AM	java - method does not override or implement a method from a supertype - for Override - Stack Overflow	https://stackoverflow.com/questions/32217737/method-does-not-override-or-implement-a-method-from-a-supertype-for-override

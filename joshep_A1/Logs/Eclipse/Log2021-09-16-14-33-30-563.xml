@@ -1,0 +1,11 @@
+<Events startTimestamp="1631817210563" logVersion="1.0.0.202108012048">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="6886" date="Thu Sep 16 14:33:31 EDT 2021" docOffset="6910" starttimestamp="1631817210563" timestamp="670" />
+  <Command __id="3" _type="PauseCommand" date="Thu Sep 16 23:27:50 EDT 2021" range=">1h" starttimestamp="1631817210563" timestamp="32059837">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[32059162]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2" _type="ShellCommand" date="Thu Sep 16 23:27:50 EDT 2021" starttimestamp="1631817210563" timestamp="32059832" type="ECLIPSE_LOST_FOCUS" />
+</Events>

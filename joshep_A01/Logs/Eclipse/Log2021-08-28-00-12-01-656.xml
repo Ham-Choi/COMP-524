@@ -1,0 +1,131 @@
+<Events startTimestamp="1630123921656" logVersion="1.0.0.202108012048">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="0" date="Sat Aug 28 00:12:02 EDT 2021" docOffset="0" starttimestamp="1630123921656" timestamp="485" />
+  <Command __id="3" _type="PauseCommand" date="Sat Aug 28 00:12:19 EDT 2021" range="10s-20s" starttimestamp="1630123921656" timestamp="17976">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[17486]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2" _type="ShellCommand" date="Sat Aug 28 00:12:19 EDT 2021" starttimestamp="1630123921656" timestamp="17971" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="7" _type="PauseCommand" date="Sat Aug 28 00:16:19 EDT 2021" range="2m-5m" starttimestamp="1630123921656" timestamp="258311">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[238959]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="6" _type="EclipseCommand" commandID="" date="Sat Aug 28 00:16:19 EDT 2021" starttimestamp="1630123921656" timestamp="258310" />
+  <Command __id="8" _type="EclipseCommand" commandID="" date="Sat Aug 28 00:16:20 EDT 2021" starttimestamp="1630123921656" timestamp="258413" />
+  <Command __id="9" _type="EclipseCommand" commandID="" date="Sat Aug 28 00:16:20 EDT 2021" starttimestamp="1630123921656" timestamp="258414" />
+  <Command __id="10" _type="EclipseCommand" commandID="" date="Sat Aug 28 00:16:20 EDT 2021" starttimestamp="1630123921656" timestamp="258430" />
+  <Command __id="17" _type="PauseCommand" date="Sat Aug 28 00:16:31 EDT 2021" range="5s-10s" starttimestamp="1630123921656" timestamp="269513">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7758]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ProgramExecutionEvent]]></next>
+  </Command>
+  <Command __id="16" _type="ProgramExecutionEvent" className="/joshep_A01/src/a01/RunF21A0_1Tests.java" date="Sat Aug 28 00:16:31 EDT 2021" kind="HitBreakPoint" projectName="joshep_A01" starttimestamp="1630123921656" timestamp="269513" type="Run" />
+  <Command __id="18" _type="RunCommand" className="/joshep_A01/src/a01/RunF21A0_1Tests.java" date="Sat Aug 28 00:16:31 EDT 2021" kind="HitBreakPoint" projectName="joshep_A01" starttimestamp="1630123921656" timestamp="269513" type="Run" />
+  <Command __id="20" _type="PauseCommand" date="Sat Aug 28 00:16:32 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="271329">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1816]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="19" _type="ShellCommand" date="Sat Aug 28 00:16:32 EDT 2021" starttimestamp="1630123921656" timestamp="271329" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="22" _type="PauseCommand" date="Sat Aug 28 00:16:34 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="272587">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1258]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="21" _type="ConsoleOutput" date="Sat Aug 28 00:16:34 EDT 2021" overflow="false" starttimestamp="1630123921656" timestamp="272587" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):8
+Test execution time (ms):11
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="24" _type="PauseCommand" date="Sat Aug 28 00:16:35 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="274125">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1538]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="23" _type="ConsoleOutput" date="Sat Aug 28 00:16:35 EDT 2021" overflow="false" starttimestamp="1630123921656" timestamp="274125" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Sat Aug 28 00:16:35 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):8¶Test execution time (ms):1"), Diff(INSERT,"Building symbol table and running first pass checks:Sat Aug 28 00:16:35 EDT 202"), Diff(EQUAL,"1¶")]]]></diff>
+  </Command>
+  <Command __id="26" _type="PauseCommand" date="Sat Aug 28 00:16:36 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="275176">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1051]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="25" _type="ConsoleOutput" date="Sat Aug 28 00:16:36 EDT 2021" overflow="false" starttimestamp="1630123921656" timestamp="275176" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:6
+Running second pass checks Sat Aug 28 00:16:36 EDT 2021
+Start O(n2) inter- and intra class method calls:Sat Aug 28 00:16:36 EDT 2021
+End O(n2) inter- and intra class method calls:Sat Aug 28 00:16:36 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:6¶Running second pass checks Sat Aug 28 00:16:36 EDT 2021¶Start O(n2) inter- and intra class method calls:Sat Aug 28 00:16:36 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Sat Aug 28 00:16:3"), Diff(DELETE,"5"), Diff(INSERT,"6"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="27" _type="ConsoleOutput" date="Sat Aug 28 00:16:37 EDT 2021" overflow="false" starttimestamp="1630123921656" timestamp="275557" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Sat Aug 28 00:16:37 EDT 2021
+Generating checks:Sat Aug 28 00:16:37 EDT 2021
+Finished Generating checks:Sat Aug 28 00:16:37 EDT 2021
+Generating externals:Sat Aug 28 00:16:37 EDT 2021
+Finished Generating externals:Sat Aug 28 00:16:37 EDT 2021
+Test execution time (ms):1469
+A01NoCheckstyleWarnings did not pass completely:Warnings found in checkstyle text, see traced console output%0.0
+
+Test execution time (ms):2
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:6¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Sat Aug 28 00:16:3"), Diff(DELETE,"6"), Diff(INSERT,"7"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating checks:Sat Aug 28 00:16:37 EDT 2021¶Finished Generating checks:Sat Aug 28 00:16:37 EDT 2021¶Generating externa"), Diff(EQUAL,"ls:Sat Aug 28 00:16:3"), Diff(DELETE,"6"), Diff(INSERT,"7"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"End O(n2) inter- and intra class method c"), Diff(INSERT,"Finished Generating extern"), Diff(EQUAL,"al"), Diff(DELETE,"l"), Diff(EQUAL,"s:Sat Aug 28 00:16:3"), Diff(DELETE,"6"), Diff(INSERT,"7"), Diff(EQUAL," EDT 2021¶"), Diff(INSERT,"Test execution time (ms):1469¶A01NoCheckstyleWarnings did not pass completely:Warnings found in checkstyle text, see traced console output%0.0¶¶Test execution time (ms):2¶")]]]></diff>
+  </Command>
+  <Command __id="29" _type="PauseCommand" date="Sat Aug 28 00:16:38 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="277092">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1535]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="28" _type="ConsoleOutput" date="Sat Aug 28 00:16:38 EDT 2021" overflow="false" starttimestamp="1630123921656" timestamp="277092" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):534
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished second pass checks:Sat Aug 28 00:16:37 EDT 2021¶Generating checks:Sat Aug 28 00:16:37 EDT 2021¶Finished Generating checks:Sat Aug 28 00:16:37 EDT 2021¶Generating externals:Sat Aug 28 00:16:37 EDT 2021¶Finished Generating externals:Sat Aug 28 00:16:37 EDT 2021¶Test execution time (ms):1469¶A01NoCheckstyleWarnings did not pass completely:Warnings found in checkstyle text, see traced console output%0.0¶¶Test execution time (ms):2"), Diff(INSERT,"Test execution time (ms):534"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="31" _type="PauseCommand" date="Sat Aug 28 00:16:40 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="278840">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1748]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="30" _type="ShellCommand" date="Sat Aug 28 00:16:40 EDT 2021" starttimestamp="1630123921656" timestamp="278840" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="32" _type="ProgramExecutionEvent" className="/joshep_A01/src/a01/RunF21A0_1Tests.java" date="Sat Aug 28 00:16:41 EDT 2021" kind="HitBreakPoint" projectName="joshep_A01" starttimestamp="1630123921656" timestamp="279534" type="Run" />
+  <Command __id="33" _type="ProgramExecutionEvent" className="/joshep_A01/src/a01/RunF21A0_1Tests.java" date="Sat Aug 28 00:16:41 EDT 2021" kind="HitBreakPoint" projectName="joshep_A01" starttimestamp="1630123921656" timestamp="279535" type="Run" />
+  <Command __id="34" _type="ShellCommand" date="Sat Aug 28 00:16:42 EDT 2021" starttimestamp="1630123921656" timestamp="280457" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="36" _type="PauseCommand" date="Sat Aug 28 00:20:00 EDT 2021" range="2m-5m" starttimestamp="1630123921656" timestamp="478678">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[198221]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="35" _type="ShellCommand" date="Sat Aug 28 00:20:00 EDT 2021" starttimestamp="1630123921656" timestamp="478678" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="38" _type="PauseCommand" date="Sat Aug 28 00:20:01 EDT 2021" range="1s-2s" starttimestamp="1630123921656" timestamp="479837">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1159]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="37" _type="ShellCommand" date="Sat Aug 28 00:20:01 EDT 2021" starttimestamp="1630123921656" timestamp="479837" type="ECLIPSE_LOST_FOCUS" />
+</Events>

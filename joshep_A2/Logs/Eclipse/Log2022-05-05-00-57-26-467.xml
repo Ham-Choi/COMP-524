@@ -1,0 +1,1270 @@
+<Events startTimestamp="1651726646467" logVersion="1.0.0.202201202038">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="1276" date="Thu May 05 00:57:28 EDT 2022" docOffset="1384" starttimestamp="1651726646467" timestamp="1963" />
+  <Command __id="3" _type="PauseCommand" date="Thu May 05 00:57:38 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="11681">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[9712]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="2" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 00:57:38 EDT 2022" starttimestamp="1651726646467" timestamp="11675" />
+  <Command __id="4" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:57:38 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="11997" type="Run" />
+  <Command __id="5" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:57:38 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="11997" type="Run" />
+  <Command __id="7" _type="PauseCommand" date="Thu May 05 00:57:42 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="15789">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[3792]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="6" _type="ShellCommand" date="Thu May 05 00:57:42 EDT 2022" starttimestamp="1651726646467" timestamp="15789" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9" _type="PauseCommand" date="Thu May 05 00:57:44 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="18432">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2642]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="8" _type="ConsoleOutput" date="Thu May 05 00:57:44 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="18431" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):35
+Test execution time (ms):3
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):0
+Test execution time (ms):1
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="11" _type="PauseCommand" date="Thu May 05 00:57:52 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="25904">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[7473]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="10" _type="ConsoleOutput" date="Thu May 05 00:57:52 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="25904" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):15
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"35¶Test execution time (ms):3¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):0¶Test execution time (ms):1¶Test execution time (ms):"), Diff(EQUAL,"1"), Diff(INSERT,"5"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="12" _type="ConsoleOutput" date="Thu May 05 00:57:52 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="25923" type="ConsoleOutput">
+    <outputString><![CDATA[1.0
+When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65
+0.6229508196721312
+When testing random value the accuracy was found to be 0.1875 the minimum required accuracy threshold should be 0.8
+0.1875
+F21A2IsInferredSafeTest did not pass completely:view console output%0.7309202921395543
+
+Number of traces > 600  turning tracing off
+Test execution time (ms):99
+Number of traces > 600  turning tracing off
+Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+14,72,52,true
+0,94,43,true
+3,103,2,true
+10,21,0,true
+4,25,7,true
+13,23,29,true
+24,81,18,true
+12,119,4,true
+29,133,53,true
+28,62,40,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):15"), Diff(INSERT,"1.0¶When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65¶0.6229508196721312¶When testing random value the accuracy was found to be 0.1875 the minimum required accuracy threshold should be 0.8¶0.1875¶F21A2IsInferredSafeTest did not pass completely:view console output%0.7309202921395543¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):99¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶14,72,52,true¶0,94,43,true¶3,103,2,true¶10,21,0,true¶4,25,7,true¶13,23,29,true¶24,81,18,true¶12,119,4,true¶29,133,53,true¶28,62,40,true"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="13" _type="ConsoleOutput" date="Thu May 05 00:57:52 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="26073" type="ConsoleOutput">
+    <outputString><![CDATA[Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+11,40,54,true
+24,125,35,true
+21,110,24,true
+0,71,42,true
+19,83,14,true
+6,45,17,true
+31,85,37,true
+17,75,32,true
+30,90,36,true
+27,45,19,true
+Test execution time (ms):34
+Distance,Duration,Exhalation,Derived,Inferred
+1,130,10,false,true
+17,87,40,false,true
+2,74,53,false,true
+9,125,43,false,true
+3,141,39,false,true
+9,17,37,false,true
+18,105,26,false,true
+31,2,20,true,true
+6,26,36,false,true
+15,120,44,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+31,117,33,false,true
+16,108,37,false,true
+3,89,8,false,true
+21,65,28,false,true
+9,124,32,false,true
+4,57,10,false,true
+13,3,48,true,true
+19,124,21,false,true
+6,22,28,false,true
+7,121,29,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+14,80,27,false,true
+6,93,9,false,true
+24,127,54,false,true
+11,47,12,false,true
+11,17,2,true,true
+7,90,10,false,true
+29,112,51,false,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"1.0¶When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65¶0.622950819672"), Diff(INSERT,"Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶"), Diff(EQUAL,"13"), Diff(INSERT,","), Diff(EQUAL,"12"), Diff(DELETE,"¶When testing random value the accuracy was found to be 0.1875 the minimum required accuracy threshold should be 0.8¶0.1875"), Diff(INSERT,"0,10,true¶27,120,30,true¶6,15,30,true¶----------¶11,40,54,true¶24,125,35,true"), Diff(EQUAL,"¶"), Diff(DELETE,"F"), Diff(EQUAL,"21"), Diff(DELETE,"A2IsInferredSafeTest did not pass completely:view console output%0.7309202921395543¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):99¶Number of traces > 600  turning tracing off"), Diff(INSERT,",110,24,true¶0,71,42,true¶19,83,14,true¶6,45,17,true¶31,85,37,true¶17,75,32,true¶30,90,36,true¶27,45,19,true¶Test execution time (ms):34"), Diff(EQUAL,"¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe"), Diff(INSERT,"Derived,Inferred"), Diff(EQUAL,"¶1"), Diff(DELETE,"3"), Diff(EQUAL,","), Diff(INSERT,"1"), Diff(EQUAL,"30,"), Diff(DELETE,"3"), Diff(INSERT,"1"), Diff(EQUAL,"0,"), Diff(DELETE,"true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶14,72,52"), Diff(INSERT,"false,true¶17,87,40,false,true¶2,74,53,false,true¶9,125,43,false,true¶3,141,39,false,true¶9,17,37,false,true¶18,105,26,false,true¶31,2,20,true,true¶6,26,36,false,true¶15,120,44,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶31,117,33,false,true¶16,108,37,false,true¶3,89,8,false,true¶21,65,28,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"0,94,43,true¶3,103,2,true¶10,21,0"), Diff(INSERT,"9,124,32,false,true¶4,57,10,false,true¶13,3,48,true,true¶19,124,21,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"4"), Diff(INSERT,"6"), Diff(EQUAL,",2"), Diff(DELETE,"5,7,true¶13,2"), Diff(INSERT,"2,28,false,true¶7,121,29,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶14,80,27,false,true¶6,9"), Diff(EQUAL,"3,"), Diff(DELETE,"2"), Diff(EQUAL,"9,"), Diff(INSERT,"false,"), Diff(EQUAL,"true¶24,"), Diff(DELETE,"81,18,true¶12,119,4,true¶29,133,53,true¶28,62,40"), Diff(INSERT,"127,54,false,true¶11,47,12,false,true¶11,17,2,true,true¶7,90,10,false,true¶29,112,51,false"), Diff(EQUAL,",true¶")]]]></diff>
+  </Command>
+  <Command __id="14" _type="ConsoleOutput" date="Thu May 05 00:57:52 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="26196" type="ConsoleOutput">
+    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
+10,41,34,false,true
+14,3,24,true,true
+3,3,39,false,true
+28,124,24,false,true
+25,94,9,true,true
+6,99,49,false,true
+6,23,7,true,true
+19,93,7,true,true
+16,114,46,false,true
+23,36,25,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+7,123,57,false,true
+24,58,44,false,true
+8,115,21,false,true
+15,85,10,true,true
+25,85,6,true,true
+21,20,44,false,true
+15,10,55,false,true
+23,73,57,false,true
+16,38,38,false,true
+6,50,47,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+12,3,48,false,true
+28,24,36,true,true
+1,58,42,false,true
+24,18,27,true,true
+1,54,51,false,true
+2,66,48,false,true
+8,30,37,false,true
+4,1,18,false,true
+24,12,58,false,true
+9,75,44,false,true
+Test execution time (ms):122
+Number of traces > 600  turning tracing off
+Test execution time (ms):10
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30"), Diff(INSERT,"Derived,Inferred¶10,41,34,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,30,10,true¶27,30,50"), Diff(INSERT,"14,3,24,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(EQUAL,"3,"), Diff(DELETE,"15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶11,40,54,true¶24,125,35,true¶21,110,24,true¶0,71,42"), Diff(INSERT,"3,39,false,true¶28,124,24,false,true¶25,94,9,true,true¶6,99,49,false,true¶6,23,7,true"), Diff(EQUAL,",true¶19,"), Diff(DELETE,"8"), Diff(INSERT,"9"), Diff(EQUAL,"3,"), Diff(DELETE,"14"), Diff(INSERT,"7"), Diff(EQUAL,",true"), Diff(DELETE,"¶6,45,17,true¶31,85,37,true¶17,75,32,true¶30,90,36,true¶27,45,19,true¶Test execution time (ms):34"), Diff(INSERT,",true¶16,114,46,false,true¶23,36,25,false,true"), Diff(EQUAL,"¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"1"), Diff(INSERT,"7"), Diff(EQUAL,",1"), Diff(DELETE,"30,10"), Diff(INSERT,"23,57"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"17,87"), Diff(INSERT,"24,58"), Diff(EQUAL,",4"), Diff(DELETE,"0"), Diff(INSERT,"4"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"2,74,53"), Diff(INSERT,"8,115,21"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"9,125,43,false,true¶3,141,39,false,true¶9,17,37"), Diff(INSERT,"15,85,10,true,true¶25,85,6,true,true¶21,20,44"), Diff(EQUAL,",false,true¶1"), Diff(DELETE,"8"), Diff(INSERT,"5"), Diff(EQUAL,",10"), Diff(DELETE,"5,26"), Diff(INSERT,",55"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"31,2,20,tru"), Diff(INSERT,"23,73,57,fals"), Diff(EQUAL,"e,true¶"), Diff(INSERT,"1"), Diff(EQUAL,"6,"), Diff(DELETE,"26"), Diff(INSERT,"38"), Diff(EQUAL,",3"), Diff(DELETE,"6"), Diff(INSERT,"8"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"15,12"), Diff(INSERT,"6,5"), Diff(EQUAL,"0,4"), Diff(DELETE,"4"), Diff(INSERT,"7"), Diff(EQUAL,",false,true¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"31,117,33"), Diff(INSERT,"12,3,48"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"16,108,37,false,true¶3,89,8,fals"), Diff(INSERT,"28,24,36,tru"), Diff(EQUAL,"e,true¶"), Diff(DELETE,"2"), Diff(EQUAL,"1,"), Diff(DELETE,"65,28,false,true¶9,124,3"), Diff(INSERT,"58,4"), Diff(EQUAL,"2,false,true¶"), Diff(DELETE,"4,57,10,false,true¶13,3,48"), Diff(INSERT,"24,18,27"), Diff(EQUAL,",true,true¶1"), Diff(DELETE,"9,12"), Diff(INSERT,",5"), Diff(EQUAL,"4,"), Diff(DELETE,"2"), Diff(INSERT,"5"), Diff(EQUAL,"1,false,true¶"), Diff(DELETE,"6,22,2"), Diff(INSERT,"2,66,4"), Diff(EQUAL,"8,false,true¶"), Diff(DELETE,"7,121,29,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶14,8"), Diff(INSERT,"8,3"), Diff(EQUAL,"0,"), Diff(DELETE,"2"), Diff(INSERT,"3"), Diff(EQUAL,"7,false,true¶"), Diff(DELETE,"6,93,9"), Diff(INSERT,"4,1,18"), Diff(EQUAL,",false,true¶24,12"), Diff(DELETE,"7"), Diff(EQUAL,",5"), Diff(DELETE,"4"), Diff(INSERT,"8"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"11,47,12"), Diff(INSERT,"9,75,44"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"11,17,2,true,true¶7,90,10,false,true¶29,112,51,false,true"), Diff(INSERT,"Test execution time (ms):122¶Number of traces > 600  turning tracing off¶Test execution time (ms):10"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="16" _type="PauseCommand" date="Thu May 05 00:57:53 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="27443">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1247]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Thu May 05 00:57:53 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="27443" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@7f5396ad . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶10,41,34,false,true¶14,3,24,true,true¶3,3,39,false,true¶28,124,24,false,true¶25,94,9,true,true¶6,99,49,false,true¶6,23,7,true,true¶19,93,7,true,true¶16,114,46,false,true¶23,36,25,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶7,123,57,false,true¶24,58,44,false,true¶8,115,21,false,true¶15,85,10,true,true¶25,85,6,true,true¶21,20,44,false,true¶15,10,55,false,true¶23,73,57,false,true¶16,38,38,false,true¶6,50,47,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶12,3,48,false,true¶28,24,36,true,true¶1,58,42,false,true¶24,18,27,true,true¶1,54,51,false,true¶2,66,48,false,true¶8,30,37,false,true¶4,1,18,false,true¶24,12,58,false,true¶9,75,44,false,true¶Test execution time (ms):122¶Number of traces > 600  turning tracing off¶Test execution time (ms):10"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@7f5396ad . Results may change."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="18" _type="PauseCommand" date="Thu May 05 00:58:02 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="36325">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8882]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="17" _type="ShellCommand" date="Thu May 05 00:58:02 EDT 2022" starttimestamp="1651726646467" timestamp="36325" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:57:28 EDT 2022" docASTNodeCount="1309" docActiveCodeLength="9036" docExpressionCount="800" docLength="11103" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="1646">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a1\SocialDistancing.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a1;
+
+import java.util.ArrayList;
+import java.util.List;
+import a2.ClassifierFactory;
+import gradingTools.comp524f20.assignment1.WekaUtil;
+
+
+
+public class SocialDistancing {
+	/*	public static void main(String[] args) {
+		System.out.println("Yo");
+	}
+	 */	
+	static final int smallDistance = 6;
+	static final int mediumDistance = 13;
+	static final int largeDistance = 27;
+	
+	static final int smallDuration = 15;
+	static final int mediumDuration = 30;
+	static final int largeDuration = 120;
+	
+	static final int smallExhale = 10;
+	static final int mediumExhale = 30;
+	static final int largeExhale = 50;
+	
+	static int tenRepetitions = 10;
+	/**
+	If the combination of the method parameters is safe, based on the given data, the function
+	returns true. Otherwise, it returns false.
+	*/	
+	public static boolean isGivenSafe(int distance, int duration, int exhale) {
+		if(distance == smallDistance) { 					//small distance
+			if(duration == mediumDuration) {							//med duration
+				if(exhale == smallExhale) {					//small exhale
+					return true;
+				}
+			} else if (duration == smallDuration) {					//small duration
+				if(exhale == mediumExhale) {					//med exhale
+					return true;
+				}
+			}	
+		}else if(distance == mediumDistance) {							//med distance
+			if(duration == mediumDuration) {								//med duration
+				if(exhale == mediumExhale) {						//med exhale
+					return true;
+				}
+			} else if(duration == smallDuration) {						//small duration
+				if(exhale == largeExhale) {						//large exhale
+					return true;
+				}
+			}else if(duration == largeDuration) {						//large duration
+				if(exhale == smallExhale) {						//small exhale
+					return true;
+				}
+			}
+		}else if(distance == largeDistance) {							//large distance
+			if(duration == mediumDuration) {								//med duration
+				if(exhale == largeExhale) {						//large exhale
+					return true;
+				}
+			} else if (duration == largeDuration) {					//large duration
+				if(exhale == mediumExhale) {						//med exhale
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	/* 	higher distance are safe, so interpolate low (can have 0)
+		lower duration and exhale are safe, so interpolate high (can have max integer) Integer.MAX_VALUE
+	*/
+	public static boolean isInterpolatedSafe(int distance, int duration, int exhale) {
+		
+		int interpolatedDistance = distanceLowInterpolation(distance);
+		int interpolatedDuration = durationHighInterpolation(duration);
+		int interpolatedExhale = exhaleHighInterpolation(exhale);
+		return isGivenSafe(interpolatedDistance, interpolatedDuration, interpolatedExhale);
+		
+	}
+	public static boolean isInterpolatedSafe(int distance, int duration) {
+		//exhalation level set to medium
+		int interpolatedDistance = distanceLowInterpolation(distance);
+		int interpolatedDuration = durationHighInterpolation(duration);
+		return isInterpolatedSafe(interpolatedDistance, interpolatedDuration, mediumExhale);
+	}
+	public static boolean isInterpolatedSafe(int distance) {
+		//duration and exhalation levels set to medium
+		int interpolatedDistance = distanceLowInterpolation(distance);
+		return isInterpolatedSafe(interpolatedDistance, mediumDuration);
+	}
+	public static boolean isDerivedSafe (int distance, int duration, int exhale) {
+		if(distance >= smallDistance && duration <= mediumDuration && exhale <= smallExhale) { 	//sDist,mDur,sEx
+			return true;
+		}
+		if(distance >= smallDistance && duration <= smallDuration && exhale <= mediumExhale) { 	//sDist,sDur,mEx
+			return true;
+		}
+		if(distance >= mediumDistance && duration <= mediumDuration && exhale <= mediumExhale) { 	//mDist,mDur,mEx
+			return true;
+		}
+		if(distance >= mediumDistance && duration <= smallDuration && exhale <= largeExhale) { 	//mDist,sDur,lEx
+			return true;
+		}
+		if(distance >= mediumDistance && duration <= largeDuration && exhale <= smallExhale) { 	//mDist,lDur,sEx
+			return true;
+		}
+		if(distance >= largeDistance && duration <= mediumDuration && exhale <= largeExhale) { 	//lDist,mDur,lEx
+			return true;
+		}
+		if(distance >= largeDistance && duration <= largeDuration && exhale <= mediumExhale) { 	//lDist,lDur,mEx
+			return true;
+		}
+		return false;
+	}
+	
+	public static void printGivenCombinations() {
+		System.out.println("Distance,Duration,Exhalation,IsSafe");
+		System.out.println("13,30,30,true");
+		System.out.println("6,30,10,true");
+		System.out.println("27,30,50,true");
+		System.out.println("13,15,50,true");
+		System.out.println("13,120,10,true");
+		System.out.println("27,120,30,true");
+		System.out.println("6,15,30,true");
+		System.out.println("----------");
+	}
+	public static void printGeneratedCombinationDerivedSafety() {
+		 int distance = (int)(Math.random()*32);
+		 int duration = (int)(Math.random()*144);
+		 int exhale = (int)(Math.random()*60);
+
+		 boolean derivedResult = isDerivedSafe(distance, duration, exhale);
+		System.out.println(distance + "," + duration + "," + exhale + "," + derivedResult);
+	}
+	public static void printGivenAndGeneratedCombinationsDerivedSafety() {
+		printGivenCombinations();
+		for(int i = 0; i < tenRepetitions; i++) {
+			printGeneratedCombinationDerivedSafety();
+		}
+	}
+	public static List<Integer[]> generateSafeDistancesAndDurations(int exhale) {
+		int interpolatedExhale = exhaleHighInterpolation(exhale);
+		List<Integer[]> list = new ArrayList<Integer[]>();
+		if (interpolatedExhale < 0) {return list;}
+		if (interpolatedExhale == smallExhale) { 								//small exhale
+			 Integer[] a1 = {6,30};
+			 Integer[] a2 = {13,120};
+			list.add(a1);
+			list.add(a2);
+			return list;
+		} else if (interpolatedExhale == mediumExhale) {			//med exhale
+			 Integer[] a1 = {13,30};
+			 Integer[] a2 = {27,120};
+			 Integer[] a3 = {6,15};
+			list.add(0, a1);
+			list.add(1, a2);
+			list.add(2, a3);
+			return list;
+		} else if (interpolatedExhale == largeExhale) {						//large exhale
+			 Integer[] a1 = {27,30};
+			 Integer[] a2 = {13,15};
+			list.add(0, a1);
+			list.add(1, a2);
+			return list;
+		};
+		return list;
+	}
+	public static void printSafeDistancesAndDurations(int exhale) {
+		List<Integer[]> generatedList = generateSafeDistancesAndDurations(exhale);
+		System.out.print(exhale + ",[");
+		for (int i = 0; i < generatedList.size(); i++) {
+			System.out.print("{");
+			for (int jay = 0; jay < generatedList.get(i).length; jay++) {
+				System.out.print(generatedList.get(i)[jay]);
+				if (jay != generatedList.get(i).length - 1) {
+					System.out.print(",");
+				}
+			}
+			System.out.print("}");
+		}
+		System.out.print("]");
+		System.out.print("\n");
+	}
+	/**
+	  low interpolation to a sequence of values is either an element of the sequence or zero.
+	  If higher values of the parameter are safer, then it is interpolated low. 
+	 */
+	public static int distanceLowInterpolation(int distance) {
+		//low interpolation to a sequence of values is either an element of the sequence or zero
+		//If higher values of the parameter are safer, then it is interpolated low
+		int interpolatedDistance;
+		if (distance < smallDistance) {					//distance interpolation
+			interpolatedDistance = 0;
+		} else if(distance < mediumDistance) {
+			interpolatedDistance = smallDistance;
+		} else if(distance < largeDistance) {
+			interpolatedDistance = mediumDistance;
+		} else {
+			interpolatedDistance = largeDistance;
+		}
+		return interpolatedDistance;
+	}
+	/**
+	  high interpolation to a sequence of values is either an element of the sequence or max integer.If lower values of the parameter are safer, then it is interpolated high.
+	 */
+	
+	public static int durationHighInterpolation(int duration) {
+		//high interpolation to a sequence of values is either an element of the sequence or max integer
+		//If lower values of the parameter are safer, then it is interpolated high.
+		int interpolatedDuration;
+		if (duration > largeDuration) {					//duration interpolation
+			interpolatedDuration = Integer.MAX_VALUE;
+		} else if(duration > mediumDuration) {
+			interpolatedDuration = largeDuration;
+		} else if(duration > smallDuration) {
+			interpolatedDuration = mediumDuration;
+		} else {
+			interpolatedDuration = smallDuration;
+		}
+		return interpolatedDuration;
+	}	
+	/**
+	 Similarly, the exhalation level parameter is interpolated to small, medium large exhalation levels
+	 or the maximum integer. In Java, the maximum integer is Integer.MAX_VALUE. If lower values of the parameter are safer, then it is interpolated high.
+	 */
+	public static int exhaleHighInterpolation(int exhalation) {
+		//high interpolation to a sequence of values is either an element of the sequence or max integer
+		//If lower values of the parameter are safer, then it is interpolated high.
+		int interpolatedExhalation;
+		if (exhalation > largeExhale) {						//exhale interpolation
+			interpolatedExhalation = Integer.MAX_VALUE;
+		} else if(exhalation > mediumExhale) {
+			interpolatedExhalation = largeExhale;
+		} else if(exhalation > smallExhale) {
+			interpolatedExhalation = mediumExhale;
+		} else {
+			interpolatedExhalation = smallExhale;
+		}
+		return interpolatedExhalation;
+	}
+	
+	public static boolean isInferredSafe(int distance, int duration, int exhalation) {
+		 String TRUE = "true";
+		 String FALSE = "false";
+		 String resultAttributeName = "safe";
+		 String[] resultValueNames = {TRUE, FALSE};
+		 String[] featureNames = {"distance", "duration", "exhalation"};
+		
+		double[] anInputFeatureValues = {distance, duration, exhalation};
+		String aResultString = WekaUtil.predictString(ClassifierFactory.getSingleton(), featureNames, anInputFeatureValues, resultAttributeName, resultValueNames);
+		return TRUE.equals(aResultString) ?true:false;
+	}
+	
+	public static int compareSafetyComputations() {
+		System.out.println("Distance,Duration,Exhalation,Derived,Inferred");
+		int correctInferrences = 0;
+		for(int i = 0; i < tenRepetitions; i++) {
+			int distance = (int)(Math.random()*32);
+			int duration = (int)(Math.random()*144);
+			int exhale = (int)(Math.random()*60);
+			boolean combinationDerived = isDerivedSafe(distance, duration, exhale);
+			boolean combinationInferred = isInferredSafe(distance, duration, exhale);
+			if(combinationDerived == combinationInferred) {
+				correctInferrences++;
+			}
+			System.out.println(distance + "," + duration + "," + exhale + "," + combinationDerived + "," + combinationInferred);
+		}
+		return correctInferrences;
+	}
+	
+	public static void printGeneratedCombinationInferredSafety() {
+		 int distance = (int)(Math.random()*32);
+		 int duration = (int)(Math.random()*144);
+		 int exhale = (int)(Math.random()*60);
+
+		 boolean inferredResult = isInferredSafe(distance, duration, exhale);
+		System.out.println(distance + "," + duration + "," + exhale + "," + inferredResult);
+	}
+	public static void printGivenAndGeneratedCombinationsInferredSafety() {
+		printGivenCombinations();
+		for(int i = 0; i < tenRepetitions; i++) {
+			printGeneratedCombinationInferredSafety();
+		}
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="21" _type="EclipseCommand" commandID="" date="Thu May 05 00:59:38 EDT 2022" starttimestamp="1651726646467" timestamp="132116" />
+  <Command __id="23" _type="EclipseCommand" commandID="" date="Thu May 05 00:59:38 EDT 2022" starttimestamp="1651726646467" timestamp="132210" />
+  <Command __id="25" _type="PauseCommand" date="Thu May 05 00:59:42 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="136262">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4051]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ShellCommand" date="Thu May 05 00:59:42 EDT 2022" starttimestamp="1651726646467" timestamp="136261" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="27" _type="PauseCommand" date="Thu May 05 00:59:44 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="138055">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1794]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="30" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:59:48 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="141825" type="Run" />
+  <Command __id="32" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:59:48 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="141825" type="Run" />
+  <Command __id="34" _type="PauseCommand" date="Thu May 05 00:59:52 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="145540">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[3715]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="33" _type="ShellCommand" date="Thu May 05 00:59:52 EDT 2022" starttimestamp="1651726646467" timestamp="145540" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="36" _type="PauseCommand" date="Thu May 05 00:59:55 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="149186">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3646]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="35" _type="ConsoleOutput" date="Thu May 05 00:59:55 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="149186" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):48
+Test execution time (ms):3
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):2
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@7f5396ad . Results may change."), Diff(INSERT,"Test execution time (ms):48¶Test execution time (ms):3¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):2"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="38" _type="PauseCommand" date="Thu May 05 00:59:57 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="151357">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2171]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="37" _type="ConsoleOutput" date="Thu May 05 00:59:57 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="151357" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):11
+1.0
+0.6885245901639344
+When testing random value the accuracy was found to be 0.34375 the minimum required accuracy threshold should be 0.8
+0.34375
+F21A2IsInferredSafeTest did not pass completely:view console output%0.8098958333333333
+
+Number of traces > 600  turning tracing off
+Test execution time (ms):84
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"48¶Test execution time (ms):3¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):1"), Diff(INSERT,"11¶1.0¶0.6885245901639344¶When testing random value the accuracy was found to be 0.34375 the minimum required accuracy threshold should be 0.8¶0.34375¶F21A2IsInferredSafeTest did not pass completely:view console output%0.8098958333333333¶¶Number of traces > 600  turning tracing off"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"2"), Diff(INSERT,"84"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="39" _type="ConsoleOutput" date="Thu May 05 00:59:57 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="151486" type="ConsoleOutput">
+    <outputString><![CDATA[Number of traces > 600  turning tracing off
+Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+4,74,19,false
+28,55,36,true
+13,89,20,true
+21,125,26,true
+16,11,29,true
+19,28,40,true
+15,39,24,true
+15,98,37,true
+19,63,42,true
+26,75,54,true
+Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+13,113,19,true
+29,98,39,true
+21,140,57,true
+17,83,10,true
+10,47,26,true
+31,27,49,true
+12,48,57,true
+10,115,31,true
+10,76,3,true
+6,96,16,true
+Test execution time (ms):39
+Distance,Duration,Exhalation,Derived,Inferred
+23,10,52,false,true
+25,6,55,false,true
+2,135,50,false,false
+12,37,1,false,true
+7,72,0,false,true
+15,95,44,false,true
+20,74,11,false,true
+23,77,35,false,true
+23,143,25,false,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):11¶1.0¶0.6885245901639344¶When testing random value the accuracy was found to be 0.34375 the minimum required accuracy threshold should be 0.8¶0.34375¶F21A2IsInferredSafeTest did not pass completely:view console output%0.8098958333333333¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):84"), Diff(INSERT,"Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶4,74,19,false¶28,55,36,true¶13,89,20,true¶21,125,26,true¶16,11,29,true¶19,28,40,true¶15,39,24,true¶15,98,37,true¶19,63,42,true¶26,75,54,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶13,113,19,true¶29,98,39,true¶21,140,57,true¶17,83,10,true¶10,47,26,true¶31,27,49,true¶12,48,57,true¶10,115,31,true¶10,76,3,true¶6,96,16,true¶Test execution time (ms):39¶Distance,Duration,Exhalation,Derived,Inferred¶23,10,52,false,true¶25,6,55,false,true¶2,135,50,false,false¶12,37,1,false,true¶7,72,0,false,true¶15,95,44,false,true¶20,74,11,false,true¶23,77,35,false,true¶23,143,25,false,true"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="40" _type="ConsoleOutput" date="Thu May 05 00:59:58 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="151553" type="ConsoleOutput">
+    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
+27,57,7,true,true
+15,137,15,false,true
+3,130,30,false,false
+9,106,24,false,true
+30,57,36,false,true
+0,113,36,false,false
+21,73,15,false,true
+17,6,20,true,true
+7,116,5,false,true
+21,26,31,false,true
+Number of traces > 600  turning tracing off
+Distance,Duration,Exhalation,Derived,Inferred
+13,52,5,true,true
+30,81,51,false,true
+3,2,5,false,false
+3,34,27,false,false
+9,87,56,false,true
+20,2,26,true,true
+3,40,40,false,false
+9,130,49,false,true
+29,65,0,true,true
+7,92,44,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+15,26,13,true,true
+16,67,8,true,true
+13,114,47,false,true
+2,28,9,false,false
+12,136,43,false,true
+14,87,49,false,true
+17,67,15,false,true
+24,32,11,false,true
+10,81,41,false,true
+2,58,47,false,false
+Distance,Duration,Exhalation,Derived,Inferred
+9,77,10,false,true
+21,38,54,false,true
+15,36,58,false,true
+17,48,34,false,true
+17,142,20,false,true
+3,92,15,false,false
+10,127,2,false,true
+6,2,0,true,true
+9,56,22,false,true
+16,42,48,false,true
+Distance,Duration,Exhalation,Derived,Inferred
+21,109,45,false,true
+0,83,12,false,false
+18,131,29,false,true
+9,122,43,false,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶27,57,7,true"), Diff(EQUAL,",true¶"), Diff(INSERT,"15,"), Diff(EQUAL,"13"), Diff(INSERT,"7"), Diff(EQUAL,",15,"), Diff(DELETE,"50"), Diff(INSERT,"false"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(EQUAL,"3,1"), Diff(DELETE,"2"), Diff(INSERT,"3"), Diff(EQUAL,"0,"), Diff(DELETE,"1"), Diff(INSERT,"3"), Diff(EQUAL,"0,"), Diff(DELETE,"tru"), Diff(INSERT,"false,fals"), Diff(EQUAL,"e¶"), Diff(DELETE,"27,120,30,true¶6,15,30,true¶----------¶4,74,19,false¶28,55,36"), Diff(INSERT,"9,106,24,false,true¶30,57,36,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"13,89,20,true¶21,125,26"), Diff(INSERT,"0,113,36,false,false¶21,73,15,false"), Diff(EQUAL,",true¶1"), Diff(DELETE,"6,11"), Diff(INSERT,"7,6"), Diff(EQUAL,",2"), Diff(DELETE,"9"), Diff(INSERT,"0"), Diff(EQUAL,",true"), Diff(DELETE,"¶19,28,40,true¶15,39,24,true¶15,98,37,true¶19,63,42,true¶26,75,54,true"), Diff(INSERT,",true¶7,116,5,false,true¶21,26,31,false,true¶Number of traces > 600  turning tracing off"), Diff(EQUAL,"¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30"), Diff(INSERT,"Derived,Inferred¶13,52,5,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,"), Diff(EQUAL,"30,"), Diff(DELETE,"10,true¶27,30,50,true¶13,15,50"), Diff(INSERT,"81,51,false,true¶3,2,5,false,false¶3,34,27,false,false¶9,87,56,false,true¶20,2,26,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(EQUAL,"3,"), Diff(DELETE,"120,10,true¶27,120,30,true¶6,15,30,true¶----------¶13,113,19,true¶29,98,39"), Diff(INSERT,"40,40,false,false¶9,130,49,false,true¶29,65,0,true,true¶7,92,44,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶15,26,13,true,true¶16,67,8,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"21,140,57,true¶17,83,10,true¶10,47,26,true¶31,27,49,true¶12,48,57"), Diff(INSERT,"13,114,47,false,true¶2,28,9,false,false¶12,136,43,false,true¶14,87,49,false,true¶17,67,15,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"10,115,31,true¶10,76,3,true¶6,96,16,true¶Test execution time (ms):39"), Diff(INSERT,"24,32,11,false,true¶10,81,41,false,true¶2,58,47,false,false"), Diff(EQUAL,"¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"23,10,52"), Diff(INSERT,"9,77,10,false,true¶21,38,54"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"5,"), Diff(INSERT,"3"), Diff(EQUAL,"6,5"), Diff(DELETE,"5,false,true¶2,135,50"), Diff(INSERT,"8,false,true¶17,48,34,false,true¶17,142,20,false,true¶3,92,15"), Diff(EQUAL,",false,false¶1"), Diff(DELETE,"2,3"), Diff(INSERT,"0,12"), Diff(EQUAL,"7,"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"7,7"), Diff(INSERT,"6,"), Diff(EQUAL,"2,0,"), Diff(INSERT,"true,true¶9,56,22,"), Diff(EQUAL,"false,true¶1"), Diff(DELETE,"5,95"), Diff(INSERT,"6,42"), Diff(EQUAL,",4"), Diff(DELETE,"4"), Diff(INSERT,"8"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"20,74,11,false,true¶23,77,35"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶21,109,45,false,true¶0,83,12,false,false¶18,131,29"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"23,143,25"), Diff(INSERT,"9,122,43"), Diff(EQUAL,",false,true¶")]]]></diff>
+  </Command>
+  <Command __id="41" _type="ConsoleOutput" date="Thu May 05 00:59:58 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="151658" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):149
+Number of traces > 600  turning tracing off
+Test execution time (ms):12
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶27,57,7,true,true¶15,137,15,false,true¶3,130,30,false,false¶9,106,24,false,true¶30,57,36,false,true¶0,113,36,false,false¶21,73,15,false,true¶17,6,20,true,true¶7,116,5,false,true¶21,26,31,false,true¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶13,52,5,true,true¶30,81,51,false,true¶3,2,5,false,false¶3,34,27,false,false¶9,87,56,false,true¶20,2,26,true,true¶3,40,40,false,false¶9,130,49,false,true¶29,65,0,true,true¶7,92,44,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶15,26,13,true,true¶16,67,8,true,true¶13,114,47,false,true¶2,28,9,false,false¶12,136,43,false,true¶14,87,49,false,true¶17,67,15,false,true¶24,32,11,false,true¶10,81,41,false,true¶2,58,47,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶9,77,10,false,true¶21,38,54,false,true¶15,36,58,false,true¶17,48,34,false,true¶17,142,20,false,true¶3,92,15,false,false¶10,127,2,false,true¶6,2,0,true,true¶9,56,22,false,true¶16,42,48,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶21,109,45,false,true¶0,83,12,false,false¶18,131,29,false,true¶9,122,43,false,true"), Diff(INSERT,"Test execution time (ms):149¶Number of traces > 600  turning tracing off¶Test execution time (ms):12"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="43" _type="PauseCommand" date="Thu May 05 00:59:59 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="152937">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1279]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="42" _type="ConsoleOutput" date="Thu May 05 00:59:59 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="152937" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@430d7cc7 . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):149¶Number of traces > 600  turning tracing off¶Test execution time (ms):12"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@430d7cc7 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="45" _type="PauseCommand" date="Thu May 05 01:00:10 EDT 2022" range="10s-20s" starttimestamp="1651726646467" timestamp="164412">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[11475]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="44" _type="ShellCommand" date="Thu May 05 01:00:10 EDT 2022" starttimestamp="1651726646467" timestamp="164412" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="47" _type="PauseCommand" date="Thu May 05 01:00:21 EDT 2022" range="10s-20s" starttimestamp="1651726646467" timestamp="174995">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[10583]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="46" _type="ShellCommand" date="Thu May 05 01:00:21 EDT 2022" starttimestamp="1651726646467" timestamp="174995" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="49" _type="PauseCommand" date="Thu May 05 01:00:25 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="178786">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3791]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="48" _type="ConsoleOutput" date="Thu May 05 01:00:25 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="178786" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@430d7cc7 . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@430d7cc7 . Results may change.¶")]]]></diff>
+  </Command>
+  <Command __id="51" _type="PauseCommand" date="Thu May 05 01:00:28 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="181704">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2918]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="50" _type="ConsoleOutput" date="Thu May 05 01:00:28 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="181704" type="ConsoleOutput">
+    <outputString><![CDATA[Number of traces > 600  turning tracing off
+
+Testing BasicMainTest with the following inputs:
+"10" "10" "10" "13" "30" "30" "6" "30" "10" "27" "30" "50" "6" "15" "10" "6" "16" "10" "5" "14" "9" "27" "120" "50" "-1" 
+
+
+Collected output:
+0 Please enter data regarding your guest interaction.
+1 Distance?
+2 Duration?
+3 Exhalation Level?
+4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]
+5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]
+6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]
+7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@c818063]
+8 Not Safe!
+9 Please enter data regarding your guest interaction.
+10 Distance?
+11 Duration?
+12 Exhalation Level?
+13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.BasicModel@c818063]
+14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]
+15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]
+16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]
+17 Safe.
+18 Please enter data regarding your guest interaction.
+19 Distance?
+20 Duration?
+21 Exhalation Level?
+22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@c818063]
+23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]
+24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]
+25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]
+26 Safe.
+27 Please enter data regarding your guest interaction.
+28 Distance?
+29 Duration?
+30 Exhalation Level?
+31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.BasicModel@c818063]
+32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]
+33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.BasicModel@c818063]
+34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]
+35 Safe.
+36 Please enter data regarding your guest interaction.
+37 Distance?
+38 Duration?
+39 Exhalation Level?
+40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@c818063]
+41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.BasicModel@c818063]
+42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@430d7cc7 . Results may change."), Diff(INSERT,"Number of traces > 600  turning tracing off¶¶Testing BasicMainTest with the following inputs:¶"10" "10" "10" "13" "30" "30" "6" "30" "10" "27" "30" "50" "6" "15" "10" "6" "16" "10" "5" "14" "9" "27" "120" "50" "-1" ¶¶¶Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@c818063]¶8 Not Safe!¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.BasicModel@c818063]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@c818063]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.BasicModel@c818063]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@c818063]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.BasicModel@c818063]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@c818063]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@c818063]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.BasicModel@c818063]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@c818063]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="53" _type="PauseCommand" date="Thu May 05 01:00:29 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="182881">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1177]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="52" _type="ConsoleOutput" date="Thu May 05 01:00:29 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="182881" type="ConsoleOutput">
+    <outputString><![CDATA[
+Testing InterpolatingMainTests with the following inputs:
+"1" "1" "1" "13" "15" "50" "28" "119" "16" "13" "15" "31" "6" "15" "10" "6" "15" "51" "27" "15" "30" "-1" 
+
+Collected output:
+0 Please enter data regarding your guest interaction.
+1 Distance?
+2 Duration?
+3 Exhalation Level?
+4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]
+5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]
+6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]
+7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@c818063]
+8 Not Safe!
+9 Please enter data regarding your guest interaction.
+10 Distance?
+11 Duration?
+12 Exhalation Level?
+13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.InterpolatedModel@c818063]
+14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@c818063]
+15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.InterpolatedModel@c818063]
+16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@c818063]
+17 Safe.
+18 Please enter data regarding your guest interaction.
+19 Distance?
+20 Duration?
+21 Exhalation Level?
+22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=28; propagationId=null; source=a2.InterpolatedModel@c818063]
+23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=119; propagationId=null; source=a2.InterpolatedModel@c818063]
+24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=16; propagationId=null; source=a2.InterpolatedModel@c818063]
+25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@c818063]
+26 Safe.
+27 Please enter data regarding your guest interaction.
+28 Distance?
+29 Duration?
+30 Exhalation Level?
+31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.InterpolatedModel@c818063]
+32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@c818063]
+33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=31; propagationId=null; source=a2.InterpolatedModel@c818063]
+34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@c818063]
+35 Safe.
+36 Please enter data regarding your guest interaction.
+37 Distance?
+38 Duration?
+39 Exhalation Level?
+40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.InterpolatedModel@c818063]
+41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@c818063]
+42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InterpolatedModel@c818063]
+43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@c818063]
+44 Not Safe!
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Number of traces > 600  turning tracing off¶¶Testing Basic"), Diff(INSERT,"¶Testing Interpolating"), Diff(EQUAL,"MainTest"), Diff(INSERT,"s"), Diff(EQUAL," with the following inputs:¶"1"), Diff(DELETE,"0"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(EQUAL,"" "13" ""), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"" ""), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,"0" ""), Diff(DELETE,"6" "30"), Diff(INSERT,"28"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(INSERT,"19"), Diff(EQUAL,"" ""), Diff(DELETE,"27"), Diff(INSERT,"16"), Diff(EQUAL,"" ""), Diff(INSERT,"1"), Diff(EQUAL,"3"), Diff(DELETE,"0"), Diff(EQUAL,"" ""), Diff(DELETE,"50"), Diff(INSERT,"15" "31"), Diff(EQUAL,"" "6" "15" "10" "6" "1"), Diff(DELETE,"6" "10" "5" "14" "9"), Diff(INSERT,"5" "51"), Diff(EQUAL,"" "27" "1"), Diff(DELETE,"20"), Diff(INSERT,"5"), Diff(EQUAL,"" ""), Diff(DELETE,"5"), Diff(INSERT,"3"), Diff(EQUAL,"0" "-1" ¶¶"), Diff(DELETE,"¶"), Diff(EQUAL,"Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶8 Not Safe!¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,"0; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"6"), Diff(INSERT,"28"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"119"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(INSERT,"6"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"27"), Diff(INSERT,"13"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"50"), Diff(INSERT,"31"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@c818063]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"InterpolatedModel@c818063]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.Interpolated"), Diff(EQUAL,"Model@c818063]¶"), Diff(INSERT,"44 Not Safe!¶")]]]></diff>
+  </Command>
+  <Command __id="54" _type="ConsoleOutput" date="Thu May 05 01:00:29 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="182948" type="ConsoleOutput">
+    <outputString><![CDATA[Output line: "0" matches regex: ^[Pp]lease enter.*
+Output line: "1" matches regex: ^[Dd]istance.*
+Output line: "2" matches regex: ^[Dd]uration.*
+Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*
+Output line: "4" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
+Output line: "5" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
+Output line: "6" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
+Output line: "8" matches regex: ^[Nn]ot [Ss]afe.*
+Output line: "13" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=13.*
+Output line: "14" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=15.*
+Output line: "15" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=50.*
+Output line: "17" matches regex: ^[Ss]afe.*
+Output line: "26" matches regex: ^[Ss]afe.*
+Output line: "35" matches regex: ^[Ss]afe.*
+Output line: "44" matches regex: ^[Nn]ot [Ss]afe.*
+Output line: "53" matches regex: ^[Nn]ot [Ss]afe.*
+Output line: "62" matches regex: ^[Nn]ot [Ss]afe.*
+Output line: "65" matches regex: ^[Qq]uitting.*
+Test execution time (ms):1204
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶Testing InterpolatingMainTests with the following inputs:¶"1" "1" "1" "13" "15""), Diff(INSERT,"Output line:"), Diff(EQUAL," ""), Diff(DELETE,"5"), Diff(EQUAL,"0" "), Diff(DELETE,""28" "119" "16" "13" "15" "31" "6" "15" "10" "6" "15" "51" "27" "15" "30" "-1" ¶¶Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@c818063]¶7 "), Diff(INSERT,"matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Safe; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"false; propagationId=null; source=a2.InterpolatedModel@c818063]¶8 Not Safe!¶9 Please enter data regarding your gues"), Diff(INSERT,"1.*¶Outpu"), Diff(EQUAL,"t "), Diff(INSERT,"l"), Diff(EQUAL,"in"), Diff(DELETE,"teraction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 "), Diff(INSERT,"e: "5" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Distance; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue=1"), Diff(DELETE,"3; propagationId=null; source=a2.InterpolatedModel@c818063]¶14 "), Diff(INSERT,".*¶Output line: "6" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Duration; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue=1"), Diff(DELETE,"5; propagationId=null; source=a2.InterpolatedModel@c818063]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.InterpolatedModel@c818063]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@c818063]¶17 S"), Diff(INSERT,".*¶Output line: "8" matches regex: ^[Nn]ot [Ss]"), Diff(EQUAL,"afe."), Diff(INSERT,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=28; propagationId=null; source=a2.InterpolatedModel@c818063]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=119; propagationId=null; source=a2.InterpolatedModel@c818063]¶24 "), Diff(INSERT,"Output line: "13" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=13.*¶Output line: "14" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Exhalation; oldValue=null; newValue=16; propagationId=null; source=a2.InterpolatedModel@c818063]¶25 "), Diff(INSERT,".*oldValue=null; newValue=15.*¶Output line: "15" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Safe; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"true; propagationId=null; source=a2.InterpolatedModel@c818063]¶26 S"), Diff(INSERT,"50.*¶Output line: "17" matches regex: ^[Ss]"), Diff(EQUAL,"afe."), Diff(INSERT,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.InterpolatedModel@c818063]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@c818063]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=31; propagationId=null; source=a2.InterpolatedModel@c818063]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@c818063]¶35 S"), Diff(INSERT,"Output line: "26" matches regex: ^[Ss]afe.*¶Output line: "35" matches regex: ^[Ss]afe.*¶Output line: "44" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "53" matches regex: ^[Nn]ot [Ss]"), Diff(EQUAL,"afe."), Diff(INSERT,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"36 Please enter data regarding your gues"), Diff(INSERT,"Outpu"), Diff(EQUAL,"t "), Diff(INSERT,"l"), Diff(EQUAL,"in"), Diff(DELETE,"teraction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.InterpolatedModel@c818063]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@c818063]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InterpolatedModel@c818063]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@c818063]¶44 Not Safe!"), Diff(INSERT,"e: "62" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "65" matches regex: ^[Qq]uitting.*¶Test execution time (ms):1204"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="56" _type="PauseCommand" date="Thu May 05 01:00:30 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="184276">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1328]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="55" _type="ConsoleOutput" date="Thu May 05 01:00:30 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="184276" type="ConsoleOutput">
+    <outputString><![CDATA[Number of traces > 600  turning tracing off
+
+Testing DerivingMainTest with the following inputs:
+"404" "404" "404" "13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "50" "-1" 
+
+
+Collected output:
+0 Please enter data regarding your guest interaction.
+1 Distance?
+2 Duration?
+3 Exhalation Level?
+4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]
+5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]
+6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]
+7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@c818063]
+8 Not Safe!
+9 Please enter data regarding your guest interaction.
+10 Distance?
+11 Duration?
+12 Exhalation Level?
+13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@c818063]
+14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@c818063]
+15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@c818063]
+16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]
+17 Safe.
+18 Please enter data regarding your guest interaction.
+19 Distance?
+20 Duration?
+21 Exhalation Level?
+22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@c818063]
+23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@c818063]
+24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]
+25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]
+26 Safe.
+27 Please enter data regarding your guest interaction.
+28 Distance?
+29 Duration?
+30 Exhalation Level?
+31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@c818063]
+32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]
+33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]
+34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]
+35 Safe.
+36 Please enter data regarding your guest interaction.
+37 Distance?
+38 Duration?
+39 Exhalation Level?
+40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@c818063]
+41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@c818063]
+42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Output line: "0" matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^"), Diff(INSERT,"Number of traces > 600  turning tracing off¶¶Testing DerivingMainTest with the following inputs:¶"404" "404" "404" "13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "50" "-1" ¶¶¶Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@c818063]¶7 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*"), Diff(INSERT,"[propertyName=Safe; "), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"1.*¶Output line: "5" matches regex: ^"), Diff(INSERT,"false; propagationId=null; source=a2.DerivedModel@c818063]¶8 Not Safe!¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*"), Diff(INSERT,"[propertyName=Distance; "), Diff(EQUAL,"oldValue=null; newValue=1"), Diff(DELETE,".*¶Output line: "6" matches regex: ^"), Diff(INSERT,"3; propagationId=null; source=a2.DerivedModel@c818063]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@c818063]¶15 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*oldValue=null; newValue=1.*¶Output line: "8" matches regex: ^[Nn]ot [Ss]"), Diff(INSERT,"[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@c818063]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]¶17 S"), Diff(EQUAL,"afe."), Diff(DELETE,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"Outpu"), Diff(INSERT,"18 Please enter data regarding your gues"), Diff(EQUAL,"t "), Diff(DELETE,"l"), Diff(EQUAL,"in"), Diff(DELETE,"e: "13" matches regex: ^"), Diff(INSERT,"teraction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*oldValue=null; newValue=13.*¶Output line: "14" matches regex: ^"), Diff(INSERT,"[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@c818063]¶23 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*"), Diff(INSERT,"[propertyName=Duration; "), Diff(EQUAL,"oldValue=null; newValue=15"), Diff(DELETE,".*¶Output line: "15" matches regex: ^"), Diff(INSERT,"; propagationId=null; source=a2.DerivedModel@c818063]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]¶25 "), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,".*"), Diff(INSERT,"[propertyName=Safe; "), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"50.*¶Output line: "17" matches regex: ^[Ss]"), Diff(INSERT,"true; propagationId=null; source=a2.DerivedModel@c818063]¶26 S"), Diff(EQUAL,"afe."), Diff(DELETE,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"Output line: "26" matches regex: ^[Ss]afe.*¶Output line: "35" matches regex: ^[Ss]afe.*¶Output line: "44" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "53" matches regex: ^[Nn]ot [Ss]"), Diff(INSERT,"27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@c818063]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]¶35 S"), Diff(EQUAL,"afe."), Diff(DELETE,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"Output line: "62" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "65" matches regex: ^[Qq]uitting.*¶Test execution time (ms):1204"), Diff(INSERT,"36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@c818063]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@c818063]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="58" _type="PauseCommand" date="Thu May 05 01:00:31 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="185313">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1037]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="57" _type="ConsoleOutput" date="Thu May 05 01:00:31 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="185313" type="ConsoleOutput">
+    <outputString><![CDATA[
+Testing InferringMainTest with the following inputs:
+"404" "404" "404" "27" "15" "10" "-1" 
+
+Collected output:
+0 Please enter data regarding your guest interaction.
+1 Distance?
+2 Duration?
+3 Exhalation Level?
+4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]
+5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]
+6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]
+7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InferredModel@458c1321]
+8 Safe.
+9 Please enter data regarding your guest interaction.
+10 Distance?
+11 Duration?
+12 Exhalation Level?
+13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.InferredModel@458c1321]
+14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InferredModel@458c1321]
+15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InferredModel@458c1321]
+16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InferredModel@458c1321]
+17 Safe.
+18 Please enter data regarding your guest interaction.
+19 Distance?
+20 Quitting
+
+Output line: "0" matches regex: ^[Pp]lease enter.*
+Output line: "1" matches regex: ^[Dd]istance.*
+Output line: "2" matches regex: ^[Dd]uration.*
+Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*
+Output line: "4" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*
+Output line: "5" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*
+Output line: "6" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*
+Regex: "^[Nn]ot [Ss]afe.*" not found, all following regexs not checked
+Note: All regex's are assumed to be in sequential order
+InferringMainTest did not pass completely:View console for more detail%0.0
+
+Test execution time (ms):997
+Please run the checkstle plugin on your project
+Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project 
+A2CommonPropertiesInherited did not pass completely:No checkstyle output, check console error messages%0.0
+Number of traces > 600  turning tracing off
+
+Test execution time (ms):1000
+Number of traces > 600  turning tracing off
+A2CommonSignaturesAreInherited did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+A2Encapsulation did not pass completely:No checkstyle output, check console error messages%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Number of traces > 600  turning tracing off¶"), Diff(EQUAL,"¶Testing "), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"ingMainTest with the following inputs:¶"404" "404" "404" ""), Diff(DELETE,"13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "5"), Diff(INSERT,"27" "15" "1"), Diff(EQUAL,"0" "-1" ¶¶"), Diff(DELETE,"¶"), Diff(EQUAL,"Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue="), Diff(DELETE,"fals"), Diff(INSERT,"tru"), Diff(EQUAL,"e; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶8 "), Diff(DELETE,"Not "), Diff(EQUAL,"Safe"), Diff(DELETE,"!"), Diff(INSERT,"."), Diff(EQUAL,"¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"13"), Diff(INSERT,"27"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"3"), Diff(INSERT,"1"), Diff(EQUAL,"0; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Deriv"), Diff(INSERT,"Inferr"), Diff(EQUAL,"edModel@"), Diff(DELETE,"c818063"), Diff(INSERT,"458c1321"), Diff(EQUAL,"]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 "), Diff(DELETE,"Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@c818063]¶23 "), Diff(INSERT,"Quitting¶¶Output line: "0" matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@c818063]¶24 "), Diff(INSERT,".*oldValue=null; newValue=404.*¶Output line: "5" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]¶25 "), Diff(INSERT,".*oldValue=null; newValue=404.*¶Output line: "6" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Safe; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"true; propagationId=null; source=a2.DerivedModel@c818063]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@c818063]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@c818063]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@c818063]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@c818063]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@c818063]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@c818063]"), Diff(INSERT,"404.*¶Regex: "^[Nn]ot [Ss]afe.*" not found, all following regexs not checked¶Note: All regex's are assumed to be in sequential order¶InferringMainTest did not pass completely:View console for more detail%0.0¶¶Test execution time (ms):997¶Please run the checkstle plugin on your project¶Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project ¶A2CommonPropertiesInherited did not pass completely:No checkstyle output, check console error messages%0.0¶Number of traces > 600  turning tracing off¶¶Test execution time (ms):1000¶Number of traces > 600  turning tracing off¶A2CommonSignaturesAreInherited did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2Encapsulation did not pass completely:No checkstyle output, check console error messages%0.0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="60" _type="PauseCommand" date="Thu May 05 01:00:36 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="189878">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4565]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="59" _type="ConsoleOutput" date="Thu May 05 01:00:36 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="189878" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):2
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶Testing InferringMainTest with the following inputs:¶"404" "404" "404" "27" "15" "10" "-1" ¶¶Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2.InferredModel@458c1321]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InferredModel@458c1321]¶8 Safe.¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.InferredModel@458c1321]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InferredModel@458c1321]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InferredModel@458c1321]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InferredModel@458c1321]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Quitting¶¶Output line: "0" matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*¶Output line: "5" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*¶Output line: "6" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=404.*¶Regex: "^[Nn]ot [Ss]afe.*" not found, all following regexs not checked¶Note: All regex's are assumed to be in sequential order¶InferringMainTest did not pass completely:View console for more detail%0.0¶¶Test execution time (ms):997¶Please run the checkstle plugin on your project¶Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project ¶A2CommonPropertiesInherited did not pass completely:No checkstyle output, check console error messages%0.0¶Number of traces > 600  turning tracing off¶¶Test execution time (ms):1000¶Number of traces > 600  turning tracing off¶A2CommonSignaturesAreInherited did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2Encapsulation did not pass completely:No checkstyle output, check console error messages%0.0"), Diff(INSERT,"Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="62" _type="PauseCommand" date="Thu May 05 01:00:38 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="191883">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2005]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="61" _type="ConsoleOutput" date="Thu May 05 01:00:38 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="191883" type="ConsoleOutput">
+    <outputString><![CDATA[SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):0
+SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):0
+
+Test execution time (ms):1
+SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0
+SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):0
+BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):1"), Diff(INSERT,"SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶¶Test execution time (ms):1¶SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶"), Diff(EQUAL,"¶Test execution time (ms):1¶")]]]></diff>
+  </Command>
+  <Command __id="64" _type="PauseCommand" date="Thu May 05 01:00:46 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="199703">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[7820]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="63" _type="ConsoleOutput" date="Thu May 05 01:00:46 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="199703" type="ConsoleOutput">
+    <outputString><![CDATA[
+
+Test execution time (ms):1
+DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):1
+InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
+
+Test execution time (ms):0
+Test execution time (ms):0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶¶Test execution time (ms):1¶SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶"), Diff(INSERT,"¶¶Test execution time (ms):1¶DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"1"), Diff(INSERT,"0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="66" _type="PauseCommand" date="Thu May 05 01:00:57 EDT 2022" range="10s-20s" starttimestamp="1651726646467" timestamp="211060">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[11357]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="65" _type="ShellCommand" date="Thu May 05 01:00:57 EDT 2022" starttimestamp="1651726646467" timestamp="211060" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="68" _type="MoveCaretCommand" caretOffset="1276" date="Thu May 05 01:00:57 EDT 2022" docOffset="1384" starttimestamp="1651726646467" timestamp="211448" />
+  <Command __id="19" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:58:26 EDT 2022" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="59918">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="67" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:00:57 EDT 2022" docASTNodeCount="1309" docActiveCodeLength="9036" docExpressionCount="800" docLength="11103" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="211292">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a1\SocialDistancing.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a1;¶¶import java.util.ArrayList;¶import java.util.List;¶import a2.ClassifierFactory;¶import gradingTools.comp524f20.assignment1.WekaUtil;¶¶¶¶public class SocialDistancing {¶	/*	public static void main(String[] args) {¶		System.out.println("Yo");¶	}¶	 */	¶	static final int smallDistance = 6;¶	static final int mediumDistance = 13;¶	static final int largeDistance = 27;¶	¶	static final int smallDuration = 15;¶	static final int mediumDuration = 30;¶	static final int largeDuration = 120;¶	¶	static final int smallExhale = 10;¶	static final int mediumExhale = 30;¶	static final int largeExhale = 50;¶	¶	static int tenRepetitions = 10;¶	/**¶	If the combination of the method parameters is safe, based on the given data, the function¶	returns true. Otherwise, it returns false.¶	*/	¶	public static boolean isGivenSafe(int distance, int duration, int exhale) {¶		if(distance == smallDistance) { 					//small distance¶			if(duration == mediumDuration) {							//med duration¶				if(exhale == smallExhale) {					//small exhale¶					return true;¶				}¶			} else if (duration == smallDuration) {					//small duration¶				if(exhale == mediumExhale) {					//med exhale¶					return true;¶				}¶			}	¶		}else if(distance == mediumDistance) {							//med distance¶			if(duration == mediumDuration) {								//med duration¶				if(exhale == mediumExhale) {						//med exhale¶					return true;¶				}¶			} else if(duration == smallDuration) {						//small duration¶				if(exhale == largeExhale) {						//large exhale¶					return true;¶				}¶			}else if(duration == largeDuration) {						//large duration¶				if(exhale == smallExhale) {						//small exhale¶					return true;¶				}¶			}¶		}else if(distance == largeDistance) {							//large distance¶			if(duration == mediumDuration) {								//med duration¶				if(exhale == largeExhale) {						//large exhale¶					return true;¶				}¶			} else if (duration == largeDuration) {					//large duration¶				if(exhale == mediumExhale) {						//med exhale¶					return true;¶				}¶			}¶		}¶		return false;¶	}¶	/* 	higher distance are safe, so interpolate low (can have 0)¶		lower duration and exhale are safe, so interpolate high (can have max integer) Integer.MAX_VALUE¶	*/¶	public static boolean isInterpolatedSafe(int distance, int duration, int exhale) {¶		¶		int interpolatedDistance = distanceLowInterpolation(distance);¶		int interpolatedDuration = durationHighInterpolation(duration);¶		int interpolatedExhale = exhaleHighInterpolation(exhale);¶		return isGivenSafe(interpolatedDistance, interpolatedDuration, interpolatedExhale);¶		¶	}¶	public static boolean isInterpolatedSafe(int distance, int duration) {¶		//exhalation level set to medium¶		int interpolatedDistance = distanceLowInterpolation(distance);¶		int interpolatedDuration = durationHighInterpolation(duration);¶		return isInterpolatedSafe(interpolatedDistance, interpolatedDuration, mediumExhale);¶	}¶	public static boolean isInterpolatedSafe(int distance) {¶		//duration and exhalation levels set to medium¶		int interpolatedDistance = distanceLowInterpolation(distance);¶		return isInterpolatedSafe(interpolatedDistance, mediumDuration);¶	}¶	public static boolean isDerivedSafe (int distance, int duration, int exhale) {¶		if(distance >= smallDistance && duration <= mediumDuration && exhale <= smallExhale) { 	//sDist,mDur,sEx¶			return true;¶		}¶		if(distance >= smallDistance && duration <= smallDuration && exhale <= mediumExhale) { 	//sDist,sDur,mEx¶			return true;¶		}¶		if(distance >= mediumDistance && duration <= mediumDuration && exhale <= mediumExhale) { 	//mDist,mDur,mEx¶			return true;¶		}¶		if(distance >= mediumDistance && duration <= smallDuration && exhale <= largeExhale) { 	//mDist,sDur,lEx¶			return true;¶		}¶		if(distance >= mediumDistance && duration <= largeDuration && exhale <= smallExhale) { 	//mDist,lDur,sEx¶			return true;¶		}¶		if(distance >= largeDistance && duration <= mediumDuration && exhale <= largeExhale) { 	//lDist,mDur,lEx¶			return true;¶		}¶		if(distance >= largeDistance && duration <= largeDuration && exhale <= mediumExhale) { 	//lDist,lDur,mEx¶			return true;¶		}¶		return false;¶	}¶	¶	public static void printGivenCombinations() {¶		System.out.println("Distance,Duration,Exhalation,IsSafe");¶		System.out.println("13,30,30,true");¶		System.out.println("6,30,10,true");¶		System.out.println("27,30,50,true");¶		System.out.println("13,15,50,true");¶		System.out.println("13,120,10,true");¶		System.out.println("27,120,30,true");¶		System.out.println("6,15,30,true");¶		System.out.println("----------");¶	}¶	public static void printGeneratedCombinationDerivedSafety() {¶		 int distance = (int)(Math.random()*32);¶		 int duration = (int)(Math.random()*144);¶		 int exhale = (int)(Math.random()*60);¶¶		 boolean derivedResult = isDerivedSafe(distance, duration, exhale);¶		System.out.println(distance + "," + duration + "," + exhale + "," + derivedResult);¶	}¶	public static void printGivenAndGeneratedCombinationsDerivedSafety() {¶		printGivenCombinations();¶		for(int i = 0; i < tenRepetitions; i++) {¶			printGeneratedCombinationDerivedSafety();¶		}¶	}¶	public static List<Integer[]> generateSafeDistancesAndDurations(int exhale) {¶		int interpolatedExhale = exhaleHighInterpolation(exhale);¶		List<Integer[]> list = new ArrayList<Integer[]>();¶		if (interpolatedExhale < 0) {return list;}¶		if (interpolatedExhale == smallExhale) { 								//small exhale¶			 Integer[] a1 = {6,30};¶			 Integer[] a2 = {13,120};¶			list.add(a1);¶			list.add(a2);¶			return list;¶		} else if (interpolatedExhale == mediumExhale) {			//med exhale¶			 Integer[] a1 = {13,30};¶			 Integer[] a2 = {27,120};¶			 Integer[] a3 = {6,15};¶			list.add(0, a1);¶			list.add(1, a2);¶			list.add(2, a3);¶			return list;¶		} else if (interpolatedExhale == largeExhale) {						//large exhale¶			 Integer[] a1 = {27,30};¶			 Integer[] a2 = {13,15};¶			list.add(0, a1);¶			list.add(1, a2);¶			return list;¶		};¶		return list;¶	}¶	public static void printSafeDistancesAndDurations(int exhale) {¶		List<Integer[]> generatedList = generateSafeDistancesAndDurations(exhale);¶		System.out.print(exhale + ",[");¶		for (int i = 0; i < generatedList.size(); i++) {¶			System.out.print("{");¶			for (int jay = 0; jay < generatedList.get(i).length; jay++) {¶				System.out.print(generatedList.get(i)[jay]);¶				if (jay != generatedList.get(i).length - 1) {¶					System.out.print(",");¶				}¶			}¶			System.out.print("}");¶		}¶		System.out.print("]");¶		System.out.print("\n");¶	}¶	/**¶	  low interpolation to a sequence of values is either an element of the sequence or zero.¶	  If higher values of the parameter are safer, then it is interpolated low. ¶	 */¶	public static int distanceLowInterpolation(int distance) {¶		//low interpolation to a sequence of values is either an element of the sequence or zero¶		//If higher values of the parameter are safer, then it is interpolated low¶		int interpolatedDistance;¶		if (distance < smallDistance) {					//distance interpolation¶			interpolatedDistance = 0;¶		} else if(distance < mediumDistance) {¶			interpolatedDistance = smallDistance;¶		} else if(distance < largeDistance) {¶			interpolatedDistance = mediumDistance;¶		} else {¶			interpolatedDistance = largeDistance;¶		}¶		return interpolatedDistance;¶	}¶	/**¶	  high interpolation to a sequence of values is either an element of the sequence or max integer.If lower values of the parameter are safer, then it is interpolated high.¶	 */¶	¶	public static int durationHighInterpolation(int duration) {¶		//high interpolation to a sequence of values is either an element of the sequence or max integer¶		//If lower values of the parameter are safer, then it is interpolated high.¶		int interpolatedDuration;¶		if (duration > largeDuration) {					//duration interpolation¶			interpolatedDuration = Integer.MAX_VALUE;¶		} else if(duration > mediumDuration) {¶			interpolatedDuration = largeDuration;¶		} else if(duration > smallDuration) {¶			interpolatedDuration = mediumDuration;¶		} else {¶			interpolatedDuration = smallDuration;¶		}¶		return interpolatedDuration;¶	}	¶	/**¶	 Similarly, the exhalation level parameter is interpolated to small, medium large exhalation levels¶	 or the maximum integer. In Java, the maximum integer is Integer.MAX_VALUE. If lower values of the parameter are safer, then it is interpolated high.¶	 */¶	public static int exhaleHighInterpolation(int exhalation) {¶		//high interpolation to a sequence of values is either an element of the sequence or max integer¶		//If lower values of the parameter are safer, then it is interpolated high.¶		int interpolatedExhalation;¶		if (exhalation > largeExhale) {						//exhale interpolation¶			interpolatedExhalation = Integer.MAX_VALUE;¶		} else if(exhalation > mediumExhale) {¶			interpolatedExhalation = largeExhale;¶		} else if(exhalation > smallExhale) {¶			interpolatedExhalation = mediumExhale;¶		} else {¶			interpolatedExhalation = smallExhale;¶		}¶		return interpolatedExhalation;¶	}¶	¶	public static boolean isInferredSafe(int distance, int duration, int exhalation) {¶		 String TRUE = "true";¶		 String FALSE = "false";¶		 String resultAttributeName = "safe";¶		 String[] resultValueNames = {TRUE, FALSE};¶		 String[] featureNames = {"distance", "duration", "exhalation"};¶		¶		double[] anInputFeatureValues = {distance, duration, exhalation};¶		String aResultString = WekaUtil.predictString(ClassifierFactory.getSingleton(), featureNames, anInputFeatureValues, resultAttributeName, resultValueNames);¶		return TRUE.equals(aResultString) ?true:false;¶	}¶	¶	public static int compareSafetyComputations() {¶		System.out.println("Distance,Duration,Exhalation,Derived,Inferred");¶		int correctInferrences = 0;¶		for(int i = 0; i < tenRepetitions; i++) {¶			int distance = (int)(Math.random()*32);¶			int duration = (int)(Math.random()*144);¶			int exhale = (int)(Math.random()*60);¶			boolean combinationDerived = isDerivedSafe(distance, duration, exhale);¶			boolean combinationInferred = isInferredSafe(distance, duration, exhale);¶			if(combinationDerived == combinationInferred) {¶				correctInferrences++;¶			}¶			System.out.println(distance + "," + duration + "," + exhale + "," + combinationDerived + "," + combinationInferred);¶		}¶		return correctInferrences;¶	}¶	¶	public static void printGeneratedCombinationInferredSafety() {¶		 int distance = (int)(Math.random()*32);¶		 int duration = (int)(Math.random()*144);¶		 int exhale = (int)(Math.random()*60);¶¶		 boolean inferredResult = isInferredSafe(distance, duration, exhale);¶		System.out.println(distance + "," + duration + "," + exhale + "," + inferredResult);¶	}¶	public static void printGivenAndGeneratedCombinationsInferredSafety() {¶		printGivenCombinations();¶		for(int i = 0; i < tenRepetitions; i++) {¶			printGeneratedCombinationInferredSafety();¶		}¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="70" _type="PauseCommand" date="Thu May 05 01:01:27 EDT 2022" range="20s-30s" starttimestamp="1651726646467" timestamp="241133">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[29685]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="69" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:01:27 EDT 2022" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="241133">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="73" _type="EclipseCommand" commandID="" date="Thu May 05 01:01:38 EDT 2022" starttimestamp="1651726646467" timestamp="252242" />
+  <Command __id="75" _type="EclipseCommand" commandID="" date="Thu May 05 01:01:38 EDT 2022" starttimestamp="1651726646467" timestamp="252245" />
+  <Command __id="71" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:01:36 EDT 2022" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="249653">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="77" _type="PauseCommand" date="Thu May 05 01:01:45 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="258646">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[6400]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="76" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:01:45 EDT 2022" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="258645">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="80" _type="EclipseCommand" commandID="" date="Thu May 05 01:02:00 EDT 2022" starttimestamp="1651726646467" timestamp="274061" />
+  <Command __id="82" _type="EclipseCommand" commandID="" date="Thu May 05 01:02:00 EDT 2022" starttimestamp="1651726646467" timestamp="274064" />
+  <Command __id="84" _type="PauseCommand" date="Thu May 05 01:02:02 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="275929">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1865]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="88" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:02:06 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="279813" type="Run" />
+  <Command __id="90" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:02:06 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726646467" timestamp="279814" type="Run" />
+  <Command __id="92" _type="PauseCommand" date="Thu May 05 01:02:09 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="283512">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[3698]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="91" _type="ShellCommand" date="Thu May 05 01:02:09 EDT 2022" starttimestamp="1651726646467" timestamp="283512" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="94" _type="PauseCommand" date="Thu May 05 01:02:11 EDT 2022" range="1s-2s" starttimestamp="1651726646467" timestamp="285418">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1906]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="93" _type="ConsoleOutput" date="Thu May 05 01:02:11 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="285418" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):38
+Test execution time (ms):3
+SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0
+
+Test execution time (ms):3
+SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0
+
+Test execution time (ms):1
+SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0
+
+Test execution time (ms):1
+SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0
+
+Test execution time (ms):1
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶¶"), Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"1¶DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages"), Diff(INSERT,"38¶Test execution time (ms):3¶SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0¶¶Test execution time (ms):3¶SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):1¶"), Diff(DELETE,"InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages"), Diff(INSERT,"SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0¶¶Test execution time (ms):1¶SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="96" _type="PauseCommand" date="Thu May 05 01:02:16 EDT 2022" range="2s-5s" starttimestamp="1651726646467" timestamp="289818">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4400]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="95" _type="ConsoleOutput" date="Thu May 05 01:02:16 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="289818" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):13
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"38¶Test execution time (ms):3¶SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0¶¶Test execution time (ms):3¶SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0¶¶Test execution time (ms):1¶SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0¶¶Test execution time (ms):1¶SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0¶¶Test execution time (ms):1¶Test execution time (ms):"), Diff(EQUAL,"1"), Diff(INSERT,"3"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="97" _type="ConsoleOutput" date="Thu May 05 01:02:16 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="289921" type="ConsoleOutput">
+    <outputString><![CDATA[1.0
+0.6557377049180327
+0.8125
+Test execution time (ms):87
+Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+9,4,58,true
+14,47,30,false
+0,122,49,false
+25,67,25,false
+0,69,47,false
+26,15,29,true
+6,88,57,false
+9,52,5,false
+19,128,46,true
+26,116,59,true
+Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+8,14,57,true
+27,124,16,true
+17,66,25,false
+14,96,18,false
+25,136,24,true
+17,106,35,false
+15,17,34,true
+24,99,33,false
+12,133,3,true
+16,63,33,false
+Test execution time (ms):32
+Distance,Duration,Exhalation,Derived,Inferred
+20,14,7,true,true
+14,59,13,false,false
+13,77,10,true,false
+21,36,8,true,false
+8,94,37,false,false
+15,139,3,false,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):13"), Diff(INSERT,"1.0¶0.6557377049180327¶0.8125¶Test execution time (ms):87¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶9,4,58,true¶14,47,30,false¶0,122,49,false¶25,67,25,false¶0,69,47,false¶26,15,29,true¶6,88,57,false¶9,52,5,false¶19,128,46,true¶26,116,59,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶8,14,57,true¶27,124,16,true¶17,66,25,false¶14,96,18,false¶25,136,24,true¶17,106,35,false¶15,17,34,true¶24,99,33,false¶12,133,3,true¶16,63,33,false¶Test execution time (ms):32¶Distance,Duration,Exhalation,Derived,Inferred¶20,14,7,true,true¶14,59,13,false,false¶13,77,10,true,false¶21,36,8,true,false¶8,94,37,false,false¶15,139,3,false,true"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="98" _type="ConsoleOutput" date="Thu May 05 01:02:16 EDT 2022" overflow="false" starttimestamp="1651726646467" timestamp="290038" type="ConsoleOutput">
+    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
+17,80,41,false,false
+26,19,14,true,true
+8,71,13,false,false
+1,30,14,false,false
+13,46,37,false,false
+13,31,20,false,false
+1,107,12,false,false
+24,124,41,false,true
+6,102,4,false,false
+27,50,16,true,false
+Distance,Duration,Exhalation,Derived,Inferred
+4,86,28,false,false
+10,90,18,false,false
+5,40,4,false,false
+31,131,38,false,true
+0,121,44,false,false
+9,6,7,true,true
+14,47,27,false,false
+31,141,52,false,true
+24,52,25,false,false
+25,56,27,false,false
+Distance,Duration,Exhalation,Derived,Inferred
+22,10,21,true,true
+27,52,19,true,false
+5,12,21,false,false
+24,98,19,false,false
+22,56,22,false,false
+21,51,21,false,false
+23,120,37,false,true
+13,39,29,false,false
+28,73,30,true,false
+2,141,27,false,false
+Distance,Duration,Exhalation,Derived,Inferred
+11,95,48,false,false
+30,50,27,true,false
+7,25,44,false,true
+0,134,45,false,false
+26,140,27,false,true
+5,3,30,false,false
+28,46,46,false,false
+0,29,52,false,false
+25,54,20,false,false
+2,132,10,false,false
+Distance,Duration,Exhalation,Derived,Inferred
+16,9,55,false,true
+13,23,38,false,true
+3,136,29,false,false
+1,34,2,false,false
+30,16,23,true,true
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"1.0¶0.6557377049180327¶0.8125¶Test execution time (ms):87¶"), Diff(EQUAL,"Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,tru"), Diff(INSERT,"Derived,Inferred¶17,80,41,false,fals"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"6,"), Diff(DELETE,"30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,tru"), Diff(INSERT,"19,14,true,true¶8,71,13,false,false¶1,30,14,false,false¶13,46,37,false,false¶13,31,20,false,false¶1,107,12,false,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"7"), Diff(INSERT,"4"), Diff(EQUAL,",12"), Diff(DELETE,"0,30,true¶6,15,30,true¶----------¶9,4,58,true¶14,47,30,false¶0,122,49,false¶25,67,25"), Diff(INSERT,"4,41,false,true¶6,102,4,false,false¶27,50,16,true,false¶Distance,Duration,Exhalation,Derived,Inferred¶4,86,28,false,false¶10,90,18,false,false¶5,40,4,false,false¶31,131,38"), Diff(EQUAL,",false"), Diff(DELETE,"¶0,69,47,false¶26,15,29,true¶6,88,57,false¶9,52,5,false¶19,128,46,true¶26,116,59,tru"), Diff(INSERT,",true¶0,121,44,false,false¶9,6,7,true,true¶14,47,27,false,false¶31,141,52,false,true¶24,52,25,false,false¶25,56,27,false,fals"), Diff(EQUAL,"e¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30"), Diff(INSERT,"Derived,Inferred¶22,10,21,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,30"), Diff(INSERT,"27,52"), Diff(EQUAL,",1"), Diff(DELETE,"0"), Diff(INSERT,"9"), Diff(EQUAL,",true"), Diff(DELETE,"¶27,30,50,true¶13,15,50,true¶13,120,10,tru"), Diff(INSERT,",false¶5,12,21,false,false¶24,98,19,false,false¶22,56,22,false,false¶21,51,21,false,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"7"), Diff(INSERT,"3"), Diff(EQUAL,",120,3"), Diff(DELETE,"0"), Diff(INSERT,"7,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,15,30,true¶----------"), Diff(INSERT,"13,39,29,false,false"), Diff(EQUAL,"¶"), Diff(INSERT,"2"), Diff(EQUAL,"8,"), Diff(DELETE,"14,57,tru"), Diff(INSERT,"73,30,true,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"7"), Diff(EQUAL,",1"), Diff(DELETE,"24,16,true¶17,66,25,false¶14,96,18"), Diff(INSERT,"41,27,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶11,95,48,false,false¶30,50,27,true"), Diff(EQUAL,",false¶"), Diff(INSERT,"7,"), Diff(EQUAL,"25,"), Diff(DELETE,"136,24,true¶17,106,35,false¶15,17,34,true¶24,99,33,false¶12,133,3,true¶16,63,33,false¶Test execution time (ms):32"), Diff(INSERT,"44,false,true¶0,134,45,false,false¶26,140,27,false,true¶5,3,30,false,false¶28,46,46,false,false¶0,29,52,false,false¶25,54,20,false,false¶2,132,10,false,false"), Diff(EQUAL,"¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"20,14,7,tru"), Diff(INSERT,"16,9,55,fals"), Diff(EQUAL,"e,true¶1"), Diff(DELETE,"4,59,13"), Diff(INSERT,"3,23,38"), Diff(EQUAL,",false,"), Diff(DELETE,"fals"), Diff(INSERT,"tru"), Diff(EQUAL,"e¶"), Diff(DELETE,"1"), Diff(EQUAL,"3,"), Diff(DELETE,"77,10,true,false¶21,36,8,tru"), Diff(INSERT,"136,29,fals"), Diff(EQUAL,"e,false¶"), Diff(DELETE,"8,94,37"), Diff(INSERT,"1,34,2"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"15,139,3,fals"), Diff(INSERT,"30,16,23,tru"), Diff(EQUAL,"e,true¶")]]]></diff>
+  </Command>
+  <Command __id="100" _type="PauseCommand" date="Thu May 05 01:02:22 EDT 2022" range="5s-10s" starttimestamp="1651726646467" timestamp="295788">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5750]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

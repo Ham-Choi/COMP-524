@@ -1,0 +1,506 @@
+<Events startTimestamp="1651724281401" logVersion="1.0.0.202201202038">
+  <Command __id="0" _type="ShellCommand" date="Thu May 05 00:18:07 EDT 2022" starttimestamp="1651724281401" timestamp="6115" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2" _type="PauseCommand" date="Thu May 05 00:18:10 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="8911">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2791]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1" _type="ShellCommand" date="Thu May 05 00:18:10 EDT 2022" starttimestamp="1651724281401" timestamp="8906" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4" _type="MoveCaretCommand" caretOffset="1432" date="Thu May 05 00:18:11 EDT 2022" docOffset="1432" starttimestamp="1651724281401" timestamp="9808" />
+  <Command __id="6" _type="PauseCommand" date="Thu May 05 00:18:14 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="12639">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2830]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="5" _type="ShellCommand" date="Thu May 05 00:18:14 EDT 2022" starttimestamp="1651724281401" timestamp="12638" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8" _type="PauseCommand" date="Thu May 05 00:18:15 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="13952">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1314]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="7" _type="ShellCommand" date="Thu May 05 00:18:15 EDT 2022" starttimestamp="1651724281401" timestamp="13952" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 00:18:15 EDT 2022" starttimestamp="1651724281401" timestamp="13982" />
+  <Command __id="3" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:18:10 EDT 2022" docASTNodeCount="244" docActiveCodeLength="1881" docExpressionCount="110" docLength="2425" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="9582">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\ClassRegistry.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a2;
+import gradingTools.comp524f21. assignment2.F21A2SocialDistanceClassRegistry;
+
+public class ClassRegistry implements F21A2SocialDistanceClassRegistry{
+
+	@Override
+	public Class<?> getBasicSocialDistanceUtility() {
+		// TODO Auto-generated method stub
+		return a1.SocialDistancing.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistancDerivingModel() {
+		// TODO Auto-generated method stub
+		return DerivedModel.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistancInferringModel() {
+		// TODO Auto-generated method stub
+		return InferredModel.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceBasicModel() {
+		// TODO Auto-generated method stub
+		return BasicModel.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceClassifierFactory() {
+		// TODO Auto-generated method stub
+		return ClassifierFactory.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceController() {
+		// TODO Auto-generated method stub
+		return Controller.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceControllerFactory() {
+		// TODO Auto-generated method stub
+		return ControllerFactory.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceInterpolatingModel() {
+		// TODO Auto-generated method stub
+		return InterpolatedModel.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCBasicMain() {
+		// TODO Auto-generated method stub
+		return BasicMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCDerivingMain() {
+		// TODO Auto-generated method stub
+		return DerivedMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCInferringMain() {
+		// TODO Auto-generated method stub
+		return InferringMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCInterpolatingMain() {
+		// TODO Auto-generated method stub
+		return InterpolatedMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceModelFactory() {
+		// TODO Auto-generated method stub
+		return ModelFactory.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceUilityTesterMain() {
+		// TODO Auto-generated method stub
+		return a1.UtilityTesterMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceView() {
+		// TODO Auto-generated method stub
+		return LogView.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceViewFactory() {
+		// TODO Auto-generated method stub
+		return ViewFactory.class;
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="11" _type="PauseCommand" date="Thu May 05 00:18:18 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="17200">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[3217]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="12" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:18:18 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="17400" />
+  <Command __id="14" _type="PauseCommand" date="Thu May 05 00:18:23 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="22400">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5000]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="13" _type="ShellCommand" date="Thu May 05 00:18:23 EDT 2022" starttimestamp="1651724281401" timestamp="22400" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="16" _type="PauseCommand" date="Thu May 05 00:18:24 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="23516">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1116]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="15" _type="ShellCommand" date="Thu May 05 00:18:24 EDT 2022" starttimestamp="1651724281401" timestamp="23516" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 00:18:24 EDT 2022" starttimestamp="1651724281401" timestamp="23538" />
+  <Command __id="10" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:18:18 EDT 2022" docASTNodeCount="89" docActiveCodeLength="710" docExpressionCount="56" docLength="1127" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="17199">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\A2Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a2;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp524f21.assignment2.F21Assignment2Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+//import util.trace.Tracer;
+
+public class A2Tests {
+	static int printedTrace = 600;
+	static int maxTrace = 2000;
+	static int processTimeOut= 5;
+	public static void main(String[] args) {
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed
+		GraderBasicsTraceUtility.setBufferTracedMessages(true);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);
+		// Change this number if all traces together are longer than 2000
+		GraderBasicsTraceUtility.setMaxTraces(maxTrace);
+		// Change this number if your process times out prematurely
+		BasicProjectExecution.setProcessTimeOut(processTimeOut);
+		// You need to always call such a method
+		F21Assignment2Suite.main(args);
+	}
+}]]></snapshot>
+  </Command>
+  <Command __id="19" _type="PauseCommand" date="Thu May 05 00:18:40 EDT 2022" range="10s-20s" starttimestamp="1651724281401" timestamp="39028">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[15490]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="20" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:18:40 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="39180" />
+  <Command __id="18" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:18:40 EDT 2022" docASTNodeCount="42" docActiveCodeLength="346" docExpressionCount="21" docLength="414" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="39028">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a1\ClassRegistry.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a1;
+
+public class ClassRegistry implements gradingTools.comp524f21.assignment1.F21A1SocialDistanceClassRegistry{
+	@Override
+	public Class<?> getBasicSocialDistanceUtility() {
+		// TODO Auto-generated method stub
+		return SocialDistancing.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceUilityTesterMain() {
+		// TODO Auto-generated method stub
+		return UtilityTesterMain.class;
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="22" _type="PauseCommand" date="Thu May 05 00:18:43 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="41695">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2515]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="23" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:18:43 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="41857" />
+  <Command __id="25" _type="PauseCommand" date="Thu May 05 00:18:47 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="46506">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4649]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ShellCommand" date="Thu May 05 00:18:47 EDT 2022" starttimestamp="1651724281401" timestamp="46506" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="27" _type="PauseCommand" date="Thu May 05 00:19:11 EDT 2022" range="20s-30s" starttimestamp="1651724281401" timestamp="70026">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[23520]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="26" _type="ShellCommand" date="Thu May 05 00:19:11 EDT 2022" starttimestamp="1651724281401" timestamp="70026" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="29" _type="PauseCommand" date="Thu May 05 00:19:17 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="75965">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5938]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="28" _type="ShellCommand" date="Thu May 05 00:19:17 EDT 2022" starttimestamp="1651724281401" timestamp="75964" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="31" _type="PauseCommand" date="Thu May 05 00:19:54 EDT 2022" range="30s-1m" starttimestamp="1651724281401" timestamp="113531">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[37567]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="30" _type="ShellCommand" date="Thu May 05 00:19:54 EDT 2022" starttimestamp="1651724281401" timestamp="113531" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="33" _type="PauseCommand" date="Thu May 05 00:20:01 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="120593">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7062]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="32" _type="MoveCaretCommand" caretOffset="618" date="Thu May 05 00:20:01 EDT 2022" docOffset="618" starttimestamp="1651724281401" timestamp="120593" />
+  <Command __id="35" _type="PauseCommand" date="Thu May 05 00:20:10 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="129081">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[8488]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="34" _type="ShellCommand" date="Thu May 05 00:20:10 EDT 2022" starttimestamp="1651724281401" timestamp="129081" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="37" _type="PauseCommand" date="Thu May 05 00:20:12 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="130636">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1555]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="38" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 00:20:26 EDT 2022" starttimestamp="1651724281401" timestamp="145580" />
+  <Command __id="40" _type="ProgramExecutionEvent" className="/joshep_A1/src/a1/UtilityTesterMain.java" date="Thu May 05 00:20:27 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="145837" type="Run" />
+  <Command __id="41" _type="RunCommand" className="/joshep_A1/src/a1/UtilityTesterMain.java" date="Thu May 05 00:20:27 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="145837" type="Run" />
+  <Command __id="42" _type="ProgramExecutionEvent" className="/joshep_A1/src/a1/UtilityTesterMain.java" date="Thu May 05 00:20:27 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="146006" type="Run" />
+  <Command __id="43" _type="ProgramExecutionEvent" className="/joshep_A1/src/a1/UtilityTesterMain.java" date="Thu May 05 00:20:27 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="146006" type="Run" />
+  <Command __id="44" _type="ConsoleOutput" date="Thu May 05 00:20:27 EDT 2022" overflow="false" starttimestamp="1651724281401" timestamp="146154" type="ConsoleOutput">
+    <outputString><![CDATA[Distance,Duration,Exhalation,IsSafe
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+----------
+29,42,13,true
+28,13,59,false
+16,68,44,false
+24,81,57,false
+17,84,44,false
+12,94,22,false
+27,54,2,true
+28,130,59,false
+21,88,31,false
+23,93,55,false
+30,[{13,30}{27,120}{6,15}]
+29,[{13,30}{27,120}{6,15}]
+32,[{27,30}{13,15}]
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="46" _type="PauseCommand" date="Thu May 05 00:20:36 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="155433">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[9279]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="45" _type="ShellCommand" date="Thu May 05 00:20:36 EDT 2022" starttimestamp="1651724281401" timestamp="155433" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="48" _type="PauseCommand" date="Thu May 05 00:20:54 EDT 2022" range="10s-20s" starttimestamp="1651724281401" timestamp="172991">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[17558]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="47" _type="ShellCommand" date="Thu May 05 00:20:54 EDT 2022" starttimestamp="1651724281401" timestamp="172991" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="49" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 00:20:54 EDT 2022" starttimestamp="1651724281401" timestamp="173026" />
+  <Command __id="51" _type="PauseCommand" date="Thu May 05 00:21:01 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="180133">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7107]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="50" _type="ShellCommand" date="Thu May 05 00:21:01 EDT 2022" starttimestamp="1651724281401" timestamp="180133" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="53" _type="PauseCommand" date="Thu May 05 00:21:03 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="181967">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1833]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="57" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:21:12 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="190602" />
+  <Command __id="55" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:21:11 EDT 2022" docASTNodeCount="89" docActiveCodeLength="711" docExpressionCount="56" docLength="1128" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="190466">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A1\src\a1\A1Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a1;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp524f21.assignment1.F21Assignment1Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+//import util.trace.Tracer;
+
+public class A1Tests {
+	static int printedTrace = 600;
+	static int maxTrace = 2000;
+	static int processTimeOut= 5;
+	public static void main(String[] args) {
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);
+		// Change this number if all traces together are longer than 2000
+		GraderBasicsTraceUtility.setMaxTraces(maxTrace);
+		// Change this number if your process times out prematurely
+		BasicProjectExecution.setProcessTimeOut(processTimeOut);
+		// You need to always call such a method
+		F21Assignment1Suite.main(args);
+	}
+}]]></snapshot>
+  </Command>
+  <Command __id="59" _type="PauseCommand" date="Thu May 05 00:21:19 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="198308">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[7705]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="63" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:21:21 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="199921" />
+  <Command __id="61" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:21:21 EDT 2022" docASTNodeCount="89" docActiveCodeLength="711" docExpressionCount="56" docLength="1128" projectName="joshep_A1" starttimestamp="1651724281401" timestamp="199818">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A1\src\a1\A1Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a1;¶¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp524f21.assignment1.F21Assignment1Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class A1Tests {¶	static int printedTrace = 600;¶	static int maxTrace = 2000;¶	static int processTimeOut= 5;¶	public static void main(String[] args) {¶		// if you set this to false, grader steps will not be traced¶		GraderBasicsTraceUtility.setTracerShowInfo(true);¶		// if you set this to false, all grader steps will be traced,¶		// not just the ones that failed¶		GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		// Change this number if a test trace gets longer than 600 and is clipped¶		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);¶		// Change this number if all traces together are longer than 2000¶		GraderBasicsTraceUtility.setMaxTraces(maxTrace);¶		// Change this number if your process times out prematurely¶		BasicProjectExecution.setProcessTimeOut(processTimeOut);¶		// You need to always call such a method¶		F21Assignment1Suite.main(args);¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="65" _type="PauseCommand" date="Thu May 05 00:21:24 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="203084">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3163]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="66" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 00:21:24 EDT 2022" docOffset="0" starttimestamp="1651724281401" timestamp="203250" />
+  <Command __id="68" _type="PauseCommand" date="Thu May 05 00:21:30 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="209327">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6077]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="67" _type="MoveCaretCommand" caretOffset="376" date="Thu May 05 00:21:30 EDT 2022" docOffset="495" starttimestamp="1651724281401" timestamp="209327" />
+  <Command __id="70" _type="PauseCommand" date="Thu May 05 00:21:32 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="211590">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2263]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[InsertStringCommand]]></next>
+  </Command>
+  <Command __id="77" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:21:37 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="215795" type="Run" />
+  <Command __id="79" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:21:37 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="215796" type="Run" />
+  <Command __id="81" _type="PauseCommand" date="Thu May 05 00:21:40 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="219569">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[3773]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="80" _type="ShellCommand" date="Thu May 05 00:21:40 EDT 2022" starttimestamp="1651724281401" timestamp="219569" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="83" _type="PauseCommand" date="Thu May 05 00:21:42 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="221128">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1558]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="82" _type="ShellCommand" date="Thu May 05 00:21:42 EDT 2022" starttimestamp="1651724281401" timestamp="221127" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="84" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:21:42 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="221278" type="Run" />
+  <Command __id="85" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 00:21:42 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="221278" type="Run" />
+  <Command __id="87" _type="MoveCaretCommand" caretOffset="618" date="Thu May 05 00:21:43 EDT 2022" docOffset="618" starttimestamp="1651724281401" timestamp="222042" />
+  <Command __id="89" _type="PauseCommand" date="Thu May 05 00:21:44 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="223172">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1130]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="88" _type="ShellCommand" date="Thu May 05 00:21:44 EDT 2022" starttimestamp="1651724281401" timestamp="223172" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="91" _type="PauseCommand" date="Thu May 05 00:21:46 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="224821">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1649]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="90" _type="ShellCommand" date="Thu May 05 00:21:46 EDT 2022" starttimestamp="1651724281401" timestamp="224821" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="93" _type="PauseCommand" date="Thu May 05 00:21:47 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="226072">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1251]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="92" _type="MoveCaretCommand" caretOffset="333" date="Thu May 05 00:21:47 EDT 2022" docOffset="333" starttimestamp="1651724281401" timestamp="226072" />
+  <Command __id="95" _type="PauseCommand" date="Thu May 05 00:21:49 EDT 2022" range="2s-5s" starttimestamp="1651724281401" timestamp="228146">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2074]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="94" _type="MoveCaretCommand" caretOffset="118" date="Thu May 05 00:21:49 EDT 2022" docOffset="118" starttimestamp="1651724281401" timestamp="228146" />
+  <Command __id="64" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:21:24 EDT 2022" docASTNodeCount="89" docActiveCodeLength="710" docExpressionCount="56" docLength="1127" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="203084">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\A2Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a2;¶¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp524f21.assignment2.F21Assignment2Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class A2Tests {¶	static int printedTrace = 600;¶	static int maxTrace = 2000;¶	static int processTimeOut= 5;¶	public static void main(String[] args) {¶		// if you set this to false, grader steps will not be traced¶		GraderBasicsTraceUtility.setTracerShowInfo(true);¶		// if you set this to false, all grader steps will be traced,¶		// not just the ones that failed¶		GraderBasicsTraceUtility.setBufferTracedMessages(true);¶		// Change this number if a test trace gets longer than 600 and is clipped¶		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);¶		// Change this number if all traces together are longer than 2000¶		GraderBasicsTraceUtility.setMaxTraces(maxTrace);¶		// Change this number if your process times out prematurely¶		BasicProjectExecution.setProcessTimeOut(processTimeOut);¶		// You need to always call such a method¶		F21Assignment2Suite.main(args);¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="86" _type="DiffBasedFileOpenCommand" date="Thu May 05 00:21:43 EDT 2022" docASTNodeCount="62" docActiveCodeLength="618" docExpressionCount="32" docLength="618" projectName="joshep_A2" starttimestamp="1651724281401" timestamp="221944">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a1\UtilityTesterMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a1;¶¶public class UtilityTesterMain {¶	static int mediumExhale = 30;¶	static int mediumExhaleMinusOne = 29;¶	static int mediumExhalePlusTwo = 32;¶	¶	public static void main(String[] args) {¶		SocialDistancing.printGivenAndGeneratedCombinationsDerivedSafety();¶		SocialDistancing.printGivenAndGeneratedCombinationsInferredSafety();¶		SocialDistancing.compareSafetyComputations();¶		SocialDistancing.printSafeDistancesAndDurations(mediumExhale);¶		SocialDistancing.printSafeDistancesAndDurations(mediumExhaleMinusOne);¶		SocialDistancing.printSafeDistancesAndDurations(mediumExhalePlusTwo);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="97" _type="PauseCommand" date="Thu May 05 00:21:50 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="229274">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1128]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <DocumentChange __id="96" _type="Delete" date="Thu May 05 00:21:50 EDT 2022" docASTNodeCount="62" docActiveCodeLength="617" docExpressionCount="32" docLength="617" endLine="4" length="1" offset="117" startLine="4" starttimestamp="1651724281401" timestamp="229274">
+    <text><![CDATA[9]]></text>
+  </DocumentChange>
+  <Command __id="98" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 05 00:21:50 EDT 2022" starttimestamp="1651724281401" timestamp="229297" />
+  <Command __id="100" _type="InsertStringCommand" date="Thu May 05 00:21:50 EDT 2022" starttimestamp="1651724281401" timestamp="229508" timestamp2="229508">
+    <data><![CDATA[8]]></data>
+  </Command>
+  <Command __id="102" _type="PauseCommand" date="Thu May 05 00:21:51 EDT 2022" range="1s-2s" starttimestamp="1651724281401" timestamp="230537">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1029]]></pause>
+    <nextType><![CDATA[Save]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="101" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu May 05 00:21:51 EDT 2022" starttimestamp="1651724281401" timestamp="230537" />
+  <Command __id="103" _type="EclipseCommand" commandID="" date="Thu May 05 00:21:52 EDT 2022" starttimestamp="1651724281401" timestamp="230653" />
+  <Command __id="104" _type="ShellCommand" date="Thu May 05 00:21:52 EDT 2022" starttimestamp="1651724281401" timestamp="230676" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="105" _type="EclipseCommand" commandID="" date="Thu May 05 00:21:52 EDT 2022" starttimestamp="1651724281401" timestamp="230682" />
+  <Command __id="107" _type="PauseCommand" date="Thu May 05 00:21:58 EDT 2022" range="5s-10s" starttimestamp="1651724281401" timestamp="237522">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[6840]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

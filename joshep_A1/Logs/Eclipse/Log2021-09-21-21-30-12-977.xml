@@ -1,0 +1,378 @@
+<Events startTimestamp="1632274212977" logVersion="1.0.0.202108012048">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="3641" date="Tue Sep 21 21:30:13 EDT 2021" docOffset="3665" starttimestamp="1632274212977" timestamp="1003" />
+  <Command __id="3" _type="PauseCommand" date="Tue Sep 21 21:30:40 EDT 2021" range="20s-30s" starttimestamp="1632274212977" timestamp="27726">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[26719]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2" _type="ShellCommand" date="Tue Sep 21 21:30:40 EDT 2021" starttimestamp="1632274212977" timestamp="27722" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4" _type="SelectTextCommand" caretOffset="4351" date="Tue Sep 21 21:30:41 EDT 2021" end="4351" start="4333" starttimestamp="1632274212977" timestamp="28547" />
+  <Command __id="12" _type="PauseCommand" date="Tue Sep 21 21:30:59 EDT 2021" range="1s-2s" starttimestamp="1632274212977" timestamp="46075">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1379]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="11" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:30:59 EDT 2021" starttimestamp="1632274212977" timestamp="46074" />
+  <Command __id="13" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 21 21:30:59 EDT 2021" starttimestamp="1632274212977" timestamp="46262" />
+  <Command __id="14" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:30:59 EDT 2021" starttimestamp="1632274212977" timestamp="46313" />
+  <Command __id="16" _type="PauseCommand" date="Tue Sep 21 21:31:04 EDT 2021" range="2s-5s" starttimestamp="1632274212977" timestamp="51176">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4863]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="15" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_PREVIOUS" date="Tue Sep 21 21:31:04 EDT 2021" starttimestamp="1632274212977" timestamp="51176" />
+  <Command __id="17" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_PREVIOUS" date="Tue Sep 21 21:31:04 EDT 2021" starttimestamp="1632274212977" timestamp="51328" />
+  <Command __id="18" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_PREVIOUS" date="Tue Sep 21 21:31:05 EDT 2021" starttimestamp="1632274212977" timestamp="52222" />
+  <Command __id="20" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 21 21:31:05 EDT 2021" starttimestamp="1632274212977" timestamp="52752" />
+  <Command __id="22" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 21 21:31:05 EDT 2021" starttimestamp="1632274212977" timestamp="52888" />
+  <Command __id="24" _type="InsertStringCommand" date="Tue Sep 21 21:31:06 EDT 2021" starttimestamp="1632274212977" timestamp="53326" timestamp2="53326">
+    <data><![CDATA[<]]></data>
+  </Command>
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Tue Sep 21 21:30:13 EDT 2021" docASTNodeCount="1035" docActiveCodeLength="6268" docExpressionCount="604" docLength="7856" projectName="joshep_A1" starttimestamp="1632274212977" timestamp="620">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A1\src\a1\SocialDistancing.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class SocialDistancing {
+	/*	public static void main(String[] args) {
+		System.out.println("Yo");
+	}
+	 */	
+
+
+	public static boolean isGivenSafe(final int dist, final int dur, final int exhal) {
+		if(dist == 6) { 							//small distance
+			if(dur == 30) {							//med duration
+				if(exhal == 10) {					//small exhale
+					return true;
+				}
+			} else if (dur == 15) {					//small dur
+				if(exhal == 30) {					//med exhal
+					return true;
+				}
+			}	
+		}else if(dist == 13) {							//med distance
+			if(dur == 30) {								//med duration
+				if(exhal == 30) {						//med exhal
+					return true;
+				}
+			} else if(dur == 15) {						//small dur
+				if(exhal == 50) {						//large exhal
+					return true;
+				}
+			}else if(dur == 120) {						//large dur
+				if(exhal == 10) {						//small exhal
+					return true;
+				}
+			}
+		}else if(dist == 27) {							//large distance
+			if(dur == 30) {								//med dur
+				if(exhal == 50) {						//large exhal
+					return true;
+				}
+			} else if (dur == 120) {					//large dur
+				if(exhal == 30) {						//med exhal
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	public static boolean isInterpolatedSafe(final int dist, final int dur, final int exhal) {
+		//higher dist are safe, so interpolate low (can have 0)
+		//lower dur and exhal are safe, so interpolate high (can have max integer) Integer.MAX_VALUE
+		final int distance;
+		final int duration;
+		final int exhale;
+		if (dist < 6) {					//distance interpolation
+			distance = 0;
+		} else if(dist < 13) {
+			distance = 6;
+		} else if(dist < 27) {
+			distance = 16;
+		} else {
+			distance = 27;
+		}
+		if (dur > 120) {					//duration interpolation
+			duration = Integer.MAX_VALUE;
+		} else if(dur > 30) {
+			duration = 120;
+		} else if(dur > 15) {
+			duration = 30;
+		} else {
+			duration = 15;
+		}
+		if (exhal > 50) {						//exhale interpolation
+			exhale = Integer.MAX_VALUE;
+		} else if(exhal > 30) {
+			exhale = 50;
+		} else if(exhal > 10) {
+			exhale = 30;
+		} else {
+			exhale = 10;
+		}
+		if (dist == 6 || dist == 0) {			//Safe small dist values
+			if (dur == 30) {
+				if (exhale == 10) {
+					return true;
+				}
+			}else if (dur == 10) {
+				if (exhale == 30) {
+					return true;
+				}
+			}
+		}
+		if (distance == 13) {						//Safe medium dist values
+			if (duration == 30) {					//med dur
+				if (exhale == 30) {				//med exhal
+					return true;
+				}
+			} else if (duration == 15) {				//small dur
+				if (exhale == 50) {				//large exhal
+					return true;
+				}
+			}else if (duration == 120) {				//large dur
+				if (exhale == 10) {				//small exhal
+					return true;
+				}
+			}
+		}
+		if (distance == 27) {						//Safe large dist values
+			if (duration == 30) {					//med dur
+				if (exhale == 50) {				//large exhal
+					return true;
+				}
+			}
+			if (duration == 120) {					//large dur
+				if (exhale == 30) {				//med exhal
+					return true;
+				}
+			}
+		}
+		return false;
+
+	}
+	public static boolean isInterpolatedSafe(final int dist, final int dur) {
+		//exhalation level set to medium
+		final int distance;
+		final int duration;
+		if (dist < 6) {					//distance interpolation
+			distance = 0;
+		} else if(dist < 13) {
+			distance = 6;
+		} else if(dist < 27) {
+			distance = 16;
+		} else {
+			distance = 27;
+		}
+		if (dur > 120) {					//duration interpolation
+			duration = Integer.MAX_VALUE;
+		} else if(dur > 30) {
+			duration = 120;
+		} else if(dur > 15) {
+			duration = 30;
+		} else {
+			duration = 15;
+		}
+		if (distance == 13) {					//med dist
+			if (duration == 30) {				//med dur
+				return true;
+			}
+		} else if (distance == 27) {			//large dist
+			if (duration == 120) {				//large dur
+				return true;
+			}
+		} else if (distance == 6 || distance == 0) {	//small dist
+			if (duration == 15) {				//small dur
+				return true;
+			}
+		}
+		return false;
+	}
+	public static boolean isInterpolatedSafe(final int dist) {
+		//duration and exhalation levels set to medium
+		final int distance;
+		if (dist < 6) {					//distance interpolation
+			distance = 0;
+		} else if(dist < 13) {
+			distance = 6;
+		} else if(dist < 27) {
+			distance = 16;
+		} else {
+			distance = 27;
+		}
+		if (distance == 13 || distance == 27) {
+			return true;
+		}
+		return false;
+	}
+	public static boolean isDerivedSafe(final int dist, final int dur, final int exhal) {
+		if(dist >= 6) { 												//small distance
+			if(dur <= 30) {											//med duration
+				if(exhal <= 10) {									//small exhale
+					return true;
+				}
+			} else if (dur <= 15) {									//small dur
+				if(exhal <= 30) {									//med exhal
+					return true;
+				}
+			}	
+		}
+		if(dist >= 13) {										//med distance
+			if(dur <= 30) {											//med duration
+				if(exhal <= 30) {									//med exhal
+					return true;
+				}
+			} else if(dur <= 15) {									//small dur
+				if(exhal <= 50) {									//large exhal
+					return true;
+				}
+			}else if(dur <= 120) {									//large dur
+				if(exhal <= 10) {									//small exhal
+					return true;
+				}
+			}
+		}
+		if(dist >= 27) {										//large distance
+			if(dur <= 30) {											//med dur
+				if(exhal <= 50) {									//large exhal
+					return true;
+				}
+			} else if (dur <= 120) {								//large dur
+				if(exhal <= 30) {									//med exhal
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	public static void printGeneratedCombinationDerivedSafety() {
+		final int distance = (int)(Math.random()*32);
+		final int duration = (int)(Math.random()*144);
+		final int exhale = (int)(Math.random()*60);
+
+
+
+		final boolean derivedResult = isDerivedSafe(distance, duration, exhale);
+		System.out.println("{" + distance + ", " + duration + ", " + exhale + ", " + derivedResult + "}");
+	}
+	public static void printGivenAndGeneratedCombinationsDerivedSafety() {
+		System.out.println("Distance,Duration,Exhalation,IsSafe");
+		System.out.println("13,30,30,true");
+		System.out.println("6,30,10,true");
+		System.out.println("27,30,50,true");
+		System.out.println("13,15,50,true");
+		System.out.println("13,120,10,true");
+		System.out.println("27,120,30,true");
+		System.out.println("6,15,30,true");
+		System.out.println("------------------------------------");
+		for(int i = 0; i < 10; i++) {
+			printGeneratedCombinationDerivedSafety();
+		}
+	}
+	public static List<Integer[]> generateSafeDistancesAndDurations(final int exhal) {
+		final List<Integer[]> list = new ArrayList<Integer[]>();
+		if (exhal <= 10) { 								//small exhal
+			final Integer[] a1 = {6,30};
+			final Integer[] a2 = {13,120};
+			list.add(a1);
+			list.add(a2);
+			return list;
+		} else if (exhal > 10 && exhal <= 30) {			//med exhal
+			final Integer[] a1 = {13,30};
+			final Integer[] a2 = {27,120};
+			final Integer[] a3 = {6,15};
+			list.add(0, a1);
+			list.add(1, a2);
+			list.add(2, a3);
+			return list;
+		} else if (exhal > 30) {						//large exhal
+			final Integer[] a1 = {27,30};
+			final Integer[] a2 = {13,15};
+			list.add(0, a1);
+			list.add(1, a2);
+			return list;
+		};
+		return list;
+	}
+	public static void printSafeDistancesAndDurations(final int exhal) {
+//		final List<Integer[]> list = generateSafeDistancesAndDurations(exhal);
+		//		list.forEach(i -> System.out.print("not" + i));
+		//		System.out.print(exhal + ", " + list);
+		//		for (Integer[] temp: list) {
+		//			System.out.print(Arrays.toString(temp));
+		//		}
+		/*
+		for (int i = 0; i < list.size(); i++) {
+			Integer[] array = list.get(i);
+			for (int j : array) {
+				System.out.println(j);
+			}
+		}
+		 */				
+		//		System.out.println();
+		System.out.println(exhal + "," + generateSafeDistancesAndDurations(exhal).toString());
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="7" _type="Delete" date="Tue Sep 21 21:30:57 EDT 2021" docASTNodeCount="1031" docActiveCodeLength="6250" docExpressionCount="600" docLength="7838" endLine="174" length="18" offset="4356" repeat="2" startLine="174" starttimestamp="1632274212977" timestamp="44141" timestamp2="44692">
+    <text><![CDATA[ || distance == 27]]></text>
+  </DocumentChange>
+  <DocumentChange __id="19" _type="Delete" date="Tue Sep 21 21:31:05 EDT 2021" docASTNodeCount="1029" docActiveCodeLength="6248" docExpressionCount="598" docLength="7836" endLine="174" length="2" offset="4351" repeat="2" startLine="174" starttimestamp="1632274212977" timestamp="52736" timestamp2="52884">
+    <text><![CDATA[==]]></text>
+  </DocumentChange>
+  <DocumentChange __id="23" _type="Insert" date="Tue Sep 21 21:31:06 EDT 2021" docASTNodeCount="1031" docActiveCodeLength="6249" docExpressionCount="600" docLength="7837" length="1" offset="4351" starttimestamp="1632274212977" timestamp="53316">
+    <text><![CDATA[<]]></text>
+  </DocumentChange>
+  <DocumentChange __id="25" _type="Delete" date="Tue Sep 21 21:31:08 EDT 2021" docASTNodeCount="1029" docActiveCodeLength="6248" docExpressionCount="598" docLength="7836" endLine="174" length="1" offset="4351" startLine="174" starttimestamp="1632274212977" timestamp="55096">
+    <text><![CDATA[<]]></text>
+  </DocumentChange>
+  <Command __id="34" _type="PauseCommand" date="Tue Sep 21 21:31:11 EDT 2021" range="1s-2s" starttimestamp="1632274212977" timestamp="58048">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1057]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="33" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:31:11 EDT 2021" starttimestamp="1632274212977" timestamp="58047" />
+  <Command __id="35" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:31:11 EDT 2021" starttimestamp="1632274212977" timestamp="58096" />
+  <Command __id="36" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 21 21:31:11 EDT 2021" starttimestamp="1632274212977" timestamp="58150" />
+  <Command __id="38" _type="PauseCommand" date="Tue Sep 21 21:31:26 EDT 2021" range="10s-20s" starttimestamp="1632274212977" timestamp="73410">
+    <prevType><![CDATA[Save]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[15259]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="37" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_UP" date="Tue Sep 21 21:31:26 EDT 2021" starttimestamp="1632274212977" timestamp="73409" />
+  <Command __id="39" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_UP" date="Tue Sep 21 21:31:26 EDT 2021" starttimestamp="1632274212977" timestamp="73613" />
+  <Command __id="41" _type="PauseCommand" date="Tue Sep 21 21:31:27 EDT 2021" range="1s-2s" starttimestamp="1632274212977" timestamp="74977">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1364]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="40" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_UP" date="Tue Sep 21 21:31:27 EDT 2021" starttimestamp="1632274212977" timestamp="74977" />
+  <Command __id="42" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_UP" date="Tue Sep 21 21:31:28 EDT 2021" starttimestamp="1632274212977" timestamp="75196" />
+  <Command __id="43" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Tue Sep 21 21:31:28 EDT 2021" starttimestamp="1632274212977" timestamp="75570" />
+  <Command __id="44" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Tue Sep 21 21:31:28 EDT 2021" starttimestamp="1632274212977" timestamp="75914" />
+  <Command __id="46" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 21 21:31:29 EDT 2021" starttimestamp="1632274212977" timestamp="76755" />
+  <Command __id="48" _type="InsertStringCommand" date="Tue Sep 21 21:31:30 EDT 2021" starttimestamp="1632274212977" timestamp="77298" timestamp2="77298">
+    <data><![CDATA[3]]></data>
+  </Command>
+  <Command __id="49" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:31:31 EDT 2021" starttimestamp="1632274212977" timestamp="78168" />
+  <Command __id="50" _type="EclipseCommand" commandID="" date="Tue Sep 21 21:31:31 EDT 2021" starttimestamp="1632274212977" timestamp="78210" />
+  <Command __id="51" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 21 21:31:31 EDT 2021" starttimestamp="1632274212977" timestamp="78268" />
+</Events>

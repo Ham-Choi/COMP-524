@@ -1,0 +1,6 @@
+Starting audit...
+[WARN] C:\Users\User\eclipse-workspace\joshep_A01\.\src\a01\Hello.java:5:33: Parameter args should be final. [FinalParameters]
+[WARN] C:\Users\User\eclipse-workspace\joshep_A01\.\src\a01\RunF21A0_1Tests.java:6:8: Unused import - util.trace.Tracer. [UnusedImports]
+[WARN] C:\Users\User\eclipse-workspace\joshep_A01\.\src\a01\RunF21A0_1Tests.java:7:14: Name 'RunF21A0_1Tests' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[WARN] C:\Users\User\eclipse-workspace\joshep_A01\.\src\a01\RunF21A0_1Tests.java:8:33: Parameter args should be final. [FinalParameters]
+Audit done.

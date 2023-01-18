@@ -1,0 +1,120 @@
+4/11/2022 16:27:21 PM	Onyen Services - Information Technology Services	https://its.unc.edu/onyen-services/
+4/11/2022 16:27:24 PM	self-service	https://selfservice.unc.edu/
+4/11/2022 16:27:25 PM	self-service	https://selfservice.unc.edu/#/
+4/11/2022 16:27:25 PM	IdentityServer4	https://selfservice.unc.edu/identityserver/connect/authorize?client_id=self-service-client&redirect_uri=https%3A%2F%2Fselfservice.unc.edu%2Fclient%2Fself-service%2Fcall-back.html&response_type=id_token%20token&scope=openid%20profile%20self-service-business%20ad-groups&state=44eaf2b93d3843d5a3e6bc928a6a3a84&nonce=fcd3397dcabe44e0ace2c489a11857c0&uid=&duo=undefined
+4/11/2022 16:27:32 PM	IdentityServer4	https://selfservice.unc.edu/identityserver/Account/Login?ReturnUrl=%2Fidentityserver%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dself-service-client%26redirect_uri%3Dhttps%253A%252F%252Fselfservice.unc.edu%252Fclient%252Fself-service%252Fcall-back.html%26response_type%3Did_token%2520token%26scope%3Dopenid%2520profile%2520self-service-business%2520ad-groups%26state%3D44eaf2b93d3843d5a3e6bc928a6a3a84%26nonce%3Dfcd3397dcabe44e0ace2c489a11857c0%26uid%26duo%3Dundefined
+4/11/2022 16:27:38 PM		https://selfservice.unc.edu/identityserver/connect/authorize/callback?client_id=self-service-client&redirect_uri=https://selfservice.unc.edu/client/self-service/call-back.html&response_type=id_token%20token&scope=openid%20profile%20self-service-business%20ad-groups&state=44eaf2b93d3843d5a3e6bc928a6a3a84&nonce=fcd3397dcabe44e0ace2c489a11857c0&uid&duo=undefined
+4/11/2022 16:27:38 PM	self-service	https://selfservice.unc.edu/client/self-service/
+4/11/2022 16:27:39 PM	self-service	https://selfservice.unc.edu/client/self-service/#/
+4/11/2022 16:56:11 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/my-aliases
+4/11/2022 16:56:08 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard
+4/11/2022 16:55:57 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/my-resources
+4/11/2022 16:55:42 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/my-ad-groups
+4/11/2022 16:55:58 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/lyris-subscriptions
+4/11/2022 17:00:51 PM	self-service	https://selfservice.unc.edu/client/self-service/#/
+4/11/2022 17:00:52 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/my-aliases
+4/11/2022 16:57:59 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard
+4/11/2022 17:35:46 PM	Amazon.com: Baseus 30000mAh Power Bank, USB C Portable Charger 30000 mAh Fast Charging External Battery Pack Charger Powerbank for Cell Phone iPhone 13 12 11 Pro Max X 8 7 Samsung Galaxy S22 S21 : Cell Phones & Accessories	https://www.amazon.com/gp/product/B07X5JGTJ5/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
+4/11/2022 18:24:29 PM	AmazonSmile: USB C Hub, 9-in-1 USB C Adapter with 4K USB C to HDMI, VGA, Gigabit Ethernet, 100W PD, 2 USB 3.0, SD/TF Card Reader, USB C Dock ?Compatible with MacBook Pro/MacBook Air, and More Type C Device : Electronics	https://smile.amazon.com/dp/B07TVSLDND/?coliid=IJA74LY030589&colid=MHKS8FBMXH4V&psc=1&ref_=gv_ov_lig_pi_dp
+4/11/2022 18:33:49 PM	AmazonSmile : IDWare 9000+ ID & Passport Scanner – Touchless Mobile Scanning Solution with VeriScan Mobile Software for Age Verification & Visitor Management – Free Charging Cradle & Carrying Case : Office Products	https://smile.amazon.com/dp/B07KX9BVTK/?coliid=I1MQ3K8ZDO11KD&colid=NDOEQKDSLSI4&psc=1&ref_=gv_ov_lig_pi_dp
+4/11/2022 18:47:34 PM	Amazon.com : Knock Knock Passive Aggressive Nifty Note Pad : Passive Agressive Notes : Health & Household	http://www.amazon.com/dp/1601063040/?tag=097-20&ascsubtag=v7_1_3_2q15_4l94_0_x01_-srt5-
+4/11/2022 18:47:36 PM	Amazon.com : Knock Knock Passive Aggressive Nifty Note Pad : Passive Agressive Notes : Health & Household	https://www.amazon.com/dp/1601063040/?tag=097-20&ascsubtag=v7_1_3_2q15_4l94_0_x01_-srt5-
+4/11/2022 18:49:17 PM	Amazon.com : Knock Knock Passive Aggressive Nifty Note Pad : Passive Agressive Notes : Health & Household	https://www.amazon.com/dp/1601063040/?tag=097-20&ascsubtag=v7_1_3_2q15_4l94_0_x01_-srt5-&th=1
+4/11/2022 18:49:34 PM	Knock Knock Apology Nifty Note, Checklist Memo Pad & Sorry Note, 4 x 5.25-inches: Knock Knock: 9781601061454: Amazon.com: Health & Household	https://www.amazon.com/Knock-Apology-Nifty-Notes/dp/1601061455/?_encoding=UTF8&ref_=pd_wlh&pd_rd_w=1RcCA&pf_rd_p=3aaa24ab-eb65-4c9f-b64b-a539fc469ffc&pf_rd_r=TWQBS6FHEE1FHKGSBYBB&pd_rd_r=3e63a6e0-f7df-4683-ae8e-d0f6eccb4159&pd_rd_wg=003zO
+4/11/2022 19:03:02 PM	Download software for Lightpack	https://lightpack.tv/pages/downloads
+4/11/2022 19:13:33 PM	Amazon.com: VAYDEER USB C Mouse Jiggler Mouse Mover with 3 Modes Supports Multi-Track, Driver-Free with ON/Off Switch and Memory Function, Simulate Mouse Movement to Prevent Sleep Mode Mouse Jiggler for Laptop : Electronics	http://www.amazon.com/dp/B08PBHSLJ3/?tag=097-20&ascsubtag=v7_1_3_2q15_5rt3_0_x01_-srt5-
+4/11/2022 19:13:34 PM	Amazon.com: VAYDEER USB C Mouse Jiggler Mouse Mover with 3 Modes Supports Multi-Track, Driver-Free with ON/Off Switch and Memory Function, Simulate Mouse Movement to Prevent Sleep Mode Mouse Jiggler for Laptop : Electronics	https://www.amazon.com/dp/B08PBHSLJ3/?tag=097-20&ascsubtag=v7_1_3_2q15_5rt3_0_x01_-srt5-
+4/11/2022 19:19:26 PM	Amazon.com: VAYDEER USB C Mouse Jiggler Mouse Mover with 3 Modes Supports Multi-Track, Driver-Free with ON/Off Switch and Memory Function, Simulate Mouse Movement to Prevent Sleep Mode Mouse Jiggler for Laptop : Electronics	https://www.amazon.com/dp/B08PBHSLJ3/?tag=097-20&ascsubtag=v7_1_3_2q15_5rt3_0_x01_-srt5-#customerReviews
+4/11/2022 19:19:19 PM	Amazon.com: Customer reviews: VAYDEER USB C Mouse Jiggler Mouse Mover with 3 Modes Supports Multi-Track, Driver-Free with ON/Off Switch and Memory Function, Simulate Mouse Movement to Prevent Sleep Mode Mouse Jiggler for Laptop	https://www.amazon.com/product-reviews/B08PBHSLJ3/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+4/11/2022 19:52:43 PM	Illustrator Tutorial : Split image in half in Illustrator using art board tool how to - YouTube	https://www.youtube.com/watch?v=3lKCgLXOzrg
+4/11/2022 21:36:05 PM	3D printing and architecture ? Cults	https://cults3d.com/en/categories/architecture
+4/12/2022 03:27:33 AM	Locations |	https://beam.unc.edu/locations/
+4/12/2022 12:55:09 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+4/12/2022 12:55:09 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/clogin
+4/12/2022 12:55:12 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Overview	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341
+4/12/2022 12:55:13 PM		https://sakai.unc.edu/portal/tool/2b55a3b0-99ca-4664-baff-c2ffb13d3a05/synMainLite?time=1
+4/12/2022 12:56:49 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57
+4/12/2022 12:56:50 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57#
+4/12/2022 12:56:50 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57?panel=Main
+4/12/2022 12:55:35 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Messages	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/a6b8a84a-6abc-4c51-b95f-943b97cd9b2f
+4/12/2022 12:55:40 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852
+4/12/2022 12:56:32 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?panel=Main
+4/12/2022 12:55:44 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/af9ac6e2-ef41-47f7-a6c5-01b8ba802441/aab1b3b7-7ba7-49ab-8b86-6dcde48f36f1&sakai_action=doView_grade
+4/12/2022 12:55:39 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Site Info	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/fb2621bd-9b8c-4cda-b9d9-24f4ce5281a2
+4/12/2022 12:55:38 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Gradebook	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/eea75c4a-e133-43c1-90b6-b2d8b590d806
+4/12/2022 12:55:07 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZJdb4IwFIb%2FCum9FBCJNkLC9GImbhJhu9jNUsrZaAYt6yn7%2BPdDccYli9d9P%2Fo%2BOUvkbdOxtLe12sN7D2idr7ZRyI4PMemNYpqjRKZ4C8isYHl6t2WB67HOaKuFboiTIoKxUquVVti3YHIwH1LAw34bk9raDhmlyN%2B4dHslXKh6mteyLHUDtnYRNT2EBjTb5QVx1sMvpOKHvAs36rNXVh0dyl9kAyfjHippQFia5zvibNYxeQ7DaegFXCzmVej7i0hUs7kfLQJvGpYleDDIEHvYKLRc2ZgEXhBMvHDiB4UfsdmMedETcbLTxhupKqlerwMpRxGy26LIJuOYRzB4HDIISLI8YGXHYnMB%2Bnos%2F6VLkv9Z4pnlkl4UjG0dux8SN%2BtMN1J8O2nT6M%2BVAW4hJj6hyWj5ewPJDw%3D%3D&RelayState=ss%3Amem%3Ad1386af2fb3af8f6f62f60316560a07918d3a92ad4c62f54df9f5f29660a7793&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=u9ujAF1FhasXfjhaIqTED6HMZr7STMX7wz5djcy%2B5XcxVKBIq%2F2Rbzb6dmRgq%2FeyQk8u8cRtiZDXdUbGs4cyjJGmJsSk1olSx%2Fldta4GOK0zlKQslU3GzrFJeltqBgwNIoF4n9Vy9wPQ8STm65A2xDJ3aN8Q70LO2jpIDHlK8tSjAceuwxt9OO1fUwpkxafZiPjzej3bBsgptQ%2F0PPQVHcZR8g4%2BDU3keopIA9wQz3fW36nQelknCs6fhnRhEpfIWnfnLz9pFT%2FNnmo%2B6iGtvjjlEVFO4zCaYCmChPJPpTKRKFlMVW0SJGENVcXW%2BY2Df8lUlfmee1jBfkVZeMhxdg%3D%3D
+4/12/2022 12:55:53 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/2d85d4d2-76e6-46b0-9830-0e27f2e62d39/95bac456-9d5d-43ee-aff3-b431579d7345&panel=Main&sakai_action=doView_grade
+4/12/2022 12:55:56 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/52302aaa-81dd-421e-bc69-2278c5eff914/315cd7d3-c024-4a73-8313-dab07942ea4f&panel=Main&sakai_action=doView_grade
+4/12/2022 12:55:59 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/583ec461-2995-4d61-a374-d81f997bab8b/a72569e3-dd21-4f48-898e-231180d59020&panel=Main&sakai_action=doView_grade
+4/12/2022 12:56:05 PM	HW Assignment 6.pdf	https://sakai.unc.edu/access/content/attachment/9960aea7-1a32-4b33-9ee7-2cebffe78341/Assignments/a0ea65f8-fdf1-49c0-b503-b5e44cdab83a/HW%20Assignment%206.pdf
+4/12/2022 12:56:32 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?assignmentReference=/assignment/a/9960aea7-1a32-4b33-9ee7-2cebffe78341/12077fb2-eb33-46c0-aac8-41a9b01af147&panel=Main&sakai_action=doView_submission
+4/12/2022 12:56:35 PM	Programming Intelligent Physical Systems - Homework 07	https://sakai.unc.edu/access/content/attachment/9960aea7-1a32-4b33-9ee7-2cebffe78341/Assignments/60e32d3b-e734-4171-842e-8859960b4243/homework_07.pdf
+4/12/2022 12:57:12 PM	Programming Intelligent Physical Systems - Lecture 15	https://sakai.unc.edu/access/content/group/9960aea7-1a32-4b33-9ee7-2cebffe78341/Lecture%20slides/lecture_15.pdf
+4/12/2022 12:57:13 PM	Programming Intelligent Physical Systems - Lecture 16	https://sakai.unc.edu/access/content/group/9960aea7-1a32-4b33-9ee7-2cebffe78341/Lecture%20slides/lecture_16.pdf
+4/12/2022 12:57:13 PM	Programming Intelligent Physical Systems - Lecture 17	https://sakai.unc.edu/access/content/group/9960aea7-1a32-4b33-9ee7-2cebffe78341/Lecture%20slides/lecture_17.pdf
+4/12/2022 12:57:38 PM	Programming Intelligent Physical Systems - Lecture 15	file:///C:/Users/User/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Desktop/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Education/College/Curr%20SP22/COMP%20590-%20PIPS/Lecture/lecture_15.pdf
+4/12/2022 12:57:38 PM	Programming Intelligent Physical Systems - Lecture 16	file:///C:/Users/User/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Desktop/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Education/College/Curr%20SP22/COMP%20590-%20PIPS/Lecture/lecture_16.pdf
+4/12/2022 12:57:39 PM	Programming Intelligent Physical Systems - Lecture 17	file:///C:/Users/User/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Desktop/OneDrive%20-%20University%20of%20North%20Carolina%20at%20Chapel%20Hill/Education/College/Curr%20SP22/COMP%20590-%20PIPS/Lecture/lecture_17.pdf
+4/12/2022 13:01:15 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57
+4/12/2022 13:01:14 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Messages	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/a6b8a84a-6abc-4c51-b95f-943b97cd9b2f
+4/12/2022 13:01:21 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Announcements	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/61bffb0d-c6c8-4987-a08e-5802d239caaf
+4/12/2022 13:00:59 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Announcements	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/61bffb0d-c6c8-4987-a08e-5802d239caaf?panel=Main
+4/12/2022 13:01:24 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Site Info	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/fb2621bd-9b8c-4cda-b9d9-24f4ce5281a2
+4/12/2022 13:01:07 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Gradebook	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/eea75c4a-e133-43c1-90b6-b2d8b590d806
+4/12/2022 13:00:01 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Announcements	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/61bffb0d-c6c8-4987-a08e-5802d239caaf?itemReference=/announcement/msg/9960aea7-1a32-4b33-9ee7-2cebffe78341/main/2bf1c3dc-f9ce-45fb-814e-d0c871e6b62e&sakai_action=doShowmetadata
+4/12/2022 13:02:55 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/clogin
+4/12/2022 13:03:02 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Site Info	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341
+4/12/2022 13:05:36 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57
+4/12/2022 13:05:49 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Messages	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/a6b8a84a-6abc-4c51-b95f-943b97cd9b2f
+4/12/2022 13:04:25 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Announcements	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/61bffb0d-c6c8-4987-a08e-5802d239caaf
+4/12/2022 13:05:51 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852
+4/12/2022 13:05:57 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?panel=Main
+4/12/2022 13:04:29 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Announcements	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/61bffb0d-c6c8-4987-a08e-5802d239caaf?panel=Main
+4/12/2022 13:03:02 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Site Info	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/fb2621bd-9b8c-4cda-b9d9-24f4ce5281a2
+4/12/2022 13:03:04 PM	ConnectCarolina	https://connectcarolina.unc.edu/
+4/12/2022 13:03:07 PM		https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/h/?tab=NC_REDIRECT&TargetPage=PortalHome
+4/12/2022 13:03:07 PM		https://cs.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:12 PM		https://sso.unc.edu/idp/profile/SAML2/POST/SSO
+4/12/2022 13:03:08 PM		https://cs.cc.unc.edu/
+4/12/2022 13:03:08 PM		https://fs.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:09 PM		https://fs.cc.unc.edu/
+4/12/2022 13:03:09 PM		https://hc.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:10 PM		https://hc.cc.unc.edu/
+4/12/2022 13:03:10 PM		https://csrpt.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:11 PM		https://csrpt.cc.unc.edu/
+4/12/2022 13:03:11 PM		https://fsrpt.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:12 PM		https://fsrpt.cc.unc.edu/
+4/12/2022 13:03:12 PM		https://hcrpt.cc.unc.edu/Shibboleth.sso/Login
+4/12/2022 13:03:13 PM	Student	https://hcrpt.cc.unc.edu/
+4/12/2022 13:03:15 PM	Student	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?InfoShibsession=true
+4/12/2022 13:05:57 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/97c566c3-2b6d-43e7-bd87-fe06c5358f07/b09d4810-dab5-40ed-af65-a91cb794dc86&panel=Main&sakai_action=doView_grade
+4/12/2022 13:10:54 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?panel=Main
+4/12/2022 13:08:51 PM	midterm1practice_exam.pdf	https://sakai.unc.edu/access/content/attachment/9960aea7-1a32-4b33-9ee7-2cebffe78341/Assignments/ee117eff-4b84-4573-a110-9445928f5873/midterm1practice_exam.pdf
+4/12/2022 13:08:46 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/2d85d4d2-76e6-46b0-9830-0e27f2e62d39/95bac456-9d5d-43ee-aff3-b431579d7345&panel=Main&sakai_action=doView_grade
+4/12/2022 13:09:28 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/52302aaa-81dd-421e-bc69-2278c5eff914/315cd7d3-c024-4a73-8313-dab07942ea4f&panel=Main&sakai_action=doView_grade
+4/12/2022 13:10:54 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/583ec461-2995-4d61-a374-d81f997bab8b/a72569e3-dd21-4f48-898e-231180d59020&panel=Main&sakai_action=doView_grade
+4/12/2022 13:11:04 PM	HW Assignment 6.pdf	https://sakai.unc.edu/access/content/attachment/9960aea7-1a32-4b33-9ee7-2cebffe78341/Assignments/a0ea65f8-fdf1-49c0-b503-b5e44cdab83a/HW%20Assignment%206.pdf
+4/12/2022 13:08:02 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852?submissionId=/assignment/s/9960aea7-1a32-4b33-9ee7-2cebffe78341/af9ac6e2-ef41-47f7-a6c5-01b8ba802441/aab1b3b7-7ba7-49ab-8b86-6dcde48f36f1&panel=Main&sakai_action=doView_grade
+4/12/2022 13:13:50 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/clogin
+4/12/2022 13:15:52 PM	Programming Intelligent Physical Systems	https://tarheels.live/pips/
+4/12/2022 13:13:50 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/sakai-login-tool/container
+4/12/2022 13:15:14 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341
+4/12/2022 13:15:49 PM		https://sakai.unc.edu/portal/tool/2b55a3b0-99ca-4664-baff-c2ffb13d3a05/synMainLite?time=1
+4/12/2022 13:15:16 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Resources	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/dc59157d-8582-4668-a16e-8c35638a8b57
+4/12/2022 13:15:14 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Assignments	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/tool/4d0cea08-a0d2-4889-8175-c6eade34f852
+4/12/2022 13:15:20 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Overview	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341/page/12c4bf6b-761b-464b-8bae-a81ba676c24d
+4/12/2022 13:15:47 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Overview	https://sakai.unc.edu/portal/site/pips22
+4/12/2022 13:40:56 PM	3D Printer |	https://beam.unc.edu/3d-printer/
+4/12/2022 13:41:01 PM	3D Printer |	https://beam.unc.edu/3d-printer/#quickguides
+4/12/2022 13:41:06 PM	Ultimaker 3 QuickGuide	https://beam.unc.edu/wp-content/uploads/sites/16534/2020/06/3DPQuickGuide.pdf
+4/12/2022 13:41:27 PM	Ultimaker Cura: Powerful, easy-to-use 3D printing software	https://ultimaker.com/software/ultimaker-cura
+4/12/2022 13:41:48 PM	3DPRINT_EBOOK5.pdf	https://beam.unc.edu/wp-content/uploads/sites/16534/2019/01/3DPRINT_EBOOK5.pdf
+4/13/2022 03:03:10 AM	A Guide to Checkstyle.docx - Google Docs	https://docs.google.com/document/d/17SQfQ_bVNvBPIfv9GiOdNHttH3h18JuG/edit
+4/13/2022 14:01:37 PM	Onyen Services - Information Technology Services	https://its.unc.edu/onyen-services/
+4/13/2022 14:01:39 PM	self-service	https://selfservice.unc.edu/
+4/13/2022 14:01:40 PM	self-service	https://selfservice.unc.edu/#/
+4/13/2022 14:01:43 PM	self-service	https://selfservice.unc.edu/client/self-service/
+4/13/2022 14:01:44 PM	self-service	https://selfservice.unc.edu/client/self-service/#/
+4/13/2022 14:01:47 PM	self-service	https://selfservice.unc.edu/client/self-service/#/dashboard/my-aliases
+4/13/2022 14:01:40 PM	IdentityServer4	https://selfservice.unc.edu/identityserver/connect/authorize?client_id=self-service-client&redirect_uri=https%3A%2F%2Fselfservice.unc.edu%2Fclient%2Fself-service%2Fcall-back.html&response_type=id_token%20token&scope=openid%20profile%20self-service-business%20ad-groups&state=86640b9d91be439982bac6c9327f58c5&nonce=9b916e229cb648de9b337f7560c3d201&uid=&duo=undefined
+4/13/2022 14:01:43 PM		https://selfservice.unc.edu/identityserver/connect/authorize/callback?client_id=self-service-client&redirect_uri=https://selfservice.unc.edu/client/self-service/call-back.html&response_type=id_token%20token&scope=openid%20profile%20self-service-business%20ad-groups&state=86640b9d91be439982bac6c9327f58c5&nonce=9b916e229cb648de9b337f7560c3d201&uid&duo=undefined
