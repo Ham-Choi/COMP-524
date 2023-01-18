@@ -1,267 +1,0 @@
-<Events startTimestamp="1649646773756" logVersion="1.0.0.202201202038">
-  <Command __id="66" _type="ShellCommand" date="Mon Apr 11 01:01:54 EDT 2022" starttimestamp="1649646773756" timestamp="6540273" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="69" _type="PauseCommand" date="Mon Apr 11 01:01:57 EDT 2022" range="2s-5s" starttimestamp="1649646773756" timestamp="6543729">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3456]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="68" _type="ShellCommand" date="Mon Apr 11 01:01:57 EDT 2022" starttimestamp="1649646773756" timestamp="6543729" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="70" _type="MoveCaretCommand" caretOffset="397" date="Mon Apr 11 01:01:57 EDT 2022" docOffset="522" starttimestamp="1649646773756" timestamp="6544032" />
-  <Command __id="72" _type="PauseCommand" date="Mon Apr 11 09:00:07 EDT 2022" range=">1h" starttimestamp="1649646773756" timestamp="35234009">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[28689976]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="71" _type="ShellCommand" date="Mon Apr 11 09:00:07 EDT 2022" starttimestamp="1649646773756" timestamp="35234008" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="73" _type="ShellCommand" date="Mon Apr 11 09:00:07 EDT 2022" starttimestamp="1649646773756" timestamp="35234134" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="75" _type="PauseCommand" date="Mon Apr 11 13:40:23 EDT 2022" range=">1h" starttimestamp="1649646773756" timestamp="52050096">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[16815962]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="74" _type="ShellCommand" date="Mon Apr 11 13:40:23 EDT 2022" starttimestamp="1649646773756" timestamp="52050096" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="76" _type="ShellCommand" date="Mon Apr 11 13:40:24 EDT 2022" starttimestamp="1649646773756" timestamp="52050312" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="77" _type="ShellCommand" date="Mon Apr 11 13:40:24 EDT 2022" starttimestamp="1649646773756" timestamp="52050893" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="78" _type="ShellCommand" date="Mon Apr 11 13:40:24 EDT 2022" starttimestamp="1649646773756" timestamp="52051031" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="80" _type="PauseCommand" date="Mon Apr 11 15:16:32 EDT 2022" range=">1h" starttimestamp="1649646773756" timestamp="57818812">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[5767781]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="79" _type="ShellCommand" date="Mon Apr 11 15:16:32 EDT 2022" starttimestamp="1649646773756" timestamp="57818812" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="82" _type="PauseCommand" date="Mon Apr 11 15:16:37 EDT 2022" range="2s-5s" starttimestamp="1649646773756" timestamp="57823295">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[4483]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="81" _type="ShellCommand" date="Mon Apr 11 15:16:37 EDT 2022" starttimestamp="1649646773756" timestamp="57823295" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="83" _type="MoveCaretCommand" caretOffset="397" date="Mon Apr 11 15:16:37 EDT 2022" docOffset="522" starttimestamp="1649646773756" timestamp="57823384" />
-  <Command __id="84" _type="ShellCommand" date="Mon Apr 11 15:16:37 EDT 2022" starttimestamp="1649646773756" timestamp="57823706" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="86" _type="PauseCommand" date="Mon Apr 11 15:18:07 EDT 2022" range="1m-2m" starttimestamp="1649646773756" timestamp="57913564">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[89858]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="85" _type="ShellCommand" date="Mon Apr 11 15:18:07 EDT 2022" starttimestamp="1649646773756" timestamp="57913564" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="87" _type="ShellCommand" date="Mon Apr 11 15:18:07 EDT 2022" starttimestamp="1649646773756" timestamp="57913582" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="89" _type="PauseCommand" date="Mon Apr 11 15:18:27 EDT 2022" range="20s-30s" starttimestamp="1649646773756" timestamp="57933985">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[20403]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="88" _type="ShellCommand" date="Mon Apr 11 15:18:27 EDT 2022" starttimestamp="1649646773756" timestamp="57933985" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="91" _type="PauseCommand" date="Mon Apr 11 15:18:49 EDT 2022" range="20s-30s" starttimestamp="1649646773756" timestamp="57955818">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[21833]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="90" _type="ShellCommand" date="Mon Apr 11 15:18:49 EDT 2022" starttimestamp="1649646773756" timestamp="57955818" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="93" _type="PauseCommand" date="Mon Apr 11 15:19:50 EDT 2022" range="1m-2m" starttimestamp="1649646773756" timestamp="58016736">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[60918]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="92" _type="ShellCommand" date="Mon Apr 11 15:19:50 EDT 2022" starttimestamp="1649646773756" timestamp="58016736" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="94" _type="ShellCommand" date="Mon Apr 11 15:19:50 EDT 2022" starttimestamp="1649646773756" timestamp="58016755" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="96" _type="PauseCommand" date="Mon Apr 11 15:20:02 EDT 2022" range="10s-20s" starttimestamp="1649646773756" timestamp="58028510">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[11754]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="95" _type="ShellCommand" date="Mon Apr 11 15:20:02 EDT 2022" starttimestamp="1649646773756" timestamp="58028509" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="98" _type="PauseCommand" date="Mon Apr 11 15:20:13 EDT 2022" range="10s-20s" starttimestamp="1649646773756" timestamp="58039458">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[10949]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="97" _type="ShellCommand" date="Mon Apr 11 15:20:13 EDT 2022" starttimestamp="1649646773756" timestamp="58039458" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="100" _type="PauseCommand" date="Mon Apr 11 15:24:25 EDT 2022" range="2m-5m" starttimestamp="1649646773756" timestamp="58291582">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[252124]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="99" _type="ShellCommand" date="Mon Apr 11 15:24:25 EDT 2022" starttimestamp="1649646773756" timestamp="58291582" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="102" _type="PauseCommand" date="Mon Apr 11 15:24:28 EDT 2022" range="2s-5s" starttimestamp="1649646773756" timestamp="58294699">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3117]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="101" _type="ShellCommand" date="Mon Apr 11 15:24:28 EDT 2022" starttimestamp="1649646773756" timestamp="58294699" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="104" _type="PauseCommand" date="Mon Apr 11 15:27:53 EDT 2022" range="2m-5m" starttimestamp="1649646773756" timestamp="58500026">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[205327]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="103" _type="ShellCommand" date="Mon Apr 11 15:27:53 EDT 2022" starttimestamp="1649646773756" timestamp="58500026" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="106" _type="PauseCommand" date="Mon Apr 11 15:27:56 EDT 2022" range="2s-5s" starttimestamp="1649646773756" timestamp="58503115">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3089]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[EclipseCommand]]></next>
-  </Command>
-  <Command __id="105" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Mon Apr 11 15:27:56 EDT 2022" starttimestamp="1649646773756" timestamp="58503115" />
-  <Command __id="107" _type="ShellCommand" date="Mon Apr 11 15:27:57 EDT 2022" starttimestamp="1649646773756" timestamp="58503290" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="109" _type="PauseCommand" date="Mon Apr 11 15:27:58 EDT 2022" range="1s-2s" starttimestamp="1649646773756" timestamp="58504773">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1483]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="108" _type="ShellCommand" date="Mon Apr 11 15:27:58 EDT 2022" starttimestamp="1649646773756" timestamp="58504773" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="110" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Mon Apr 11 15:27:58 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1649646773756" timestamp="58505007" type="Run" />
-  <Command __id="111" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Mon Apr 11 15:27:58 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1649646773756" timestamp="58505007" type="Run" />
-  <Command __id="113" _type="PauseCommand" date="Mon Apr 11 15:28:01 EDT 2022" range="2s-5s" starttimestamp="1649646773756" timestamp="58508112">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3105]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="112" _type="ShellCommand" date="Mon Apr 11 15:28:01 EDT 2022" starttimestamp="1649646773756" timestamp="58508112" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="115" _type="PauseCommand" date="Mon Apr 11 15:28:07 EDT 2022" range="5s-10s" starttimestamp="1649646773756" timestamp="58513406">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[5294]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="114" _type="ConsoleOutput" date="Mon Apr 11 15:28:07 EDT 2022" overflow="false" starttimestamp="1649646773756" timestamp="58513406" type="ConsoleOutput">
-    <outputString><![CDATA[SocialDistanceClassRegistryProvided did not pass completely:No registry class in classa path:C:\Users\User\eclipse-workspace\joshep_A2\bin;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\Comp524All.jar;C:\Users\User\eclipse-workspace\joshep_A1\bin%0.0
-
-Test execution time (ms):5
-Please run the checkstle plugin on your project
-Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project 
-DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):9
-DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-ModelReuse did not pass completely:No class registry%0.0
-
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(INSERT,"SocialDistanceClassRegistryProvided did not pass completely:No registry class in classa path:C:\Users\User\eclipse-workspace\joshep_A2\bin;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\Comp524All.jar;C:\Users\User\eclipse-workspace\joshep_A1\bin%0.0¶¶Test execution time (ms):5¶Please run the checkstle plugin on your project¶Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project ¶DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):9¶DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶ModelReuse did not pass completely:No class registry%0.0¶¶"), Diff(EQUAL,"Test execution time (ms):1"), Diff(DELETE,"5"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="117" _type="PauseCommand" date="Mon Apr 11 15:28:39 EDT 2022" range="30s-1m" starttimestamp="1649646773756" timestamp="58546153">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[32747]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="116" _type="ConsoleOutput" date="Mon Apr 11 15:28:39 EDT 2022" overflow="false" starttimestamp="1649646773756" timestamp="58546153" type="ConsoleOutput">
-    <outputString><![CDATA[SocialDistanceUtilityProvided did not pass completely:No class registry%0.0
-
-Test execution time (ms):1
-F21A2DerivedSafetyVerifier did not pass completely:No utility class%0.0
-
-Test execution time (ms):4
-SafeSocializationTxtProvided did not pass completely:SafeSocialization.txt not found%0.0
-
-Test execution time (ms):1
-F21A2IsInferredSafeTest did not pass completely:No utility class%0.0
-
-Test execution time (ms):3
-PrintGivenAndGeneratedCombinationsInferredSafety did not pass completely:No utility class%0.0
-
-Test execution time (ms):1
-CompareSafetyComputationsTest did not pass completely:No utility class%0.0
-
-Test execution time (ms):0
-WekaFileSizeTest did not pass completely:Missing SafeSocialization.txt%0.0
-
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"SocialDistance"), Diff(DELETE,"ClassRegistr"), Diff(INSERT,"Utilit"), Diff(EQUAL,"yProvided did not pass completely:No "), Diff(DELETE,"registry class in classa path:C:\Users\User\eclipse-workspace\joshep_A2\bin;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments;C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\Comp524All.jar;C:\Users\User\eclipse-workspace\joshep_A1\bin"), Diff(INSERT,"class registry%0.0¶¶Test execution time (ms):1¶F21A2DerivedSafetyVerifier did not pass completely:No utility class"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):"), Diff(DELETE,"5"), Diff(INSERT,"4"), Diff(EQUAL,"¶"), Diff(DELETE,"Please run the checkstle plugin on your project¶Could not initialize checkstyle. Please make sure you have installed the plugin and run checkstyle on the project ¶DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error message"), Diff(INSERT,"SafeSocializationTxtProvided did not pass completely:SafeSocialization.txt not found%0.0¶¶Test execution time (ms):1¶F21A2IsInferredSafeTest did not pass completely:No utility clas"), Diff(EQUAL,"s%0.0¶¶Test execution time (ms):"), Diff(DELETE,"9"), Diff(INSERT,"3"), Diff(EQUAL,"¶"), Diff(DELETE,"DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error message"), Diff(INSERT,"PrintGivenAndGeneratedCombinationsInferredSafety did not pass completely:No utility clas"), Diff(EQUAL,"s%0.0¶¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,"¶"), Diff(DELETE,"InferredPrintIsNotDirec"), Diff(INSERT,"CompareSafetyComputationsTes"), Diff(EQUAL,"t did not pass completely:No "), Diff(DELETE,"checkstyle output, check console error message"), Diff(INSERT,"utility clas"), Diff(EQUAL,"s%0.0¶¶Test execution time (ms):0¶"), Diff(DELETE,"ModelReuse"), Diff(INSERT,"WekaFileSizeTest"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"No class registry"), Diff(INSERT,"Missing SafeSocialization.txt"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):"), Diff(DELETE,"1"), Diff(INSERT,"0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="119" _type="PauseCommand" date="Mon Apr 11 16:12:53 EDT 2022" range="30m-1h" starttimestamp="1649646773756" timestamp="61200110">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2653957]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[BalloonCommand]]></next>
-  </Command>
-  <Command __id="118" _type="BalloonCommand" date="Mon Apr 11 16:12:53 EDT 2022" message="*******************************************
-Worked 0 minutes(fixed)/12 minutes(context based) from
-Mon Apr 11 15:16:32 EDT 2022 to Mon Apr 11 15:28:39 EDT 2022
-Edited 0 Projects: 
-Edited 0 Files: 
-Number of insert: 0
-Number of delete: 0
-" starttimestamp="1649646773756" timestamp="61200110">
-    <fineGrainedWorkTime><![CDATA[12]]></fineGrainedWorkTime>
-    <insert><![CDATA[0]]></insert>
-    <startTime><![CDATA[1649704592568]]></startTime>
-    <endTime><![CDATA[1649705319909]]></endTime>
-    <workTime><![CDATA[0]]></workTime>
-    <delete><![CDATA[0]]></delete>
-  </Command>
-  <Command __id="121" _type="PauseCommand" date="Mon Apr 11 16:13:00 EDT 2022" range="5s-10s" starttimestamp="1649646773756" timestamp="61206862">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[BalloonCommand]]></prev>
-    <pause><![CDATA[6752]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[BalloonClickedCommand]]></next>
-  </Command>
-  <Command __id="122" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Mon Apr 11 16:29:56 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1649646773756" timestamp="62222363" type="Run" />
-  <Command __id="124" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Mon Apr 11 16:29:56 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1649646773756" timestamp="62222363" type="Run" />
-  <Command __id="126" _type="PauseCommand" date="Mon Apr 11 16:30:23 EDT 2022" range="20s-30s" starttimestamp="1649646773756" timestamp="62249911">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[ProgramExecutionEvent]]></prev>
-    <pause><![CDATA[27548]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="125" _type="ShellCommand" date="Mon Apr 11 16:30:23 EDT 2022" starttimestamp="1649646773756" timestamp="62249911" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="127" _type="ShellCommand" date="Mon Apr 11 16:30:23 EDT 2022" starttimestamp="1649646773756" timestamp="62249944" type="ECLIPSE_MINIMIZED" />
-  <Command __id="128" _type="ShellCommand" date="Mon Apr 11 16:30:23 EDT 2022" starttimestamp="1649646773756" timestamp="62249956" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="130" _type="PauseCommand" date="Mon Apr 11 17:27:50 EDT 2022" range="30m-1h" starttimestamp="1649646773756" timestamp="65697243">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3447287]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="129" _type="ShellCommand" date="Mon Apr 11 17:27:50 EDT 2022" starttimestamp="1649646773756" timestamp="65697243" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="132" _type="PauseCommand" date="Mon Apr 11 17:58:26 EDT 2022" range="30m-1h" starttimestamp="1649646773756" timestamp="67532667">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1835424]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-</Events>

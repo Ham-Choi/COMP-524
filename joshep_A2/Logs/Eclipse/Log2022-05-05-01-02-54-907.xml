@@ -1,1293 +1,0 @@
-<Events startTimestamp="1651726974907" logVersion="1.0.0.202201202038">
-  <Command __id="1" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:03:16 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="21201" type="Run" />
-  <Command __id="3" _type="PauseCommand" date="Thu May 05 01:03:19 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="24860">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3654]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="2" _type="ShellCommand" date="Thu May 05 01:03:19 EDT 2022" starttimestamp="1651726974907" timestamp="24855" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="5" _type="PauseCommand" date="Thu May 05 01:03:21 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="26680">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1825]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="4" _type="ConsoleOutput" date="Thu May 05 01:03:21 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="26680" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):37
-Test execution time (ms):3
-SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0
-
-Test execution time (ms):3
-SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0
-
-Test execution time (ms):1
-SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0
-
-Test execution time (ms):1
-SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0
-
-Test execution time (ms):2
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="7" _type="PauseCommand" date="Thu May 05 01:03:30 EDT 2022" range="5s-10s" starttimestamp="1651726974907" timestamp="36056">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[9376]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="6" _type="ConsoleOutput" date="Thu May 05 01:03:30 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="36056" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):17
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"37¶Test execution time (ms):3¶SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0¶¶Test execution time (ms):3¶SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0¶¶Test execution time (ms):1¶SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0¶¶Test execution time (ms):1¶SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0¶¶Test execution time (ms):2¶Test execution time (ms):"), Diff(EQUAL,"1"), Diff(INSERT,"7"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="8" _type="ConsoleOutput" date="Thu May 05 01:03:31 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="36175" type="ConsoleOutput">
-    <outputString><![CDATA[1.0
-0.6557377049180327
-When testing random value the accuracy was found to be 0.5625 the minimum required accuracy threshold should be 0.8
-0.5625
-F21A2IsInferredSafeTest did not pass completely:view console output%0.9010416666666666
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):109
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-23,2,25,true
-29,123,7,true
-20,100,29,false
-4,115,9,false
-3,58,48,false
-13,142,29,true
-31,90,51,false
-19,18,46,true
-1,4,2,false
-19,82,5,false
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-7,84,3,false
-25,2,10,true
-23,5,5,true
-23,69,38,false
-13,50,37,false
-20,141,51,true
-30,50,13,false
-29,67,36,false
-12,88,28,false
-26,128,30,true
-Test execution time (ms):34
-Distance,Duration,Exhalation,Derived,Inferred
-23,130,1,false,true
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):17"), Diff(INSERT,"1.0¶0.6557377049180327¶When testing random value the accuracy was found to be 0.5625 the minimum required accuracy threshold should be 0.8¶0.5625¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9010416666666666¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):109¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶23,2,25,true¶29,123,7,true¶20,100,29,false¶4,115,9,false¶3,58,48,false¶13,142,29,true¶31,90,51,false¶19,18,46,true¶1,4,2,false¶19,82,5,false¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶7,84,3,false¶25,2,10,true¶23,5,5,true¶23,69,38,false¶13,50,37,false¶20,141,51,true¶30,50,13,false¶29,67,36,false¶12,88,28,false¶26,128,30,true¶Test execution time (ms):34¶Distance,Duration,Exhalation,Derived,Inferred¶23,130,1,false,true"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="9" _type="ConsoleOutput" date="Thu May 05 01:03:31 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="36301" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-8,65,30,false,false
-12,95,34,false,false
-9,21,49,false,true
-3,90,18,false,false
-17,114,3,true,true
-14,119,13,false,true
-8,133,5,false,true
-11,59,35,false,false
-9,101,49,false,false
-27,19,11,true,true
-Distance,Duration,Exhalation,Derived,Inferred
-6,75,31,false,false
-29,6,30,true,true
-18,131,55,false,true
-24,31,26,false,false
-4,3,43,false,false
-27,33,57,false,false
-5,125,4,false,false
-20,54,11,false,false
-20,57,50,false,false
-26,80,46,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-26,0,27,true,true
-21,116,48,false,true
-19,81,13,false,false
-14,118,20,false,true
-8,44,51,false,false
-15,1,22,true,true
-6,101,42,false,false
-25,29,17,true,true
-15,23,53,false,true
-12,81,12,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-0,58,37,false,false
-10,28,45,false,true
-19,92,25,false,false
-16,100,27,false,false
-18,48,12,false,false
-12,28,4,true,true
-10,76,39,false,false
-19,111,39,false,false
-7,110,6,false,false
-11,12,6,true,true
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,Derived,Inferred
-30,111,50,false,false
-11,106,57,false,false
-21,47,29,false,false
-1,142,21,false,false
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"1.0¶0.6557377049180327¶When testing random value the accuracy was found to be 0.5625 the minimum required accuracy threshold should be 0.8¶0.5625¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9010416666666666¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):109¶Number of traces > 600  turning tracing off"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶8,65,30,false,false¶12,95,34,false,false¶9,21,49,false,true¶3,90,18,false,false¶17,114,3,true,true¶14,119,13,false,true¶8,133,5,false,true¶11,59,35,false,false¶9,101,49,false,false¶27,19,11,true,true"), Diff(EQUAL,"¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶"), Diff(INSERT,"Derived,Inferred¶6,75,31,false,false¶29,"), Diff(EQUAL,"6,30,"), Diff(DELETE,"10"), Diff(INSERT,"true"), Diff(EQUAL,",true¶"), Diff(DELETE,"27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,tru"), Diff(INSERT,"18,131,55,false,true¶24,31,26,false,false¶4,3,43,false,false¶27,33,57,false,false¶5,125,4,false,false¶20,54,11,false,false¶20,57,50,false,fals"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"6,"), Diff(DELETE,"15,30,true¶----------¶23,2,25"), Diff(INSERT,"80,46,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶26,0,27,true"), Diff(EQUAL,",true¶2"), Diff(DELETE,"9"), Diff(INSERT,"1"), Diff(EQUAL,",1"), Diff(DELETE,"23,7,true¶20,100,29"), Diff(INSERT,"16,48,false,true¶19,81,13,false"), Diff(EQUAL,",false¶"), Diff(INSERT,"1"), Diff(EQUAL,"4,11"), Diff(DELETE,"5,9"), Diff(INSERT,"8,20"), Diff(EQUAL,",false"), Diff(DELETE,"¶3,58,48"), Diff(INSERT,",true¶8,44,51,false"), Diff(EQUAL,",false¶1"), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,",1"), Diff(DELETE,"42,29,true¶31,90,51"), Diff(INSERT,",22,true,true¶6,101,42,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"19,18,46"), Diff(INSERT,"25,29,17,true"), Diff(EQUAL,",true¶1"), Diff(DELETE,",4,2"), Diff(INSERT,"5,23,53"), Diff(EQUAL,",false"), Diff(INSERT,",true"), Diff(EQUAL,"¶1"), Diff(DELETE,"9"), Diff(INSERT,"2"), Diff(EQUAL,",8"), Diff(DELETE,"2,5"), Diff(INSERT,"1,12,false"), Diff(EQUAL,",false¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,tru"), Diff(INSERT,"Derived,Inferred¶0,58,37,false,false¶10,28,45,false,true¶19,92,25,false,fals"), Diff(EQUAL,"e¶1"), Diff(DELETE,"3"), Diff(INSERT,"6"), Diff(EQUAL,",1"), Diff(DELETE,"20,10,true¶27,120,30,true¶6,15,30,true¶----------¶7,84,3"), Diff(INSERT,"00,27,false,false¶18,48,12,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"25,2,10,true¶23,5,5"), Diff(INSERT,"12,28,4,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"23,69"), Diff(INSERT,"10,76"), Diff(EQUAL,",3"), Diff(DELETE,"8"), Diff(INSERT,"9"), Diff(EQUAL,",false"), Diff(DELETE,"¶13,50,37"), Diff(EQUAL,",false¶"), Diff(DELETE,"20,141,51,true¶30,50,13,false¶29,67,36,false¶12,88,28"), Diff(INSERT,"19,111,39,false,false¶7,110,6,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"26"), Diff(INSERT,"11"), Diff(EQUAL,",12"), Diff(DELETE,"8,30,true¶Test execution time (ms):34¶Distance,Duration,Exhalation,Derived,Inferred¶23,130,1,false,tru"), Diff(INSERT,",6,true,true¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶30,111,50,false,false¶11,106,57,false,false¶21,47,29,false,false¶1,142,21,false,fals"), Diff(EQUAL,"e¶")]]]></diff>
-  </Command>
-  <Command __id="10" _type="ConsoleOutput" date="Thu May 05 01:03:31 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="36421" type="ConsoleOutput">
-    <outputString><![CDATA[4,77,34,false,false
-3,74,14,false,false
-31,60,45,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-1,9,26,false,false
-18,68,29,false,false
-14,14,23,true,true
-10,22,36,false,true
-26,110,13,false,false
-7,127,4,false,true
-31,78,7,true,false
-10,48,30,false,false
-29,128,58,false,true
-25,133,44,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-22,37,13,false,false
-27,118,11,true,true
-31,95,55,false,false
-31,99,25,true,false
-11,113,36,false,false
-1,88,15,false,false
-23,37,42,false,false
-6,32,39,false,false
-6,30,6,true,true
-29,14,1,true,true
-Test execution time (ms):139
-Number of traces > 600  turning tracing off
-Test execution time (ms):11
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶8,65,30,false,false¶12,95,34,false,false¶9,21,49,false,true¶3,90,18,false,false¶17,114,3,true,true¶14,119,13,false,true¶8,133,5,false,true¶11,59,35,false,false¶9,101"), Diff(INSERT,"4,77,34,false,false¶3,74,14,false,false¶31,60"), Diff(EQUAL,",4"), Diff(DELETE,"9"), Diff(INSERT,"5"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"27,19,11,true,true¶"), Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"6,75,31,false,false¶29,6,30,true,true¶18,131,55,false,true¶24,31,26,false,false¶4,3,43,false,false¶27,33,57,false,false¶5,125,4,false,false¶20,54,11,false,false¶20,57,50,false,false¶26,80,46,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶26,0,27"), Diff(INSERT,"1,9,26,false,false¶18,68,29,false,false¶14,14,23"), Diff(EQUAL,",true,true¶"), Diff(DELETE,"21,116,48"), Diff(INSERT,"10,22,36"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"19,81"), Diff(INSERT,"26,110"), Diff(EQUAL,",13,false,false¶"), Diff(DELETE,"14,118,20"), Diff(INSERT,"7,127,4"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"8,44,51,false,false¶15,1,22,true,true¶6,101,42"), Diff(INSERT,"31,78,7,true,false¶10,48,30"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"25,"), Diff(EQUAL,"29,1"), Diff(DELETE,"7,true,true¶15,23"), Diff(INSERT,"28"), Diff(EQUAL,",5"), Diff(DELETE,"3"), Diff(INSERT,"8"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"12,81,12"), Diff(INSERT,"25,133,44"), Diff(EQUAL,",false,"), Diff(DELETE,"fals"), Diff(INSERT,"tru"), Diff(EQUAL,"e¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"0,58,37"), Diff(INSERT,"22,37,13"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"10,28,45,fals"), Diff(INSERT,"27,118,11,tru"), Diff(EQUAL,"e,true¶"), Diff(DELETE,"19,92,2"), Diff(INSERT,"31,95,5"), Diff(EQUAL,"5,false,false¶"), Diff(DELETE,"16,100,27,fals"), Diff(INSERT,"31,99,25,tru"), Diff(EQUAL,"e,false¶1"), Diff(DELETE,"8,48,12"), Diff(INSERT,"1,113,36"), Diff(EQUAL,",false,false¶1"), Diff(DELETE,"2,28,4,true,true¶10,76,39"), Diff(INSERT,",88,15,false,false¶23,37,42"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"19,111"), Diff(INSERT,"6,32"), Diff(EQUAL,",39,false,false¶"), Diff(DELETE,"7,110,6,false,fals"), Diff(INSERT,"6,30,6,true,tru"), Diff(EQUAL,"e¶"), Diff(DELETE,"11,12,6"), Diff(INSERT,"29,14,1"), Diff(EQUAL,",true,true¶"), Diff(INSERT,"Test execution time (ms):139¶"), Diff(EQUAL,"Number of traces > 600  turning tracing off¶"), Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶30,111,50,false,false¶11,106,57,false,false¶21,47,29,false,false¶1,142,21,false,false"), Diff(INSERT,"Test execution time (ms):11"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="12" _type="PauseCommand" date="Thu May 05 01:03:33 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="38116">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1695]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="11" _type="ConsoleOutput" date="Thu May 05 01:03:33 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="38116" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@47b24a2b . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"4,77,34,false,false¶3,74,14,false,false¶31,60,45,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶1,9,26,false,false¶18,68,29,false,false¶14,14,23,true,true¶10,22,36,false,true¶26,110,13,false,false¶7,127,4,false,true¶31,78,7,true,false¶10,48,30,false,false¶29,128,58,false,true¶25,133,44,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶22,37,13,false,false¶27,118,11,true,true¶31,95,55,false,false¶31,99,25,true,false¶11,113,36,false,false¶1,88,15,false,false¶23,37,42,false,false¶6,32,39,false,false¶6,30,6,true,true¶29,14,1,true,true¶Test execution time (ms):139¶Number of traces > 600  turning tracing off¶Test execution time (ms):11"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@47b24a2b . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="14" _type="PauseCommand" date="Thu May 05 01:03:34 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="39669">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1553]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="13" _type="ConsoleOutput" date="Thu May 05 01:03:34 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="39669" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@47b24a2b . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@47b24a2b . Results may change.¶")]]]></diff>
-  </Command>
-  <Command __id="16" _type="PauseCommand" date="Thu May 05 01:03:58 EDT 2022" range="20s-30s" starttimestamp="1651726974907" timestamp="63371">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[23702]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="15" _type="ShellCommand" date="Thu May 05 01:03:58 EDT 2022" starttimestamp="1651726974907" timestamp="63371" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="18" _type="PauseCommand" date="Thu May 05 01:04:01 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="66506">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3135]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="17" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:04:01 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="66506">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="20" _type="PauseCommand" date="Thu May 05 01:04:08 EDT 2022" range="5s-10s" starttimestamp="1651726974907" timestamp="73265">
-    <prevType><![CDATA[Open File]]></prevType>
-    <prev><![CDATA[DiffBasedFileOpenCommand]]></prev>
-    <pause><![CDATA[6759]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="19" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:04:08 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="73265">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="23" _type="EclipseCommand" commandID="" date="Thu May 05 01:04:18 EDT 2022" starttimestamp="1651726974907" timestamp="83746" />
-  <Command __id="25" _type="EclipseCommand" commandID="" date="Thu May 05 01:04:18 EDT 2022" starttimestamp="1651726974907" timestamp="83834" />
-  <Command __id="27" _type="PauseCommand" date="Thu May 05 01:04:19 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="84970">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[EclipseCommand]]></prev>
-    <pause><![CDATA[1136]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="31" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:04:24 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="89258" type="Run" />
-  <Command __id="33" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:04:24 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="89259" type="Run" />
-  <Command __id="35" _type="PauseCommand" date="Thu May 05 01:04:27 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="93010">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3751]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="34" _type="ShellCommand" date="Thu May 05 01:04:27 EDT 2022" starttimestamp="1651726974907" timestamp="93010" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="37" _type="PauseCommand" date="Thu May 05 01:04:33 EDT 2022" range="5s-10s" starttimestamp="1651726974907" timestamp="98156">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[5146]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="36" _type="ConsoleOutput" date="Thu May 05 01:04:33 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="98156" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):14
-Test execution time (ms):21
-Test execution time (ms):33
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@47b24a2b . Results may change."), Diff(INSERT,"Test execution time (ms):14¶Test execution time (ms):21¶Test execution time (ms):33¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="38" _type="ConsoleOutput" date="Thu May 05 01:04:33 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="98290" type="ConsoleOutput">
-    <outputString><![CDATA[When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95
-0.8571428571428571
-0.819672131147541
-When testing random value the accuracy was found to be 0.78125 the minimum required accuracy threshold should be 0.8
-0.78125
-F21A2IsInferredSafeTest did not pass completely:view console output%0.9596060463659146
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):98
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-16,7,40,true
-7,126,59,false
-20,7,24,true
-17,11,46,true
-6,32,40,false
-4,33,19,false
-17,65,34,false
-4,85,20,false
-1,33,33,false
-13,73,30,false
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-12,29,23,true
-16,14,54,true
-0,130,23,false
-12,3,46,true
-14,70,22,false
-11,34,31,false
-24,36,37,false
-5,90,13,false
-5,22,17,false
-8,64,7,true
-Test execution time (ms):33
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):14¶Test execution time (ms):21¶Test execution time (ms):33"), Diff(INSERT,"When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95¶0.8571428571428571¶0.819672131147541¶When testing random value the accuracy was found to be 0.78125 the minimum required accuracy threshold should be 0.8¶0.78125¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9596060463659146¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):98¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶16,7,40,true¶7,126,59,false¶20,7,24,true¶17,11,46,true¶6,32,40,false¶4,33,19,false¶17,65,34,false¶4,85,20,false¶1,33,33,false¶13,73,30,false¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶12,29,23,true¶16,14,54,true¶0,130,23,false¶12,3,46,true¶14,70,22,false¶11,34,31,false¶24,36,37,false¶5,90,13,false¶5,22,17,false¶8,64,7,true"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"1"), Diff(INSERT,"33"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="39" _type="ConsoleOutput" date="Thu May 05 01:04:33 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="98419" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-9,113,48,false,false
-23,29,17,true,true
-14,92,59,false,false
-2,72,19,false,false
-5,40,52,false,false
-21,26,1,true,true
-3,69,27,false,false
-13,65,53,false,false
-28,67,31,false,false
-14,1,1,true,true
-Distance,Duration,Exhalation,Derived,Inferred
-5,32,12,false,false
-18,71,47,false,false
-23,61,32,false,false
-13,135,28,false,false
-18,109,1,true,true
-10,98,48,false,false
-29,68,3,true,true
-12,12,39,false,true
-27,79,31,false,false
-27,68,1,true,true
-Distance,Duration,Exhalation,Derived,Inferred
-5,86,19,false,false
-0,71,24,false,false
-27,63,39,false,false
-11,142,51,false,false
-8,127,56,false,false
-8,22,53,false,true
-19,45,15,false,false
-8,115,7,false,true
-21,84,1,true,true
-16,129,34,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-31,71,14,true,false
-23,82,45,false,false
-8,50,34,false,false
-22,54,8,true,true
-15,52,36,false,false
-7,56,7,false,true
-18,35,5,true,true
-10,42,11,false,true
-27,74,36,false,false
-26,11,51,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-25,66,4,true,true
-17,23,47,false,true
-2,97,43,false,false
-0,109,13,false,false
-11,118,29,false,false
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95¶0.8571428571428571¶0.819672131147541¶When testing random value the accuracy was found to be 0.78125 the minimum required accuracy threshold should be 0.8¶0.78125¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9596060463659146¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):98¶Number of traces > 600  turning tracing off"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶9,113,48,false,false¶23,29,17,true,true¶14,92,59,false,false¶2,72,19,false,false¶5,40,52,false,false¶21,26,1,true,true¶3,69,27,false,false¶13,65,53,false,false¶28,67,31,false,false¶14,1,1,true,true"), Diff(EQUAL,"¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,tru"), Diff(INSERT,"Derived,Inferred¶5,32,12,false,false¶18,71,47,false,false¶23,61,32,false,fals"), Diff(EQUAL,"e¶13,1"), Diff(INSERT,"3"), Diff(EQUAL,"5,"), Diff(DELETE,"50,tru"), Diff(INSERT,"28,false,fals"), Diff(EQUAL,"e¶1"), Diff(DELETE,"3"), Diff(INSERT,"8"), Diff(EQUAL,",1"), Diff(DELETE,"20,10,true¶27,120,30"), Diff(INSERT,"09,1,true,true¶10,98,48,false,false¶29,68,3,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"6"), Diff(INSERT,"12"), Diff(EQUAL,",1"), Diff(DELETE,"5"), Diff(INSERT,"2"), Diff(EQUAL,",3"), Diff(DELETE,"0,true¶----------¶16,7,40,true¶7,126,59"), Diff(INSERT,"9,false,true¶27,79,31,false,false¶27,68,1,true,true¶Distance,Duration,Exhalation,Derived,Inferred¶5,86,19,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"2"), Diff(EQUAL,"0,7"), Diff(INSERT,"1"), Diff(EQUAL,",24,"), Diff(DELETE,"tru"), Diff(INSERT,"false,fals"), Diff(EQUAL,"e¶"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,"7,"), Diff(DELETE,"11,46,true¶6,32,40,false¶4,33,19,false¶17,65,34"), Diff(INSERT,"63,39,false,false¶11,142,51,false,false¶8,127,56,false,false¶8,22,53,false,true¶19,45,15,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"4,85,20"), Diff(INSERT,"8,115,7"), Diff(EQUAL,",false"), Diff(INSERT,",true"), Diff(EQUAL,"¶"), Diff(INSERT,"2"), Diff(EQUAL,"1,"), Diff(DELETE,"33,33,false¶13,73,30"), Diff(INSERT,"84,1,true,true¶16,129,34,false"), Diff(EQUAL,",false¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,tru"), Diff(INSERT,"Derived,Inferred¶31,71,14,true,false¶23,82,45,false,false¶8,50,34,false,false¶22,54,8,true,true¶15,52,36,false,false¶7,56,7,false,true¶18,35,5,true,true¶10,42,11,false,true¶27,74,36,false,fals"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"6,1"), Diff(DELETE,"5,30,true¶----------¶12,29,23,true¶1"), Diff(INSERT,"1,51,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶25,6"), Diff(EQUAL,"6,"), Diff(DELETE,"1"), Diff(EQUAL,"4,"), Diff(DELETE,"54"), Diff(INSERT,"true"), Diff(EQUAL,",true¶"), Diff(DELETE,"0,130"), Diff(INSERT,"17"), Diff(EQUAL,",23,"), Diff(INSERT,"47,"), Diff(EQUAL,"false"), Diff(DELETE,"¶12,3,46,true¶14,70,22,false¶11,34,31,false¶24,36,37,false¶5,90,13,false¶5,22,17,false¶8,64,7,true¶Test execution time (ms):33"), Diff(INSERT,",true¶2,97,43,false,false¶0,109,13,false,false¶11,118,29,false,false"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="40" _type="ConsoleOutput" date="Thu May 05 01:04:33 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="98497" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-14,9,38,true,true
-19,73,46,false,false
-10,140,25,false,false
-23,69,57,false,false
-0,94,52,false,false
-28,91,0,true,true
-15,24,54,false,true
-23,18,41,false,true
-6,37,6,false,true
-10,135,9,false,true
-Test execution time (ms):133
-Number of traces > 600  turning tracing off
-Test execution time (ms):9
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"9,113,48,false,false¶23,29,17,true,true¶14,92,59,false,false¶2,72,19"), Diff(INSERT,"14,9,38,true,true¶19,73,46"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"5,"), Diff(INSERT,"10,1"), Diff(EQUAL,"40,"), Diff(DELETE,"5"), Diff(EQUAL,"2"), Diff(INSERT,"5"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"1,26,1,true,true¶"), Diff(EQUAL,"3,69,"), Diff(DELETE,"2"), Diff(INSERT,"5"), Diff(EQUAL,"7,false,false¶"), Diff(DELETE,"13,65"), Diff(INSERT,"0,94"), Diff(EQUAL,",5"), Diff(DELETE,"3"), Diff(INSERT,"2"), Diff(EQUAL,",false,false¶28,"), Diff(DELETE,"67,31,false,false¶14,1,1,true,true¶Distance,Duration,Exhalation,Derived,Inferred¶5,32,12,false,false¶18,71,47,false,false¶23,61,32,false,false¶13,135,28,false,false¶18,109,1,true,true¶10,98,48,false,false¶29,68,3,true,true¶12,12,39,false,true¶27,79,31,false,false¶27,68,1,true,true¶Distance,Duration,Exhalation,Derived,Inferred¶5,86,19,false,false¶0,71,24,false,false¶27,63,39,false,false¶11,142,51,false,false¶8,12"), Diff(INSERT,"91,0,true,true¶15,24,54,false,true¶23,18,41,false,true¶6,3"), Diff(EQUAL,"7,"), Diff(DELETE,"5"), Diff(EQUAL,"6,false,"), Diff(DELETE,"false¶8,22,53,false,"), Diff(EQUAL,"true¶1"), Diff(DELETE,"9,45"), Diff(INSERT,"0"), Diff(EQUAL,",1"), Diff(INSERT,"3"), Diff(EQUAL,"5,"), Diff(DELETE,"false,false¶8,115,7,false,true¶21,84,1,true,true¶16,129,34,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶31,71,14,true,false¶23,82,45,false,false¶8,50,34,false,false¶22,54,8,true,true¶15,52,36,false,false¶7,56,7,false,true¶18,35,5,true,true¶10,42,11,false,true¶27,74,36,false,false¶26,11,51,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶25,66,4,true,true¶17,23,47,false,true¶2,97,43,false,false¶0,109,13,false,false¶11,118,29,false,false"), Diff(INSERT,"9,false,true¶Test execution time (ms):133¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="42" _type="PauseCommand" date="Thu May 05 01:04:34 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="99987">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1490]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="41" _type="ConsoleOutput" date="Thu May 05 01:04:34 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="99987" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@35881c1a . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶14,9,38,true,true¶19,73,46,false,false¶10,140,25,false,false¶23,69,57,false,false¶0,94,52,false,false¶28,91,0,true,true¶15,24,54,false,true¶23,18,41,false,true¶6,37,6,false,true¶10,135,9,false,true¶Test execution time (ms):133¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@35881c1a . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="44" _type="PauseCommand" date="Thu May 05 01:04:48 EDT 2022" range="10s-20s" starttimestamp="1651726974907" timestamp="114054">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[14067]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="43" _type="ShellCommand" date="Thu May 05 01:04:48 EDT 2022" starttimestamp="1651726974907" timestamp="114054" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="45" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:04:49 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="114697" type="Run" />
-  <Command __id="46" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:04:49 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="114697" type="Run" />
-  <Command __id="21" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:04:15 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="80741">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="49" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:01 EDT 2022" starttimestamp="1651726974907" timestamp="127005" />
-  <Command __id="51" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:01 EDT 2022" starttimestamp="1651726974907" timestamp="127007" />
-  <Command __id="47" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:04:57 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="122172">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="53" _type="PauseCommand" date="Thu May 05 01:05:05 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="130588">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[EclipseCommand]]></prev>
-    <pause><![CDATA[3581]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="52" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:05:05 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="130588">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="56" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:13 EDT 2022" starttimestamp="1651726974907" timestamp="139035" />
-  <Command __id="58" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:13 EDT 2022" starttimestamp="1651726974907" timestamp="139037" />
-  <Command __id="54" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:05:10 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="135909">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="61" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:23 EDT 2022" starttimestamp="1651726974907" timestamp="149014" />
-  <Command __id="63" _type="EclipseCommand" commandID="" date="Thu May 05 01:05:23 EDT 2022" starttimestamp="1651726974907" timestamp="149017" />
-  <Command __id="59" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:05:19 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="145077">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="69" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:05:45 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="170715" type="Run" />
-  <Command __id="71" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:05:45 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="170716" type="Run" />
-  <Command __id="73" _type="PauseCommand" date="Thu May 05 01:05:49 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="174415">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3699]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="72" _type="ShellCommand" date="Thu May 05 01:05:49 EDT 2022" starttimestamp="1651726974907" timestamp="174415" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="75" _type="PauseCommand" date="Thu May 05 01:05:53 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="178877">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[4462]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="74" _type="ConsoleOutput" date="Thu May 05 01:05:53 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="178877" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):16
-Test execution time (ms):23
-Test execution time (ms):37
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@35881c1a . Results may change."), Diff(INSERT,"Test execution time (ms):16¶Test execution time (ms):23¶Test execution time (ms):37¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="76" _type="ConsoleOutput" date="Thu May 05 01:05:53 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="178988" type="ConsoleOutput">
-    <outputString><![CDATA[1.0
-When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65
-0.6229508196721312
-When testing random value the accuracy was found to be 0.21875 the minimum required accuracy threshold should be 0.8
-0.21875
-F21A2IsInferredSafeTest did not pass completely:view console output%0.7439411254728877
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):98
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-4,67,54,true
-14,39,7,true
-29,64,51,true
-0,64,0,true
-31,86,23,true
-25,77,20,true
-5,10,20,true
-10,98,22,true
-15,60,55,true
-24,140,44,true
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-16,8,14,true
-22,105,28,true
-5,29,2,true
-2,13,26,true
-10,91,40,true
-18,100,58,true
-24,141,4,true
-1,55,19,true
-1,115,5,true
-12,93,19,true
-Test execution time (ms):33
-Distance,Duration,Exhalation,Derived,Inferred
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):16¶Test execution time (ms):23¶Test execution time (ms):37¶Test execution time (ms):1"), Diff(INSERT,"1.0¶When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65¶0.6229508196721312¶When testing random value the accuracy was found to be 0.21875 the minimum required accuracy threshold should be 0.8¶0.21875¶F21A2IsInferredSafeTest did not pass completely:view console output%0.7439411254728877¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):98¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶4,67,54,true¶14,39,7,true¶29,64,51,true¶0,64,0,true¶31,86,23,true¶25,77,20,true¶5,10,20,true¶10,98,22,true¶15,60,55,true¶24,140,44,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶16,8,14,true¶22,105,28,true¶5,29,2,true¶2,13,26,true¶10,91,40,true¶18,100,58,true¶24,141,4,true¶1,55,19,true¶1,115,5,true¶12,93,19,true¶Test execution time (ms):33¶Distance,Duration,Exhalation,Derived,Inferred"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="77" _type="ConsoleOutput" date="Thu May 05 01:05:53 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="179064" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-24,85,29,false,true
-8,93,13,false,true
-6,21,9,true,true
-11,1,24,true,true
-16,1,39,true,true
-1,108,55,false,true
-14,49,22,false,true
-8,40,31,false,true
-8,32,27,false,true
-2,104,5,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-24,80,14,false,true
-10,112,33,false,true
-25,1,58,false,true
-14,108,43,false,true
-31,84,39,false,true
-26,72,49,false,true
-6,10,48,false,true
-0,23,54,false,true
-12,88,18,false,true
-22,35,36,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-17,112,57,false,true
-19,114,41,false,true
-6,34,6,false,true
-15,135,19,false,true
-23,57,10,true,true
-23,121,15,false,true
-16,69,29,false,true
-23,119,4,true,true
-14,46,47,false,true
-11,64,24,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-23,28,52,false,true
-23,131,35,false,true
-8,10,52,false,true
-12,8,50,false,true
-22,103,17,false,true
-6,23,51,false,true
-0,117,49,false,true
-24,30,52,false,true
-9,58,13,false,true
-28,63,13,true,true
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,Derived,Inferred
-6,134,10,false,true
-27,92,45,false,true
-8,53,12,false,true
-8,91,56,false,true
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"1.0¶When testing near table value the accuracy was found to be 0.6229508196721312 the minimum required accuracy threshold should be 0.65¶0.6229508196721312¶When testing random value the accuracy was found to be 0.21875 the minimum required accuracy threshold should be 0.8¶0.21875¶F21A2IsInferredSafeTest did not pass completely:view console output%0.7439411254728877¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):98¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶24,85,29,false,true¶8,93,13,false,true¶6,21,9,true,true¶11,1,24,true,true¶16,1,39,true,true¶1,108,55,false,true¶14,49,22,false,true¶8,40,31,false,true¶8,32,27,false,true¶2,104,5,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶24,80,14,false,true¶10,1"), Diff(EQUAL,"12"), Diff(DELETE,"0"), Diff(EQUAL,",3"), Diff(DELETE,"0"), Diff(INSERT,"3,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,15,30,true¶----------¶4,67,54"), Diff(INSERT,"25,1,58,false,true¶14,108,43,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(INSERT,"31,8"), Diff(EQUAL,"4,39,"), Diff(DELETE,"7"), Diff(INSERT,"false"), Diff(EQUAL,",true¶2"), Diff(DELETE,"9,64,51"), Diff(INSERT,"6,72,49,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"0,64,0,true¶31,86,23,true¶25,77,20,true¶5,10,20,true¶10,98,22"), Diff(INSERT,"6,10,48,false,true¶0,23,54,false,true¶12,88,18,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"15,60,55,true¶24,140,44"), Diff(INSERT,"22,35,36,false"), Diff(EQUAL,",true¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10"), Diff(INSERT,"Derived,Inferred¶17,112,57,false,true¶19,114,41,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"27,30,50"), Diff(INSERT,"6,34,6,false"), Diff(EQUAL,",true¶1"), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,",1"), Diff(INSERT,"3"), Diff(EQUAL,"5,"), Diff(DELETE,"50"), Diff(INSERT,"19,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,"3,"), Diff(DELETE,"120"), Diff(INSERT,"57"), Diff(EQUAL,",10,true"), Diff(INSERT,",true"), Diff(EQUAL,"¶2"), Diff(DELETE,"7"), Diff(INSERT,"3"), Diff(EQUAL,",12"), Diff(DELETE,"0,30"), Diff(INSERT,"1,15,false"), Diff(EQUAL,",true¶"), Diff(INSERT,"1"), Diff(EQUAL,"6,"), Diff(DELETE,"15,30,true¶----------¶16,8,14,true¶22,105,28,true¶5,29,2"), Diff(INSERT,"69,29,false,true¶23,119,4,true,true¶14,46,47,false,true¶11,64,24,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶23,28,52,false"), Diff(EQUAL,",true¶2"), Diff(INSERT,"3"), Diff(EQUAL,",13"), Diff(DELETE,",26"), Diff(INSERT,"1,35,false"), Diff(EQUAL,",true¶"), Diff(INSERT,"8,"), Diff(EQUAL,"10,"), Diff(DELETE,"91,40,true¶18,100,58"), Diff(INSERT,"52,false,true¶12,8,50,false"), Diff(EQUAL,",true¶2"), Diff(DELETE,"4"), Diff(INSERT,"2"), Diff(EQUAL,",1"), Diff(DELETE,"41,4,true¶1,55,19"), Diff(INSERT,"03,17,false,true¶6,23,51,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"1"), Diff(INSERT,"0"), Diff(EQUAL,",11"), Diff(DELETE,"5,5,true¶12,93,19,true¶Test execution time (ms):33¶Distance,Duration,Exhalation,Derived,Inferred"), Diff(INSERT,"7,49,false,true¶24,30,52,false,true¶9,58,13,false,true¶28,63,13,true,true¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶6,134,10,false,true¶27,92,45,false,true¶8,53,12,false,true¶8,91,56,false,true"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="78" _type="ConsoleOutput" date="Thu May 05 01:05:54 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="179125" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-20,88,54,false,true
-1,94,16,false,true
-24,35,8,true,true
-12,98,46,false,true
-30,126,22,false,true
-19,20,23,true,true
-19,41,24,false,true
-26,20,34,false,true
-28,20,46,true,true
-4,51,32,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-26,121,11,false,true
-8,101,48,false,true
-4,69,46,false,true
-1,53,53,false,true
-13,73,12,false,true
-17,87,39,false,true
-7,94,31,false,true
-7,140,36,false,true
-15,63,25,false,true
-2,54,48,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-24,35,14,false,true
-24,112,7,true,true
-28,115,56,false,true
-5,65,27,false,true
-28,34,6,true,true
-20,13,24,true,true
-22,143,47,false,true
-30,117,13,true,true
-24,78,15,false,true
-30,87,57,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-19,105,14,false,true
-9,134,17,false,true
-17,57,18,false,true
-24,57,54,false,true
-0,102,27,false,true
-16,137,41,false,true
-13,109,28,false,true
-7,132,4,false,true
-2,136,2,false,true
-0,102,49,false,true
-Test execution time (ms):135
-Number of traces > 600  turning tracing off
-Test execution time (ms):8
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶2"), Diff(DELETE,"4"), Diff(INSERT,"0"), Diff(EQUAL,",8"), Diff(DELETE,"5,29"), Diff(INSERT,"8,54"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"8"), Diff(INSERT,"1"), Diff(EQUAL,",9"), Diff(DELETE,"3"), Diff(INSERT,"4"), Diff(EQUAL,",1"), Diff(DELETE,"3"), Diff(INSERT,"6"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"6,21,9"), Diff(INSERT,"24,35,8"), Diff(EQUAL,",true,true¶1"), Diff(DELETE,"1,1,24,true,true¶16,1,39,true,true¶1,108,55,fals"), Diff(INSERT,"2,98,46,false,true¶30,126,22,false,true¶19,20,23,tru"), Diff(EQUAL,"e,true¶1"), Diff(DELETE,"4"), Diff(INSERT,"9"), Diff(EQUAL,",4"), Diff(DELETE,"9"), Diff(INSERT,"1"), Diff(EQUAL,",2"), Diff(DELETE,"2"), Diff(INSERT,"4"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"8,4"), Diff(INSERT,"26,2"), Diff(EQUAL,"0,3"), Diff(DELETE,"1"), Diff(INSERT,"4"), Diff(EQUAL,",false,true¶"), Diff(INSERT,"2"), Diff(EQUAL,"8,"), Diff(DELETE,"32,27,fals"), Diff(INSERT,"20,46,tru"), Diff(EQUAL,"e,true¶"), Diff(DELETE,"2,104,5"), Diff(INSERT,"4,51,32"), Diff(EQUAL,",false,true¶Distance,Duration,Exhalation,Derived,Inferred¶2"), Diff(DELETE,"4,80"), Diff(INSERT,"6,121"), Diff(EQUAL,",1"), Diff(DELETE,"4"), Diff(INSERT,"1"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"10,112,33"), Diff(INSERT,"8,101,48"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"25,1,58"), Diff(INSERT,"4,69,46"), Diff(EQUAL,",false,true¶1"), Diff(DELETE,"4,108,4"), Diff(INSERT,",53,5"), Diff(EQUAL,"3,false,true¶"), Diff(DELETE,"31,84,39"), Diff(INSERT,"13,73,12"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"26,72,4"), Diff(INSERT,"17,87,3"), Diff(EQUAL,"9,false,true¶"), Diff(DELETE,"6,10,48"), Diff(INSERT,"7,94,31"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"0,23,54"), Diff(INSERT,"7,140,36"), Diff(EQUAL,",false,true¶1"), Diff(DELETE,"2,88,18"), Diff(INSERT,"5,63,25"), Diff(EQUAL,",false,true¶2"), Diff(DELETE,"2,35,36"), Diff(INSERT,",54,48"), Diff(EQUAL,",false,true¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"17,112,57"), Diff(INSERT,"24,35,14"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"19"), Diff(INSERT,"24"), Diff(EQUAL,",11"), Diff(DELETE,"4,41,false,true¶6,34,"), Diff(INSERT,"2,7,true,true¶28,115,5"), Diff(EQUAL,"6,false,true¶"), Diff(DELETE,"1"), Diff(EQUAL,"5,"), Diff(DELETE,"135,19"), Diff(INSERT,"65,27"), Diff(EQUAL,",false,true¶2"), Diff(DELETE,"3,57,10"), Diff(INSERT,"8,34,6"), Diff(EQUAL,",true,true¶2"), Diff(DELETE,"3"), Diff(INSERT,"0"), Diff(EQUAL,",1"), Diff(DELETE,"21,15,false,true¶16,69,29"), Diff(INSERT,"3,24,true,true¶22,143,47"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"2"), Diff(EQUAL,"3"), Diff(INSERT,"0"), Diff(EQUAL,",11"), Diff(DELETE,"9,4"), Diff(INSERT,"7,13"), Diff(EQUAL,",true,true¶"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,"4,"), Diff(DELETE,"46,47"), Diff(INSERT,"78,15"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"11,64,24"), Diff(INSERT,"30,87,57"), Diff(EQUAL,",false,true¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"23,28,52"), Diff(INSERT,"19,105,14"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"23"), Diff(INSERT,"9"), Diff(EQUAL,",13"), Diff(DELETE,"1,35"), Diff(INSERT,"4,17"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"8,10,52"), Diff(INSERT,"17,57,18"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"12,8"), Diff(INSERT,"24,57"), Diff(EQUAL,",5"), Diff(DELETE,"0"), Diff(INSERT,"4"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"22"), Diff(INSERT,"0"), Diff(EQUAL,",10"), Diff(DELETE,"3,1"), Diff(INSERT,"2,2"), Diff(EQUAL,"7,false,true¶"), Diff(INSERT,"1"), Diff(EQUAL,"6,"), Diff(DELETE,"23,5"), Diff(INSERT,"137,4"), Diff(EQUAL,"1,false,true¶"), Diff(DELETE,"0,117,49"), Diff(INSERT,"13,109,28"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"24,30,52"), Diff(INSERT,"7,132,4"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"9,58,13"), Diff(INSERT,"2,136,2"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"28,63,13,true,true¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶6,134,10,false,true¶27,92,45,false,true¶8,53,12,false,true¶8,91,56,false,true"), Diff(INSERT,"0,102,49,false,true¶Test execution time (ms):135¶Number of traces > 600  turning tracing off¶Test execution time (ms):8"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="80" _type="PauseCommand" date="Thu May 05 01:05:55 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="180650">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1525]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="79" _type="ConsoleOutput" date="Thu May 05 01:05:55 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="180650" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@63b48328 . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶20,88,54,false,true¶1,94,16,false,true¶24,35,8,true,true¶12,98,46,false,true¶30,126,22,false,true¶19,20,23,true,true¶19,41,24,false,true¶26,20,34,false,true¶28,20,46,true,true¶4,51,32,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶26,121,11,false,true¶8,101,48,false,true¶4,69,46,false,true¶1,53,53,false,true¶13,73,12,false,true¶17,87,39,false,true¶7,94,31,false,true¶7,140,36,false,true¶15,63,25,false,true¶2,54,48,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶24,35,14,false,true¶24,112,7,true,true¶28,115,56,false,true¶5,65,27,false,true¶28,34,6,true,true¶20,13,24,true,true¶22,143,47,false,true¶30,117,13,true,true¶24,78,15,false,true¶30,87,57,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶19,105,14,false,true¶9,134,17,false,true¶17,57,18,false,true¶24,57,54,false,true¶0,102,27,false,true¶16,137,41,false,true¶13,109,28,false,true¶7,132,4,false,true¶2,136,2,false,true¶0,102,49,false,true¶Test execution time (ms):135¶Number of traces > 600  turning tracing off¶Test execution time (ms):8"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@63b48328 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="82" _type="PauseCommand" date="Thu May 05 01:06:01 EDT 2022" range="5s-10s" starttimestamp="1651726974907" timestamp="186715">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[6065]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="81" _type="ShellCommand" date="Thu May 05 01:06:01 EDT 2022" starttimestamp="1651726974907" timestamp="186715" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="64" _type="DiffBasedFileOpenCommand" date="Thu May 05 01:05:31 EDT 2022" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="156143">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\SafeSocialization.txt]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="85" _type="EclipseCommand" commandID="" date="Thu May 05 01:06:12 EDT 2022" starttimestamp="1651726974907" timestamp="198012" />
-  <Command __id="87" _type="EclipseCommand" commandID="" date="Thu May 05 01:06:12 EDT 2022" starttimestamp="1651726974907" timestamp="198015" />
-  <Command __id="89" _type="PauseCommand" date="Thu May 05 01:06:15 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="200736">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[EclipseCommand]]></prev>
-    <pause><![CDATA[2721]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="88" _type="ShellCommand" date="Thu May 05 01:06:15 EDT 2022" starttimestamp="1651726974907" timestamp="200736" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="91" _type="PauseCommand" date="Thu May 05 01:06:17 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="202409">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1673]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="94" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:06:21 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="206265" type="Run" />
-  <Command __id="96" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:06:21 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="206266" type="Run" />
-  <Command __id="98" _type="PauseCommand" date="Thu May 05 01:06:25 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="210095">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3829]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="97" _type="ShellCommand" date="Thu May 05 01:06:25 EDT 2022" starttimestamp="1651726974907" timestamp="210095" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="100" _type="PauseCommand" date="Thu May 05 01:06:26 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="211749">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1654]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="99" _type="ConsoleOutput" date="Thu May 05 01:06:26 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="211749" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):14
-Test execution time (ms):22
-Test execution time (ms):33
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@63b48328 . Results may change."), Diff(INSERT,"Test execution time (ms):14¶Test execution time (ms):22¶Test execution time (ms):33¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="101" _type="ConsoleOutput" date="Thu May 05 01:06:26 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="211857" type="ConsoleOutput">
-    <outputString><![CDATA[When testing table value the accuracy was found to be 0.2857142857142857 the minimum required accuracy threshold should be 0.95
-0.2857142857142857
-When testing near table value the accuracy was found to be 0.4918032786885246 the minimum required accuracy threshold should be 0.65
-0.4918032786885246
-When testing random value the accuracy was found to be 0.75 the minimum required accuracy threshold should be 0.8
-0.75
-F21A2IsInferredSafeTest did not pass completely:view console output%0.6649574361502748
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):93
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-3,102,54,false
-29,78,9,false
-21,99,59,false
-6,30,0,false
-28,80,43,false
-5,11,26,true
-3,51,36,false
-24,142,57,false
-21,60,24,false
-4,12,36,true
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-6,91,2,false
-12,5,12,true
-16,73,18,false
-16,76,8,false
-12,83,28,false
-27,115,30,false
-14,129,35,false
-13,22,1,false
-23,21,28,false
-26,130,16,false
-Test execution time (ms):30
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):14¶Test execution time (ms):22¶Test execution time (ms):33"), Diff(INSERT,"When testing table value the accuracy was found to be 0.2857142857142857 the minimum required accuracy threshold should be 0.95¶0.2857142857142857¶When testing near table value the accuracy was found to be 0.4918032786885246 the minimum required accuracy threshold should be 0.65¶0.4918032786885246¶When testing random value the accuracy was found to be 0.75 the minimum required accuracy threshold should be 0.8¶0.75¶F21A2IsInferredSafeTest did not pass completely:view console output%0.6649574361502748¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):93¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶3,102,54,false¶29,78,9,false¶21,99,59,false¶6,30,0,false¶28,80,43,false¶5,11,26,true¶3,51,36,false¶24,142,57,false¶21,60,24,false¶4,12,36,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶6,91,2,false¶12,5,12,true¶16,73,18,false¶16,76,8,false¶12,83,28,false¶27,115,30,false¶14,129,35,false¶13,22,1,false¶23,21,28,false¶26,130,16,false"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"1"), Diff(INSERT,"30"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="102" _type="ConsoleOutput" date="Thu May 05 01:06:26 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="211928" type="ConsoleOutput">
-    <outputString><![CDATA[21,113,46,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-5,38,20,false,false
-15,47,49,false,false
-22,63,25,false,false
-7,133,5,false,false
-27,125,9,false,false
-8,37,41,false,false
-22,1,45,true,true
-1,115,23,false,false
-29,54,10,true,false
-20,49,26,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-7,103,8,false,false
-23,123,21,false,false
-10,7,39,false,true
-12,73,59,false,false
-26,112,12,false,false
-12,105,34,false,false
-22,92,55,false,false
-11,118,25,false,false
-0,93,30,false,false
-27,111,52,false,false
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,Derived,Inferred
-16,5,59,false,true
-1,16,51,false,false
-25,15,51,false,true
-29,15,16,true,true
-19,37,50,false,false
-9,137,4,false,false
-13,39,3,true,false
-23,7,34,true,true
-25,73,4,true,false
-17,74,44,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-8,37,55,false,false
-26,12,8,true,true
-25,27,57,false,false
-24,136,45,false,false
-26,33,52,false,false
-30,73,33,false,false
-1,123,52,false,false
-31,23,3,true,false
-10,25,42,false,false
-26,117,57,false,false
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"When testing table value the accuracy was found to be 0.2857142857142857 the minimum required accuracy threshold should be 0.95¶0.2857142857142857¶When testing near table value the accuracy was found to be 0.4918032786885246 the minimum required accuracy threshold should be 0.65¶0.4918032786885246¶When testing random value the accuracy was found to be 0.75 the minimum required accuracy threshold should be 0.8¶0.75¶F21A2IsInferredSafeTest did not pass completely:view console output%0.6649574361502748¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):93"), Diff(INSERT,"21,113,46,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶5,38,20,false,false¶15,47,49,false,false¶22,63,25,false,false¶7,133,5,false,false¶27,125,9,false,false¶8,37,41,false,false¶22,1,45,true,true¶1,115,23,false,false¶29,54,10,true,false¶20,49,26,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶7,103,8,false,false¶23,123,21,false,false¶10,7,39,false,true¶12,73,59,false,false¶26,112,12,false,false¶12,105,34,false,false¶22,92,55,false,false¶11,118,25,false,false¶0,93,30,false,false¶27,111,52,false,false"), Diff(EQUAL,"¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true"), Diff(INSERT,"Derived,Inferred"), Diff(EQUAL,"¶"), Diff(INSERT,"1"), Diff(EQUAL,"6,"), Diff(DELETE,"30,10,true¶27,30,50"), Diff(INSERT,"5,59,false"), Diff(EQUAL,",true¶1"), Diff(DELETE,"3"), Diff(EQUAL,",1"), Diff(DELETE,"5"), Diff(INSERT,"6"), Diff(EQUAL,",5"), Diff(DELETE,"0,true¶13,120,10"), Diff(INSERT,"1,false,false¶25,15,51,false"), Diff(EQUAL,",true¶2"), Diff(DELETE,"7"), Diff(INSERT,"9"), Diff(EQUAL,",1"), Diff(DELETE,"20,30,true¶6,15,30,true¶----------¶3,102,54"), Diff(INSERT,"5,16,true,true¶19,37,50,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"2"), Diff(EQUAL,"9,"), Diff(DELETE,"78,9"), Diff(INSERT,"137,4"), Diff(EQUAL,",false"), Diff(DELETE,"¶21,99,59"), Diff(EQUAL,",false¶"), Diff(DELETE,"6,30,0,false¶28,80,43,false¶5,11,26,true¶3,51,36,false¶24,142,57"), Diff(INSERT,"13,39,3,true,false¶23,7,34,true,true¶25,73,4,true"), Diff(EQUAL,",false¶"), Diff(DELETE,"21,60,24,false¶4,12,36,tru"), Diff(INSERT,"17,74,44,false,fals"), Diff(EQUAL,"e¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,tru"), Diff(INSERT,"Derived,Inferred¶8,37,55,false,fals"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"6,"), Diff(DELETE,"30,10,true¶27,30,50"), Diff(INSERT,"12,8,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"13,15,50,true¶13,120,10,tru"), Diff(INSERT,"25,27,57,false,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"7"), Diff(INSERT,"4"), Diff(EQUAL,",1"), Diff(DELETE,"20,30,true¶"), Diff(INSERT,"3"), Diff(EQUAL,"6,"), Diff(DELETE,"1"), Diff(INSERT,"4"), Diff(EQUAL,"5,"), Diff(DELETE,"30,true¶----------¶6,91,2,false¶12,5,12,tru"), Diff(INSERT,"false,false¶26,33,52,false,fals"), Diff(EQUAL,"e¶"), Diff(DELETE,"16"), Diff(INSERT,"30"), Diff(EQUAL,",73,"), Diff(DELETE,"18"), Diff(INSERT,"33"), Diff(EQUAL,",false"), Diff(DELETE,"¶16,76,8"), Diff(EQUAL,",false¶1"), Diff(DELETE,"2,83,28,false¶27,115,30,false¶14,129,35"), Diff(INSERT,",123,52,false,false¶31,23,3,true"), Diff(EQUAL,",false¶1"), Diff(DELETE,"3"), Diff(INSERT,"0"), Diff(EQUAL,",2"), Diff(DELETE,"2,1,false¶23,21,28"), Diff(INSERT,"5,42,false"), Diff(EQUAL,",false¶26,1"), Diff(DELETE,"30,16"), Diff(INSERT,"17,57"), Diff(EQUAL,",false"), Diff(DELETE,"¶Test execution time (ms):30"), Diff(INSERT,",false"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="103" _type="ConsoleOutput" date="Thu May 05 01:06:26 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="212034" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-8,74,11,false,false
-21,110,28,false,false
-28,137,40,false,false
-16,89,42,false,false
-25,112,0,true,false
-18,95,9,true,false
-14,130,42,false,false
-31,66,21,true,false
-10,12,41,false,true
-29,70,32,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-30,100,37,false,false
-23,52,42,false,false
-25,71,7,true,false
-18,79,46,false,false
-31,135,9,false,false
-5,8,2,false,true
-5,77,49,false,false
-4,25,42,false,false
-13,133,58,false,false
-25,35,21,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-17,111,56,false,false
-1,81,35,false,false
-14,94,6,true,false
-5,114,11,false,false
-6,40,45,false,false
-30,45,38,false,false
-28,45,16,true,false
-3,4,44,false,true
-13,61,0,true,false
-1,76,51,false,false
-Test execution time (ms):130
-Number of traces > 600  turning tracing off
-Test execution time (ms):9
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"21,113,46,false,false¶"), Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"5,38,20"), Diff(INSERT,"8,74,11"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"15,47,49"), Diff(INSERT,"21,110,28"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"2,63,25"), Diff(INSERT,"8,137,40"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"7,133,5"), Diff(INSERT,"16,89,42"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"7"), Diff(INSERT,"5"), Diff(EQUAL,",1"), Diff(DELETE,"25,9,fals"), Diff(INSERT,"12,0,true,false¶18,95,9,tru"), Diff(EQUAL,"e,false¶"), Diff(DELETE,"8,37"), Diff(INSERT,"14,130"), Diff(EQUAL,",4"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"22,1,45"), Diff(INSERT,"31,66,21"), Diff(EQUAL,",true,"), Diff(DELETE,"tru"), Diff(INSERT,"fals"), Diff(EQUAL,"e¶1"), Diff(INSERT,"0"), Diff(EQUAL,",1"), Diff(DELETE,"15,23,false,false¶29,54,10,true,false¶20,49,26"), Diff(INSERT,"2,41,false,true¶29,70,32"), Diff(EQUAL,",false,false¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"7"), Diff(INSERT,"30"), Diff(EQUAL,",10"), Diff(DELETE,"3,8"), Diff(INSERT,"0,37"), Diff(EQUAL,",false,false¶23,"), Diff(DELETE,"123,21"), Diff(INSERT,"52,42"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"10,7,39"), Diff(INSERT,"25,71,7,true"), Diff(EQUAL,",false"), Diff(DELETE,",true"), Diff(EQUAL,"¶1"), Diff(DELETE,"2"), Diff(INSERT,"8"), Diff(EQUAL,",7"), Diff(DELETE,"3,59"), Diff(INSERT,"9,46"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"26,112,12"), Diff(INSERT,"31,135,9"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"12,105,34,false,false¶22,92,55"), Diff(INSERT,"5,8,2,false,true¶5,77,49"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"11,118,25"), Diff(INSERT,"4,25,42"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"0,93,30"), Diff(INSERT,"13,133,58"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"7,111,52"), Diff(INSERT,"5,35,21"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"Number of traces > 600  turning tracing off¶"), Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶1"), Diff(DELETE,"6,5"), Diff(INSERT,"7,111"), Diff(EQUAL,",5"), Diff(DELETE,"9"), Diff(INSERT,"6"), Diff(EQUAL,",false,"), Diff(DELETE,"tru"), Diff(INSERT,"fals"), Diff(EQUAL,"e¶1,"), Diff(DELETE,"16,51"), Diff(INSERT,"81,35"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"25,15,51,false,true¶29,15,1"), Diff(INSERT,"14,94,"), Diff(EQUAL,"6,true,"), Diff(DELETE,"true¶19,37,50"), Diff(INSERT,"false¶5,114,11"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"9,137"), Diff(INSERT,"6,40"), Diff(EQUAL,",4"), Diff(INSERT,"5"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"13,39,3,true,false¶23,7,34,true,true¶25,73,4"), Diff(INSERT,"30,45,38,false,false¶28,45,16"), Diff(EQUAL,",true,false¶"), Diff(DELETE,"17,7"), Diff(INSERT,"3,"), Diff(EQUAL,"4,44,false,"), Diff(DELETE,"false¶Distance,Duration,Exhalation,Derived,Inferred¶8,37,55,false,false¶26,12,8,true,true¶25,27,57,fals"), Diff(INSERT,"true¶13,61,0,tru"), Diff(EQUAL,"e,false¶"), Diff(DELETE,"24,136,45"), Diff(INSERT,"1,76,51"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"26,33,52,false,false¶30,73,33,false,false¶1,123,52,false,false¶31,23,3,true,false¶10,25,42,false,false¶26,117,57,false,false"), Diff(INSERT,"Test execution time (ms):130¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="105" _type="PauseCommand" date="Thu May 05 01:06:28 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="213320">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1286]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="104" _type="ConsoleOutput" date="Thu May 05 01:06:28 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="213320" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@71513cd9 . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶8,74,11,false,false¶21,110,28,false,false¶28,137,40,false,false¶16,89,42,false,false¶25,112,0,true,false¶18,95,9,true,false¶14,130,42,false,false¶31,66,21,true,false¶10,12,41,false,true¶29,70,32,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶30,100,37,false,false¶23,52,42,false,false¶25,71,7,true,false¶18,79,46,false,false¶31,135,9,false,false¶5,8,2,false,true¶5,77,49,false,false¶4,25,42,false,false¶13,133,58,false,false¶25,35,21,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶17,111,56,false,false¶1,81,35,false,false¶14,94,6,true,false¶5,114,11,false,false¶6,40,45,false,false¶30,45,38,false,false¶28,45,16,true,false¶3,4,44,false,true¶13,61,0,true,false¶1,76,51,false,false¶Test execution time (ms):130¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@71513cd9 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="107" _type="PauseCommand" date="Thu May 05 01:06:31 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="216305">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2985]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="112" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:06:40 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="225903" type="Run" />
-  <Command __id="114" _type="ShellCommand" date="Thu May 05 01:06:41 EDT 2022" starttimestamp="1651726974907" timestamp="226491" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="116" _type="PauseCommand" date="Thu May 05 01:06:42 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="228074">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1583]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="115" _type="ShellCommand" date="Thu May 05 01:06:42 EDT 2022" starttimestamp="1651726974907" timestamp="228074" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="117" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:06:43 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="228753" type="Run" />
-  <Command __id="118" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:06:43 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="228754" type="Run" />
-  <Command __id="120" _type="PauseCommand" date="Thu May 05 01:06:46 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="231601">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[ProgramExecutionEvent]]></prev>
-    <pause><![CDATA[2846]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="119" _type="ShellCommand" date="Thu May 05 01:06:46 EDT 2022" starttimestamp="1651726974907" timestamp="231600" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="122" _type="PauseCommand" date="Thu May 05 01:06:50 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="235372">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[3772]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="121" _type="ConsoleOutput" date="Thu May 05 01:06:50 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="235372" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):15
-Test execution time (ms):24
-Test execution time (ms):37
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@71513cd9 . Results may change."), Diff(INSERT,"Test execution time (ms):15¶Test execution time (ms):24¶Test execution time (ms):37¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="123" _type="ConsoleOutput" date="Thu May 05 01:06:50 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="235481" type="ConsoleOutput">
-    <outputString><![CDATA[When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95
-0.8571428571428571
-0.819672131147541
-0.84375
-F21A2IsInferredSafeTest did not pass completely:view console output%0.9674185463659146
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):95
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-12,138,40,false
-18,34,47,false
-5,110,57,false
-24,89,11,true
-1,26,32,false
-17,137,11,true
-16,48,50,false
-0,68,40,false
-19,46,9,true
-18,55,44,false
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-0,112,15,false
-31,14,6,true
-14,134,45,false
-5,49,42,false
-29,71,25,false
-9,25,46,true
-9,52,43,false
-23,16,21,true
-31,124,4,true
-5,40,45,false
-Test execution time (ms):35
-Distance,Duration,Exhalation,Derived,Inferred
-25,8,29,true,true
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):15¶Test execution time (ms):24¶Test execution time (ms):37¶Test execution time (ms):1"), Diff(INSERT,"When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95¶0.8571428571428571¶0.819672131147541¶0.84375¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9674185463659146¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):95¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶12,138,40,false¶18,34,47,false¶5,110,57,false¶24,89,11,true¶1,26,32,false¶17,137,11,true¶16,48,50,false¶0,68,40,false¶19,46,9,true¶18,55,44,false¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶0,112,15,false¶31,14,6,true¶14,134,45,false¶5,49,42,false¶29,71,25,false¶9,25,46,true¶9,52,43,false¶23,16,21,true¶31,124,4,true¶5,40,45,false¶Test execution time (ms):35¶Distance,Duration,Exhalation,Derived,Inferred¶25,8,29,true,true"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="124" _type="ConsoleOutput" date="Thu May 05 01:06:50 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="235552" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-12,15,13,true,true
-21,38,5,true,true
-27,134,47,false,false
-27,70,10,true,true
-23,91,7,true,true
-8,84,26,false,false
-16,58,40,false,false
-8,84,49,false,false
-16,62,55,false,false
-26,2,26,true,true
-Distance,Duration,Exhalation,Derived,Inferred
-2,124,37,false,false
-20,114,39,false,false
-10,101,1,false,true
-1,110,30,false,false
-2,79,55,false,false
-15,124,43,false,false
-25,56,1,true,true
-29,43,28,true,false
-3,137,7,false,false
-27,125,13,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-17,121,51,false,false
-30,55,8,true,true
-6,16,13,false,true
-17,137,41,false,false
-9,34,3,false,true
-10,89,20,false,false
-15,18,18,true,true
-5,137,40,false,false
-23,15,2,true,true
-0,62,37,false,false
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,Derived,Inferred
-22,103,59,false,false
-0,142,13,false,false
-3,131,17,false,false
-15,138,16,false,false
-23,57,27,false,false
-28,15,52,false,true
-10,67,39,false,false
-29,32,17,true,false
-28,44,46,false,false
-2,47,44,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-17,114,40,false,false
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"When testing table value the accuracy was found to be 0.8571428571428571 the minimum required accuracy threshold should be 0.95¶0.8571428571428571¶0.819672131147541¶0.84375¶F21A2IsInferredSafeTest did not pass completely:view console output%0.9674185463659146¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):95¶Number of traces > 600  turning tracing off"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶12,15,13,true,true¶21,38,5,true,true¶27,134,47,false,false¶27,70,10,true,true¶23,91,7,true,true¶8,84,26,false,false¶16,58,40,false,false¶8,84,49,false,false¶16,62,55,false,false¶26,2,26,true,true"), Diff(EQUAL,"¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,tru"), Diff(INSERT,"Derived,Inferred¶2,124,37,false,false¶20,114,39,false,fals"), Diff(EQUAL,"e¶1"), Diff(DELETE,"3"), Diff(INSERT,"0"), Diff(EQUAL,",1"), Diff(DELETE,"5,50,true¶13,120,10"), Diff(INSERT,"01,1,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"27"), Diff(INSERT,"1"), Diff(EQUAL,",1"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"0,30,"), Diff(DELETE,"true¶6,15,30,true¶----------¶12,138,40"), Diff(INSERT,"false,false¶2,79,55,false"), Diff(EQUAL,",false¶1"), Diff(DELETE,"8,3"), Diff(INSERT,"5,12"), Diff(EQUAL,"4,4"), Diff(DELETE,"7"), Diff(INSERT,"3"), Diff(EQUAL,",false"), Diff(DELETE,"¶5,110,57,false¶24,89,11,true¶1,26,32"), Diff(INSERT,",false¶25,56,1,true,true¶29,43,28,true"), Diff(EQUAL,",false¶"), Diff(DELETE,"17"), Diff(INSERT,"3"), Diff(EQUAL,",137,"), Diff(DELETE,"11,true¶16,48,50,false¶0,68,40,false¶19,46,9,true¶18,55,44,false¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10"), Diff(INSERT,"7,false,false¶27,125,13,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶17,121,51,false,false¶30,55,8,true,true¶6,16,13,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"7,"), Diff(DELETE,"30,50,true¶13,15,50"), Diff(INSERT,"137,41,false,false¶9,34,3,false,true¶10,89,20,false,false¶15,18,18,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"13,120,10,tru"), Diff(INSERT,"5,137,40,false,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"7"), Diff(INSERT,"3"), Diff(EQUAL,",1"), Diff(DELETE,"20,30,true¶6,15,30,true¶----------¶0,112,15"), Diff(INSERT,"5,2,true,true¶0,62,37,false,false¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶22,103,59,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"31"), Diff(INSERT,"0"), Diff(EQUAL,",14"), Diff(DELETE,",6,tru"), Diff(INSERT,"2,13,false,fals"), Diff(EQUAL,"e¶"), Diff(DELETE,"14"), Diff(INSERT,"3"), Diff(EQUAL,",13"), Diff(DELETE,"4,45"), Diff(INSERT,"1,17,false"), Diff(EQUAL,",false¶"), Diff(INSERT,"1"), Diff(EQUAL,"5,"), Diff(DELETE,"49,42,false¶29,71,25,false¶9,25,46,true¶9,52,43,false¶23,16,21,true¶31,124,4,tru"), Diff(INSERT,"138,16,false,false¶23,57,27,false,false¶28,15,52,false,true¶10,67,39,false,false¶29,32,17,true,false¶28,44,46,false,fals"), Diff(EQUAL,"e¶"), Diff(DELETE,"5"), Diff(INSERT,"2"), Diff(EQUAL,",4"), Diff(DELETE,"0"), Diff(INSERT,"7"), Diff(EQUAL,",4"), Diff(DELETE,"5"), Diff(INSERT,"4"), Diff(EQUAL,",false"), Diff(DELETE,"¶Test execution time (ms):35"), Diff(INSERT,",false"), Diff(EQUAL,"¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"25,8,29,true,tru"), Diff(INSERT,"17,114,40,false,fals"), Diff(EQUAL,"e¶")]]]></diff>
-  </Command>
-  <Command __id="125" _type="ConsoleOutput" date="Thu May 05 01:06:50 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="235660" type="ConsoleOutput">
-    <outputString><![CDATA[23,129,21,false,false
-30,104,19,true,false
-15,56,16,false,false
-31,112,23,true,false
-1,81,38,false,false
-27,122,29,false,false
-24,15,26,true,true
-6,57,21,false,false
-24,47,20,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-25,114,18,false,false
-30,13,6,true,true
-14,129,42,false,false
-18,72,55,false,false
-6,34,28,false,false
-12,122,21,false,false
-3,0,1,false,false
-28,135,24,false,false
-19,132,16,false,false
-23,122,38,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-24,26,16,true,true
-2,25,18,false,false
-15,112,4,true,true
-6,131,9,false,true
-4,88,9,false,false
-22,140,13,false,false
-6,66,59,false,false
-29,110,34,false,false
-17,123,19,false,false
-22,31,53,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-8,104,45,false,false
-24,2,45,true,true
-23,130,55,false,false
-0,12,26,false,false
-13,59,3,true,true
-30,110,18,true,false
-8,134,14,false,false
-30,108,16,true,false
-3,92,12,false,false
-1,59,43,false,false
-Test execution time (ms):133
-Number of traces > 600  turning tracing off
-Test execution time (ms):11
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶12,15"), Diff(INSERT,"23,129,21,false,false¶30,104"), Diff(EQUAL,",1"), Diff(DELETE,"3"), Diff(INSERT,"9"), Diff(EQUAL,",true,"), Diff(DELETE,"true¶21,38,5,true,true¶27,134,47,false,false¶27,70,10,true,true¶23,91,7,true,true¶8,84,26,fals"), Diff(INSERT,"false¶15,56,16,false,false¶31,112,23,tru"), Diff(EQUAL,"e,false¶1"), Diff(DELETE,"6,58,40"), Diff(INSERT,",81,38"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"8,84,4"), Diff(INSERT,"27,122,2"), Diff(EQUAL,"9,false,false¶"), Diff(DELETE,"16,62,55"), Diff(INSERT,"24,15,26,true,true¶6,57,21"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"6,2,26,true,tru"), Diff(INSERT,"4,47,20,false,fals"), Diff(EQUAL,"e¶Distance,Duration,Exhalation,Derived,Inferred¶2"), Diff(INSERT,"5"), Diff(EQUAL,",1"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"4,"), Diff(DELETE,"37"), Diff(INSERT,"18"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"2"), Diff(INSERT,"3"), Diff(EQUAL,"0,1"), Diff(DELETE,"14,39,false,fals"), Diff(INSERT,"3,6,true,tru"), Diff(EQUAL,"e¶1"), Diff(DELETE,"0"), Diff(INSERT,"4"), Diff(EQUAL,",1"), Diff(DELETE,"01,1"), Diff(INSERT,"29,42"), Diff(EQUAL,",false,"), Diff(DELETE,"true¶1,110,30"), Diff(INSERT,"false¶18,72,55"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"2,79,55"), Diff(INSERT,"6,34,28"), Diff(EQUAL,",false,false¶1"), Diff(DELETE,"5"), Diff(INSERT,"2"), Diff(EQUAL,",12"), Diff(DELETE,"4,43"), Diff(INSERT,"2,21"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"25,56,1,true,true¶29,43,28,tru"), Diff(INSERT,"3,0,1,false,false¶28,135,24,fals"), Diff(EQUAL,"e,false¶"), Diff(DELETE,"3"), Diff(INSERT,"19"), Diff(EQUAL,",13"), Diff(DELETE,"7,7"), Diff(INSERT,"2,16"), Diff(EQUAL,",false,false¶2"), Diff(DELETE,"7"), Diff(INSERT,"3"), Diff(EQUAL,",12"), Diff(DELETE,"5,13"), Diff(INSERT,"2,38"), Diff(EQUAL,",false,false¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"17,121,51"), Diff(INSERT,"24,26,16,true,true¶2,25,18"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"30,55,8"), Diff(INSERT,"15,112,4"), Diff(EQUAL,",true,true¶6,1"), Diff(DELETE,"6,13"), Diff(INSERT,"31,9"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"17,137,41"), Diff(INSERT,"4,88,9"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"9,34,"), Diff(INSERT,"22,140,1"), Diff(EQUAL,"3,false,"), Diff(DELETE,"true¶10,89,20,false,false¶15,18,18,true,true¶5,137,40"), Diff(INSERT,"false¶6,66,59,false,false¶29,110,34"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"23,15,2,true,true¶0,62,37,false,false¶Number of traces > 600  turning tracing off"), Diff(INSERT,"17,123,19,false,false¶22,31,53,false,false"), Diff(EQUAL,"¶Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"22"), Diff(INSERT,"8"), Diff(EQUAL,",10"), Diff(DELETE,"3,59"), Diff(INSERT,"4,45"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"0,142,13,false,fals"), Diff(INSERT,"24,2,45,true,tru"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"3,13"), Diff(DELETE,"1,17"), Diff(INSERT,"0,55"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"15,138,1"), Diff(INSERT,"0,12,2"), Diff(EQUAL,"6,false,false¶"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"3,5"), Diff(DELETE,"7,27,false,false¶28,15,52,false,true¶10,67,39"), Diff(INSERT,"9,3,true,true¶30,110,18,true,false¶8,134,14"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"29,32"), Diff(INSERT,"30,108"), Diff(EQUAL,",1"), Diff(DELETE,"7"), Diff(INSERT,"6"), Diff(EQUAL,",true,false¶"), Diff(DELETE,"28,44,46"), Diff(INSERT,"3,92,12"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"2,47"), Diff(INSERT,"1,59"), Diff(EQUAL,",4"), Diff(DELETE,"4"), Diff(INSERT,"3"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶17,114,40,false,false"), Diff(INSERT,"Test execution time (ms):133¶Number of traces > 600  turning tracing off¶Test execution time (ms):11"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="127" _type="PauseCommand" date="Thu May 05 01:06:51 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="236957">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1297]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="126" _type="ConsoleOutput" date="Thu May 05 01:06:51 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="236957" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@29ef3d3f . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"23,129,21,false,false¶30,104,19,true,false¶15,56,16,false,false¶31,112,23,true,false¶1,81,38,false,false¶27,122,29,false,false¶24,15,26,true,true¶6,57,21,false,false¶24,47,20,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶25,114,18,false,false¶30,13,6,true,true¶14,129,42,false,false¶18,72,55,false,false¶6,34,28,false,false¶12,122,21,false,false¶3,0,1,false,false¶28,135,24,false,false¶19,132,16,false,false¶23,122,38,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶24,26,16,true,true¶2,25,18,false,false¶15,112,4,true,true¶6,131,9,false,true¶4,88,9,false,false¶22,140,13,false,false¶6,66,59,false,false¶29,110,34,false,false¶17,123,19,false,false¶22,31,53,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶8,104,45,false,false¶24,2,45,true,true¶23,130,55,false,false¶0,12,26,false,false¶13,59,3,true,true¶30,110,18,true,false¶8,134,14,false,false¶30,108,16,true,false¶3,92,12,false,false¶1,59,43,false,false¶Test execution time (ms):133¶Number of traces > 600  turning tracing off¶Test execution time (ms):11"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@29ef3d3f . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="129" _type="PauseCommand" date="Thu May 05 01:06:53 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="238419">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1462]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="136" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:07:03 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="248420" type="Run" />
-  <Command __id="138" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 01:07:03 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651726974907" timestamp="248421" type="Run" />
-  <Command __id="140" _type="PauseCommand" date="Thu May 05 01:07:06 EDT 2022" range="2s-5s" starttimestamp="1651726974907" timestamp="252000">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3579]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="139" _type="ShellCommand" date="Thu May 05 01:07:06 EDT 2022" starttimestamp="1651726974907" timestamp="252000" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="142" _type="PauseCommand" date="Thu May 05 01:07:08 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="253634">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1634]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="141" _type="ConsoleOutput" date="Thu May 05 01:07:08 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="253634" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):16
-Test execution time (ms):24
-Test execution time (ms):37
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@29ef3d3f . Results may change."), Diff(INSERT,"Test execution time (ms):16¶Test execution time (ms):24¶Test execution time (ms):37¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="143" _type="ConsoleOutput" date="Thu May 05 01:07:08 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="253742" type="ConsoleOutput">
-    <outputString><![CDATA[1.0
-0.819672131147541
-When testing random value the accuracy was found to be 0.6875 the minimum required accuracy threshold should be 0.8
-0.6875
-F21A2IsInferredSafeTest did not pass completely:view console output%0.953125
-
-Number of traces > 600  turning tracing off
-Test execution time (ms):85
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-4,115,52,false
-25,134,56,false
-1,44,0,false
-4,50,17,false
-14,85,9,true
-0,59,12,false
-15,118,56,false
-26,5,46,true
-0,67,50,false
-22,119,28,true
-Distance,Duration,Exhalation,IsSafe
-13,30,30,true
-6,30,10,true
-27,30,50,true
-13,15,50,true
-13,120,10,true
-27,120,30,true
-6,15,30,true
-----------
-10,52,57,false
-22,19,7,true
-24,13,53,true
-10,86,28,true
-25,70,17,true
-14,49,2,true
-23,52,11,true
-14,41,25,true
-24,53,29,true
-14,23,5,true
-Test execution time (ms):29
-Distance,Duration,Exhalation,Derived,Inferred
-19,13,25,true,true
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):16¶Test execution time (ms):24¶Test execution time (ms):37¶Test execution time (ms):0"), Diff(INSERT,"1.0¶0.819672131147541¶When testing random value the accuracy was found to be 0.6875 the minimum required accuracy threshold should be 0.8¶0.6875¶F21A2IsInferredSafeTest did not pass completely:view console output%0.953125¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):85¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶4,115,52,false¶25,134,56,false¶1,44,0,false¶4,50,17,false¶14,85,9,true¶0,59,12,false¶15,118,56,false¶26,5,46,true¶0,67,50,false¶22,119,28,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶----------¶10,52,57,false¶22,19,7,true¶24,13,53,true¶10,86,28,true¶25,70,17,true¶14,49,2,true¶23,52,11,true¶14,41,25,true¶24,53,29,true¶14,23,5,true¶Test execution time (ms):29¶Distance,Duration,Exhalation,Derived,Inferred¶19,13,25,true,true"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="144" _type="ConsoleOutput" date="Thu May 05 01:07:08 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="253816" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-9,120,18,false,true
-27,120,14,true,true
-11,14,31,false,true
-22,31,43,false,false
-22,7,57,false,true
-6,68,42,false,false
-10,24,7,true,true
-6,133,19,false,true
-28,103,58,false,false
-9,125,19,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-29,142,12,false,true
-4,115,22,false,false
-10,1,41,false,true
-9,141,46,false,false
-30,18,44,true,true
-16,113,0,true,true
-19,8,54,false,true
-20,64,9,true,true
-25,97,33,false,false
-23,104,20,false,true
-Number of traces > 600  turning tracing off
-Distance,Duration,Exhalation,Derived,Inferred
-25,131,28,false,true
-17,26,11,true,true
-27,17,40,true,true
-9,112,16,false,true
-17,16,7,true,true
-15,80,40,false,false
-30,114,50,false,false
-10,103,26,false,true
-10,63,50,false,false
-21,62,43,false,false
-Distance,Duration,Exhalation,Derived,Inferred
-24,44,30,false,true
-22,9,46,true,true
-18,104,8,true,true
-29,90,32,false,false
-5,72,20,false,false
-27,109,30,true,true
-26,125,19,false,true
-8,32,2,false,true
-2,113,48,false,false
-16,74,15,false,true
-Distance,Duration,Exhalation,Derived,Inferred
-19,15,52,false,true
-18,129,3,false,true
-11,23,55,false,true
-7,58,3,false,true
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"1.0¶0.819672131147541¶When testing random value the accuracy was found to be 0.6875 the minimum required accuracy threshold should be 0.8¶0.6875¶F21A2IsInferredSafeTest did not pass completely:view console output%0.953125¶¶Number of traces > 600  turning tracing off¶Test execution time (ms):85"), Diff(INSERT,"Distance,Duration,Exhalation,Derived,Inferred¶9,120,18,false,true¶27,120,14,true,true¶11,14,31,false,true¶22,31,43,false,false¶22,7,57,false,true¶6,68,42,false,false¶10,24,7,true,true¶6,133,19,false,true¶28,103,58,false,false¶9,125,19,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶29,142,12,false,true¶4,115,22,false,false¶10,1,41,false,true¶9,141,46,false,false¶30,18,44,true,true¶16,113,0,true,true¶19,8,54,false,true¶20,64,9,true,true¶25,97,33,false,false¶23,104,20,false,true"), Diff(EQUAL,"¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,"), Diff(DELETE,"IsSafe¶13,30,30,true¶6,30,10"), Diff(INSERT,"Derived,Inferred¶25,131,28,false,true¶17,26,11,true"), Diff(EQUAL,",true¶27,"), Diff(DELETE,"30,5"), Diff(INSERT,"17,4"), Diff(EQUAL,"0,true"), Diff(DELETE,"¶13,15,50"), Diff(EQUAL,",true¶"), Diff(DELETE,"13,"), Diff(INSERT,"9,1"), Diff(EQUAL,"12"), Diff(DELETE,"0"), Diff(EQUAL,",1"), Diff(DELETE,"0"), Diff(INSERT,"6,false"), Diff(EQUAL,",true¶"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,"7,1"), Diff(DELETE,"20,30,true¶6,15,30,true¶----------¶4,115,52"), Diff(INSERT,"6,7,true,true¶15,80,40,false"), Diff(EQUAL,",false¶"), Diff(DELETE,"25"), Diff(INSERT,"30"), Diff(EQUAL,",1"), Diff(DELETE,"3"), Diff(INSERT,"1"), Diff(EQUAL,"4,5"), Diff(DELETE,"6"), Diff(INSERT,"0"), Diff(EQUAL,",false"), Diff(DELETE,"¶1,44,0,false¶4,50,17,false¶14,85,9"), Diff(INSERT,",false¶10,103,26,false"), Diff(EQUAL,",true¶"), Diff(INSERT,"1"), Diff(EQUAL,"0,"), Diff(DELETE,"59,12"), Diff(INSERT,"63,50"), Diff(EQUAL,",false"), Diff(DELETE,"¶15,118,56,false¶26,5,46,true¶0,67,50,false¶22,119,28,true¶Distance,Duration,Exhalation,IsSafe¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50"), Diff(INSERT,",false¶21,62,43,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶24,44,30,false,true¶22,9,46,true"), Diff(EQUAL,",true¶1"), Diff(DELETE,"3"), Diff(INSERT,"8"), Diff(EQUAL,",1"), Diff(DELETE,"20,10,true¶27,120,30"), Diff(INSERT,"04,8,true"), Diff(EQUAL,",true¶"), Diff(DELETE,"6,15,30,true¶----------¶10,52,57,false¶22,19,7,tru"), Diff(INSERT,"29,90,32,false,false¶5,72,20,false,fals"), Diff(EQUAL,"e¶2"), Diff(DELETE,"4"), Diff(INSERT,"7"), Diff(EQUAL,",1"), Diff(DELETE,"3,53,true¶10,86,28,true¶25,70,17,true¶14,49,2,true¶23,52,11,true¶14,41,25,true¶24,53,29,true¶14,23,5,true¶Test execution time (ms):29¶Distance,Duration,Exhalation,Derived,Inferred¶19,13,25,tru"), Diff(INSERT,"09,30,true,true¶26,125,19,false,true¶8,32,2,false,true¶2,113,48,false,false¶16,74,15,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶19,15,52,false,true¶18,129,3,false,true¶11,23,55,false,true¶7,58,3,fals"), Diff(EQUAL,"e,true¶")]]]></diff>
-  </Command>
-  <Command __id="145" _type="ConsoleOutput" date="Thu May 05 01:07:08 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="253916" type="ConsoleOutput">
-    <outputString><![CDATA[Distance,Duration,Exhalation,Derived,Inferred
-30,132,29,false,true
-21,93,59,false,false
-10,97,47,false,false
-28,127,28,false,true
-0,95,12,false,false
-25,36,53,false,false
-24,115,49,false,false
-16,1,57,false,true
-10,80,56,false,false
-22,41,11,false,true
-Test execution time (ms):122
-Number of traces > 600  turning tracing off
-Test execution time (ms):9
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Distance,Duration,Exhalation,Derived,Inferred¶"), Diff(DELETE,"9,120,18,false,true¶27,120,14,true,true¶11,14,31"), Diff(INSERT,"30,132,29"), Diff(EQUAL,",false,true¶2"), Diff(DELETE,"2,3"), Diff(EQUAL,"1,"), Diff(DELETE,"4"), Diff(INSERT,"9"), Diff(EQUAL,"3,"), Diff(DELETE,"false"), Diff(INSERT,"59"), Diff(EQUAL,",false"), Diff(DELETE,"¶22,7,57,false,true¶6,68"), Diff(INSERT,",false¶10,97"), Diff(EQUAL,",4"), Diff(DELETE,"2"), Diff(INSERT,"7"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"10,24,7,true,true¶6,133,19"), Diff(INSERT,"28,127,28"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"28,103,58"), Diff(INSERT,"0,95,12"), Diff(EQUAL,",false,false¶"), Diff(DELETE,"9,125,19,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶29,142,12,false,tru"), Diff(INSERT,"25,36,53,false,fals"), Diff(EQUAL,"e¶"), Diff(INSERT,"2"), Diff(EQUAL,"4,115,"), Diff(DELETE,"22"), Diff(INSERT,"49"), Diff(EQUAL,",false,false¶1"), Diff(DELETE,"0"), Diff(INSERT,"6"), Diff(EQUAL,",1,"), Diff(DELETE,"41"), Diff(INSERT,"57"), Diff(EQUAL,",false,true¶"), Diff(DELETE,"9,141,4"), Diff(INSERT,"10,80,5"), Diff(EQUAL,"6,false,false¶"), Diff(DELETE,"30,18,44,true,true¶16,113,0,true,true¶19,8,54,false,true¶20,64,9,true,true¶25,97,33,false,false¶23,104,20,false,true¶Number of traces > 600  turning tracing off¶Distance,Duration,Exhalation,Derived,Inferred¶25,131,28,false,true¶17,26,11,true,true¶27,17,40,true,true¶9,112,16,false,true¶17,16,7,true,true¶15,80,40,false,false¶30,114,50,false,false¶10,103,26,false,true¶10,63,50,false,false¶21,62,43,false,false¶Distance,Duration,Exhalation,Derived,Inferred¶24,44,30,false,true¶22,9,46,true,true¶18,104,8,true,true¶29,90,32,false,false¶5,72,20,false,false¶27,109,30,true,true¶26,125,19,false,true¶8,32,2,false,true¶2,113,48,false,false¶16,74,15,false,true¶Distance,Duration,Exhalation,Derived,Inferred¶19,15,52,false,true¶18,129,3,false,true¶11,23,55,false,true¶7,58,3,false,true"), Diff(INSERT,"22,41,11,false,true¶Test execution time (ms):122¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="147" _type="PauseCommand" date="Thu May 05 01:07:10 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="255347">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1431]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="146" _type="ConsoleOutput" date="Thu May 05 01:07:10 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="255347" type="ConsoleOutput">
-    <outputString><![CDATA[Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@77fbe135 . Results may change.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Distance,Duration,Exhalation,Derived,Inferred¶30,132,29,false,true¶21,93,59,false,false¶10,97,47,false,false¶28,127,28,false,true¶0,95,12,false,false¶25,36,53,false,false¶24,115,49,false,false¶16,1,57,false,true¶10,80,56,false,false¶22,41,11,false,true¶Test execution time (ms):122¶Number of traces > 600  turning tracing off¶Test execution time (ms):9"), Diff(INSERT,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@77fbe135 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="149" _type="PauseCommand" date="Thu May 05 02:02:55 EDT 2022" range="30m-1h" starttimestamp="1651726974907" timestamp="3600108">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3344761]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[BalloonCommand]]></next>
-  </Command>
-  <Command __id="148" _type="BalloonCommand" date="Thu May 05 02:02:55 EDT 2022" message="*******************************************
-Worked 3 minutes(fixed)/3 minutes(context based) from
-Thu May 05 01:03:16 EDT 2022 to Thu May 05 01:07:10 EDT 2022
-Edited 0 Projects: 
-Edited 0 Files: 
-Number of insert: 0
-Number of delete: 0
-" starttimestamp="1651726974907" timestamp="3600108">
-    <fineGrainedWorkTime><![CDATA[3]]></fineGrainedWorkTime>
-    <insert><![CDATA[0]]></insert>
-    <startTime><![CDATA[1651726996106]]></startTime>
-    <endTime><![CDATA[1651727230254]]></endTime>
-    <workTime><![CDATA[3]]></workTime>
-    <delete><![CDATA[0]]></delete>
-  </Command>
-  <Command __id="151" _type="PauseCommand" date="Thu May 05 05:02:45 EDT 2022" range=">1h" starttimestamp="1651726974907" timestamp="14390322">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[BalloonCommand]]></prev>
-    <pause><![CDATA[10790214]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="150" _type="ConsoleOutput" date="Thu May 05 05:02:45 EDT 2022" overflow="false" starttimestamp="1651726974907" timestamp="14390322" type="ConsoleOutput">
-    <outputString><![CDATA[SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0
-
-Test execution time (ms):2
-SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0
-
-Test execution time (ms):0
-SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0
-
-Test execution time (ms):0
-SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0
-
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment2.testcases.F21A2IsInferredSafeTest@77fbe135 . Results may change."), Diff(INSERT,"SocialDistanceBasicMainProvided did not pass completely:getSocialDistanceMVCBasicMain returns null in class registry%0.0¶¶Test execution time (ms):2¶SocialDistanceInterpolatingMainProvided did not pass completely:getSocialDistanceMVCInterpolatingMain returns null in class registry%0.0¶¶Test execution time (ms):0¶SocialDistanceDerivingMainProvided did not pass completely:getSocialDistanceMVCDerivingMain returns null in class registry%0.0¶¶Test execution time (ms):0¶SocialDistanceInferringMainProvided did not pass completely:getSocialDistanceMVCInferringMain returns null in class registry%0.0¶¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="153" _type="PauseCommand" date="Thu May 05 05:02:46 EDT 2022" range="1s-2s" starttimestamp="1651726974907" timestamp="14391681">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1359]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-</Events>

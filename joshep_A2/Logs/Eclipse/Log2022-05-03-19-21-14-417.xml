@@ -1,793 +1,0 @@
-<Events startTimestamp="1651620074417" logVersion="1.0.0.202201202038">
-  <Command __id="449" _type="ShellCommand" date="Tue May 03 19:41:47 EDT 2022" starttimestamp="1651620074417" timestamp="1232938" type="ECLIPSE_GAINED_FOCUS" />
-  <DocumentChange __id="443" _type="Delete" date="Tue May 03 19:41:34 EDT 2022" docASTNodeCount="10" docActiveCodeLength="82" docExpressionCount="5" docLength="82" endLine="5" length="29" offset="45" repeat="2" startLine="4" starttimestamp="1651620074417" timestamp="1220139" timestamp2="1220145">
-    <text><![CDATA[@SuppressWarnings("unused")
-]]></text>
-  </DocumentChange>
-  <Command __id="452" _type="PauseCommand" date="Tue May 03 19:41:53 EDT 2022" range="5s-10s" starttimestamp="1651620074417" timestamp="1238908">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[5970]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="453" _type="MoveCaretCommand" caretOffset="0" date="Tue May 03 19:41:53 EDT 2022" docOffset="0" starttimestamp="1651620074417" timestamp="1239086" />
-  <Command __id="455" _type="PauseCommand" date="Tue May 03 19:42:08 EDT 2022" range="10s-20s" starttimestamp="1651620074417" timestamp="1253901">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[14815]]></pause>
-    <nextType><![CDATA[Select]]></nextType>
-    <next><![CDATA[SelectTextCommand]]></next>
-  </Command>
-  <Command __id="454" _type="SelectTextCommand" caretOffset="221" date="Tue May 03 19:42:08 EDT 2022" end="221" start="145" starttimestamp="1651620074417" timestamp="1253901" />
-  <Command __id="457" _type="PauseCommand" date="Tue May 03 19:42:09 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="1255419">
-    <prevType><![CDATA[Select]]></prevType>
-    <prev><![CDATA[SelectTextCommand]]></prev>
-    <pause><![CDATA[1518]]></pause>
-    <nextType><![CDATA[Select]]></nextType>
-    <next><![CDATA[SelectTextCommand]]></next>
-  </Command>
-  <Command __id="491" _type="ShellCommand" date="Tue May 03 19:43:05 EDT 2022" starttimestamp="1651620074417" timestamp="1310915" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="494" _type="SelectTextCommand" caretOffset="145" date="Tue May 03 19:43:05 EDT 2022" end="222" start="145" starttimestamp="1651620074417" timestamp="1311150" />
-  <Command __id="496" _type="PauseCommand" date="Tue May 03 19:43:08 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="1313868">
-    <prevType><![CDATA[Select]]></prevType>
-    <prev><![CDATA[SelectTextCommand]]></prev>
-    <pause><![CDATA[2718]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="495" _type="ShellCommand" date="Tue May 03 19:43:08 EDT 2022" starttimestamp="1651620074417" timestamp="1313868" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="498" _type="PauseCommand" date="Tue May 03 19:43:26 EDT 2022" range="10s-20s" starttimestamp="1651620074417" timestamp="1332549">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[18681]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="540" _type="MoveCaretCommand" caretOffset="34" date="Tue May 03 19:44:03 EDT 2022" docOffset="34" starttimestamp="1651620074417" timestamp="1369067" />
-  <Command __id="538" _type="DiffBasedFileOpenCommand" date="Tue May 03 19:44:03 EDT 2022" docASTNodeCount="10" docActiveCodeLength="74" docExpressionCount="5" docLength="74" projectName="joshep_A6" starttimestamp="1651620074417" timestamp="1368976">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A6\src\a6\A5Main.java]]></filePath>
-    <diff><![CDATA[null]]></diff>
-    <snapshot><![CDATA[package a6;
-import main.Main;
-
-
-public class A5Main {
-main.Main;
-}
-]]></snapshot>
-  </Command>
-  <Command __id="542" _type="PauseCommand" date="Tue May 03 19:44:04 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="1370149">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[1082]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="1323" _type="ShellCommand" date="Wed May 04 17:28:46 EDT 2022" starttimestamp="1651620074417" timestamp="79652327" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="1325" _type="ProgramExecutionEvent" className="/joshep_A1/src/a1/A1Tests.java" date="Wed May 04 17:28:47 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651620074417" timestamp="79652974" type="Run" />
-  <Command __id="1326" _type="ProgramExecutionEvent" className="/joshep_A1/src/a1/A1Tests.java" date="Wed May 04 17:28:47 EDT 2022" kind="HitBreakPoint" projectName="joshep_A1" starttimestamp="1651620074417" timestamp="79652974" type="Run" />
-  <Command __id="1328" _type="PauseCommand" date="Wed May 04 17:28:54 EDT 2022" range="5s-10s" starttimestamp="1651620074417" timestamp="79660362">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[ProgramExecutionEvent]]></prev>
-    <pause><![CDATA[7388]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[EclipseCommand]]></next>
-  </Command>
-  <Command __id="1327" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Wed May 04 17:28:54 EDT 2022" starttimestamp="1651620074417" timestamp="79660362" />
-  <Command __id="1329" _type="ShellCommand" date="Wed May 04 17:28:55 EDT 2022" starttimestamp="1651620074417" timestamp="79660786" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1331" _type="PauseCommand" date="Wed May 04 17:28:57 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79663042">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[2256]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1330" _type="ShellCommand" date="Wed May 04 17:28:57 EDT 2022" starttimestamp="1651620074417" timestamp="79663042" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="1332" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Wed May 04 17:28:57 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651620074417" timestamp="79663227" type="Run" />
-  <Command __id="1333" _type="RunCommand" className="/joshep_A2/src/a2/A2Tests.java" date="Wed May 04 17:28:57 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651620074417" timestamp="79663227" type="Run" />
-  <Command __id="1335" _type="PauseCommand" date="Wed May 04 17:29:01 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79666847">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[3620]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1334" _type="ShellCommand" date="Wed May 04 17:29:01 EDT 2022" starttimestamp="1651620074417" timestamp="79666847" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1337" _type="PauseCommand" date="Wed May 04 17:29:03 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79669417">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[2570]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1336" _type="ConsoleOutput" date="Wed May 04 17:29:03 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79669417" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):46
-Test execution time (ms):2
-Test execution time (ms):1
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"33"), Diff(INSERT,"46¶Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1338" _type="ExceptionCommand" date="Wed May 04 17:29:03 EDT 2022" starttimestamp="1651620074417" timestamp="79669430" type="Exception">
-    <exceptionString><![CDATA[Test execution time (ms):1
-Execution exception caused by invocation exception caused by:
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()
-
-	at a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-SocialDistanceInferringMainProvided did not pass completely:Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()
-%0.0
-]]></exceptionString>
-    <language><![CDATA[SML]]></language>
-  </Command>
-  <Command __id="1339" _type="ConsoleOutput" date="Wed May 04 17:29:03 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79669432" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):1
-Execution exception caused by invocation exception caused by:
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()
-
-	at a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-SocialDistanceInferringMainProvided did not pass completely:Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()
-%0.0
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"46¶Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):"), Diff(INSERT,"1¶Execution exception caused by invocation exception caused by:¶java.lang.Error: Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()¶¶	at a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21)¶	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)¶	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)¶	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)¶	at java.base/java.lang.Thread.run(Thread.java:834)¶SocialDistanceInferringMainProvided did not pass completely:Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()¶%0."), Diff(EQUAL,"0¶")]]]></diff>
-  </Command>
-  <Command __id="1340" _type="ConsoleOutput" date="Wed May 04 17:29:03 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79669439" type="ConsoleOutput">
-    <outputString><![CDATA[	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()
- at[a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21), java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128), java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628), java.base/java.lang.Thread.run(Thread.java:834)]
-
-Test execution time (ms):5
-SafeSocializationTxtProvided did not pass completely:SafeSocialization.txt not found%0.0
-
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):1¶Execution exception caused by invocation exception caused by:¶java.lang.Error: Unresolved compilation problem: ¶"), Diff(EQUAL,"	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()¶"), Diff(DELETE,"¶	"), Diff(INSERT," "), Diff(EQUAL,"at"), Diff(DELETE," "), Diff(INSERT,"["), Diff(EQUAL,"a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/java.lang.reflect.Method.invoke(Method.java:566)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)"), Diff(DELETE,"¶	at"), Diff(INSERT,","), Diff(EQUAL," java.base/java.lang.Thread.run(Thread.java:834)"), Diff(INSERT,"]"), Diff(EQUAL,"¶"), Diff(DELETE,"SocialDistanceInferringMain"), Diff(INSERT,"¶Test execution time (ms):5¶SafeSocializationTxt"), Diff(EQUAL,"Provided did not pass completely:"), Diff(DELETE,"Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()¶%0."), Diff(INSERT,"SafeSocialization.txt not found%0.0¶¶Test execution time (ms):"), Diff(EQUAL,"0¶")]]]></diff>
-  </Command>
-  <Command __id="1342" _type="PauseCommand" date="Wed May 04 17:29:06 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79672340">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2901]]></pause>
-    <nextType><![CDATA[Exception]]></nextType>
-    <next><![CDATA[ExceptionCommand]]></next>
-  </Command>
-  <Command __id="1341" _type="ExceptionCommand" date="Wed May 04 17:29:06 EDT 2022" starttimestamp="1651620074417" timestamp="79672340" type="Exception">
-    <exceptionString><![CDATA[Test execution time (ms):10
-F21A2IsInferredSafeTest did not pass completely:Missing SafeSocialization.txt%0.0
-
-Test execution time (ms):1
-java.lang.NoSuchMethodException: a1.SocialDistancing.printGivenAndGeneratedCombinationsInferredSafety()
-grader.basics.project.NotGradableException: caused by:java.lang.NoSuchMethodException: a1.SocialDistancing.printGivenAndGeneratedCombinationsInferredSafety()
-	at gradingTools.comp524f20.assignment1.testcases.socialDistance.utility.PrintGivenAndGeneratedCombinationsInferredSafety.test(PrintGivenAndGeneratedCombinationsInferredSafety.java:125)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)
-	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-	at grader.basics.junit.AJUnitTestContext.getAndPossiblyRunJUnitPassFailTestCase(AJUnitTestContext.java:52)
-	at grader.basics.junit.JUnitTestsEnvironment.getAndPossiblyRunGradableJUnitTest(JUnitTestsEnvironment.java:62)
-	at grader.basics.testcase.PassFailJUnitTestCase.possiblyRunAndCheckPrecedingTests(PassFailJUnitTestCase.java:166)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:221)
-	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-]]></exceptionString>
-    <language><![CDATA[java]]></language>
-  </Command>
-  <Command __id="1344" _type="PauseCommand" date="Wed May 04 17:29:08 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="79673783">
-    <prevType><![CDATA[Exception]]></prevType>
-    <prev><![CDATA[ExceptionCommand]]></prev>
-    <pause><![CDATA[1443]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1343" _type="ConsoleOutput" date="Wed May 04 17:29:08 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79673783" type="ConsoleOutput">
-    <outputString><![CDATA[
-Testing BasicMainTest with the following inputs:
-"10" "10" "10" "13" "30" "30" "6" "30" "10" "27" "30" "50" "6" "15" "10" "6" "16" "10" "5" "14" "9" "27" "120" "50" "-1" 
-
-
-Collected output:
-0 Please enter data regarding your guest interaction.
-1 Distance?
-2 Duration?
-3 Exhalation Level?
-4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]
-5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]
-6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]
-7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@64616ca2]
-8 Not Safe!
-9 Please enter data regarding your guest interaction.
-10 Distance?
-11 Duration?
-12 Exhalation Level?
-13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.BasicModel@64616ca2]
-14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]
-15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]
-16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]
-17 Safe.
-18 Please enter data regarding your guest interaction.
-19 Distance?
-20 Duration?
-21 Exhalation Level?
-22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@64616ca2]
-23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]
-24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]
-25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]
-26 Safe.
-27 Please enter data regarding your guest interaction.
-28 Distance?
-29 Duration?
-30 Exhalation Level?
-31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.BasicModel@64616ca2]
-32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]
-33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.BasicModel@64616ca2]
-34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]
-35 Safe.
-36 Please enter data regarding your guest interaction.
-37 Distance?
-38 Duration?
-39 Exhalation Level?
-40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@64616ca2]
-41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.BasicModel@64616ca2]
-42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]
-43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@64616ca2]
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceMVCInferringMain()¶ at[a2.ClassRegistry.getSocialDistanceMVCInferringMain(ClassRegistry.java:7), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), grader.basics.execution.AMethodExecutionCallable.call(AMethodExecutionCallable.java:21), java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128), java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628), java.base/java.lang.Thread.run(Thread.java:834)]¶¶Test execution time (ms):5¶SafeSocializationTxtProvided did not pass completely:SafeSocialization.txt not found%0.0¶¶Test execution time (ms):0"), Diff(INSERT,"¶Testing BasicMainTest with the following inputs:¶"10" "10" "10" "13" "30" "30" "6" "30" "10" "27" "30" "50" "6" "15" "10" "6" "16" "10" "5" "14" "9" "27" "120" "50" "-1" ¶¶¶Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@64616ca2]¶8 Not Safe!¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.BasicModel@64616ca2]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@64616ca2]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.BasicModel@64616ca2]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.BasicModel@64616ca2]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.BasicModel@64616ca2]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.BasicModel@64616ca2]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.BasicModel@64616ca2]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.BasicModel@64616ca2]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.BasicModel@64616ca2]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.BasicModel@64616ca2]"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1346" _type="PauseCommand" date="Wed May 04 17:29:09 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="79674832">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1049]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1345" _type="ConsoleOutput" date="Wed May 04 17:29:09 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79674832" type="ConsoleOutput">
-    <outputString><![CDATA[
-Testing InterpolatingMainTests with the following inputs:
-"1" "1" "1" "13" "15" "50" "28" "119" "16" "13" "15" "31" "6" "15" "10" "6" "15" "51" "27" "15" "30" "-1" 
-
-Collected output:
-0 Please enter data regarding your guest interaction.
-1 Distance?
-2 Duration?
-3 Exhalation Level?
-4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-8 Not Safe!
-9 Please enter data regarding your guest interaction.
-10 Distance?
-11 Duration?
-12 Exhalation Level?
-13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=50; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-17 Safe.
-18 Please enter data regarding your guest interaction.
-19 Distance?
-20 Duration?
-21 Exhalation Level?
-22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=28; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=119; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=16; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-26 Safe.
-27 Please enter data regarding your guest interaction.
-28 Distance?
-29 Duration?
-30 Exhalation Level?
-31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=31; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-35 Safe.
-36 Please enter data regarding your guest interaction.
-37 Distance?
-38 Duration?
-39 Exhalation Level?
-40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"¶Testing "), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolating"), Diff(EQUAL,"MainTest"), Diff(INSERT,"s"), Diff(EQUAL," with the following inputs:¶"1"), Diff(DELETE,"0"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(EQUAL,"" "13" ""), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"" ""), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,"0" ""), Diff(DELETE,"6"), Diff(INSERT,"28"), Diff(EQUAL,"" ""), Diff(DELETE,"30"), Diff(INSERT,"119"), Diff(EQUAL,"" "1"), Diff(DELETE,"0"), Diff(INSERT,"6"), Diff(EQUAL,"" ""), Diff(DELETE,"27"), Diff(INSERT,"13"), Diff(EQUAL,"" ""), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"" ""), Diff(DELETE,"50"), Diff(INSERT,"31"), Diff(EQUAL,"" "6" "15" "10" "6" "1"), Diff(DELETE,"6" "10" "5" "14" "9"), Diff(INSERT,"5" "51"), Diff(EQUAL,"" "27" "1"), Diff(DELETE,"20"), Diff(INSERT,"5"), Diff(EQUAL,"" ""), Diff(DELETE,"5"), Diff(INSERT,"3"), Diff(EQUAL,"0" "-1" ¶¶"), Diff(DELETE,"¶"), Diff(EQUAL,"Collected output:¶0 Please enter data regarding your guest interaction.¶1 Distance?¶2 Duration?¶3 Exhalation Level?¶4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶8 Not Safe!¶9 Please enter data regarding your guest interaction.¶10 Distance?¶11 Duration?¶12 Exhalation Level?¶13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL,"0; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶17 Safe.¶18 Please enter data regarding your guest interaction.¶19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"6"), Diff(INSERT,"28"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"119"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=1"), Diff(DELETE,"0"), Diff(INSERT,"6"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"27"), Diff(INSERT,"13"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"50"), Diff(INSERT,"31"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2."), Diff(DELETE,"Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2."), Diff(DELETE,"BasicModel@64616ca2]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.Basic"), Diff(INSERT,"Interpolated"), Diff(EQUAL,"Model@64616ca2]¶")]]]></diff>
-  </Command>
-  <Command __id="1347" _type="ConsoleOutput" date="Wed May 04 17:29:09 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79674888" type="ConsoleOutput">
-    <outputString><![CDATA[43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-44 Not Safe!
-45 Please enter data regarding your guest interaction.
-46 Distance?
-47 Duration?
-48 Exhalation Level?
-49 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-50 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-51 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=51; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-52 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-53 Not Safe!
-54 Please enter data regarding your guest interaction.
-55 Distance?
-56 Duration?
-57 Exhalation Level?
-58 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-59 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-60 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-61 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]
-62 Not Safe!
-63 Please enter data regarding your guest interaction.
-64 Distance?
-65 Quitting
-
-Output line: "0" matches regex: ^[Pp]lease enter.*
-Output line: "1" matches regex: ^[Dd]istance.*
-Output line: "2" matches regex: ^[Dd]uration.*
-Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*
-Output line: "4" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
-Output line: "5" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
-Output line: "6" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*
-Output line: "8" matches regex: ^[Nn]ot [Ss]afe.*
-Output line: "13" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=13.*
-Output line: "14" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=15.*
-Output line: "15" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=50.*
-Output line: "17" matches regex: ^[Ss]afe.*
-Output line: "26" matches regex: ^[Ss]afe.*
-Output line: "35" matches regex: ^[Ss]afe.*
-Output line: "44" matches regex: ^[Nn]ot [Ss]afe.*
-Output line: "53" matches regex: ^[Nn]ot [Ss]afe.*
-Output line: "62" matches regex: ^[Nn]ot [Ss]afe.*
-Output line: "65" matches regex: ^[Qq]uitting.*
-Test execution time (ms):1201
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"¶Testing InterpolatingMainTests with the following inputs:¶"1" "1" "1" "13" "15" "50" "28" "119" "16" "13" "15" "31" "6" "15" "10" "6" "15" "51" "27" "15" "30" "-1" ¶¶Collected output:¶0"), Diff(INSERT,"43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶44 Not Safe!¶45"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"1"), Diff(INSERT,"46"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"2"), Diff(INSERT,"47"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"3"), Diff(INSERT,"48"), Diff(EQUAL," Exhalation Level?¶4"), Diff(INSERT,"9"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"1"), Diff(INSERT,"6"), Diff(EQUAL,"; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶5"), Diff(INSERT,"0"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=1"), Diff(INSERT,"5"), Diff(EQUAL,"; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"6"), Diff(INSERT,"51"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(INSERT,"5"), Diff(EQUAL,"1; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"7"), Diff(INSERT,"52"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"8"), Diff(INSERT,"53"), Diff(EQUAL," Not Safe!¶"), Diff(DELETE,"9"), Diff(INSERT,"54"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"10"), Diff(INSERT,"55"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"11"), Diff(INSERT,"56"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"12"), Diff(INSERT,"57"), Diff(EQUAL," Exhalation Level?¶"), Diff(DELETE,"13"), Diff(INSERT,"58"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"13"), Diff(INSERT,"27"), Diff(EQUAL,"; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"14"), Diff(INSERT,"59"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"15"), Diff(INSERT,"60"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"5"), Diff(INSERT,"3"), Diff(EQUAL,"0; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"1"), Diff(EQUAL,"6"), Diff(INSERT,"1"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue="), Diff(DELETE,"tru"), Diff(INSERT,"fals"), Diff(EQUAL,"e; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶"), Diff(DELETE,"17"), Diff(INSERT,"62 Not"), Diff(EQUAL," Safe"), Diff(DELETE,"."), Diff(INSERT,"!"), Diff(EQUAL,"¶"), Diff(DELETE,"18"), Diff(INSERT,"63"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"19"), Diff(INSERT,"64"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=28; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=119; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶24 "), Diff(INSERT,"65 Quitting¶¶Output line: "0" matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Exhalation; oldValue=null; newValue=16; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶25 "), Diff(INSERT,".*oldValue=null; newValue=1.*¶Output line: "5" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Safe; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"true; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶26 Safe.¶27 Please enter data regarding your gues"), Diff(INSERT,"1.*¶Outpu"), Diff(EQUAL,"t "), Diff(INSERT,"l"), Diff(EQUAL,"in"), Diff(DELETE,"teraction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 "), Diff(INSERT,"e: "6" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Distance; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue=1"), Diff(DELETE,"3; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶32 "), Diff(INSERT,".*¶Output line: "8" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "13" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Duration; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue=1"), Diff(DELETE,"5; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶33 "), Diff(INSERT,"3.*¶Output line: "14" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Exhalation; oldValue=null; newValue=31; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶34 "), Diff(INSERT,".*oldValue=null; newValue=15.*¶Output line: "15" matches regex: ^"), Diff(EQUAL,"java.beans.PropertyChangeEvent"), Diff(DELETE,"[propertyName=Safe; "), Diff(INSERT,".*"), Diff(EQUAL,"oldValue=null; newValue="), Diff(DELETE,"true; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶35 S"), Diff(INSERT,"50.*¶Output line: "17" matches regex: ^[Ss]"), Diff(EQUAL,"afe."), Diff(INSERT,"*"), Diff(EQUAL,"¶"), Diff(DELETE,"36 Please enter data regarding your gues"), Diff(INSERT,"Output line: "26" matches regex: ^[Ss]afe.*¶Outpu"), Diff(EQUAL,"t "), Diff(INSERT,"l"), Diff(EQUAL,"in"), Diff(DELETE,"teraction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.InterpolatedModel@64616ca2]"), Diff(INSERT,"e: "35" matches regex: ^[Ss]afe.*¶Output line: "44" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "53" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "62" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "65" matches regex: ^[Qq]uitting.*¶Test execution time (ms):1201"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1349" _type="PauseCommand" date="Wed May 04 17:29:10 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="79676162">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1274]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1348" _type="ConsoleOutput" date="Wed May 04 17:29:10 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79676162" type="ConsoleOutput">
-    <outputString><![CDATA[
-Testing DerivingMainTest with the following inputs:
-"404" "404" "404" "13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "50" "-1" 
-
-
-Collected output:
-0 Please enter data regarding your guest interaction.
-1 Distance?
-2 Duration?
-3 Exhalation Level?
-4 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@64616ca2]
-5 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@64616ca2]
-6 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=404; propagationId=null; source=a2.DerivedModel@64616ca2]
-7 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]
-8 Not Safe!
-9 Please enter data regarding your guest interaction.
-10 Distance?
-11 Duration?
-12 Exhalation Level?
-13 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@64616ca2]
-14 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@64616ca2]
-15 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2.DerivedModel@64616ca2]
-16 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]
-17 Safe.
-18 Please enter data regarding your guest interaction.
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.InterpolatedModel@64616ca2]¶44 Not Safe!¶45"), Diff(INSERT,"¶Testing DerivingMainTest with the following inputs:¶"404" "404" "404" "13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "50" "-1" ¶¶¶Collected output:¶0"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"46"), Diff(INSERT,"1"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"47"), Diff(INSERT,"2"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"48"), Diff(INSERT,"3"), Diff(EQUAL," Exhalation Level?¶4"), Diff(DELETE,"9"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"6"), Diff(INSERT,"404"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶5"), Diff(DELETE,"0"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"15"), Diff(INSERT,"404"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"51"), Diff(INSERT,"6"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"51"), Diff(INSERT,"404"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"52"), Diff(INSERT,"7"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"53"), Diff(INSERT,"8"), Diff(EQUAL," Not Safe!¶"), Diff(DELETE,"54"), Diff(INSERT,"9"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"55"), Diff(INSERT,"10"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"56"), Diff(INSERT,"11"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"57"), Diff(INSERT,"12"), Diff(EQUAL," Exhalation Level?¶"), Diff(DELETE,"58"), Diff(INSERT,"13"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"27"), Diff(INSERT,"13"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"59"), Diff(INSERT,"14"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"15"), Diff(INSERT,"30"), Diff(EQUAL,"; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"60"), Diff(INSERT,"15"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=30; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"6"), Diff(EQUAL,"1"), Diff(INSERT,"6"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue="), Diff(DELETE,"fals"), Diff(INSERT,"tru"), Diff(EQUAL,"e; propagationId=null; source=a2."), Diff(DELETE,"Interpolat"), Diff(INSERT,"Deriv"), Diff(EQUAL,"edModel@64616ca2]¶"), Diff(DELETE,"62 Not Safe!¶63 Please enter data regarding your guest interaction.¶64 Distance?¶65 Quitting¶¶Output line: "0" matches regex: ^[Pp]lease enter.*¶Output line: "1" matches regex: ^[Dd]istance.*¶Output line: "2" matches regex: ^[Dd]uration.*¶Output line: "3" matches regex: ^[Ee]xhalation [Ll]evel.*¶Output line: "4" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*¶Output line: "5" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*¶Output line: "6" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=1.*¶Output line: "8" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "13" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=13.*¶Output line: "14" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=15.*¶Output line: "15" matches regex: ^java.beans.PropertyChangeEvent.*oldValue=null; newValue=50.*¶Output line: "17" matches regex: ^[Ss]afe.*¶Output line: "26" matches regex: ^[Ss]afe.*¶Output line: "35" matches regex: ^[Ss]afe.*¶Outpu"), Diff(INSERT,"17 Safe.¶18 Please enter data regarding your gues"), Diff(EQUAL,"t "), Diff(DELETE,"l"), Diff(EQUAL,"in"), Diff(DELETE,"e: "44" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "53" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "62" matches regex: ^[Nn]ot [Ss]afe.*¶Output line: "65" matches regex: ^[Qq]uitting.*¶Test execution time (ms):1201"), Diff(INSERT,"teraction."), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1350" _type="ConsoleOutput" date="Wed May 04 17:29:10 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79676193" type="ConsoleOutput">
-    <outputString><![CDATA[19 Distance?
-20 Duration?
-21 Exhalation Level?
-22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@64616ca2]
-23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@64616ca2]
-24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]
-25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]
-26 Safe.
-27 Please enter data regarding your guest interaction.
-28 Distance?
-29 Duration?
-30 Exhalation Level?
-31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@64616ca2]
-32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]
-33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]
-34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]
-35 Safe.
-36 Please enter data regarding your guest interaction.
-37 Distance?
-38 Duration?
-39 Exhalation Level?
-40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]
-41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]
-42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]
-43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]
-44 Safe.
-45 Please enter data regarding your guest interaction.
-46 Distance?
-47 Duration?
-48 Exhalation Level?
-49 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@64616ca2]
-50 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=121; propagationId=null; source=a2.DerivedModel@64616ca2]
-51 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]
-52 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]
-53 Not Safe!
-54 Please enter data regarding your guest interaction.
-55 Distance?
-56 Duration?
-57 Exhalation Level?
-58 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=5; propagationId=null; source=a2.DerivedModel@64616ca2]
-59 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@64616ca2]
-60 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]
-61 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]
-62 Not Safe!
-63 Please enter data regarding your guest interaction.
-64 Distance?
-65 Duration?
-66 Exhalation Level?
-67 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]
-68 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"¶Testing DerivingMainTest with the following inputs:¶"404" "404" "404" "13" "30" "30" "6" "15" "10" "13" "29" "29" "27" "120" "10" "6" "121" "10" "5" "15" "10" "27" "120" "50" "-1" ¶¶¶Collected output:¶0"), Diff(INSERT,"19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@64616ca2]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@64616ca2]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@64616ca2]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶44 Safe.¶45"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"1"), Diff(INSERT,"46"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"2"), Diff(INSERT,"47"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"3"), Diff(INSERT,"48"), Diff(EQUAL," Exhalation Level?¶4"), Diff(INSERT,"9"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"404"), Diff(INSERT,"6"), Diff(EQUAL,"; propagationId=null; source=a2.DerivedModel@64616ca2]¶5"), Diff(INSERT,"0"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"404"), Diff(INSERT,"121"), Diff(EQUAL,"; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"6"), Diff(INSERT,"51"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"404"), Diff(INSERT,"10"), Diff(EQUAL,"; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"7"), Diff(INSERT,"52"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"8"), Diff(INSERT,"53"), Diff(EQUAL," Not Safe!¶"), Diff(DELETE,"9"), Diff(INSERT,"54"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(DELETE,"10"), Diff(INSERT,"55"), Diff(EQUAL," Distance?¶"), Diff(DELETE,"11"), Diff(INSERT,"56"), Diff(EQUAL," Duration?¶"), Diff(DELETE,"12"), Diff(INSERT,"57"), Diff(EQUAL," Exhalation Level?¶"), Diff(DELETE,"13"), Diff(INSERT,"58"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue="), Diff(DELETE,"13"), Diff(INSERT,"5"), Diff(EQUAL,"; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"14"), Diff(INSERT,"59"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue="), Diff(DELETE,"30"), Diff(INSERT,"15"), Diff(EQUAL,"; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"15"), Diff(INSERT,"60"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue="), Diff(DELETE,"3"), Diff(INSERT,"1"), Diff(EQUAL,"0; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"1"), Diff(EQUAL,"6"), Diff(INSERT,"1"), Diff(EQUAL," java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue="), Diff(DELETE,"tru"), Diff(INSERT,"fals"), Diff(EQUAL,"e; propagationId=null; source=a2.DerivedModel@64616ca2]¶"), Diff(DELETE,"17"), Diff(INSERT,"62 Not"), Diff(EQUAL," Safe"), Diff(DELETE,"."), Diff(INSERT,"!"), Diff(EQUAL,"¶"), Diff(DELETE,"18"), Diff(INSERT,"63"), Diff(EQUAL," Please enter data regarding your guest interaction.¶"), Diff(INSERT,"64 Distance?¶65 Duration?¶66 Exhalation Level?¶67 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]¶68 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]¶")]]]></diff>
-  </Command>
-  <Command __id="1351" _type="ConsoleOutput" date="Wed May 04 17:29:10 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79676262" type="ConsoleOutput">
-    <outputString><![CDATA[A2PublicMethodsOverride did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-A2NoStarImports did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-A2PackageDeclarations did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-F21A2NoCheckstyleWarnings did not pass completely:Could not run checkstyle%0.0
-
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"19 Distance?¶20 Duration?¶21 Exhalation Level?¶22 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@64616ca2]¶23 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@64616ca2]¶24 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶25 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶26 Safe.¶27 Please enter data regarding your guest interaction.¶28 Distance?¶29 Duration?¶30 Exhalation Level?¶31 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=13; propagationId=null; source=a2.DerivedModel@64616ca2]¶32 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]¶33 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=29; propagationId=null; source=a2.DerivedModel@64616ca2]¶34 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶35 Safe.¶36 Please enter data regarding your guest interaction.¶37 Distance?¶38 Duration?¶39 Exhalation Level?¶40 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]¶41 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]¶42 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶43 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=true; propagationId=null; source=a2.DerivedModel@64616ca2]¶44 Safe.¶45 Please enter data regarding your guest interaction.¶46 Distance?¶47 Duration?¶48 Exhalation Level?¶49 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=6; propagationId=null; source=a2.DerivedModel@64616ca2]¶50 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=121; propagationId=null; source=a2.DerivedModel@64616ca2]¶51 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶52 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]¶53 Not Safe!¶54 Please enter data regarding your guest interaction.¶55 Distance?¶56 Duration?¶57 Exhalation Level?¶58 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=5; propagationId=null; source=a2.DerivedModel@64616ca2]¶59 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=15; propagationId=null; source=a2.DerivedModel@64616ca2]¶60 java.beans.PropertyChangeEvent[propertyName=Exhalation; oldValue=null; newValue=10; propagationId=null; source=a2.DerivedModel@64616ca2]¶61 java.beans.PropertyChangeEvent[propertyName=Safe; oldValue=null; newValue=false; propagationId=null; source=a2.DerivedModel@64616ca2]¶62 Not Safe!¶63 Please enter data regarding your guest interaction.¶64 Distance?¶65 Duration?¶66 Exhalation Level?¶67 java.beans.PropertyChangeEvent[propertyName=Distance; oldValue=null; newValue=27; propagationId=null; source=a2.DerivedModel@64616ca2]¶68 java.beans.PropertyChangeEvent[propertyName=Duration; oldValue=null; newValue=120; propagationId=null; source=a2.DerivedModel@64616ca2]"), Diff(INSERT,"A2PublicMethodsOverride did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2NoStarImports did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2PackageDeclarations did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶F21A2NoCheckstyleWarnings did not pass completely:Could not run checkstyle%0.0¶¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1353" _type="PauseCommand" date="Wed May 04 17:29:12 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79678312">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2050]]></pause>
-    <nextType><![CDATA[Exception]]></nextType>
-    <next><![CDATA[ExceptionCommand]]></next>
-  </Command>
-  <Command __id="1352" _type="ExceptionCommand" date="Wed May 04 17:29:12 EDT 2022" starttimestamp="1651620074417" timestamp="79678312" type="Exception">
-    <exceptionString><![CDATA[Test execution time (ms):2
-Test execution time (ms):1
-Test execution time (ms):2
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceClassifierFactory()
-
-	at a2.ClassRegistry.getSocialDistanceClassifierFactory(ClassRegistry.java:7)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.factoryClass(ClassifierFactoryTest.java:36)
-	at gradingTools.shared.testcases.FactoryMethodTest.getFactoryClass(FactoryMethodTest.java:63)
-	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodName(FactoryMethodTest.java:455)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.createUsingFactory(ClassifierFactoryTest.java:44)
-	at gradingTools.shared.testcases.FactoryMethodTest.doFactoryMethodTest(FactoryMethodTest.java:126)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.test(ClassifierFactoryTest.java:61)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.defaultTest(ClassifierFactoryTest.java:52)
-	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)
-	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
-	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
-	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
-	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
-]]></exceptionString>
-    <language><![CDATA[SML]]></language>
-  </Command>
-  <Command __id="1354" _type="ConsoleOutput" date="Wed May 04 17:29:12 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79678341" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2
-Test execution time (ms):1
-Test execution time (ms):2
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceClassifierFactory()
-
-	at a2.ClassRegistry.getSocialDistanceClassifierFactory(ClassRegistry.java:7)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.factoryClass(ClassifierFactoryTest.java:36)
-	at gradingTools.shared.testcases.FactoryMethodTest.getFactoryClass(FactoryMethodTest.java:63)
-	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodName(FactoryMethodTest.java:455)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.createUsingFactory(ClassifierFactoryTest.java:44)
-	at gradingTools.shared.testcases.FactoryMethodTest.doFactoryMethodTest(FactoryMethodTest.java:126)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.test(ClassifierFactoryTest.java:61)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)
-	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.defaultTest(ClassifierFactoryTest.java:52)
-	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)
-	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
-	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
-	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
-	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"A2PublicMethodsOverride did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2NoStarImports did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶A2PackageDeclarations did not pass completely:No checkstyle output, check "), Diff(INSERT,"Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):2¶java.lang.Error: Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceClassifierFactory()¶¶	at a2.ClassRegistry.getSocialDistanceClassifierFactory(ClassRegistry.java:7)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.factoryClass(ClassifierFactoryTest.java:36)¶	at gradingTools.shared.testcases.FactoryMethodTest.getFactoryClass(FactoryMethodTest.java:63)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodName(FactoryMethodTest.java:455)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.createUsingFactory(ClassifierFactoryTest.java:44)¶	at gradingTools.shared.testcases.FactoryMethodTest.doFactoryMethodTest(FactoryMethodTest.java:126)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.test(ClassifierFactoryTest.java:61)¶	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.defaultTest(ClassifierFactoryTest.java:52)¶	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen."), Diff(EQUAL,"con"), Diff(DELETE,"sole error messages%0.0¶¶Test execution time (ms):0¶F21A2NoCheckstyleWarnings did not pass completely:Could not run checkstyle%0.0¶¶Test execution time (ms):1"), Diff(INSERT,"troller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1356" _type="PauseCommand" date="Wed May 04 17:29:16 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79682137">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3796]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1355" _type="ConsoleOutput" date="Wed May 04 17:29:16 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79682137" type="ConsoleOutput">
-    <outputString><![CDATA[SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):2¶Test execution time (ms):1¶Test execution time (ms):2¶java.lang.Error: Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistanceClassifierFactory()¶¶	at a2.ClassRegistry.getSocialDistanceClassifierFactory(ClassRegistry.java:7)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.factoryClass(ClassifierFactoryTest.java:36)¶	at gradingTools.shared.testcases.FactoryMethodTest.getFactoryClass(FactoryMethodTest.java:63)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodName(FactoryMethodTest.java:455)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.createUsingFactory(ClassifierFactoryTest.java:44)¶	at gradingTools.shared.testcases.FactoryMethodTest.doFactoryMethodTest(FactoryMethodTest.java:126)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.test(ClassifierFactoryTest.java:61)¶	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)¶	at gradingTools.comp524f20.assignment1.socialDistance.factories.ClassifierFactoryTest.defaultTest(ClassifierFactoryTest.java:52)¶	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen."), Diff(INSERT,"SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check "), Diff(EQUAL,"con"), Diff(DELETE,"troller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)"), Diff(INSERT,"sole error messages%0.0¶¶Test execution time (ms):0¶InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1358" _type="PauseCommand" date="Wed May 04 17:29:22 EDT 2022" range="5s-10s" starttimestamp="1651620074417" timestamp="79688167">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[6030]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1357" _type="ConsoleOutput" date="Wed May 04 17:29:22 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79688167" type="ConsoleOutput">
-    <outputString><![CDATA[WekaFileSizeTest did not pass completely:Missing SafeSocialization.txt%0.0
-
-Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"SocialDistanceMainSetsModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainFetchesViewSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceMainCallsControllerMethod did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceControllerFetchesModelSingleton did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶SocialDistanceControllerWritesModel did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶SocialDistanceViewISAPropertyListener did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶BasicModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶DerivingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InterpolatingModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶InferringModelRegistersObserver did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1"), Diff(INSERT,"WekaFileSizeTest did not pass completely:Missing SafeSocialization.txt%0.0¶¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1360" _type="PauseCommand" date="Wed May 04 17:29:25 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="79691098">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2931]]></pause>
-    <nextType><![CDATA[Exception]]></nextType>
-    <next><![CDATA[ExceptionCommand]]></next>
-  </Command>
-  <Command __id="1359" _type="ExceptionCommand" date="Wed May 04 17:29:25 EDT 2022" starttimestamp="1651620074417" timestamp="79691098" type="Exception">
-    <exceptionString><![CDATA[DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistancInferringModel()
-
-	at a2.ClassRegistry.getSocialDistancInferringModel(ClassRegistry.java:7)
-	at gradingTools.comp524f20.assignment1.testcases.socialDistance.style.ModelReuse.test(ModelReuse.java:38)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)
-	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:106)
-	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)
-	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
-	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
-	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
-	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
-]]></exceptionString>
-    <language><![CDATA[SML]]></language>
-  </Command>
-  <Command __id="1361" _type="ConsoleOutput" date="Wed May 04 17:29:25 EDT 2022" overflow="false" starttimestamp="1651620074417" timestamp="79691105" type="ConsoleOutput">
-    <outputString><![CDATA[DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):0
-DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0
-
-Test execution time (ms):1
-java.lang.Error: Unresolved compilation problem: 
-	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistancInferringModel()
-
-	at a2.ClassRegistry.getSocialDistancInferringModel(ClassRegistry.java:7)
-	at gradingTools.comp524f20.assignment1.testcases.socialDistance.style.ModelReuse.test(ModelReuse.java:38)
-	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)
-	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:106)
-	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)
-	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)
-	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
-	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
-	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
-	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"WekaFileSizeTest did not pass completely:Missing SafeSocialization.txt%0.0¶¶Test execution time (ms):0"), Diff(INSERT,"DerivedAndInferredPrintCallSharedProcedure did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):0¶DerivedPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶InferredPrintIsNotDirect did not pass completely:No checkstyle output, check console error messages%0.0¶¶Test execution time (ms):1¶java.lang.Error: Unresolved compilation problem: ¶	The type ClassRegistry must implement the inherited abstract method SocialDistanceClassRegistry.getSocialDistancInferringModel()¶¶	at a2.ClassRegistry.getSocialDistancInferringModel(ClassRegistry.java:7)¶	at gradingTools.comp524f20.assignment1.testcases.socialDistance.style.ModelReuse.test(ModelReuse.java:38)¶	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:226)¶	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:106)¶	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:301)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:325)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:187)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1363" _type="PauseCommand" date="Wed May 04 17:29:34 EDT 2022" range="5s-10s" starttimestamp="1651620074417" timestamp="79699783">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[8678]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-</Events>
