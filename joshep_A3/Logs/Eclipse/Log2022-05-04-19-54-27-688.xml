@@ -1,0 +1,30 @@
+<Events startTimestamp="1651708467688" logVersion="1.0.0.202201202038">
+  <Command __id="646" _type="SelectTextCommand" caretOffset="29" date="Wed May 04 20:06:59 EDT 2022" end="29" start="20" starttimestamp="1651708467688" timestamp="751363" />
+  <Command __id="644" _type="DiffBasedFileOpenCommand" date="Wed May 04 20:06:58 EDT 2022" docASTNodeCount="14" docActiveCodeLength="81" docExpressionCount="8" docLength="81" projectName="joshep_A5" starttimestamp="1651708467688" timestamp="751178">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A5\src\a5\A5Main.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a5;
+import main.Main;
+
+
+public class A5Main extends main.Main{
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="648" _type="PauseCommand" date="Wed May 04 20:07:02 EDT 2022" range="2s-5s" starttimestamp="1651708467688" timestamp="755193">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[3830]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="649" _type="SelectTextCommand" caretOffset="129" date="Wed May 04 20:07:03 EDT 2022" end="129" start="85" starttimestamp="1651708467688" timestamp="755367" />
+  <Command __id="651" _type="PauseCommand" date="Wed May 04 20:07:06 EDT 2022" range="2s-5s" starttimestamp="1651708467688" timestamp="758770">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[3403]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+</Events>

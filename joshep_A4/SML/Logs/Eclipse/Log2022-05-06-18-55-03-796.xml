@@ -1,0 +1,31 @@
+<Events startTimestamp="1651877703796" logVersion="1.0.0.202201202038">
+  <Command __id="6" _type="ShellCommand" date="Fri May 06 18:56:27 EDT 2022" starttimestamp="1651877703796" timestamp="83375" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9" _type="PauseCommand" date="Fri May 06 18:56:31 EDT 2022" range="2s-5s" starttimestamp="1651877703796" timestamp="87377">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4002]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="13" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:34 EDT 2022" starttimestamp="1651877703796" timestamp="90997" />
+  <Command __id="15" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91240" />
+  <Command __id="16" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91243" />
+  <Command __id="17" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91445" />
+  <Command __id="18" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91447" />
+  <Command __id="19" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91606" />
+  <Command __id="20" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91608" />
+  <Command __id="21" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91769" />
+  <Command __id="22" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91771" />
+  <Command __id="23" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91836" />
+  <Command __id="24" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91837" />
+  <Command __id="25" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91956" />
+  <Command __id="26" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="91958" />
+  <Command __id="27" _type="EclipseCommand" commandID="" date="Fri May 06 18:56:35 EDT 2022" starttimestamp="1651877703796" timestamp="92112" />
+  <Command __id="29" _type="PauseCommand" date="Fri May 06 18:56:38 EDT 2022" range="2s-5s" starttimestamp="1651877703796" timestamp="94549">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2436]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

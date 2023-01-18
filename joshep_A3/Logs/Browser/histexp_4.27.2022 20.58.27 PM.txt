@@ -1,0 +1,54 @@
+4/27/2022 21:00:02 PM	SWI-Prolog manual	https://www.swi-prolog.org/man/quickstart.html
+4/27/2022 21:19:37 PM	get rid of magic numbers in prolog - Google Search	https://www.google.com/search?q=get+rid+of+magic+numbers+in+prolog&rlz=1C1VDKB_enUS959US959&oq=get+rid+of+magic+numbers+in+prolog&aqs=chrome..69i57.4089j0j7&sourceid=chrome&ie=UTF-8
+4/27/2022 21:19:36 PM	prolog I have to make a program that calculates the magic matrix permutate - Stack Overflow	https://stackoverflow.com/questions/23939565/prolog-i-have-to-make-a-program-that-calculates-the-magic-matrix-permutate
+4/27/2022 21:19:49 PM	symbolic constant in prolog - Google Search	https://www.google.com/search?q=symbolic+constant+in+porlog&rlz=1C1VDKB_enUS959US959&oq=symbolic+constant+in+porlog&aqs=chrome..69i57j0i22i30j0i390l4.3978j0j7&sourceid=chrome&ie=UTF-8
+4/27/2022 21:19:53 PM	Prolog. Constants, Variables, Terms, Atoms, Clauses Syntax and Semantics	https://ai.ia.agh.edu.pl/_media/pl:dydaktyka:pp:prolog-syntax-terms.pdf
+4/27/2022 21:34:38 PM	maic numbers in prolog - Google Search	https://www.google.com/search?q=maic+numbers+in+prolog&rlz=1C1VDKB_enUS959US959&oq=maic+numbers+in+prolog&aqs=chrome..69i57.3308j0j4&sourceid=chrome&ie=UTF-8
+4/27/2022 21:35:12 PM	magic numbers in prolog - Google Search	https://www.google.com/search?q=magic+numbers+in+prolog&rlz=1C1VDKB_enUS959US959&sxsrf=APq-WBv_PJPuS2PdvjMLl__Py1AjyvxawQ%3A1651109676388&ei=LO9pYtepF_qhptQP_t6KuAM&ved=0ahUKEwjX7_vtzrX3AhX6kIkEHX6vAjcQ4dUDCA4&uact=5&oq=magic+numbers+in+prolog&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABKBAhGGABQ-glY-glg8QpoAXABeACAAQCIAQCSAQCYAQCgAQHIAQjAAQE&sclient=gws-wiz
+4/27/2022 22:38:22 PM	prolog /= - Google Search	https://www.google.com/search?q=prolog+%2F%3D&rlz=1C1VDKB_enUS959US959&oq=prolog+%2F%3D&aqs=chrome..69i57j0i22i30l9.1757j0j9&sourceid=chrome&ie=UTF-8
+4/27/2022 22:38:27 PM	"Not equal" sign in Visual Prolog? - Stack Overflow	https://stackoverflow.com/questions/7485212/not-equal-sign-in-visual-prolog
+4/27/2022 22:47:57 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit?usp=sharing&ouid=102909801833172864857&rtpof=true&sd=true
+4/27/2022 22:47:57 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit?rtpof=true&sd=true
+4/27/2022 22:47:58 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit
+4/27/2022 22:48:01 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p2
+4/27/2022 22:48:01 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p3
+4/27/2022 22:48:01 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p4
+4/27/2022 22:48:02 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p5
+4/27/2022 22:48:02 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p6
+4/27/2022 22:48:03 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p7
+4/27/2022 22:48:03 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p8
+4/27/2022 22:48:04 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p9
+4/27/2022 22:48:04 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p10
+4/27/2022 22:48:05 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p11
+4/27/2022 22:48:06 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p12
+4/27/2022 22:48:06 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p13
+4/27/2022 22:48:07 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p14
+4/27/2022 22:48:07 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p15
+4/27/2022 22:48:08 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p16
+4/27/2022 22:48:09 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p17
+4/27/2022 22:48:10 PM	installing sml and prolog.pptx - Google Slides	https://docs.google.com/presentation/d/1_C2xrNMpfdPWl5swYz2dUouSSsPHun9K/edit#slide=id.p18
+4/27/2022 23:37:18 PM	CLISP - an ANSI Common Lisp download | SourceForge.net	https://www.google.com/url?q=https://sourceforge.net/projects/clisp/&sa=D&source=editors&ust=1651120635073999&usg=AOvVaw19QAB5sqmZcfeKd-YZh_Xy
+4/27/2022 23:37:19 PM	CLISP - an ANSI Common Lisp download | SourceForge.net	https://sourceforge.net/projects/clisp/
+4/27/2022 23:37:35 PM	Download CLISP - an ANSI Common Lisp from SourceForge.net	https://sourceforge.net/projects/clisp/files/latest/download
+4/27/2022 23:37:57 PM	Find out more about CLISP - an ANSI Common Lisp | SourceForge.net	https://sourceforge.net/projects/clisp/postdownload
+4/27/2022 23:38:37 PM	CLISP - an ANSI Common Lisp download | SourceForge.net	https://www.google.com/url?q=https://sourceforge.net/projects/clisp/&sa=D&source=editors&ust=1651120635073999&usg=AOvVaw19QAB5sqmZcfeKd-YZh_Xy
+4/27/2022 23:42:40 PM	CLISP - an ANSI Common Lisp download | SourceForge.net	https://sourceforge.net/projects/clisp/
+4/27/2022 23:42:38 PM	CLISP - an ANSI Common Lisp - Browse Files at SourceForge.net	https://sourceforge.net/projects/clisp/files/
+4/27/2022 23:42:36 PM	CLISP - an ANSI Common Lisp - Browse /clisp at SourceForge.net	https://sourceforge.net/projects/clisp/files/clisp/
+4/27/2022 23:39:19 PM	CLISP - an ANSI Common Lisp - Browse /clisp/2.49 at SourceForge.net	https://sourceforge.net/projects/clisp/files/clisp/2.49/
+4/27/2022 23:39:01 PM	Download CLISP - an ANSI Common Lisp from SourceForge.net	https://sourceforge.net/projects/clisp/files/clisp/2.49/clisp-2.49.tar.bz2/download
+4/27/2022 23:39:07 PM	Download CLISP - an ANSI Common Lisp from SourceForge.net	https://sourceforge.net/projects/clisp/files/clisp/2.49/clisp-2.49-win32-mingw-big.zip/download
+4/27/2022 23:43:00 PM	CLISP - an ANSI Common Lisp - Google Search	https://www.google.com/search?q=CLISP+-+an+ANSI+Common+Lisp&rlz=1C1VDKB_enUS959US959&sourceid=chrome&ie=UTF-8
+4/27/2022 23:43:02 PM	CLISP - an ANSI Common Lisp Implementation	https://clisp.sourceforge.io/
+4/27/2022 23:43:44 PM	CLISP - an ANSI Common Lisp Implementation	https://clisp.sourceforge.io/
+4/27/2022 23:43:44 PM	CLISP - an ANSI Common Lisp Implementation	http://www.gnu.org/software/clisp/
+4/27/2022 23:43:44 PM	CLISP - an ANSI Common Lisp Implementation	http://clisp.sourceforge.net/
+4/27/2022 23:43:49 PM	Index of /pub/gnu/clisp	http://ftp.gnu.org/pub/gnu/clisp/
+4/28/2022 08:15:49 AM	A Guide to Checkstyle.docx - Google Docs	https://docs.google.com/document/d/17SQfQ_bVNvBPIfv9GiOdNHttH3h18JuG/edit
+4/28/2022 21:54:41 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+4/28/2022 21:55:12 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/clogin
+4/29/2022 13:08:26 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+4/29/2022 13:08:27 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/clogin
+4/29/2022 13:08:53 PM	Sakai @ UNC-Chapel Hill : COMP590.148.SP22 : Overview	https://sakai.unc.edu/portal/site/9960aea7-1a32-4b33-9ee7-2cebffe78341
+4/29/2022 13:08:55 PM		https://sakai.unc.edu/portal/tool/2b55a3b0-99ca-4664-baff-c2ffb13d3a05/synMainLite?time=1
+4/29/2022 13:08:24 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZJdT4MwFIb%2FCun9KFS2YTNIcLtwyXRkoBfemAJn0ggt9hQ%2F%2Fr1sTDMTs%2Bu%2BH32fnAWKtul40tta7eCtB7TOZ9so5MeHiPRGcS1QIleiBeS25Flyt%2BHM9XhntNWlboiTIIKxUqulVti3YDIw77KEh90mIrW1HXJKUbwK6faqdKHqaVbLotAN2NpF1PQQymi6zXLirIZfSCUOeWdu1L9eWXV0KN%2FLBk7GHVTSQGlplm2Js15F5PnK94NpWM32oR%2BGAfOqOZvNPQEl%2BMWUsWCQIfawVmiFshFhHmMTL5iw69yfcy%2FkzHsiTnraeCNVJdXLZSDFKEJ%2Bm%2BfpZBzzCAaPQwYBiRcHrPxYbM5AX44VP3RJ%2FD9L%2FGW5oGcFY1vH74fE9SrVjSy%2FnKRp9MfSgLAQEZ%2FQeLT8vYH4Gw%3D%3D&RelayState=ss%3Amem%3A0813ae7ffbf4f13df4079d5e1511418a0e6859c411f50f4aa5cf71b9b841e492&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=maUI%2BFWZtKsiv5JN%2FyCtVpjZ3tgDs%2BZDq0sUH4yZm1KcM1Hx2xCR06lREfHQjqYLQCbwLctxfc75FFHC8HbQbEZx9jxG384cXiLhc272xgxXQLiKh2Zq3r55WR4WLnBiJZUtXMsFjkTrBE46dVCBQLYzBqalsuvjFKYRWrlhCht67hl36m7GOEATUxra8OGpNh%2B%2FhX0x0DHdNLViMsHs%2Bgobdz6Lexrottyu%2FGQuxCFCgoEOgo0i34FA2TVMHQI3qENJW6TZEj7s%2BiOOqN2djxg0jyqRs84q71lJQFwkztuhjT6EhvpV5IAL9goXRExRIiL9IrpXRHTbiAkYVwevHg%3D%3D

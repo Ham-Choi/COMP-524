@@ -1,0 +1,10 @@
+<Events startTimestamp="1651746665027" logVersion="1.0.0.202201202038">
+  <Command __id="1840" _type="ShellCommand" date="Thu May 05 14:23:00 EDT 2022" starttimestamp="1651746665027" timestamp="28315422" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1843" _type="PauseCommand" date="Thu May 05 14:23:05 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="28320196">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4774]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

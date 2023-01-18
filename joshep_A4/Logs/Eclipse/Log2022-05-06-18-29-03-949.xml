@@ -1,0 +1,104 @@
+<Events startTimestamp="1651876143949" logVersion="1.0.0.202201202038">
+  <Command __id="32" _type="ShellCommand" date="Fri May 06 18:35:06 EDT 2022" starttimestamp="1651876143949" timestamp="362084" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:29:05 EDT 2022" docASTNodeCount="52" docActiveCodeLength="312" docExpressionCount="35" docLength="346" projectName="joshep_A6" starttimestamp="1651876143949" timestamp="1624">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A6\src\a6\SetqEvaluator.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a6;
+
+import main.lisp.evaluator.Environment;
+import main.lisp.evaluator.Evaluator;
+import main.lisp.parser.terms.SExpression;
+
+public class SetqEvaluator implements Evaluator{
+
+	@Override
+	public SExpression eval(SExpression sExpression, Environment environment) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="35" _type="PauseCommand" date="Fri May 06 18:35:10 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="366627">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4542]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="36" _type="MoveCaretCommand" caretOffset="0" date="Fri May 06 18:35:10 EDT 2022" docOffset="0" starttimestamp="1651876143949" timestamp="366774" />
+  <Command __id="38" _type="PauseCommand" date="Fri May 06 18:35:14 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="370942">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4168]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="43" _type="SelectTextCommand" caretOffset="331" date="Fri May 06 18:35:20 EDT 2022" end="331" start="241" starttimestamp="1651876143949" timestamp="376855" />
+  <Command __id="46" _type="PasteCommand" date="Fri May 06 18:35:21 EDT 2022" starttimestamp="1651876143949" timestamp="377105" />
+  <Command __id="40" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:35:18 EDT 2022" docASTNodeCount="43" docActiveCodeLength="409" docExpressionCount="23" docLength="574" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="374485">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A3\src\a3\RunFA21A3Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a3;
+import gradingTools.comp524f21.assignment3.F21Assignment3Suite;
+//import trace.grader.basics.GraderBasicsTraceUtility;
+//import util.trace.Tracer;
+
+public class RunFA21A3Tests {
+	static final String PROJECT_LOCATION =
+			"C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog";
+	public static void main (String[] args) {
+		// Tracer.showInfo(true);
+		// GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);
+		F21Assignment3Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="45" _type="Replace" date="Fri May 06 18:35:21 EDT 2022" docASTNodeCount="43" docActiveCodeLength="373" docExpressionCount="23" docLength="538" endLine="7" insertionLength="54" int_docASTNodeCount="43" int_docActiveCodeLength="319" int_docExpressionCount="23" int_docLength="484" length="90" offset="241" startLine="7" starttimestamp="1651876143949" timestamp="377081">
+    <deletedText><![CDATA[C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog]]></deletedText>
+    <insertedText><![CDATA[C:\\\\Users\\\\User\\\\eclipse-workspace\\\\SML\\\\src]]></insertedText>
+  </DocumentChange>
+  <Command __id="48" _type="PauseCommand" date="Fri May 06 18:35:23 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="379177">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[2072]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="112" _type="ShellCommand" date="Fri May 06 18:35:36 EDT 2022" starttimestamp="1651876143949" timestamp="392828" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="114" _type="ShellCommand" date="Fri May 06 18:35:37 EDT 2022" starttimestamp="1651876143949" timestamp="393688" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="115" _type="MoveCaretCommand" caretOffset="194" date="Fri May 06 18:35:37 EDT 2022" docOffset="194" starttimestamp="1651876143949" timestamp="393818" />
+  <Command __id="116" _type="SelectTextCommand" caretOffset="263" date="Fri May 06 18:35:38 EDT 2022" end="263" start="262" starttimestamp="1651876143949" timestamp="394577" />
+  <Command __id="118" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:39 EDT 2022" starttimestamp="1651876143949" timestamp="395201" />
+  <Command __id="120" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:39 EDT 2022" starttimestamp="1651876143949" timestamp="395515" />
+  <Command __id="121" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Fri May 06 18:35:39 EDT 2022" starttimestamp="1651876143949" timestamp="396006" />
+  <Command __id="122" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Fri May 06 18:35:40 EDT 2022" starttimestamp="1651876143949" timestamp="396147" />
+  <Command __id="124" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:40 EDT 2022" starttimestamp="1651876143949" timestamp="396638" />
+  <Command __id="126" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:40 EDT 2022" starttimestamp="1651876143949" timestamp="396764" />
+  <Command __id="127" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Fri May 06 18:35:41 EDT 2022" starttimestamp="1651876143949" timestamp="397475" />
+  <Command __id="128" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Fri May 06 18:35:41 EDT 2022" starttimestamp="1651876143949" timestamp="397615" />
+  <Command __id="130" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:42 EDT 2022" starttimestamp="1651876143949" timestamp="398116" />
+  <Command __id="132" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:42 EDT 2022" starttimestamp="1651876143949" timestamp="398238" />
+  <DocumentChange __id="101" _type="Insert" date="Fri May 06 18:35:34 EDT 2022" docASTNodeCount="43" docActiveCodeLength="372" docExpressionCount="23" docLength="537" length="5" offset="284" repeat="5" starttimestamp="1651876143949" timestamp="390694" timestamp2="391362">
+    <text><![CDATA[rolog]]></text>
+  </DocumentChange>
+  <DocumentChange __id="117" _type="Delete" date="Fri May 06 18:35:39 EDT 2022" docASTNodeCount="43" docActiveCodeLength="370" docExpressionCount="23" docLength="535" endLine="7" length="2" offset="261" repeat="2" startLine="7" starttimestamp="1651876143949" timestamp="395178" timestamp2="395507">
+    <text><![CDATA[\\]]></text>
+  </DocumentChange>
+  <DocumentChange __id="123" _type="Delete" date="Fri May 06 18:35:40 EDT 2022" docASTNodeCount="43" docActiveCodeLength="368" docExpressionCount="23" docLength="533" endLine="7" length="2" offset="254" repeat="2" startLine="7" starttimestamp="1651876143949" timestamp="396621" timestamp2="396748">
+    <text><![CDATA[\\]]></text>
+  </DocumentChange>
+  <DocumentChange __id="129" _type="Delete" date="Fri May 06 18:35:42 EDT 2022" docASTNodeCount="43" docActiveCodeLength="366" docExpressionCount="23" docLength="531" endLine="7" length="2" offset="245" repeat="2" startLine="7" starttimestamp="1651876143949" timestamp="398096" timestamp2="398224">
+    <text><![CDATA[\\]]></text>
+  </DocumentChange>
+  <Command __id="134" _type="PauseCommand" date="Fri May 06 18:35:43 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="399617">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1379]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+</Events>

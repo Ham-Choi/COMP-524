@@ -1,0 +1,700 @@
+<Events startTimestamp="1651876143949" logVersion="1.0.0.202201202038">
+  <Command __id="37" _type="SelectTextCommand" caretOffset="156" date="Fri May 06 18:35:14 EDT 2022" end="200" start="156" starttimestamp="1651876143949" timestamp="370942" />
+  <Command __id="39" _type="CopyCommand" date="Fri May 06 18:35:15 EDT 2022" starttimestamp="1651876143949" timestamp="371304" />
+  <Command __id="34" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:35:10 EDT 2022" docASTNodeCount="43" docActiveCodeLength="359" docExpressionCount="23" docLength="443" projectName="joshep_A4" starttimestamp="1651876143949" timestamp="366626">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A4\src\a4\RunFA21A4Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a4;
+import gradingTools.comp524f21.assignment4.F21Assignment4Suite;
+
+public class RunFA21A4Tests {
+	static final String PROJECT_LOCATION =
+			"C:\\Users\\User\\eclipse-workspace\\SML\\src";
+	public static void main (String[] args) {
+		// Tracer.showInfo(true);
+		// GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		F21Assignment4Suite.setProjectLocation(PROJECT_LOCATION);
+		F21Assignment4Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="41" _type="PauseCommand" date="Fri May 06 18:35:18 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="374485">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[CopyCommand]]></prev>
+    <pause><![CDATA[3181]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="42" _type="MoveCaretCommand" caretOffset="0" date="Fri May 06 18:35:18 EDT 2022" docOffset="0" starttimestamp="1651876143949" timestamp="374614" />
+  <Command __id="44" _type="PauseCommand" date="Fri May 06 18:35:20 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="376855">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2241]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="49" _type="SelectTextCommand" caretOffset="156" date="Fri May 06 18:35:23 EDT 2022" end="200" start="156" starttimestamp="1651876143949" timestamp="379312" />
+  <Command __id="47" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:35:23 EDT 2022" docASTNodeCount="43" docActiveCodeLength="359" docExpressionCount="23" docLength="443" projectName="joshep_A4" starttimestamp="1651876143949" timestamp="379177">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A4\src\a4\RunFA21A4Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a4;¶import gradingTools.comp524f21.assignment4.F21Assignment4Suite;¶¶public class RunFA21A4Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\Users\\User\\eclipse-workspace\\SML\\src";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment4Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment4Suite.main(args);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="51" _type="PauseCommand" date="Fri May 06 18:35:24 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="380938">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[1626]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="52" _type="MoveCaretCommand" caretOffset="295" date="Fri May 06 18:35:24 EDT 2022" docOffset="295" starttimestamp="1651876143949" timestamp="381045" />
+  <Command __id="53" _type="MoveCaretCommand" caretOffset="284" date="Fri May 06 18:35:25 EDT 2022" docOffset="284" starttimestamp="1651876143949" timestamp="381778" />
+  <Command __id="55" _type="PauseCommand" date="Fri May 06 18:35:27 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="383340">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1562]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="54" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:27 EDT 2022" starttimestamp="1651876143949" timestamp="383340" />
+  <Command __id="57" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:27 EDT 2022" starttimestamp="1651876143949" timestamp="383611" />
+  <Command __id="59" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:27 EDT 2022" starttimestamp="1651876143949" timestamp="383742" />
+  <Command __id="60" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="384067" />
+  <Command __id="61" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="384239" />
+  <Command __id="62" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="384400" />
+  <Command __id="63" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="384557" />
+  <Command __id="64" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="384717" />
+  <Command __id="66" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:28 EDT 2022" starttimestamp="1651876143949" timestamp="385008" />
+  <Command __id="68" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:29 EDT 2022" starttimestamp="1651876143949" timestamp="385696" />
+  <Command __id="70" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:30 EDT 2022" starttimestamp="1651876143949" timestamp="386289" />
+  <Command __id="72" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:30 EDT 2022" starttimestamp="1651876143949" timestamp="386436" />
+  <Command __id="74" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:30 EDT 2022" starttimestamp="1651876143949" timestamp="386589" />
+  <Command __id="76" _type="InsertStringCommand" date="Fri May 06 18:35:31 EDT 2022" starttimestamp="1651876143949" timestamp="387438" timestamp2="387438">
+    <data><![CDATA[P]]></data>
+  </Command>
+  <Command __id="78" _type="InsertStringCommand" date="Fri May 06 18:35:31 EDT 2022" starttimestamp="1651876143949" timestamp="387522" timestamp2="387522">
+    <data><![CDATA[P]]></data>
+  </Command>
+  <Command __id="80" _type="InsertStringCommand" date="Fri May 06 18:35:31 EDT 2022" starttimestamp="1651876143949" timestamp="387692" timestamp2="387692">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="82" _type="InsertStringCommand" date="Fri May 06 18:35:31 EDT 2022" starttimestamp="1651876143949" timestamp="387799" timestamp2="387799">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="84" _type="InsertStringCommand" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388082" timestamp2="388082">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="86" _type="InsertStringCommand" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388241" timestamp2="388241">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="88" _type="InsertStringCommand" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388356" timestamp2="388356">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="90" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388602" />
+  <Command __id="92" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388741" />
+  <Command __id="94" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:32 EDT 2022" starttimestamp="1651876143949" timestamp="388899" />
+  <Command __id="96" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:33 EDT 2022" starttimestamp="1651876143949" timestamp="389058" />
+  <Command __id="98" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:33 EDT 2022" starttimestamp="1651876143949" timestamp="389211" />
+  <Command __id="100" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Fri May 06 18:35:33 EDT 2022" starttimestamp="1651876143949" timestamp="389389" />
+  <Command __id="50" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:35:24 EDT 2022" docASTNodeCount="43" docActiveCodeLength="373" docExpressionCount="23" docLength="538" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="380938">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A3\src\a3\RunFA21A3Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a3;¶import gradingTools.comp524f21.assignment3.F21Assignment3Suite;¶//import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class RunFA21A3Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\"), Diff(INSERT,"\\"), Diff(EQUAL,"Users\\"), Diff(INSERT,"\"), Diff(INSERT,"\"), Diff(EQUAL,"User\\"), Diff(DELETE,"OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog"), Diff(INSERT,"\\eclipse-workspace\\\\SML\\\\src"), Diff(EQUAL,"";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment3Suite.main(args);¶	}¶}¶")]]]></diff>
+    <snapshot><![CDATA[package a3;
+import gradingTools.comp524f21.assignment3.F21Assignment3Suite;
+//import trace.grader.basics.GraderBasicsTraceUtility;
+//import util.trace.Tracer;
+
+public class RunFA21A3Tests {
+	static final String PROJECT_LOCATION =
+			"C:\\\\Users\\\\User\\\\eclipse-workspace\\\\SML\\\\src";
+	public static void main (String[] args) {
+		// Tracer.showInfo(true);
+		// GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);
+		F21Assignment3Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="56" _type="Delete" date="Fri May 06 18:35:27 EDT 2022" docASTNodeCount="43" docActiveCodeLength="371" docExpressionCount="23" docLength="536" endLine="7" length="2" offset="283" repeat="2" startLine="7" starttimestamp="1651876143949" timestamp="383600" timestamp2="383733">
+    <text><![CDATA[\\]]></text>
+  </DocumentChange>
+  <DocumentChange __id="65" _type="Delete" date="Fri May 06 18:35:28 EDT 2022" docASTNodeCount="43" docActiveCodeLength="366" docExpressionCount="23" docLength="531" endLine="7" length="5" offset="283" repeat="5" startLine="7" starttimestamp="1651876143949" timestamp="384994" timestamp2="386574">
+    <text><![CDATA[SML\\]]></text>
+  </DocumentChange>
+  <DocumentChange __id="75" _type="Insert" date="Fri May 06 18:35:31 EDT 2022" docASTNodeCount="43" docActiveCodeLength="373" docExpressionCount="23" docLength="538" length="7" offset="283" repeat="7" starttimestamp="1651876143949" timestamp="387417" timestamp2="388341">
+    <text><![CDATA[PProlog]]></text>
+  </DocumentChange>
+  <DocumentChange __id="89" _type="Delete" date="Fri May 06 18:35:32 EDT 2022" docASTNodeCount="43" docActiveCodeLength="367" docExpressionCount="23" docLength="532" endLine="7" length="6" offset="284" repeat="6" startLine="7" starttimestamp="1651876143949" timestamp="388584" timestamp2="389373">
+    <text><![CDATA[Prolog]]></text>
+  </DocumentChange>
+  <Command __id="102" _type="PauseCommand" date="Fri May 06 18:35:34 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="390694">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1305]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="103" _type="InsertStringCommand" date="Fri May 06 18:35:34 EDT 2022" starttimestamp="1651876143949" timestamp="390708" timestamp2="390708">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="105" _type="InsertStringCommand" date="Fri May 06 18:35:34 EDT 2022" starttimestamp="1651876143949" timestamp="390864" timestamp2="390864">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="107" _type="InsertStringCommand" date="Fri May 06 18:35:35 EDT 2022" starttimestamp="1651876143949" timestamp="391147" timestamp2="391147">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="109" _type="InsertStringCommand" date="Fri May 06 18:35:35 EDT 2022" starttimestamp="1651876143949" timestamp="391300" timestamp2="391300">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="111" _type="InsertStringCommand" date="Fri May 06 18:35:35 EDT 2022" starttimestamp="1651876143949" timestamp="391375" timestamp2="391375">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="113" _type="PauseCommand" date="Fri May 06 18:35:36 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="392828">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1453]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="135" _type="SelectTextCommand" caretOffset="156" date="Fri May 06 18:35:43 EDT 2022" end="200" start="156" starttimestamp="1651876143949" timestamp="399758" />
+  <Command __id="133" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:35:43 EDT 2022" docASTNodeCount="43" docActiveCodeLength="359" docExpressionCount="23" docLength="443" projectName="joshep_A4" starttimestamp="1651876143949" timestamp="399617">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A4\src\a4\RunFA21A4Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a4;¶import gradingTools.comp524f21.assignment4.F21Assignment4Suite;¶¶public class RunFA21A4Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\Users\\User\\eclipse-workspace\\SML\\src";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment4Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment4Suite.main(args);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="137" _type="PauseCommand" date="Fri May 06 18:35:44 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="400973">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[1215]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="138" _type="MoveCaretCommand" caretOffset="245" date="Fri May 06 18:35:45 EDT 2022" docOffset="245" starttimestamp="1651876143949" timestamp="401095" />
+  <Command __id="139" _type="MoveCaretCommand" caretOffset="290" date="Fri May 06 18:35:45 EDT 2022" docOffset="290" starttimestamp="1651876143949" timestamp="401697" />
+  <Command __id="140" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Fri May 06 18:35:45 EDT 2022" starttimestamp="1651876143949" timestamp="402010" />
+  <Command __id="141" _type="EclipseCommand" commandID="" date="Fri May 06 18:35:46 EDT 2022" starttimestamp="1651876143949" timestamp="402137" />
+  <Command __id="142" _type="EclipseCommand" commandID="" date="Fri May 06 18:35:46 EDT 2022" starttimestamp="1651876143949" timestamp="402252" />
+  <Command __id="144" _type="PauseCommand" date="Fri May 06 18:35:55 EDT 2022" range="5s-10s" starttimestamp="1651876143949" timestamp="411313">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[9061]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="143" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Fri May 06 18:35:55 EDT 2022" starttimestamp="1651876143949" timestamp="411313" />
+  <Command __id="145" _type="ProgramExecutionEvent" className="/joshep_A3/src/a3/RunFA21A3Tests.java" date="Fri May 06 18:35:55 EDT 2022" kind="HitBreakPoint" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="411513" type="Run" />
+  <Command __id="146" _type="RunCommand" className="/joshep_A3/src/a3/RunFA21A3Tests.java" date="Fri May 06 18:35:55 EDT 2022" kind="HitBreakPoint" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="411513" type="Run" />
+  <Command __id="148" _type="PauseCommand" date="Fri May 06 18:35:56 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="413050">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1536]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="147" _type="ConsoleOutput" date="Fri May 06 18:35:56 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="413049" type="ConsoleOutput">
+    <outputString><![CDATA[Found a source file:C:\Users\User\eclipse-workspace\Prolog\src\Greeting.pl
+Assuming src folder is:C:\Users\User\eclipse-workspace\Prolog\src
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="150" _type="PauseCommand" date="Fri May 06 18:35:58 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="414641">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1592]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="149" _type="ShellCommand" date="Fri May 06 18:35:58 EDT 2022" starttimestamp="1651876143949" timestamp="414641" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="152" _type="PauseCommand" date="Fri May 06 18:36:00 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="416861">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2219]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="151" _type="ExceptionCommand" date="Fri May 06 18:36:00 EDT 2022" starttimestamp="1651876143949" timestamp="416860" type="Exception">
+    <exceptionString><![CDATA[java.nio.file.NoSuchFileException: C:\Users\User\eclipse-workspace\Prolog\src\Logs\LocalChecks\comp524f21_assignment3_F21Assignment3SuiteFineGrained.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2920)
+	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadSecondAppendableFile(AnAbstractTestLogFileWriter.java:314)
+	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadAppendableFile(AnAbstractTestLogFileWriter.java:296)
+	at grader.basics.observers.AFineGrainedTestLogFileWriter.testRunStarted(AFineGrainedTestLogFileWriter.java:111)
+	at org.junit.runner.notification.SynchronizedRunListener.testRunStarted(SynchronizedRunListener.java:35)
+	at org.junit.runner.notification.RunNotifier$1.notifyListener(RunNotifier.java:91)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestRunStarted(RunNotifier.java:88)
+	at grader.basics.junit.AGradableJUnitTopLevelSuite.testRunStarted(AGradableJUnitTopLevelSuite.java:107)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="154" _type="PauseCommand" date="Fri May 06 18:36:26 EDT 2022" range="20s-30s" starttimestamp="1651876143949" timestamp="442135">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[25275]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="153" _type="ConsoleOutput" date="Fri May 06 18:36:26 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="442135" type="ConsoleOutput">
+    <outputString><![CDATA[-done
+Evaluating context tree
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Found a source file:C:\Users\User\eclipse-workspace\Prolog\src\Greeting.pl¶Assuming src folder is:C:\Users\User\eclipse-workspace\Prolog\src"), Diff(INSERT,"-done¶Evaluating context tree"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="156" _type="PauseCommand" date="Fri May 06 18:36:28 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="444592">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2457]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="155" _type="ConsoleOutput" date="Fri May 06 18:36:28 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="444592" type="ConsoleOutput">
+    <outputString><![CDATA[-done
+Program Generated
+Test execution time (ms):27686
+Test execution time (ms):27693
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"-done¶"), Diff(DELETE,"Evaluating context tree"), Diff(INSERT,"Program Generated¶Test execution time (ms):27686¶Test execution time (ms):27693"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="157" _type="ConsoleOutput" date="Fri May 06 18:36:28 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="445011" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"-done¶Program Generated¶Test execution time (ms):27686¶Test execution time (ms):27693"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="158" _type="ExceptionCommand" date="Fri May 06 18:36:29 EDT 2022" starttimestamp="1651876143949" timestamp="445366" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="159" _type="ExceptionCommand" date="Fri May 06 18:36:29 EDT 2022" starttimestamp="1651876143949" timestamp="445470" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="160" _type="ConsoleOutput" date="Fri May 06 18:36:29 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="445585" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):28674
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):28674¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="162" _type="PauseCommand" date="Fri May 06 18:36:39 EDT 2022" range="10s-20s" starttimestamp="1651876143949" timestamp="455948">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[10363]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="161" _type="ConsoleOutput" date="Fri May 06 18:36:39 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="455948" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):28674¶Test execution time (ms):1"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="163" _type="ExceptionCommand" date="Fri May 06 18:36:40 EDT 2022" starttimestamp="1651876143949" timestamp="456542" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="164" _type="ExceptionCommand" date="Fri May 06 18:36:40 EDT 2022" starttimestamp="1651876143949" timestamp="456907" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="165" _type="ExceptionCommand" date="Fri May 06 18:36:41 EDT 2022" starttimestamp="1651876143949" timestamp="457130" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="166" _type="ConsoleOutput" date="Fri May 06 18:36:41 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="457781" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):1941
+Test execution time (ms):1
+Test execution time (ms):1
+Test execution time (ms):0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):1941¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="168" _type="PauseCommand" date="Fri May 06 18:36:43 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="459481">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1700]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="167" _type="ConsoleOutput" date="Fri May 06 18:36:43 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="459481" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):1941¶Test execution time (ms):1¶Test execution time (ms):1¶Test execution time (ms):0"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="170" _type="PauseCommand" date="Fri May 06 18:36:45 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="461451">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1970]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="169" _type="ConsoleOutput" date="Fri May 06 18:36:45 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="461451" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):2042
+Test execution time (ms):0
+Test execution time (ms):0
+Test execution time (ms):1
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):2042¶Test execution time (ms):0¶Test execution time (ms):0¶Test execution time (ms):1¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="172" _type="PauseCommand" date="Fri May 06 18:36:48 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="464589">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3138]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="171" _type="ConsoleOutput" date="Fri May 06 18:36:48 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="464589" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):2042¶Test execution time (ms):0¶Test execution time (ms):0¶Test execution time (ms):1¶Test execution time (ms):1"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="174" _type="PauseCommand" date="Fri May 06 18:36:51 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="468048">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3459]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="173" _type="ConsoleOutput" date="Fri May 06 18:36:51 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="468048" type="ConsoleOutput">
+    <outputString><![CDATA[%         listGivenSafe/1: [call]
+%         listGivenSafe/2: [call]
+
+ T Call: listGivenSafe([13, 30, 30])
+ T Call: listGivenSafe([13, 30, 30], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])
+ T Call: listGivenSafe([13, 30, 30], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])
+ T Call: listGivenSafe([13, 30, 30], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGivenSafe([13, 30, 30], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGivenSafe([13, 30, 30], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGivenSafe([13, 30, 30], [[27, 120, 30], [6, 15, 30]])
+ T Call: listGivenSafe([13, 30, 30], [[6, 15, 30]])
+ T Call: listGivenSafe([13, 30, 30], [])
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"%         listGivenSafe/1: [call]¶%         listGivenSafe/2: [call]¶¶ T Call: listGivenSafe([13, 30, 30])¶ T Call: listGivenSafe([13, 30, 30], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])¶ T Call: listGivenSafe([13, 30, 30], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: listGivenSafe([13, 30, 30], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [])"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="175" _type="ConsoleOutput" date="Fri May 06 18:36:52 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="468207" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):3774
+Test execution time (ms):2
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"%         listGivenSafe/1: [call]¶%         listGivenSafe/2: [call]¶¶ T Call: listGivenSafe([13, 30, 30])¶ T Call: listGivenSafe([13, 30, 30], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])¶ T Call: listGivenSafe([13, 30, 30], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: listGivenSafe([13, 30, 30], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[27, 120, 30], [6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [[6, 15, 30]])¶ T Call: listGivenSafe([13, 30, 30], [])"), Diff(INSERT,"Test execution time (ms):3774¶Test execution time (ms):2¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="177" _type="PauseCommand" date="Fri May 06 18:36:54 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="470425">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2218]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="176" _type="ConsoleOutput" date="Fri May 06 18:36:54 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="470425" type="ConsoleOutput">
+    <outputString><![CDATA[ExpectedDocsDerivedSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0
+
+Test execution time (ms):4
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):3774¶Test execution time (ms):2"), Diff(INSERT,"ExpectedDocsDerivedSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0¶"), Diff(EQUAL,"¶Test execution time (ms):"), Diff(DELETE,"1"), Diff(INSERT,"4"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="178" _type="ConsoleOutput" date="Fri May 06 18:36:54 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="470504" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ExpectedDocsDerivedSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0¶¶Test execution time (ms):4"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="180" _type="PauseCommand" date="Fri May 06 18:36:55 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="471577">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1073]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="179" _type="ConsoleOutput" date="Fri May 06 18:36:55 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="471577" type="ConsoleOutput">
+    <outputString><![CDATA[%         printGivenCombinations/1: [call]
+%         printGivenCombinations/2: [call]
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"%         printGivenCombinations/1: [call]¶%         printGivenCombinations/2: [call]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="181" _type="ConsoleOutput" date="Fri May 06 18:36:55 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="471680" type="ConsoleOutput">
+    <outputString><![CDATA[ T Call: printGivenCombinations(3)
+ T Call: printGivenCombinations(3, [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])
+ T Call: printGivenCombinations(2, [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])
+ T Call: printGivenCombinations(1, [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: printGivenCombinations(0, [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"%         printGivenCombinations/1: [call]¶%         printGivenCombinations/2: [call]"), Diff(INSERT," T Call: printGivenCombinations(3)¶ T Call: printGivenCombinations(3, [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])¶ T Call: printGivenCombinations(2, [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: printGivenCombinations(1, [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: printGivenCombinations(0, [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="182" _type="ConsoleOutput" date="Fri May 06 18:36:55 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="471837" type="ConsoleOutput">
+    <outputString><![CDATA[output order determined to be:
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+Test execution time (ms):1403
+Test execution time (ms):2
+Test execution time (ms):2
+Test execution time (ms):9
+ExpectedDocsListGivenSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0
+
+Test execution time (ms):0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE," T Call: printGivenCombinations(3)¶ T Call: printGivenCombinations(3, [["), Diff(INSERT,"output order determined to be:¶"), Diff(EQUAL,"13,"), Diff(DELETE," "), Diff(EQUAL,"30,"), Diff(DELETE," "), Diff(EQUAL,"30"), Diff(DELETE,"], ["), Diff(INSERT,",true¶"), Diff(EQUAL,"6,"), Diff(DELETE," "), Diff(EQUAL,"30,"), Diff(DELETE," "), Diff(EQUAL,"10"), Diff(DELETE,"], ["), Diff(INSERT,",true¶"), Diff(EQUAL,"27,"), Diff(DELETE," "), Diff(EQUAL,"30,"), Diff(DELETE," "), Diff(EQUAL,"50"), Diff(DELETE,"], ["), Diff(INSERT,",true¶"), Diff(EQUAL,"13,"), Diff(DELETE," "), Diff(EQUAL,"15,"), Diff(DELETE," "), Diff(EQUAL,"50"), Diff(DELETE,"], ["), Diff(INSERT,",true¶"), Diff(EQUAL,"13,"), Diff(DELETE," "), Diff(EQUAL,"120,"), Diff(DELETE," "), Diff(EQUAL,"10"), Diff(DELETE,"], ["), Diff(INSERT,",true¶"), Diff(EQUAL,"27,"), Diff(DELETE," "), Diff(EQUAL,"120"), Diff(DELETE,"|...], [6|...]])¶ T Call: printGivenCombinations(2, [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: printGivenCombinations(1, [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: printGivenCombinations(0, [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])"), Diff(INSERT,",30,true¶6,15,30,true¶Test execution time (ms):1403¶Test execution time (ms):2¶Test execution time (ms):2¶Test execution time (ms):9¶ExpectedDocsListGivenSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0¶¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="183" _type="ConsoleOutput" date="Fri May 06 18:36:55 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="472011" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"output order determined to be:¶13,30,30,true¶6,30,10,true¶27,30,50,true¶13,15,50,true¶13,120,10,true¶27,120,30,true¶6,15,30,true¶Test execution time (ms):1403¶Test execution time (ms):2¶Test execution time (ms):2¶Test execution time (ms):9¶ExpectedDocsListGivenSafe did not pass completely:Expected documentation was not found, check method names and documentation text%0.0¶¶Test execution time (ms):0"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="184" _type="ExceptionCommand" date="Fri May 06 18:36:56 EDT 2022" starttimestamp="1651876143949" timestamp="472524" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="185" _type="ConsoleOutput" date="Fri May 06 18:36:56 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="472745" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):875
+Test execution time (ms):0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):875¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="186" _type="ConsoleOutput" date="Fri May 06 18:36:56 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="472899" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):875¶Test execution time (ms):0"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="188" _type="PauseCommand" date="Fri May 06 18:36:58 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="474665">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1766]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="187" _type="ConsoleOutput" date="Fri May 06 18:36:58 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="474665" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):1953
+Test execution time (ms):1
+Test execution time (ms):0
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):1953¶Test execution time (ms):1¶Test execution time (ms):0¶Test execution time (ms):1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="189" _type="ConsoleOutput" date="Fri May 06 18:36:58 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="474802" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):1953¶Test execution time (ms):1¶Test execution time (ms):0¶Test execution time (ms):1"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="190" _type="ExceptionCommand" date="Fri May 06 18:36:59 EDT 2022" starttimestamp="1651876143949" timestamp="475280" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="191" _type="ExceptionCommand" date="Fri May 06 18:36:59 EDT 2022" starttimestamp="1651876143949" timestamp="475392" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="192" _type="ExceptionCommand" date="Fri May 06 18:36:59 EDT 2022" starttimestamp="1651876143949" timestamp="475499" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="193" _type="ExceptionCommand" date="Fri May 06 18:36:59 EDT 2022" starttimestamp="1651876143949" timestamp="475594" type="Exception">
+    <exceptionString><![CDATA[ERROR: Unknown procedure: (;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+]]></exceptionString>
+    <language><![CDATA[prolog]]></language>
+  </Command>
+  <Command __id="195" _type="PauseCommand" date="Fri May 06 18:37:01 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="477156">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[1562]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="194" _type="ConsoleOutput" date="Fri May 06 18:37:01 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="477156" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):2477
+Test execution time (ms):1
+Test execution time (ms):2
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"Test execution time (ms):2477¶Test execution time (ms):1¶Test execution time (ms):2"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="196" _type="ConsoleOutput" date="Fri May 06 18:37:01 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="477427" type="ConsoleOutput">
+    <outputString><![CDATA[Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):2477¶Test execution time (ms):1¶Test execution time (ms):2"), Diff(INSERT,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="198" _type="PauseCommand" date="Fri May 06 18:37:02 EDT 2022" range="1s-2s" starttimestamp="1651876143949" timestamp="478607">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1180]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="197" _type="ConsoleOutput" date="Fri May 06 18:37:02 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="478607" type="ConsoleOutput">
+    <outputString><![CDATA[%         listGenerateSafeDistancesAndDurations/2: [call]
+%         listGenerateSafeDistancesAndDurations/4: [call]
+
+ T Call: listGenerateSafeDistancesAndDurations(12, _1386)
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 120, 30], [6, 15, 30]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120]], [[6, 15, 30]])
+ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120], [6, 15]], [])
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, use ?- help(Topic). or ?- apropos(Word)."), Diff(INSERT,"%         listGenerateSafeDistancesAndDurations/2: [call]¶%         listGenerateSafeDistancesAndDurations/4: [call]¶¶ T Call: listGenerateSafeDistancesAndDurations(12, _1386)¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120]], [[6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120], [6, 15]], [])"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="199" _type="ConsoleOutput" date="Fri May 06 18:37:02 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="478754" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):1572
+Test execution time (ms):0
+Test execution time (ms):1
+SocialDistanceMagicNumbersTest did not pass completely:magic numbers found%0.0
+
+Test execution time (ms):33
+Test execution time (ms):2
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"%         listGenerateSafeDistancesAndDurations/2: [call]¶%         listGenerateSafeDistancesAndDurations/4: [call]¶¶ T Call: listGenerateSafeDistancesAndDurations(12, _1386)¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [], [[13, 30, 30], [6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120|...], [6|...]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[6, 30, 10], [27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15|...]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 30, 50], [13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 15, 50], [13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[13, 120, 10], [27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30]], [[27, 120, 30], [6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120]], [[6, 15, 30]])¶ T Call: listGenerateSafeDistancesAndDurations(30, _1386, [[13, 30], [27, 120], [6, 15]], [])"), Diff(INSERT,"Test execution time (ms):1572¶Test execution time (ms):0¶Test execution time (ms):1¶SocialDistanceMagicNumbersTest did not pass completely:magic numbers found%0.0¶¶Test execution time (ms):33¶Test execution time (ms):2"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="200" _type="ConsoleOutput" date="Fri May 06 18:37:02 EDT 2022" overflow="false" starttimestamp="1651876143949" timestamp="479045" type="ConsoleOutput">
+    <outputString><![CDATA[Tuples was not found in the dictionary
+PrologMnemonicNamesTest did not pass completely:See console output%0.0
+
+Test execution time (ms):189
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"T"), Diff(DELETE,"est execution time (ms):1572¶Test execution time (ms):0¶Test execution time (ms):1¶SocialDistanceMagicNumber"), Diff(INSERT,"uples was not found in the dictionary¶PrologMnemonicName"), Diff(EQUAL,"sTest did not pass completely:"), Diff(DELETE,"magic numbers found"), Diff(INSERT,"See console output"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):"), Diff(DELETE,"33¶Test execution time (ms):2"), Diff(INSERT,"189"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="202" _type="PauseCommand" date="Fri May 06 18:37:06 EDT 2022" range="2s-5s" starttimestamp="1651876143949" timestamp="482674">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3629]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="205" _type="ProgramExecutionEvent" className="/joshep_A3/src/a3/RunFA21A3Tests.java" date="Fri May 06 18:37:11 EDT 2022" kind="HitBreakPoint" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="487531" type="Run" />
+  <Command __id="207" _type="ProgramExecutionEvent" className="/joshep_A3/src/a3/RunFA21A3Tests.java" date="Fri May 06 18:37:11 EDT 2022" kind="HitBreakPoint" projectName="joshep_A3" starttimestamp="1651876143949" timestamp="487531" type="Run" />
+  <Command __id="209" _type="PauseCommand" date="Fri May 06 18:37:34 EDT 2022" range="20s-30s" starttimestamp="1651876143949" timestamp="510461">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[22930]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

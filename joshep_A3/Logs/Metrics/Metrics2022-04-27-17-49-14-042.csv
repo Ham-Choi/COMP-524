@@ -1,0 +1,2 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+394,,Wed Apr 27 20:39:18 EDT 2022,ViewFactory.java,1651106358878,38230,0,(F)4(I)1(F)5,0.1,0.0,0.0,90.0,0.0,0.0,0.2631578947368421,0.0,0.0,0.23684210526315788,0.0,0.0,0.02631578947368421,0.0,[]

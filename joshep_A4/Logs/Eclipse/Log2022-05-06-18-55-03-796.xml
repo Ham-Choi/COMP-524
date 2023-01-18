@@ -1,0 +1,26 @@
+<Events startTimestamp="1651877703796" logVersion="1.0.0.202201202038">
+  <Command __id="0" _type="ShellCommand" date="Fri May 06 18:55:31 EDT 2022" starttimestamp="1651877703796" timestamp="27338" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2" _type="PauseCommand" date="Fri May 06 18:55:35 EDT 2022" range="2s-5s" starttimestamp="1651877703796" timestamp="32036">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4693]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="3" _type="SelectTextCommand" caretOffset="200" date="Fri May 06 18:55:36 EDT 2022" end="200" start="156" starttimestamp="1651877703796" timestamp="32440" />
+  <Command __id="5" _type="PauseCommand" date="Fri May 06 18:56:00 EDT 2022" range="20s-30s" starttimestamp="1651877703796" timestamp="56964">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[24524]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4" _type="ShellCommand" date="Fri May 06 18:56:00 EDT 2022" starttimestamp="1651877703796" timestamp="56964" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="7" _type="PauseCommand" date="Fri May 06 18:56:27 EDT 2022" range="20s-30s" starttimestamp="1651877703796" timestamp="83375">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[26411]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

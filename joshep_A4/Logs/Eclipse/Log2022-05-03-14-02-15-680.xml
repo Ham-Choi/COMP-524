@@ -1,0 +1,594 @@
+<Events startTimestamp="1651600935680" logVersion="1.0.0.202201202038">
+  <Command __id="5" _type="SelectTextCommand" caretOffset="1526" date="Tue May 03 14:25:51 EDT 2022" end="1528" start="1526" starttimestamp="1651600935680" timestamp="1415562" />
+  <Command __id="2" _type="DiffBasedFileOpenCommand" date="Tue May 03 14:25:45 EDT 2022" docASTNodeCount="214" docActiveCodeLength="1679" docExpressionCount="101" docLength="2554" projectName="joshep_A2" starttimestamp="1651600935680" timestamp="1410255">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\ClassRegistry.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a2;
+import a1.SocialDistancing;
+import a1.UtilityTesterMain;
+import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;
+import gradingTools.comp524f21. assignment2.F21A2SocialDistanceClassRegistry;
+
+public class ClassRegistry implements SocialDistanceClassRegistry{
+
+	@Override
+	public Class<?> getBasicSocialDistanceUtility() {
+		// TODO Auto-generated method stub
+		return SocialDistancing.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistancDerivingModel() {
+		// TODO Auto-generated method stub
+		return DerivedModel.class;
+	}
+
+/*	@Override
+	public Class<?> getSocialDistancInferringModel() {
+		// TODO Auto-generated method stub
+		return WekaModel.class;
+	}
+*/
+	@Override
+	public Class<?> getSocialDistanceBasicModel() {
+		// TODO Auto-generated method stub
+		return BasicModel.class;
+	}
+
+/*	@Override
+	public Class<?> getSocialDistanceClassifierFactory() {
+		// TODO Auto-generated method stub
+		return ClassifierFactory.class;
+	}
+*/
+	@Override
+	public Class<?> getSocialDistanceController() {
+		// TODO Auto-generated method stub
+		return Controller.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceControllerFactory() {
+		// TODO Auto-generated method stub
+		return ControllerFactory.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceInterpolatingModel() {
+		// TODO Auto-generated method stub
+		return InterpolatedModel.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCBasicMain() {
+		// TODO Auto-generated method stub
+		return BasicMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceMVCDerivingMain() {
+		// TODO Auto-generated method stub
+		return DerivedMain.class;
+	}
+
+/*	@Override
+	public Class<?> getSocialDistanceMVCInferringMain() {
+		// TODO Auto-generated method stub
+		return InferringMain.class;
+	}
+*/
+	@Override
+	public Class<?> getSocialDistanceMVCInterpolatingMain() {
+		// TODO Auto-generated method stub
+		return InterpolatedMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceModelFactory() {
+		// TODO Auto-generated method stub
+		return ModelFactory.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceUilityTesterMain() {
+		// TODO Auto-generated method stub
+		return UtilityTesterMain.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceView() {
+		// TODO Auto-generated method stub
+		return LogView.class;
+	}
+
+	@Override
+	public Class<?> getSocialDistanceViewFactory() {
+		// TODO Auto-generated method stub
+		return ViewFactory.class;
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="8" _type="PauseCommand" date="Tue May 03 14:25:57 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="1421494">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[5932]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="9" _type="MoveCaretCommand" caretOffset="454" date="Tue May 03 14:25:57 EDT 2022" docOffset="454" starttimestamp="1651600935680" timestamp="1421664" />
+  <Command __id="11" _type="PauseCommand" date="Tue May 03 14:26:02 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="1427187">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5523]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="10" _type="MoveCaretCommand" caretOffset="175" date="Tue May 03 14:26:02 EDT 2022" docOffset="175" starttimestamp="1651600935680" timestamp="1427187" />
+  <Command __id="13" _type="PauseCommand" date="Tue May 03 14:26:05 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="1430122">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2934]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="12" _type="ShellCommand" date="Tue May 03 14:26:05 EDT 2022" starttimestamp="1651600935680" timestamp="1430121" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="15" _type="PauseCommand" date="Tue May 03 14:26:32 EDT 2022" range="20s-30s" starttimestamp="1651600935680" timestamp="1456428">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[26307]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="14" _type="ShellCommand" date="Tue May 03 14:26:32 EDT 2022" starttimestamp="1651600935680" timestamp="1456428" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17" _type="PauseCommand" date="Tue May 03 14:26:35 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="1459874">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3445]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="16" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Tue May 03 14:26:35 EDT 2022" starttimestamp="1651600935680" timestamp="1459873" />
+  <Command __id="18" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Tue May 03 14:26:35 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651600935680" timestamp="1460152" type="Run" />
+  <Command __id="19" _type="RunCommand" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Tue May 03 14:26:35 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651600935680" timestamp="1460153" type="Run" />
+  <Command __id="21" _type="PauseCommand" date="Tue May 03 14:26:37 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1462043">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1890]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="20" _type="ConsoleOutput" date="Tue May 03 14:26:37 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1462043" type="ConsoleOutput">
+    <outputString><![CDATA[Found a source file:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML\Greeting.sml
+Assuming src folder is:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="23" _type="PauseCommand" date="Tue May 03 14:26:39 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1463486">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1443]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="22" _type="ShellCommand" date="Tue May 03 14:26:39 EDT 2022" starttimestamp="1651600935680" timestamp="1463486" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="25" _type="PauseCommand" date="Tue May 03 14:26:44 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="1468492">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5006]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ExceptionCommand" date="Tue May 03 14:26:44 EDT 2022" starttimestamp="1651600935680" timestamp="1468492" type="Exception">
+    <exceptionString><![CDATA[java.nio.file.NoSuchFileException: C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML\Logs\LocalChecks\comp524f21_assignment4_F21Assignment4SuiteFineGrained.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2920)
+	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadSecondAppendableFile(AnAbstractTestLogFileWriter.java:314)
+	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadAppendableFile(AnAbstractTestLogFileWriter.java:296)
+	at grader.basics.observers.AFineGrainedTestLogFileWriter.testRunStarted(AFineGrainedTestLogFileWriter.java:111)
+	at org.junit.runner.notification.SynchronizedRunListener.testRunStarted(SynchronizedRunListener.java:35)
+	at org.junit.runner.notification.RunNotifier$1.notifyListener(RunNotifier.java:91)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestRunStarted(RunNotifier.java:88)
+	at grader.basics.junit.AGradableJUnitTopLevelSuite.testRunStarted(AGradableJUnitTopLevelSuite.java:107)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="26" _type="ConsoleOutput" date="Tue May 03 14:26:44 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1469251" type="ConsoleOutput">
+    <outputString><![CDATA[Test execution time (ms):682
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Found a source file:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML\Greeting.sml¶Assuming src folder is:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML"), Diff(INSERT,"Test execution time (ms):682"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="28" _type="PauseCommand" date="Tue May 03 14:26:46 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1470823">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1572]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="27" _type="ConsoleOutput" date="Tue May 03 14:26:46 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1470823" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp524f20.assignment0_3.testcases.SMLGreetingLoadAndRun@61eed179 . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):682"), Diff(INSERT,"Re-running test gradingTools.comp524f20.assignment0_3.testcases.SMLGreetingLoadAndRun@61eed179 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="30" _type="PauseCommand" date="Tue May 03 14:26:49 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="1473594">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2771]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="29" _type="ConsoleOutput" date="Tue May 03 14:26:49 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1473594" type="ConsoleOutput">
+    <outputString><![CDATA[SocialDistanceSMLProvided did not pass completely:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML/SocialDistance.sml not found%0.0
+
+Test execution time (ms):3
+PrintSafety did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):5
+ConcisePrintSafety did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):0
+ListPrintSafety did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):0
+MatchingSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):0
+MatchingGivenSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+MatchingDerivedSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f20.assignment0_3.testcases.SMLGreetingLoadAndRun@61eed179 . Results may change."), Diff(INSERT,"SocialDistanceSMLProvided did not pass completely:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML/SocialDistance.sml not found%0.0¶¶Test execution time (ms):3¶PrintSafety did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):5¶ConcisePrintSafety did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0¶ListPrintSafety did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0¶MatchingSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0¶MatchingGivenSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶MatchingDerivedSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="32" _type="PauseCommand" date="Tue May 03 14:26:51 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1475388">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1793]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="31" _type="ConsoleOutput" date="Tue May 03 14:26:51 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1475387" type="ConsoleOutput">
+    <outputString><![CDATA[CurriedOnceInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+CurriedTwiceInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):0
+CurryableInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):2
+CurryableMatchingSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+CurriedMatchingDerivedSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+CurriedMatchingGivenSafe did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"SocialDistanceSMLProvided did not pass completely:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML/SocialDistance.sml not found%0.0¶¶Test execution time (ms):3¶Print"), Diff(INSERT,"CurriedOnceInterpolated"), Diff(EQUAL,"Safe"), Diff(DELETE,"ty"), Diff(EQUAL," did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):"), Diff(DELETE,"5"), Diff(INSERT,"1"), Diff(EQUAL,"¶C"), Diff(DELETE,"oncisePrint"), Diff(INSERT,"urriedTwiceInterpolated"), Diff(EQUAL,"Safe"), Diff(DELETE,"ty"), Diff(EQUAL," did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0¶"), Diff(DELETE,"ListPrint"), Diff(INSERT,"CurryableInterpolated"), Diff(EQUAL,"Safe"), Diff(DELETE,"ty"), Diff(EQUAL," did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"2"), Diff(EQUAL,"¶"), Diff(INSERT,"Curryable"), Diff(EQUAL,"MatchingSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,"¶"), Diff(INSERT,"Curried"), Diff(EQUAL,"Matching"), Diff(DELETE,"G"), Diff(INSERT,"Der"), Diff(EQUAL,"ive"), Diff(DELETE,"n"), Diff(INSERT,"d"), Diff(EQUAL,"Safe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶"), Diff(INSERT,"Curried"), Diff(EQUAL,"Matching"), Diff(DELETE,"Der"), Diff(INSERT,"G"), Diff(EQUAL,"ive"), Diff(DELETE,"d"), Diff(INSERT,"n"), Diff(EQUAL,"Safe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="34" _type="PauseCommand" date="Tue May 03 14:26:52 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1476794">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1407]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="33" _type="ConsoleOutput" date="Tue May 03 14:26:52 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1476794" type="ConsoleOutput">
+    <outputString><![CDATA[ListDerivedSafeSML did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"CurriedOnceInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶CurriedTwiceInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):0¶CurryableInterpolatedSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):2¶CurryableMatchingSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶CurriedMatchingDerivedSafe did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶CurriedMatchingGivenSafe"), Diff(INSERT,"ListDerivedSafeSML"), Diff(EQUAL," did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶")]]]></diff>
+  </Command>
+  <Command __id="35" _type="ConsoleOutput" date="Tue May 03 14:26:53 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1477569" type="ConsoleOutput">
+    <outputString><![CDATA[GivenSafeSML did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+InterpolatedSafeSML did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ListDeriv"), Diff(INSERT,"GivenSafeSML did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶Interpolat"), Diff(EQUAL,"edSafeSML did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶")]]]></diff>
+  </Command>
+  <Command __id="37" _type="PauseCommand" date="Tue May 03 14:26:56 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="1480955">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3386]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="36" _type="ConsoleOutput" date="Tue May 03 14:26:56 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1480955" type="ConsoleOutput">
+    <outputString><![CDATA[StyleTest did not pass completely:A Social Distance File not Found%0.0
+
+Test execution time (ms):1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"GivenSafeSML did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶InterpolatedSafeSML"), Diff(INSERT,"StyleTest"), Diff(EQUAL," did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1¶")]]]></diff>
+  </Command>
+  <Command __id="38" _type="ConsoleOutput" date="Tue May 03 14:26:57 EDT 2022" overflow="false" starttimestamp="1651600935680" timestamp="1481605" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp524f20.assignment3.styleParsing.StyleTest@39a37bd2 . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"StyleTest did not pass completely:A Social Distance File not Found%0.0¶¶Test execution time (ms):1"), Diff(INSERT,"Re-running test gradingTools.comp524f20.assignment3.styleParsing.StyleTest@39a37bd2 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="39" _type="ShellCommand" date="Tue May 03 14:26:58 EDT 2022" starttimestamp="1651600935680" timestamp="1482393" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="40" _type="ShellCommand" date="Tue May 03 14:26:58 EDT 2022" starttimestamp="1651600935680" timestamp="1482749" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="41" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Tue May 03 14:26:58 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651600935680" timestamp="1483102" type="Run" />
+  <Command __id="42" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Tue May 03 14:26:58 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651600935680" timestamp="1483102" type="Run" />
+  <Command __id="44" _type="PauseCommand" date="Tue May 03 14:28:35 EDT 2022" range="1m-2m" starttimestamp="1651600935680" timestamp="1579719">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[96617]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="43" _type="ShellCommand" date="Tue May 03 14:28:35 EDT 2022" starttimestamp="1651600935680" timestamp="1579719" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="45" _type="ShellCommand" date="Tue May 03 14:28:36 EDT 2022" starttimestamp="1651600935680" timestamp="1580446" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="47" _type="PauseCommand" date="Tue May 03 14:28:37 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1581539">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1093]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="46" _type="ShellCommand" date="Tue May 03 14:28:37 EDT 2022" starttimestamp="1651600935680" timestamp="1581539" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="48" _type="ShellCommand" date="Tue May 03 14:28:37 EDT 2022" starttimestamp="1651600935680" timestamp="1581883" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="50" _type="PauseCommand" date="Tue May 03 14:33:11 EDT 2022" range="2m-5m" starttimestamp="1651600935680" timestamp="1855826">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[273943]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="49" _type="ShellCommand" date="Tue May 03 14:33:11 EDT 2022" starttimestamp="1651600935680" timestamp="1855826" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="52" _type="PauseCommand" date="Tue May 03 14:33:13 EDT 2022" range="1s-2s" starttimestamp="1651600935680" timestamp="1857489">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1663]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="51" _type="ShellCommand" date="Tue May 03 14:33:13 EDT 2022" starttimestamp="1651600935680" timestamp="1857489" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="54" _type="PauseCommand" date="Tue May 03 14:33:24 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="1868608">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[11119]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="53" _type="ShellCommand" date="Tue May 03 14:33:24 EDT 2022" starttimestamp="1651600935680" timestamp="1868608" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="56" _type="PauseCommand" date="Tue May 03 14:33:31 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="1875728">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7120]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="55" _type="ShellCommand" date="Tue May 03 14:33:31 EDT 2022" starttimestamp="1651600935680" timestamp="1875728" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="58" _type="PauseCommand" date="Tue May 03 14:33:49 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="1894027">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[18299]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="57" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Tue May 03 14:33:49 EDT 2022" starttimestamp="1651600935680" timestamp="1894027" />
+  <Command __id="60" _type="PauseCommand" date="Tue May 03 14:34:00 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="1905173">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[11146]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="59" _type="ShellCommand" date="Tue May 03 14:34:00 EDT 2022" starttimestamp="1651600935680" timestamp="1905173" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="61" _type="EclipseCommand" commandID="org.eclipse.epp.mpc.ui.command.showMarketplaceWizard" date="Tue May 03 14:34:00 EDT 2022" starttimestamp="1651600935680" timestamp="1905227" />
+  <Command __id="62" _type="ShellCommand" date="Tue May 03 14:34:01 EDT 2022" starttimestamp="1651600935680" timestamp="1905633" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="64" _type="PauseCommand" date="Tue May 03 14:34:13 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="1917628">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[11995]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="63" _type="ShellCommand" date="Tue May 03 14:34:13 EDT 2022" starttimestamp="1651600935680" timestamp="1917628" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="65" _type="ShellCommand" date="Tue May 03 14:34:14 EDT 2022" starttimestamp="1651600935680" timestamp="1918325" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="67" _type="PauseCommand" date="Tue May 03 14:34:27 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="1932168">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[13842]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="66" _type="ShellCommand" date="Tue May 03 14:34:27 EDT 2022" starttimestamp="1651600935680" timestamp="1932167" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="68" _type="ShellCommand" date="Tue May 03 14:34:28 EDT 2022" starttimestamp="1651600935680" timestamp="1932850" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="70" _type="PauseCommand" date="Tue May 03 14:35:28 EDT 2022" range="30s-1m" starttimestamp="1651600935680" timestamp="1992462">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[59612]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="69" _type="ShellCommand" date="Tue May 03 14:35:28 EDT 2022" starttimestamp="1651600935680" timestamp="1992462" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="71" _type="ShellCommand" date="Tue May 03 14:35:28 EDT 2022" starttimestamp="1651600935680" timestamp="1993252" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="73" _type="PauseCommand" date="Tue May 03 14:35:49 EDT 2022" range="20s-30s" starttimestamp="1651600935680" timestamp="2013644">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[20392]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="72" _type="ShellCommand" date="Tue May 03 14:35:49 EDT 2022" starttimestamp="1651600935680" timestamp="2013644" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="75" _type="PauseCommand" date="Tue May 03 14:35:52 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2016405">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2761]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="74" _type="ShellCommand" date="Tue May 03 14:35:52 EDT 2022" starttimestamp="1651600935680" timestamp="2016405" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="77" _type="PauseCommand" date="Tue May 03 14:36:25 EDT 2022" range="30s-1m" starttimestamp="1651600935680" timestamp="2049876">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[33471]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="76" _type="ShellCommand" date="Tue May 03 14:36:25 EDT 2022" starttimestamp="1651600935680" timestamp="2049876" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="79" _type="PauseCommand" date="Tue May 03 14:36:39 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="2064057">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[14181]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="78" _type="ShellCommand" date="Tue May 03 14:36:39 EDT 2022" starttimestamp="1651600935680" timestamp="2064057" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="81" _type="PauseCommand" date="Tue May 03 14:36:46 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="2070735">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6678]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="80" _type="ShellCommand" date="Tue May 03 14:36:46 EDT 2022" starttimestamp="1651600935680" timestamp="2070735" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="82" _type="MoveCaretCommand" caretOffset="622" date="Tue May 03 14:36:46 EDT 2022" docOffset="622" starttimestamp="1651600935680" timestamp="2070873" />
+  <Command __id="84" _type="PauseCommand" date="Tue May 03 14:37:01 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="2086027">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[15153]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ConsoleInput]]></next>
+  </Command>
+  <Command __id="83" _type="ConsoleInput" date="Tue May 03 14:37:01 EDT 2022" starttimestamp="1651600935680" timestamp="2086026" type="Exception">
+    <outputString><![CDATA[sml
+]]></outputString>
+  </Command>
+  <Command __id="86" _type="PauseCommand" date="Tue May 03 14:37:04 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2088699">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ConsoleInput]]></prev>
+    <pause><![CDATA[2673]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ConsoleInput]]></next>
+  </Command>
+  <Command __id="85" _type="ConsoleInput" date="Tue May 03 14:37:04 EDT 2022" starttimestamp="1651600935680" timestamp="2088699" type="Exception">
+    <outputString><![CDATA[help
+]]></outputString>
+  </Command>
+  <Command __id="88" _type="PauseCommand" date="Tue May 03 14:37:07 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2091716">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ConsoleInput]]></prev>
+    <pause><![CDATA[3017]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="87" _type="ShellCommand" date="Tue May 03 14:37:07 EDT 2022" starttimestamp="1651600935680" timestamp="2091716" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="90" _type="PauseCommand" date="Tue May 03 14:37:20 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="2105047">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[13331]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="89" _type="ShellCommand" date="Tue May 03 14:37:20 EDT 2022" starttimestamp="1651600935680" timestamp="2105047" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="92" _type="PauseCommand" date="Tue May 03 14:37:25 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2109392">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4345]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="91" _type="ShellCommand" date="Tue May 03 14:37:25 EDT 2022" starttimestamp="1651600935680" timestamp="2109392" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="94" _type="PauseCommand" date="Tue May 03 14:37:44 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="2128595">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[19203]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="93" _type="ShellCommand" date="Tue May 03 14:37:44 EDT 2022" starttimestamp="1651600935680" timestamp="2128595" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="96" _type="PauseCommand" date="Tue May 03 14:37:47 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2131522">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2927]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="95" _type="ShellCommand" date="Tue May 03 14:37:47 EDT 2022" starttimestamp="1651600935680" timestamp="2131522" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="98" _type="PauseCommand" date="Tue May 03 14:37:53 EDT 2022" range="5s-10s" starttimestamp="1651600935680" timestamp="2137860">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6338]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[PasteCommand]]></next>
+  </Command>
+  <Command __id="97" _type="PasteCommand" date="Tue May 03 14:37:53 EDT 2022" starttimestamp="1651600935680" timestamp="2137860" />
+  <Command __id="100" _type="PauseCommand" date="Tue May 03 14:38:50 EDT 2022" range="30s-1m" starttimestamp="1651600935680" timestamp="2194909">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[57049]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="99" _type="ShellCommand" date="Tue May 03 14:38:50 EDT 2022" starttimestamp="1651600935680" timestamp="2194909" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="101" _type="EclipseCommand" commandID="org.eclipse.equinox.p2.ui.sdk.install" date="Tue May 03 14:38:50 EDT 2022" starttimestamp="1651600935680" timestamp="2194960" />
+  <Command __id="102" _type="ShellCommand" date="Tue May 03 14:38:50 EDT 2022" starttimestamp="1651600935680" timestamp="2195142" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="104" _type="PauseCommand" date="Tue May 03 14:38:54 EDT 2022" range="2s-5s" starttimestamp="1651600935680" timestamp="2198394">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3252]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="103" _type="ShellCommand" date="Tue May 03 14:38:54 EDT 2022" starttimestamp="1651600935680" timestamp="2198394" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="105" _type="ShellCommand" date="Tue May 03 14:38:54 EDT 2022" starttimestamp="1651600935680" timestamp="2198704" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="107" _type="PauseCommand" date="Tue May 03 14:39:06 EDT 2022" range="10s-20s" starttimestamp="1651600935680" timestamp="2211252">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[12548]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

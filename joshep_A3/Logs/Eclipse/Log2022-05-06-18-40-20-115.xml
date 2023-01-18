@@ -1,0 +1,120 @@
+<Events startTimestamp="1651876820115" logVersion="1.0.0.202201202038">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="290" date="Fri May 06 18:40:24 EDT 2022" docOffset="290" starttimestamp="1651876820115" timestamp="4717" />
+  <Command __id="3" _type="PauseCommand" date="Fri May 06 18:40:37 EDT 2022" range="10s-20s" starttimestamp="1651876820115" timestamp="17079">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[12358]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4" _type="ShellCommand" date="Fri May 06 18:40:38 EDT 2022" starttimestamp="1651876820115" timestamp="18805" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="6" _type="EclipseCommand" commandID="org.eclipse.ltk.ui.refactoring.commands.deleteResources" date="Fri May 06 18:40:38 EDT 2022" starttimestamp="1651876820115" timestamp="18829" />
+  <Command __id="7" _type="EclipseCommand" commandID="" date="Fri May 06 18:40:38 EDT 2022" starttimestamp="1651876820115" timestamp="18857" />
+  <Command __id="8" _type="EclipseCommand" commandID="" date="Fri May 06 18:40:39 EDT 2022" starttimestamp="1651876820115" timestamp="18921" />
+  <Command __id="10" _type="PauseCommand" date="Fri May 06 18:40:41 EDT 2022" range="1s-2s" starttimestamp="1651876820115" timestamp="20889">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1966]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="30" _type="ShellCommand" date="Fri May 06 18:42:17 EDT 2022" starttimestamp="1651876820115" timestamp="117022" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="33" _type="PauseCommand" date="Fri May 06 18:42:18 EDT 2022" range="1s-2s" starttimestamp="1651876820115" timestamp="118253">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1231]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="37" _type="MoveCaretCommand" caretOffset="0" date="Fri May 06 18:42:26 EDT 2022" docOffset="0" starttimestamp="1651876820115" timestamp="126763" />
+  <Command __id="35" _type="DiffBasedFileOpenCommand" date="Fri May 06 18:42:26 EDT 2022" docASTNodeCount="245" docActiveCodeLength="1580" docExpressionCount="132" docLength="1580" projectName="joshep_A2" starttimestamp="1651876820115" timestamp="126316">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\AbstractModel.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a2;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeSupport;
+
+public abstract class AbstractModel {
+	public static final String DISTANCE = "Distance";
+	public static final String DURATION = "Duration";
+	public static final String EXHALE = "Exhalation";
+	public static final String SAFE = "Safe";
+
+	Integer Distance = null;
+	Integer Duration = null;
+	Integer Exhalation = null;
+	Boolean Safe = null;
+	
+	PropertyChangeSupport changeSupport = new PropertyChangeSupport(this);
+	
+	public void addPropertyChangeListener(PropertyChangeListener listener) {
+		changeSupport.addPropertyChangeListener(listener);
+	}
+	public void setLevels (int distance, int duration, int exhale) {
+		Integer oldDistance = Distance;
+		Integer oldDuration = Duration;
+		Integer oldExhale = Exhalation;
+		Boolean oldIsSafe = Safe;
+		Distance = distance;	
+		Duration = duration;
+		Exhalation = exhale;
+		Safe = isSafe();
+		changeSupport.firePropertyChange(DISTANCE, oldDistance, Distance);
+		changeSupport.firePropertyChange(DURATION, oldDuration, Duration);
+		changeSupport.firePropertyChange(EXHALE, oldExhale, Exhalation);
+		changeSupport.firePropertyChange(SAFE, oldIsSafe, Safe);
+		reset();
+	}
+	
+	private void reset() {
+		Distance = null;
+		Duration = null;
+		Exhalation = null;
+		Safe = null;
+	}
+	public Integer getDistance() {return Distance;}
+	public Integer getDuration() {return Duration;}
+	public Integer getExhalation() {return Exhalation;}
+	public abstract Boolean isSafe();
+}
+]]></snapshot>
+  </Command>
+  <Command __id="39" _type="PauseCommand" date="Fri May 06 18:42:29 EDT 2022" range="2s-5s" starttimestamp="1651876820115" timestamp="128971">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2208]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="267" _type="ShellCommand" date="Fri May 06 18:47:17 EDT 2022" starttimestamp="1651876820115" timestamp="417062" type="ECLIPSE_GAINED_FOCUS" />
+  <DocumentChange __id="198" _type="Delete" date="Fri May 06 18:46:26 EDT 2022" docASTNodeCount="1" docActiveCodeLength="40" docExpressionCount="0" docLength="40" endLine="1" length="1" offset="25" startLine="1" starttimestamp="1651876820115" timestamp="366045">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="215" _type="Delete" date="Fri May 06 18:46:30 EDT 2022" docASTNodeCount="1" docActiveCodeLength="20" docExpressionCount="0" docLength="20" endLine="1" length="20" offset="20" startLine="1" starttimestamp="1651876820115" timestamp="369901">
+    <text><![CDATA[likes(alicel pizza).]]></text>
+  </DocumentChange>
+  <DocumentChange __id="228" _type="Insert" date="Fri May 06 18:46:34 EDT 2022" docASTNodeCount="1" docActiveCodeLength="38" docExpressionCount="0" docLength="38" length="18" offset="20" starttimestamp="1651876820115" timestamp="374834">
+    <text><![CDATA[likes(bob, pizza).]]></text>
+  </DocumentChange>
+  <DocumentChange __id="232" _type="Replace" date="Fri May 06 18:46:40 EDT 2022" docASTNodeCount="1" docActiveCodeLength="36" docExpressionCount="0" docLength="36" endLine="1" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="35" int_docExpressionCount="0" int_docLength="35" length="3" offset="26" startLine="1" starttimestamp="1651876820115" timestamp="380326">
+    <deletedText><![CDATA[bob]]></deletedText>
+    <insertedText><![CDATA[a]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="234" _type="Insert" date="Fri May 06 18:46:40 EDT 2022" docASTNodeCount="1" docActiveCodeLength="42" docExpressionCount="0" docLength="42" length="6" offset="27" repeat="6" starttimestamp="1651876820115" timestamp="380415" timestamp2="381145">
+    <text><![CDATA[liv=ce]]></text>
+  </DocumentChange>
+  <DocumentChange __id="246" _type="Delete" date="Fri May 06 18:46:41 EDT 2022" docASTNodeCount="1" docActiveCodeLength="38" docExpressionCount="0" docLength="38" endLine="1" length="4" offset="29" repeat="4" startLine="1" starttimestamp="1651876820115" timestamp="381340" timestamp2="381780">
+    <text><![CDATA[v=ce]]></text>
+  </DocumentChange>
+  <DocumentChange __id="254" _type="Insert" date="Fri May 06 18:46:41 EDT 2022" docASTNodeCount="1" docActiveCodeLength="40" docExpressionCount="0" docLength="40" length="2" offset="29" repeat="2" starttimestamp="1651876820115" timestamp="381866" timestamp2="381930">
+    <text><![CDATA[ce]]></text>
+  </DocumentChange>
+  <Command __id="270" _type="PauseCommand" date="Fri May 06 18:47:22 EDT 2022" range="5s-10s" starttimestamp="1651876820115" timestamp="422115">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5053]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+</Events>

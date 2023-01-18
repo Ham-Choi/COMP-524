@@ -1,0 +1,49 @@
+<Events startTimestamp="1651778673710" logVersion="1.0.0.202201202038">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="574" date="Thu May 05 15:24:35 EDT 2022" docOffset="574" starttimestamp="1651778673710" timestamp="1784" />
+  <Command __id="3" _type="PauseCommand" date="Thu May 05 15:24:38 EDT 2022" range="2s-5s" starttimestamp="1651778673710" timestamp="4896">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3107]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="8" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 15:24:40 EDT 2022" docOffset="0" starttimestamp="1651778673710" timestamp="6491" />
+  <Command __id="6" _type="DiffBasedFileOpenCommand" date="Thu May 05 15:24:40 EDT 2022" docASTNodeCount="89" docActiveCodeLength="710" docExpressionCount="56" docLength="1127" projectName="joshep_A5" starttimestamp="1651778673710" timestamp="6397">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A5\src\a5\A5Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package a5;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp524f21.assignment5.F21Assignment5Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+//import util.trace.Tracer;
+
+public class A5Tests {
+	static int printedTrace = 600;
+	static int maxTrace = 2000;
+	static int processTimeOut= 5;
+	public static void main(String[] args) {
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed
+		GraderBasicsTraceUtility.setBufferTracedMessages(true);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);
+		// Change this number if all traces together are longer than 2000
+		GraderBasicsTraceUtility.setMaxTraces(maxTrace);
+		// Change this number if your process times out prematurely
+		BasicProjectExecution.setProcessTimeOut(processTimeOut);
+		// You need to always call such a method
+		F21Assignment5Suite.main(args);
+	}
+}]]></snapshot>
+  </Command>
+  <Command __id="10" _type="PauseCommand" date="Thu May 05 15:24:41 EDT 2022" range="1s-2s" starttimestamp="1651778673710" timestamp="8255">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1764]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+</Events>

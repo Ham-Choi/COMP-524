@@ -1,0 +1,2 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+14,,Tue May 03 19:42:10 EDT 2022,RunFA21A4Tests.java,1651621330518,54956,0,(I)1(R)1(I)1(R)1(I)1(F)4(I)1(F)2(R)1,0.3076923076923077,0.0,0.0,46.15384615384615,0.0,0.0,0.24074074074074073,0.0,0.0,0.1111111111111111,0.0,0.05555555555555555,0.07407407407407407,0.0,[]

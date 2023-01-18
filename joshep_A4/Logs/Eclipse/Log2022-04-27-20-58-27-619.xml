@@ -1,0 +1,403 @@
+<Events startTimestamp="1651107507619" logVersion="1.0.0.202201202038">
+  <Command __id="1308" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:48:58 EDT 2022" starttimestamp="1651107507619" timestamp="6630507" />
+  <Command __id="1310" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:48:58 EDT 2022" starttimestamp="1651107507619" timestamp="6630557" />
+  <Command __id="1311" _type="ShellCommand" date="Wed Apr 27 22:48:58 EDT 2022" starttimestamp="1651107507619" timestamp="6630584" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1313" _type="PauseCommand" date="Wed Apr 27 22:49:04 EDT 2022" range="5s-10s" starttimestamp="1651107507619" timestamp="6637016">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6432]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1312" _type="ShellCommand" date="Wed Apr 27 22:49:04 EDT 2022" starttimestamp="1651107507619" timestamp="6637016" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1315" _type="PauseCommand" date="Wed Apr 27 22:49:06 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="6638802">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1786]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="1314" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Wed Apr 27 22:49:06 EDT 2022" starttimestamp="1651107507619" timestamp="6638802" />
+  <Command __id="1317" _type="PauseCommand" date="Wed Apr 27 22:49:07 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="6640079">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1277]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1316" _type="ShellCommand" date="Wed Apr 27 22:49:07 EDT 2022" starttimestamp="1651107507619" timestamp="6640079" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1318" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:07 EDT 2022" starttimestamp="1651107507619" timestamp="6640143" />
+  <Command __id="1319" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:07 EDT 2022" starttimestamp="1651107507619" timestamp="6640149" />
+  <Command __id="1321" _type="PauseCommand" date="Wed Apr 27 22:49:14 EDT 2022" range="5s-10s" starttimestamp="1651107507619" timestamp="6647188">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7039]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1320" _type="ShellCommand" date="Wed Apr 27 22:49:14 EDT 2022" starttimestamp="1651107507619" timestamp="6647188" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1323" _type="PauseCommand" date="Wed Apr 27 22:49:21 EDT 2022" range="5s-10s" starttimestamp="1651107507619" timestamp="6654273">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7085]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1322" _type="ShellCommand" date="Wed Apr 27 22:49:21 EDT 2022" starttimestamp="1651107507619" timestamp="6654273" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1324" _type="EclipseCommand" commandID="org.eclipse.ui.file.properties" date="Wed Apr 27 22:49:21 EDT 2022" starttimestamp="1651107507619" timestamp="6654303" />
+  <Command __id="1325" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654567" />
+  <Command __id="1326" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654587" />
+  <Command __id="1327" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654588" />
+  <Command __id="1328" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654690" />
+  <Command __id="1329" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654691" />
+  <Command __id="1330" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654777" />
+  <Command __id="1331" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654777" />
+  <Command __id="1332" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654796" />
+  <Command __id="1333" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654796" />
+  <Command __id="1334" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654812" />
+  <Command __id="1335" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654812" />
+  <Command __id="1336" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654820" />
+  <Command __id="1337" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654821" />
+  <Command __id="1338" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654837" />
+  <Command __id="1339" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654838" />
+  <Command __id="1340" _type="EclipseCommand" commandID="" date="Wed Apr 27 22:49:22 EDT 2022" starttimestamp="1651107507619" timestamp="6654854" />
+  <Command __id="1342" _type="PauseCommand" date="Wed Apr 27 22:49:26 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="6658954">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4100]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1341" _type="ShellCommand" date="Wed Apr 27 22:49:26 EDT 2022" starttimestamp="1651107507619" timestamp="6658954" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1344" _type="PauseCommand" date="Wed Apr 27 22:53:36 EDT 2022" range="2m-5m" starttimestamp="1651107507619" timestamp="6908382">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[249428]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1343" _type="ShellCommand" date="Wed Apr 27 22:53:36 EDT 2022" starttimestamp="1651107507619" timestamp="6908382" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1345" _type="ShellCommand" date="Wed Apr 27 22:53:36 EDT 2022" starttimestamp="1651107507619" timestamp="6909353" type="ECLIPSE_MINIMIZED" />
+  <Command __id="1346" _type="ShellCommand" date="Wed Apr 27 22:53:36 EDT 2022" starttimestamp="1651107507619" timestamp="6909358" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1348" _type="PauseCommand" date="Wed Apr 27 22:58:27 EDT 2022" range="2m-5m" starttimestamp="1651107507619" timestamp="7200089">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[290731]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[BalloonCommand]]></next>
+  </Command>
+  <Command __id="1347" _type="BalloonCommand" date="Wed Apr 27 22:58:27 EDT 2022" message="*******************************************
+Worked 0 minutes(fixed)/55 minutes(context based) from
+Wed Apr 27 21:58:27 EDT 2022 to Wed Apr 27 22:53:36 EDT 2022
+Edited 0 Projects: 
+Edited 0 Files: 
+Number of insert: 0
+Number of delete: 0
+" starttimestamp="1651107507619" timestamp="7200089">
+    <fineGrainedWorkTime><![CDATA[55]]></fineGrainedWorkTime>
+    <insert><![CDATA[0]]></insert>
+    <startTime><![CDATA[1651111107719]]></startTime>
+    <endTime><![CDATA[1651114416977]]></endTime>
+    <workTime><![CDATA[0]]></workTime>
+    <delete><![CDATA[0]]></delete>
+  </Command>
+  <Command __id="1350" _type="PauseCommand" date="Wed Apr 27 23:22:13 EDT 2022" range="20m-30m" starttimestamp="1651107507619" timestamp="8626023">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[BalloonCommand]]></prev>
+    <pause><![CDATA[1425933]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1349" _type="ShellCommand" date="Wed Apr 27 23:22:13 EDT 2022" starttimestamp="1651107507619" timestamp="8626022" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="1351" _type="ShellCommand" date="Wed Apr 27 23:22:13 EDT 2022" starttimestamp="1651107507619" timestamp="8626077" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1353" _type="PauseCommand" date="Wed Apr 27 23:22:21 EDT 2022" range="5s-10s" starttimestamp="1651107507619" timestamp="8633916">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7839]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1354" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:22:35 EDT 2022" starttimestamp="1651107507619" timestamp="8648376" />
+  <Command __id="1356" _type="ShellCommand" date="Wed Apr 27 23:22:35 EDT 2022" starttimestamp="1651107507619" timestamp="8648380" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1357" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:22:36 EDT 2022" starttimestamp="1651107507619" timestamp="8648410" />
+  <Command __id="1359" _type="MoveCaretCommand" caretOffset="0" date="Wed Apr 27 23:22:36 EDT 2022" docOffset="0" starttimestamp="1651107507619" timestamp="8648829" />
+  <Command __id="1361" _type="PauseCommand" date="Wed Apr 27 23:22:49 EDT 2022" range="10s-20s" starttimestamp="1651107507619" timestamp="8662142">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[13313]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1360" _type="ShellCommand" date="Wed Apr 27 23:22:49 EDT 2022" starttimestamp="1651107507619" timestamp="8662142" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1363" _type="PauseCommand" date="Wed Apr 27 23:22:51 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="8664058">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1916]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1362" _type="ShellCommand" date="Wed Apr 27 23:22:51 EDT 2022" starttimestamp="1651107507619" timestamp="8664058" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1364" _type="MoveCaretCommand" caretOffset="11" date="Wed Apr 27 23:22:51 EDT 2022" docOffset="11" starttimestamp="1651107507619" timestamp="8664091" />
+  <Command __id="1366" _type="InsertStringCommand" date="Wed Apr 27 23:22:52 EDT 2022" starttimestamp="1651107507619" timestamp="8664795" timestamp2="8664795">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="1368" _type="InsertStringCommand" date="Wed Apr 27 23:22:52 EDT 2022" starttimestamp="1651107507619" timestamp="8665187" timestamp2="8665187">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="1370" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665420" timestamp2="8665420">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="1372" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665499" timestamp2="8665499">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="1374" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665577" timestamp2="8665577">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="1376" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665661" timestamp2="8665661">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="1378" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665796" timestamp2="8665796">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="1380" _type="InsertStringCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8665950" timestamp2="8665950">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="1382" _type="PasteCommand" date="Wed Apr 27 23:22:53 EDT 2022" starttimestamp="1651107507619" timestamp="8666202" />
+  <Command __id="1384" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Apr 27 23:22:54 EDT 2022" starttimestamp="1651107507619" timestamp="8666919" />
+  <Command __id="1386" _type="InsertStringCommand" date="Wed Apr 27 23:22:54 EDT 2022" starttimestamp="1651107507619" timestamp="8667345" timestamp2="8667345">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="1388" _type="PauseCommand" date="Wed Apr 27 23:23:01 EDT 2022" range="5s-10s" starttimestamp="1651107507619" timestamp="8674180">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[6835]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1387" _type="ShellCommand" date="Wed Apr 27 23:23:01 EDT 2022" starttimestamp="1651107507619" timestamp="8674180" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1390" _type="PauseCommand" date="Wed Apr 27 23:34:43 EDT 2022" range="10m-20m" starttimestamp="1651107507619" timestamp="9375611">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[701431]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1389" _type="ShellCommand" date="Wed Apr 27 23:34:43 EDT 2022" starttimestamp="1651107507619" timestamp="9375611" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1391" _type="MoveCaretCommand" caretOffset="116" date="Wed Apr 27 23:34:43 EDT 2022" docOffset="116" starttimestamp="1651107507619" timestamp="9375706" />
+  <Command __id="1393" _type="PauseCommand" date="Wed Apr 27 23:34:45 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9378026">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2320]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="1400" _type="SelectTextCommand" caretOffset="111" date="Wed Apr 27 23:34:55 EDT 2022" end="484" start="111" starttimestamp="1651107507619" timestamp="9387557" />
+  <Command __id="1402" _type="CopyCommand" date="Wed Apr 27 23:34:55 EDT 2022" starttimestamp="1651107507619" timestamp="9387923" />
+  <Command __id="1404" _type="MoveCaretCommand" caretOffset="114" date="Wed Apr 27 23:34:56 EDT 2022" docOffset="114" starttimestamp="1651107507619" timestamp="9388739" />
+  <Command __id="1405" _type="MoveCaretCommand" caretOffset="111" date="Wed Apr 27 23:34:56 EDT 2022" docOffset="111" starttimestamp="1651107507619" timestamp="9389245" />
+  <Command __id="1409" _type="PasteCommand" date="Wed Apr 27 23:34:57 EDT 2022" starttimestamp="1651107507619" timestamp="9389592" />
+  <Command __id="1411" _type="PauseCommand" date="Wed Apr 27 23:35:00 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9393090">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[3498]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="1410" _type="SelectTextCommand" caretOffset="79" date="Wed Apr 27 23:35:00 EDT 2022" end="141" start="79" starttimestamp="1651107507619" timestamp="9393090" />
+  <Command __id="1413" _type="PauseCommand" date="Wed Apr 27 23:35:03 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9396248">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[3158]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="1412" _type="SelectTextCommand" caretOffset="466" date="Wed Apr 27 23:35:03 EDT 2022" end="467" start="466" starttimestamp="1651107507619" timestamp="9396248" />
+  <Command __id="1397" _type="DiffBasedFileOpenCommand" date="Wed Apr 27 23:34:47 EDT 2022" docASTNodeCount="57" docActiveCodeLength="486" docExpressionCount="35" docLength="570" projectName="joshep_A3" starttimestamp="1651107507619" timestamp="9380206">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A3\src\a3\RunFA21A3Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a3;¶import gradingTools.comp524f21.assignment3.F21Assignment3Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶import util.trace.Tracer;¶¶public class RunFA21A3Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment3Suite.main(args);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="1403" _type="DiffBasedFileOpenCommand" date="Wed Apr 27 23:34:56 EDT 2022" docASTNodeCount="14" docActiveCodeLength="116" docExpressionCount="9" docLength="116" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9388657">
+    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A4\src\a4\RunFA21A4Tests.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package a4;"), Diff(INSERT,"¶import gradingTools.comp524f21.assignment4.F21Assignment4Suite;"), Diff(EQUAL,"¶¶public class RunFA21A4Tests {¶¶}¶")]]]></diff>
+    <snapshot><![CDATA[package a4;
+import gradingTools.comp524f21.assignment4.F21Assignment4Suite;
+
+public class RunFA21A4Tests {
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="1406" _type="Insert" date="Wed Apr 27 23:34:57 EDT 2022" docASTNodeCount="43" docActiveCodeLength="405" docExpressionCount="23" docLength="489" length="373" offset="111" starttimestamp="1651107507619" timestamp="9389461">
+    <text><![CDATA[	static final String PROJECT_LOCATION =
+			"C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog";
+	public static void main (String[] args) {
+		// Tracer.showInfo(true);
+		// GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);
+		F21Assignment3Suite.main(args);
+	}]]></text>
+  </DocumentChange>
+  <DocumentChange __id="1407" _type="Insert" date="Wed Apr 27 23:34:57 EDT 2022" docASTNodeCount="51" docActiveCodeLength="470" docExpressionCount="30" docLength="554" length="65" offset="13" repeat="2" starttimestamp="1651107507619" timestamp="9389543" timestamp2="9389560">
+    <text><![CDATA[import gradingTools.comp524f21.assignment3.F21Assignment3Suite;
+]]></text>
+  </DocumentChange>
+  <Command __id="1415" _type="PauseCommand" date="Wed Apr 27 23:35:05 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9397466">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[1217]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Replace]]></next>
+  </Command>
+  <Command __id="1416" _type="InsertStringCommand" date="Wed Apr 27 23:35:05 EDT 2022" starttimestamp="1651107507619" timestamp="9397490" timestamp2="9397490">
+    <data><![CDATA[4]]></data>
+  </Command>
+  <Command __id="1418" _type="PauseCommand" date="Wed Apr 27 23:35:06 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9398749">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1259]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="1417" _type="SelectTextCommand" caretOffset="527" date="Wed Apr 27 23:35:06 EDT 2022" end="528" start="527" starttimestamp="1651107507619" timestamp="9398749" />
+  <Command __id="1420" _type="InsertStringCommand" date="Wed Apr 27 23:35:06 EDT 2022" starttimestamp="1651107507619" timestamp="9398961" timestamp2="9398961">
+    <data><![CDATA[4]]></data>
+  </Command>
+  <Command __id="1421" _type="MoveCaretCommand" caretOffset="409" date="Wed Apr 27 23:35:07 EDT 2022" docOffset="409" starttimestamp="1651107507619" timestamp="9399854" />
+  <Command __id="1422" _type="MoveCaretCommand" caretOffset="386" date="Wed Apr 27 23:35:08 EDT 2022" docOffset="386" starttimestamp="1651107507619" timestamp="9400441" />
+  <Command __id="1424" _type="PauseCommand" date="Wed Apr 27 23:35:11 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9404084">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3643]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="1423" _type="SelectTextCommand" caretOffset="13" date="Wed Apr 27 23:35:11 EDT 2022" end="76" start="13" starttimestamp="1651107507619" timestamp="9404084" />
+  <Command __id="1426" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Apr 27 23:35:12 EDT 2022" starttimestamp="1651107507619" timestamp="9404827" />
+  <Command __id="1428" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Apr 27 23:35:13 EDT 2022" starttimestamp="1651107507619" timestamp="9405497" />
+  <Command __id="1429" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Wed Apr 27 23:35:13 EDT 2022" starttimestamp="1651107507619" timestamp="9406062" />
+  <Command __id="1430" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:35:13 EDT 2022" starttimestamp="1651107507619" timestamp="9406191" />
+  <Command __id="1431" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:35:13 EDT 2022" starttimestamp="1651107507619" timestamp="9406230" />
+  <Command __id="1433" _type="PauseCommand" date="Wed Apr 27 23:35:17 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9410236">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4006]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="1432" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Wed Apr 27 23:35:17 EDT 2022" starttimestamp="1651107507619" timestamp="9410236" />
+  <Command __id="1434" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:35:18 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9410525" type="Run" />
+  <Command __id="1435" _type="RunCommand" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:35:18 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9410525" type="Run" />
+  <Command __id="1437" _type="PauseCommand" date="Wed Apr 27 23:35:19 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9412038">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1513]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="1436" _type="ExceptionCommand" date="Wed Apr 27 23:35:19 EDT 2022" starttimestamp="1651107507619" timestamp="9412038" type="Exception">
+    <exceptionString><![CDATA[java.io.FileNotFoundException: No source files found
+	at grader.basics.project.BasicProject.searchForSourceAndProjectFolder(BasicProject.java:122)
+	at grader.basics.project.BasicProject.<init>(BasicProject.java:291)
+	at grader.basics.project.CurrentProjectHolder.createCurrentProject(CurrentProjectHolder.java:51)
+	at grader.basics.project.CurrentProjectHolder.getOrCreateCurrentProject(CurrentProjectHolder.java:24)
+	at grader.basics.junit.RunVetoerFactory.getOrCreateRunVetoer(RunVetoerFactory.java:14)
+	at grader.basics.junit.BasicJUnitUtils.interactiveTest(BasicJUnitUtils.java:292)
+	at gradingTools.comp524f21.assignment4.F21Assignment4Suite.main(F21Assignment4Suite.java:39)
+	at a4.RunFA21A4Tests.main(RunFA21A4Tests.java:11)
+java.io.FileNotFoundException: No source files found
+	at grader.basics.project.BasicProject.searchForSourceAndProjectFolder(BasicProject.java:122)
+	at grader.basics.project.BasicProject.<init>(BasicProject.java:291)
+	at grader.basics.project.CurrentProjectHolder.createCurrentProject(CurrentProjectHolder.java:51)
+	at grader.basics.project.CurrentProjectHolder.getOrCreateCurrentProject(CurrentProjectHolder.java:24)
+	at grader.basics.junit.RunVetoerFactory.getOrCreateRunVetoer(RunVetoerFactory.java:18)
+	at grader.basics.junit.BasicJUnitUtils.interactiveTest(BasicJUnitUtils.java:292)
+	at gradingTools.comp524f21.assignment4.F21Assignment4Suite.main(F21Assignment4Suite.java:39)
+	at a4.RunFA21A4Tests.main(RunFA21A4Tests.java:11)
+java.lang.NullPointerException
+	at java.base/java.util.Hashtable.put(Hashtable.java:475)
+	at util.models.Hashcodetable.put(Hashcodetable.java:13)
+	at grader.basics.junit.RunVetoerFactory.getOrCreateRunVetoer(RunVetoerFactory.java:18)
+	at grader.basics.junit.BasicJUnitUtils.interactiveTest(BasicJUnitUtils.java:292)
+	at gradingTools.comp524f21.assignment4.F21Assignment4Suite.main(F21Assignment4Suite.java:39)
+	at a4.RunFA21A4Tests.main(RunFA21A4Tests.java:11)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="1438" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:35:20 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9412913" type="Run" />
+  <Command __id="1439" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:35:20 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9412913" type="Run" />
+  <Command __id="1441" _type="PauseCommand" date="Wed Apr 27 23:35:24 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9416603">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[3690]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1440" _type="ShellCommand" date="Wed Apr 27 23:35:24 EDT 2022" starttimestamp="1651107507619" timestamp="9416603" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1443" _type="PauseCommand" date="Wed Apr 27 23:35:41 EDT 2022" range="10s-20s" starttimestamp="1651107507619" timestamp="9433742">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[17139]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1442" _type="ShellCommand" date="Wed Apr 27 23:35:41 EDT 2022" starttimestamp="1651107507619" timestamp="9433742" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1444" _type="MoveCaretCommand" caretOffset="191" date="Wed Apr 27 23:35:41 EDT 2022" docOffset="191" starttimestamp="1651107507619" timestamp="9433853" />
+  <Command __id="1446" _type="PauseCommand" date="Wed Apr 27 23:35:44 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9436674">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2821]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="1445" _type="SelectTextCommand" caretOffset="156" date="Wed Apr 27 23:35:44 EDT 2022" end="246" start="156" starttimestamp="1651107507619" timestamp="9436674" />
+  <Command __id="1448" _type="PasteCommand" date="Wed Apr 27 23:35:44 EDT 2022" starttimestamp="1651107507619" timestamp="9436980" />
+  <Command __id="1450" _type="PauseCommand" date="Wed Apr 27 23:35:45 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9438060">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[1079]]></pause>
+    <nextType><![CDATA[Save]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="1449" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Wed Apr 27 23:35:45 EDT 2022" starttimestamp="1651107507619" timestamp="9438059" />
+  <Command __id="1451" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:35:45 EDT 2022" starttimestamp="1651107507619" timestamp="9438143" />
+  <Command __id="1452" _type="EclipseCommand" commandID="" date="Wed Apr 27 23:35:45 EDT 2022" starttimestamp="1651107507619" timestamp="9438185" />
+  <Command __id="1453" _type="MoveCaretCommand" caretOffset="454" date="Wed Apr 27 23:35:46 EDT 2022" docOffset="454" starttimestamp="1651107507619" timestamp="9438877" />
+  <Command __id="1455" _type="PauseCommand" date="Wed Apr 27 23:36:52 EDT 2022" range="1m-2m" starttimestamp="1651107507619" timestamp="9504689">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[65812]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="1454" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Wed Apr 27 23:36:52 EDT 2022" starttimestamp="1651107507619" timestamp="9504689" />
+  <Command __id="1456" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:36:52 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9504992" type="Run" />
+  <Command __id="1457" _type="RunCommand" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Wed Apr 27 23:36:52 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651107507619" timestamp="9504992" type="Run" />
+  <Command __id="1459" _type="PauseCommand" date="Wed Apr 27 23:36:53 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9506374">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1382]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="1458" _type="ConsoleOutput" date="Wed Apr 27 23:36:53 EDT 2022" overflow="false" starttimestamp="1651107507619" timestamp="9506374" type="ConsoleOutput">
+    <outputString><![CDATA[Found a source file:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML\Greeting.sml
+Assuming src folder is:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp524f21.assignment3.prologStaticChecks.ExpectedDocsDerivedSafe@69aa29c6 . Results may change.¶Re-running test gradingTools.comp524f21.assignment3.prologStaticChecks.ExpectedDocsListGivenSafe@7904980c . Results may change.¶Welcome to SWI-Prolog (threaded, 64 bits, version 8.2.4)¶SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.¶Please run ?- license. for legal details.¶¶For online help and background, visit https://www.swi-prolog.org¶For built-in help, us"), Diff(INSERT,"Found a source file:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDrive - University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML\Greeting.sml¶Assuming src folder is:C:\Users\User\OneDrive - University of North Carolina at Chapel Hill\Desktop\OneDriv"), Diff(EQUAL,"e "), Diff(DELETE,"?"), Diff(EQUAL,"- "), Diff(DELETE,"help(Topic). or ?- apropos(Word).¶¶Test execution time (ms):675¶Re-running test gradingTools.comp524f20.assignment0_2.testcases.PrologGreetingLoadAndRun@569672d3 . Results may change."), Diff(INSERT,"University of North Carolina at Chapel Hill\Education\College\FA21\COMP524- Programming Language Concepts\Assignments\A4 SML"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="1461" _type="PauseCommand" date="Wed Apr 27 23:36:55 EDT 2022" range="1s-2s" starttimestamp="1651107507619" timestamp="9507518">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1144]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1460" _type="ShellCommand" date="Wed Apr 27 23:36:55 EDT 2022" starttimestamp="1651107507619" timestamp="9507518" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1463" _type="PauseCommand" date="Wed Apr 27 23:36:58 EDT 2022" range="2s-5s" starttimestamp="1651107507619" timestamp="9511008">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3490]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>
