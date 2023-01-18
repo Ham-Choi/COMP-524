@@ -1,443 +1,0 @@
-<Events startTimestamp="1651746665027" logVersion="1.0.0.202201202038">
-  <Command __id="1654" _type="ShellCommand" date="Thu May 05 07:33:13 EDT 2022" starttimestamp="1651746665027" timestamp="3728751" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="1656" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 07:33:14 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651746665027" timestamp="3729446" type="Run" />
-  <Command __id="1657" _type="ProgramExecutionEvent" className="/joshep_A2/src/a2/A2Tests.java" date="Thu May 05 07:33:14 EDT 2022" kind="HitBreakPoint" projectName="joshep_A2" starttimestamp="1651746665027" timestamp="3729446" type="Run" />
-  <Command __id="1659" _type="PauseCommand" date="Thu May 05 07:33:24 EDT 2022" range="5s-10s" starttimestamp="1651746665027" timestamp="3739330">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[ProgramExecutionEvent]]></prev>
-    <pause><![CDATA[9884]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[EclipseCommand]]></next>
-  </Command>
-  <Command __id="1658" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Thu May 05 07:33:24 EDT 2022" starttimestamp="1651746665027" timestamp="3739330" />
-  <Command __id="1660" _type="ProgramExecutionEvent" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Thu May 05 07:33:24 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651746665027" timestamp="3739661" type="Run" />
-  <Command __id="1661" _type="RunCommand" className="/joshep_A4/src/a4/RunFA21A4Tests.java" date="Thu May 05 07:33:24 EDT 2022" kind="HitBreakPoint" projectName="joshep_A4" starttimestamp="1651746665027" timestamp="3739661" type="Run" />
-  <Command __id="1663" _type="PauseCommand" date="Thu May 05 07:33:26 EDT 2022" range="1s-2s" starttimestamp="1651746665027" timestamp="3741150">
-    <prevType><![CDATA[Debug]]></prevType>
-    <prev><![CDATA[RunCommand]]></prev>
-    <pause><![CDATA[1489]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1662" _type="ConsoleOutput" date="Thu May 05 07:33:26 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3741150" type="ConsoleOutput">
-    <outputString><![CDATA[Found a source file:C:\Users\User\eclipse-workspace\SML\src\Greeting.sml
-Assuming src folder is:C:\Users\User\eclipse-workspace\SML\src
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"A2CommonPropertiesInherited did not pass completely:See console trace about lines failing  this check%0.8953125¶¶Test execution time (ms):4¶A2CommonSignaturesAreInherited did not pass completely:See console trace about lines failing  this check%0.74609375¶¶Test execution time (ms):4¶A2Encapsulation did not pass completely:%0.9947916666666666¶¶Test execution time (ms):3¶A2InterfaceAsType did not pass completely:%0.9947916666666666¶¶Test execution time (ms):5¶Test execution time (ms):3¶Test execution time (ms):5¶A2PublicMethodsOverride did not pass completely:See console trace about lines failing  this check%0.7777777777777778¶¶Test execution time (ms):4¶Test execution time (ms):2¶Test execution time (ms):3¶Number of traces > 600  turning tracing off¶F21A2NoCheckstyleWarnings did not pass completely:Warnings found in checkstyle text, see traced console output%0.0¶¶Test execution time (ms):1"), Diff(INSERT,"Found a source file:C:\Users\User\eclipse-workspace\SML\src\Greeting.sml¶Assuming src folder is:C:\Users\User\eclipse-workspace\SML\src"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1665" _type="PauseCommand" date="Thu May 05 07:33:27 EDT 2022" range="1s-2s" starttimestamp="1651746665027" timestamp="3742277">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1127]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1664" _type="ShellCommand" date="Thu May 05 07:33:27 EDT 2022" starttimestamp="1651746665027" timestamp="3742277" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1667" _type="PauseCommand" date="Thu May 05 07:33:33 EDT 2022" range="5s-10s" starttimestamp="1651746665027" timestamp="3748264">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[5987]]></pause>
-    <nextType><![CDATA[Exception]]></nextType>
-    <next><![CDATA[ExceptionCommand]]></next>
-  </Command>
-  <Command __id="1666" _type="ExceptionCommand" date="Thu May 05 07:33:33 EDT 2022" starttimestamp="1651746665027" timestamp="3748264" type="Exception">
-    <exceptionString><![CDATA[java.nio.file.NoSuchFileException: C:\Users\User\eclipse-workspace\SML\src\Logs\LocalChecks\comp524f21_assignment4_F21Assignment4SuiteFineGrained.csv
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
-	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2920)
-	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadSecondAppendableFile(AnAbstractTestLogFileWriter.java:314)
-	at grader.basics.observers.AnAbstractTestLogFileWriter.maybeCreateOrLoadAppendableFile(AnAbstractTestLogFileWriter.java:296)
-	at grader.basics.observers.AFineGrainedTestLogFileWriter.testRunStarted(AFineGrainedTestLogFileWriter.java:111)
-	at org.junit.runner.notification.SynchronizedRunListener.testRunStarted(SynchronizedRunListener.java:35)
-	at org.junit.runner.notification.RunNotifier$1.notifyListener(RunNotifier.java:91)
-	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
-	at org.junit.runner.notification.RunNotifier.fireTestRunStarted(RunNotifier.java:88)
-	at grader.basics.junit.AGradableJUnitTopLevelSuite.testRunStarted(AGradableJUnitTopLevelSuite.java:107)
-	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:184)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
-	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
-	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
-	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
-	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
-	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
-	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
-	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
-	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
-]]></exceptionString>
-    <language><![CDATA[java]]></language>
-  </Command>
-  <Command __id="1668" _type="ConsoleOutput" date="Thu May 05 07:33:33 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3748941" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):678
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Found a source file:C:\Users\User\eclipse-workspace\SML\src\Greeting.sml¶Assuming src folder is:C:\Users\User\eclipse-workspace\SML\src"), Diff(INSERT,"Test execution time (ms):678"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1669" _type="ConsoleOutput" date="Thu May 05 07:33:34 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3749842" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):0
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"678"), Diff(INSERT,"0"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1670" _type="ExceptionCommand" date="Thu May 05 07:33:35 EDT 2022" starttimestamp="1651746665027" timestamp="3750448" type="Exception">
-    <exceptionString><![CDATA[The following output was collected:
-0              ../cm/parse/parse.sml:502.47
-1 - Results:val it = () : unit
-2 stdIn:2.1-2.16 Error: unbound structure: A3Grader in path A3Grader.runall
-3 
-4 - [autoloading]
-5 [autoloading done]
-6 stdIn:1.2-2.17 Warning: type vars not generalized because of
-7    value restriction are instantiated to dummy types (X1,X2,...)
-The following tests were not passed:
-no disallowed functions: pass
-matching derived safe calls matching safe with matcher: pass
-matching given safe calls matching safe with matcher: pass
-curryable interpolated safe calls interpolated safe: pass
-curried once interpolated safe calls curryable interpolated safe: pass
-curried twice interpolated safe calls curried once interpolated safe: pass
-curried matching given safe calls curryable matching safe with given safe matcher: pass
-curried matching derived safe calls curryable matching safe with derived safe matcher: pass
-no magic numbers in functions: pass
-StyleTest did not pass completely:View console for more detail%0.0
-
-Test execution time (ms):657
-]]></exceptionString>
-    <language><![CDATA[SML]]></language>
-  </Command>
-  <Command __id="1671" _type="ConsoleOutput" date="Thu May 05 07:33:35 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3750448" type="ConsoleOutput">
-    <outputString><![CDATA[The following output was collected:
-0              ../cm/parse/parse.sml:502.47
-1 - Results:val it = () : unit
-2 stdIn:2.1-2.16 Error: unbound structure: A3Grader in path A3Grader.runall
-3 
-4 - [autoloading]
-5 [autoloading done]
-6 stdIn:1.2-2.17 Warning: type vars not generalized because of
-7    value restriction are instantiated to dummy types (X1,X2,...)
-The following tests were not passed:
-no disallowed functions: pass
-matching derived safe calls matching safe with matcher: pass
-matching given safe calls matching safe with matcher: pass
-curryable interpolated safe calls interpolated safe: pass
-curried once interpolated safe calls curryable interpolated safe: pass
-curried twice interpolated safe calls curried once interpolated safe: pass
-curried matching given safe calls curryable matching safe with given safe matcher: pass
-curried matching derived safe calls curryable matching safe with derived safe matcher: pass
-no magic numbers in functions: pass
-StyleTest did not pass completely:View console for more detail%0.0
-
-Test execution time (ms):657
-]]></outputString>
-    <diff><![CDATA[[Diff(INSERT,"The following output was collected:¶0              ../cm/parse/parse.sml:502.47¶1 - Results:val it = () : unit¶2 stdIn:2.1-2.16 Error: unbound structure: A3Grader in path A3Grader.runall¶3 ¶4 - [autoloading]¶5 [autoloading done]¶6 stdIn:1.2-2.17 Warning: type vars not generalized because of¶7    value restriction are instantiated to dummy types (X1,X2,...)¶The following tests were not passed:¶no disallowed functions: pass¶matching derived safe calls matching safe with matcher: pass¶matching given safe calls matching safe with matcher: pass¶curryable interpolated safe calls interpolated safe: pass¶curried once interpolated safe calls curryable interpolated safe: pass¶curried twice interpolated safe calls curried once interpolated safe: pass¶curried matching given safe calls curryable matching safe with given safe matcher: pass¶curried matching derived safe calls curryable matching safe with derived safe matcher: pass¶no magic numbers in functions: pass¶StyleTest did not pass completely:View console for more detail%0.0¶¶"), Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"0"), Diff(INSERT,"657"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1673" _type="PauseCommand" date="Thu May 05 07:33:39 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3754335">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3887]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1672" _type="ConsoleOutput" date="Thu May 05 07:33:39 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3754335" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2717
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"The following output was collected:¶0              ../cm/parse/parse.sml:502.47¶1 - Results:val it = () : unit¶2 stdIn:2.1-2.16 Error: unbound structure: A3Grader in path A3Grader.runall¶3 ¶4 - [autoloading]¶5 [autoloading done]¶6 stdIn:1.2-2.17 Warning: type vars not generalized because of¶7    value restriction are instantiated to dummy types (X1,X2,...)¶The following tests were not passed:¶no disallowed functions: pass¶matching derived safe calls matching safe with matcher: pass¶matching given safe calls matching safe with matcher: pass¶curryable interpolated safe calls interpolated safe: pass¶curried once interpolated safe calls curryable interpolated safe: pass¶curried twice interpolated safe calls curried once interpolated safe: pass¶curried matching given safe calls curryable matching safe with given safe matcher: pass¶curried matching derived safe calls curryable matching safe with derived safe matcher: pass¶no magic numbers in functions: pass¶StyleTest did not pass completely:View console for more detail%0.0¶¶"), Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"65"), Diff(INSERT,"271"), Diff(EQUAL,"7¶")]]]></diff>
-  </Command>
-  <Command __id="1675" _type="PauseCommand" date="Thu May 05 07:33:43 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3758157">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3822]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1674" _type="ConsoleOutput" date="Thu May 05 07:33:43 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3758157" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2706
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):27"), Diff(DELETE,"17"), Diff(INSERT,"06"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1677" _type="PauseCommand" date="Thu May 05 07:33:45 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3760920">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2763]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1676" _type="ConsoleOutput" date="Thu May 05 07:33:45 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3760920" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2704
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):270"), Diff(DELETE,"6"), Diff(INSERT,"4"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1679" _type="PauseCommand" date="Thu May 05 07:33:48 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3763972">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3052]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1678" _type="ConsoleOutput" date="Thu May 05 07:33:48 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3763972" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):1130
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"2704"), Diff(INSERT,"1130"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1680" _type="ConsoleOutput" date="Thu May 05 07:33:49 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3764798" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):820
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"113"), Diff(INSERT,"82"), Diff(EQUAL,"0¶")]]]></diff>
-  </Command>
-  <Command __id="1682" _type="PauseCommand" date="Thu May 05 07:33:52 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3767617">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2819]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1681" _type="ConsoleOutput" date="Thu May 05 07:33:52 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3767617" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2812
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"820"), Diff(INSERT,"2812"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1684" _type="PauseCommand" date="Thu May 05 07:33:55 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3770402">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2785]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1683" _type="ConsoleOutput" date="Thu May 05 07:33:55 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3770402" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2779
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):2"), Diff(DELETE,"812"), Diff(INSERT,"779"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1686" _type="PauseCommand" date="Thu May 05 07:33:58 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3773072">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2670]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1685" _type="ConsoleOutput" date="Thu May 05 07:33:58 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3773072" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2711
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):27"), Diff(DELETE,"79"), Diff(INSERT,"11"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1688" _type="PauseCommand" date="Thu May 05 07:34:00 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3775784">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2712]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1687" _type="ConsoleOutput" date="Thu May 05 07:34:00 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3775784" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2702
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):27"), Diff(DELETE,"11"), Diff(INSERT,"02"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1690" _type="PauseCommand" date="Thu May 05 07:34:04 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3779931">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[4147]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1689" _type="ConsoleOutput" date="Thu May 05 07:34:04 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3779931" type="ConsoleOutput">
-    <outputString><![CDATA[Number of traces > 600  turning tracing off
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):2702"), Diff(INSERT,"Number of traces > 600  turning tracing off"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1692" _type="PauseCommand" date="Thu May 05 07:34:11 EDT 2022" range="5s-10s" starttimestamp="1651746665027" timestamp="3786014">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[6083]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1691" _type="ConsoleOutput" date="Thu May 05 07:34:11 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3786014" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):9155
-Number of traces > 600  turning tracing off
-]]></outputString>
-    <diff><![CDATA[[Diff(INSERT,"Test execution time (ms):9155¶"), Diff(EQUAL,"Number of traces > 600  turning tracing off¶")]]]></diff>
-  </Command>
-  <Command __id="1694" _type="PauseCommand" date="Thu May 05 07:34:14 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3789027">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[3013]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1693" _type="ConsoleOutput" date="Thu May 05 07:34:14 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3789027" type="ConsoleOutput">
-    <outputString><![CDATA[Number of traces > 600  turning tracing off
-]]></outputString>
-    <diff><![CDATA[[Diff(DELETE,"Test execution time (ms):9155¶"), Diff(EQUAL,"Number of traces > 600  turning tracing off¶")]]]></diff>
-  </Command>
-  <Command __id="1696" _type="PauseCommand" date="Thu May 05 07:34:20 EDT 2022" range="5s-10s" starttimestamp="1651746665027" timestamp="3795174">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[6147]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1695" _type="ConsoleOutput" date="Thu May 05 07:34:20 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3795174" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):9101
-Number of traces > 600  turning tracing off
-]]></outputString>
-    <diff><![CDATA[[Diff(INSERT,"Test execution time (ms):9101¶"), Diff(EQUAL,"Number of traces > 600  turning tracing off¶")]]]></diff>
-  </Command>
-  <Command __id="1698" _type="PauseCommand" date="Thu May 05 07:34:21 EDT 2022" range="1s-2s" starttimestamp="1651746665027" timestamp="3796340">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[1166]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1697" _type="ConsoleOutput" date="Thu May 05 07:34:21 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3796340" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):1212
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"9101¶Number of traces > 600  turning tracing off"), Diff(INSERT,"1212"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1700" _type="PauseCommand" date="Thu May 05 07:34:24 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3799149">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2809]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1699" _type="ConsoleOutput" date="Thu May 05 07:34:24 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3799149" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2755
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):"), Diff(DELETE,"1212"), Diff(INSERT,"2755"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1702" _type="PauseCommand" date="Thu May 05 07:34:26 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3801801">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2652]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1701" _type="ConsoleOutput" date="Thu May 05 07:34:26 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3801801" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2698
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):2"), Diff(DELETE,"755"), Diff(INSERT,"698"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1704" _type="PauseCommand" date="Thu May 05 07:34:29 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="3804579">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[2778]]></pause>
-    <nextType><![CDATA[IO]]></nextType>
-    <next><![CDATA[ConsoleOutput]]></next>
-  </Command>
-  <Command __id="1703" _type="ConsoleOutput" date="Thu May 05 07:34:29 EDT 2022" overflow="false" starttimestamp="1651746665027" timestamp="3804579" type="ConsoleOutput">
-    <outputString><![CDATA[Test execution time (ms):2724
-]]></outputString>
-    <diff><![CDATA[[Diff(EQUAL,"Test execution time (ms):2"), Diff(DELETE,"698"), Diff(INSERT,"724"), Diff(EQUAL,"¶")]]]></diff>
-  </Command>
-  <Command __id="1706" _type="PauseCommand" date="Thu May 05 07:34:56 EDT 2022" range="20s-30s" starttimestamp="1651746665027" timestamp="3831585">
-    <prevType><![CDATA[IO]]></prevType>
-    <prev><![CDATA[ConsoleOutput]]></prev>
-    <pause><![CDATA[27006]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1832" _type="ShellCommand" date="Thu May 05 14:22:27 EDT 2022" starttimestamp="1651746665027" timestamp="28282212" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="1811" _type="DiffBasedFileOpenCommand" date="Thu May 05 14:03:36 EDT 2022" docASTNodeCount="43" docActiveCodeLength="409" docExpressionCount="23" docLength="574" projectName="joshep_A3" starttimestamp="1651746665027" timestamp="27151628">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A3\src\a3\RunFA21A3Tests.java]]></filePath>
-    <diff><![CDATA[[Diff(EQUAL,"package a3;¶import gradingTools.comp524f21.assignment3.F21Assignment3Suite;¶//import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class RunFA21A3Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment3Suite.main(args);¶	}¶}¶")]]]></diff>
-  </Command>
-  <Command __id="1834" _type="DiffBasedFileOpenCommand" date="Thu May 05 14:22:27 EDT 2022" docASTNodeCount="43" docActiveCodeLength="409" docExpressionCount="23" docLength="574" projectName="joshep_A3" starttimestamp="1651746665027" timestamp="28282285">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A3\src\a3\RunFA21A3Tests.java]]></filePath>
-    <diff><![CDATA[[Diff(EQUAL,"package a3;¶import gradingTools.comp524f21.assignment3.F21Assignment3Suite;¶//import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class RunFA21A3Tests {¶	static final String PROJECT_LOCATION =¶			"C:\\Users\\User\\OneDrive - University of North Carolina at Chapel Hill\\Documents\\Prolog";¶	public static void main (String[] args) {¶		// Tracer.showInfo(true);¶		// GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		F21Assignment3Suite.setProjectLocation(PROJECT_LOCATION);¶		F21Assignment3Suite.main(args);¶	}¶}¶")]]]></diff>
-  </Command>
-  <Command __id="1836" _type="PauseCommand" date="Thu May 05 14:22:28 EDT 2022" range="1s-2s" starttimestamp="1651746665027" timestamp="28283306">
-    <prevType><![CDATA[Open File]]></prevType>
-    <prev><![CDATA[DiffBasedFileOpenCommand]]></prev>
-    <pause><![CDATA[1021]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="1837" _type="MoveCaretCommand" caretOffset="0" date="Thu May 05 14:22:28 EDT 2022" docOffset="0" starttimestamp="1651746665027" timestamp="28283429" />
-  <Command __id="1839" _type="PauseCommand" date="Thu May 05 14:22:31 EDT 2022" range="2s-5s" starttimestamp="1651746665027" timestamp="28286451">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[3022]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1838" _type="ShellCommand" date="Thu May 05 14:22:31 EDT 2022" starttimestamp="1651746665027" timestamp="28286451" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1841" _type="PauseCommand" date="Thu May 05 14:23:00 EDT 2022" range="20s-30s" starttimestamp="1651746665027" timestamp="28315422">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[28971]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1842" _type="ShellCommand" date="Thu May 05 14:23:05 EDT 2022" starttimestamp="1651746665027" timestamp="28320196" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1845" _type="PauseCommand" date="Thu May 05 14:23:26 EDT 2022" range="20s-30s" starttimestamp="1651746665027" timestamp="28341330">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[21134]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1844" _type="ShellCommand" date="Thu May 05 14:23:26 EDT 2022" starttimestamp="1651746665027" timestamp="28341330" type="ECLIPSE_GAINED_FOCUS" />
-  <Command __id="1847" _type="PauseCommand" date="Thu May 05 14:23:28 EDT 2022" range="1s-2s" starttimestamp="1651746665027" timestamp="28343052">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[1722]]></pause>
-    <nextType><![CDATA[Lost Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-  <Command __id="1846" _type="ShellCommand" date="Thu May 05 14:23:28 EDT 2022" starttimestamp="1651746665027" timestamp="28343052" type="ECLIPSE_LOST_FOCUS" />
-  <Command __id="1849" _type="PauseCommand" date="Thu May 05 14:31:05 EDT 2022" range="5m-10m" starttimestamp="1651746665027" timestamp="28800076">
-    <prevType><![CDATA[Lost Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[457024]]></pause>
-    <nextType><![CDATA[Other]]></nextType>
-    <next><![CDATA[BalloonCommand]]></next>
-  </Command>
-  <Command __id="1848" _type="BalloonCommand" date="Thu May 05 14:31:05 EDT 2022" message="*******************************************
-Worked 6 minutes(fixed)/8 minutes(context based) from
-Thu May 05 13:57:34 EDT 2022 to Thu May 05 14:23:28 EDT 2022
-Edited 0 Projects: 
-Edited 0 Files: 
-Number of insert: 0
-Number of delete: 0
-" starttimestamp="1651746665027" timestamp="28800076">
-    <fineGrainedWorkTime><![CDATA[8]]></fineGrainedWorkTime>
-    <insert><![CDATA[0]]></insert>
-    <startTime><![CDATA[1651773454166]]></startTime>
-    <endTime><![CDATA[1651775008079]]></endTime>
-    <workTime><![CDATA[6]]></workTime>
-    <delete><![CDATA[0]]></delete>
-  </Command>
-  <Command __id="1851" _type="PauseCommand" date="Thu May 05 14:36:11 EDT 2022" range="5m-10m" starttimestamp="1651746665027" timestamp="29106657">
-    <prevType><![CDATA[Other]]></prevType>
-    <prev><![CDATA[BalloonCommand]]></prev>
-    <pause><![CDATA[306581]]></pause>
-    <nextType><![CDATA[Gained Focus]]></nextType>
-    <next><![CDATA[ShellCommand]]></next>
-  </Command>
-</Events>

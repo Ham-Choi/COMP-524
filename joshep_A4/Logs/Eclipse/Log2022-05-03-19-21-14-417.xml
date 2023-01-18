@@ -1,61 +1,0 @@
-<Events startTimestamp="1651620074417" logVersion="1.0.0.202201202038">
-  <Command __id="497" _type="ShellCommand" date="Tue May 03 19:43:26 EDT 2022" starttimestamp="1651620074417" timestamp="1332549" type="ECLIPSE_GAINED_FOCUS" />
-  <DocumentChange __id="484" _type="Delete" date="Tue May 03 19:42:25 EDT 2022" docASTNodeCount="10" docActiveCodeLength="82" docExpressionCount="5" docLength="82" endLine="2" length="77" offset="41" startLine="2" starttimestamp="1651620074417" timestamp="1271449">
-    <text><![CDATA[import gradingTools.comp524f21. assignment2.F21A2SocialDistanceClassRegistry;]]></text>
-  </DocumentChange>
-  <Command __id="493" _type="DiffBasedFileOpenCommand" date="Tue May 03 19:43:05 EDT 2022" docASTNodeCount="214" docActiveCodeLength="1679" docExpressionCount="101" docLength="2554" projectName="joshep_A2" starttimestamp="1651620074417" timestamp="1311057">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A2\src\a2\ClassRegistry.java]]></filePath>
-    <diff><![CDATA[[Diff(EQUAL,"package a2;¶import a1.SocialDistancing;¶import a1.UtilityTesterMain;¶import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;¶import gradingTools.comp524f21. assignment2.F21A2SocialDistanceClassRegistry;¶¶public class ClassRegistry implements SocialDistanceClassRegistry{¶¶	@Override¶	public Class<?> getBasicSocialDistanceUtility() {¶		// TODO Auto-generated method stub¶		return SocialDistancing.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistancDerivingModel() {¶		// TODO Auto-generated method stub¶		return DerivedModel.class;¶	}¶¶/*	@Override¶	public Class<?> getSocialDistancInferringModel() {¶		// TODO Auto-generated method stub¶		return WekaModel.class;¶	}¶*/¶	@Override¶	public Class<?> getSocialDistanceBasicModel() {¶		// TODO Auto-generated method stub¶		return BasicModel.class;¶	}¶¶/*	@Override¶	public Class<?> getSocialDistanceClassifierFactory() {¶		// TODO Auto-generated method stub¶		return ClassifierFactory.class;¶	}¶*/¶	@Override¶	public Class<?> getSocialDistanceController() {¶		// TODO Auto-generated method stub¶		return Controller.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceControllerFactory() {¶		// TODO Auto-generated method stub¶		return ControllerFactory.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceInterpolatingModel() {¶		// TODO Auto-generated method stub¶		return InterpolatedModel.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceMVCBasicMain() {¶		// TODO Auto-generated method stub¶		return BasicMain.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceMVCDerivingMain() {¶		// TODO Auto-generated method stub¶		return DerivedMain.class;¶	}¶¶/*	@Override¶	public Class<?> getSocialDistanceMVCInferringMain() {¶		// TODO Auto-generated method stub¶		return InferringMain.class;¶	}¶*/¶	@Override¶	public Class<?> getSocialDistanceMVCInterpolatingMain() {¶		// TODO Auto-generated method stub¶		return InterpolatedMain.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceModelFactory() {¶		// TODO Auto-generated method stub¶		return ModelFactory.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceUilityTesterMain() {¶		// TODO Auto-generated method stub¶		return UtilityTesterMain.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceView() {¶		// TODO Auto-generated method stub¶		return LogView.class;¶	}¶¶	@Override¶	public Class<?> getSocialDistanceViewFactory() {¶		// TODO Auto-generated method stub¶		return ViewFactory.class;¶	}¶¶}¶")]]]></diff>
-  </Command>
-  <Command __id="500" _type="PauseCommand" date="Tue May 03 19:43:31 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="1337252">
-    <prevType><![CDATA[Gained Focus]]></prevType>
-    <prev><![CDATA[ShellCommand]]></prev>
-    <pause><![CDATA[4703]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="501" _type="MoveCaretCommand" caretOffset="0" date="Tue May 03 19:43:31 EDT 2022" docOffset="0" starttimestamp="1651620074417" timestamp="1337395" />
-  <Command __id="503" _type="PauseCommand" date="Tue May 03 19:43:41 EDT 2022" range="5s-10s" starttimestamp="1651620074417" timestamp="1347216">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[9821]]></pause>
-    <nextType><![CDATA[Select]]></nextType>
-    <next><![CDATA[SelectTextCommand]]></next>
-  </Command>
-  <Command __id="546" _type="MoveCaretCommand" caretOffset="34" date="Tue May 03 19:44:07 EDT 2022" docOffset="34" starttimestamp="1651620074417" timestamp="1373187" />
-  <Command __id="544" _type="DiffBasedFileOpenCommand" date="Tue May 03 19:44:07 EDT 2022" docASTNodeCount="10" docActiveCodeLength="74" docExpressionCount="5" docLength="74" projectName="joshep_A6" starttimestamp="1651620074417" timestamp="1372955">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A6\src\a6\A5Main.java]]></filePath>
-    <diff><![CDATA[[Diff(EQUAL,"package a6;¶import main.Main;¶¶¶public class A5Main {¶main.Main;¶}¶")]]]></diff>
-  </Command>
-  <Command __id="548" _type="PauseCommand" date="Tue May 03 19:44:08 EDT 2022" range="1s-2s" starttimestamp="1651620074417" timestamp="1374413">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[1226]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="552" _type="MoveCaretCommand" caretOffset="61" date="Tue May 03 19:44:11 EDT 2022" docOffset="61" starttimestamp="1651620074417" timestamp="1377563" />
-  <Command __id="550" _type="DiffBasedFileOpenCommand" date="Tue May 03 19:44:11 EDT 2022" projectName="LISP" starttimestamp="1651620074417" timestamp="1377470">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\LISP\hello.lisp]]></filePath>
-    <diff><![CDATA[null]]></diff>
-  </Command>
-  <Command __id="554" _type="PauseCommand" date="Tue May 03 19:44:14 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="1380513">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[2950]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-  <Command __id="982" _type="MoveCaretCommand" caretOffset="187" date="Tue May 03 19:47:58 EDT 2022" docOffset="187" starttimestamp="1651620074417" timestamp="1604483" />
-  <Command __id="980" _type="DiffBasedFileOpenCommand" date="Tue May 03 19:47:58 EDT 2022" docASTNodeCount="89" docActiveCodeLength="710" docExpressionCount="56" docLength="1127" projectName="joshep_A5" starttimestamp="1651620074417" timestamp="1604398">
-    <filePath><![CDATA[C:\Users\User\eclipse-workspace\joshep_A5\src\a5\A5Tests.java]]></filePath>
-    <diff><![CDATA[[Diff(EQUAL,"package a5;¶¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp524f21.assignment5.F21Assignment5Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶//import util.trace.Tracer;¶¶public class A5Tests {¶	static int printedTrace = 600;¶	static int maxTrace = 2000;¶	static int processTimeOut= 5;¶	public static void main(String[] args) {¶		// if you set this to false, grader steps will not be traced¶		GraderBasicsTraceUtility.setTracerShowInfo(true);¶		// if you set this to false, all grader steps will be traced,¶		// not just the ones that failed¶		GraderBasicsTraceUtility.setBufferTracedMessages(true);¶		// Change this number if a test trace gets longer than 600 and is clipped¶		GraderBasicsTraceUtility.setMaxPrintedTraces(printedTrace);¶		// Change this number if all traces together are longer than 2000¶		GraderBasicsTraceUtility.setMaxTraces(maxTrace);¶		// Change this number if your process times out prematurely¶		BasicProjectExecution.setProcessTimeOut(processTimeOut);¶		// You need to always call such a method¶		F21Assignment5Suite.main(args);¶	}¶}")]]]></diff>
-  </Command>
-  <Command __id="984" _type="PauseCommand" date="Tue May 03 19:48:01 EDT 2022" range="2s-5s" starttimestamp="1651620074417" timestamp="1607577">
-    <prevType><![CDATA[Move Caret]]></prevType>
-    <prev><![CDATA[MoveCaretCommand]]></prev>
-    <pause><![CDATA[3094]]></pause>
-    <nextType><![CDATA[Open File]]></nextType>
-    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
-  </Command>
-</Events>
